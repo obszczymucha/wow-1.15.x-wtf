@@ -1,0 +1,6 @@
+VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
+/script print("No bandage available.")
+END
+VER 3 0000000000000002 "CONS" "INV_Misc_QuestionMark"
+/consume
+END

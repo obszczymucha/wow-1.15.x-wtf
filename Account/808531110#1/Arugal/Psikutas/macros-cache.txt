@@ -1,0 +1,75 @@
+VER 3 0000000001000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Shield Wall
+/equip [noworn:Shield]Draconian Deflector
+/cast [nostance:2]Defensive Stance;[worn:Shield]Shield Wall
+END
+VER 3 0000000001000001 "1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [harm]
+/use [mod:altshift]13;[mod:shift]Mighty Rage Potion;[mod:ctrl]Elixir of Major Fortitude
+/cast [mod:alt] Heroic Strike; Cleave
+END
+VER 3 0000000001000010 "2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [harm]
+/use [mod:altshift]14;[mod:shift] Auchenai Healing Potion;[mod:ctrl]Elixir of Major Strength
+/cast [mod:alt,nostance:2]Defensive Stance;[mod:alt]Disarm;Devastate
+END
+VER 3 0000000001000011 "3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:altshift]16;[mod:shift]Ironshield Potion;[mod:ctrl]Scroll of Strength V
+/cast [stance:1,nocombat,nomod]Charge;[stance:1,mod:alt]Hamstring;[stance:3,mod:alt]Whirlwind;[stance:3]Intercept;[mod:alt]Concussion Blow;Shield Block
+END
+VER 3 0000000001000004 "4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [harm]
+/use [mod:altshift]17;[mod:shift]Free Action Potion;[mod:ctrl]Spicy Crawdad
+/cast [mod:alt,stance:3]Hamstring;[mod:alt]Shield Bash;[stance:3,noworn:Shield]Whirlwind;Shield Slam
+END
+VER 3 000000000100000F "5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [harm]
+/use [mod:altshift]Fel Iron Bomb;[mod:shift]Nightmare Seed;[mod:ctrl]Spicy Hot Talbuk
+/cast [stance:1]Mocking Blow;[stance:2,mod:alt]Spell Reflection;[stance:2]Revenge;[stance:3,mod:alt]Intercept;[stance:3]Execute
+END
+VER 3 0000000001000013 "DSFD" "132089"
+/use [target=Pugga]Heavy Runecloth Bandage
+END
+VER 3 0000000001000006 "F1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,nostance:3]Berserker Stance;[mod:shift,nostance:1]Battle Stance;[stance:3]Berserker Rage;Thunder Clap
+END
+VER 3 0000000001000007 "F2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,nostance:3]Berserker Stance;[mod:shift]Hamstring;Demoralizing Shout
+/cancelaura Blessing of Salvation
+/cancelaura Greater Blessing of Salvation
+END
+VER 3 0000000001000008 "F3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/statattack [harm]
+/cast War Stomp
+END
+VER 3 0000000001000009 "F4" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000100000A "F5" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000100000B "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/dismount [mounted]
+/use Great Brown Kodo
+END
+VER 3 000000000100000D "Shout" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Commanding Shout;[mod:ctrl] Battle Shout
+/castsequence [nomod] reset=59 Bloodrage,Commanding Shout
+END
+VER 3 000000000100000C "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack [harm]
+/cast [nostance:2,nomod]Defensive Stance;[mod:alt,worn:Bow]Shoot Bow;[mod:alt,worn:Gun]Shoot Gun;[mod:alt,worn:Crossbow]Shoot Crossbow;Taunt
+END
+VER 3 0000000001000014 "Z" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift,noharm,exists]Intervene;[target=mouseover]Intervene
+END

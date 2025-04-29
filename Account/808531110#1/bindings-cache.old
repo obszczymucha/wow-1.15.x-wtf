@@ -1,0 +1,49 @@
+bind BUTTON3 CLICK BT4Button42:LeftButton
+bind X TOGGLEAUTORUN
+bind Z CLICK BT4Button71:LeftButton
+bind NUMLOCK NONE
+bind INSERT RAIDTARGET1
+bind DELETE RAIDTARGETNONE
+bind NUMPADDIVIDE NONE
+bind PAGEUP RAIDTARGET8
+bind SHIFT-1 NONE
+bind SHIFT-2 NONE
+bind SHIFT-3 NONE
+bind SHIFT-4 NONE
+bind SHIFT-5 NONE
+bind SHIFT-6 NONE
+bind F1 CLICK BT4Button61:LeftButton
+bind SHIFT-F1 NONE
+bind F2 CLICK BT4Button62:LeftButton
+bind F3 CLICK BT4Button63:LeftButton
+bind F4 CLICK BT4Button64:LeftButton
+bind F5 CLICK BT4Button65:LeftButton
+bind SHIFT-F2 NONE
+bind G CLICK BT4Button38:LeftButton
+bind F CLICK BT4Button70:LeftButton
+bind T CLICK BT4Button39:LeftButton
+bind B NONE
+bind F9 NONE
+bind F10 TOGGLE_CHAT_LEFT_SIDE
+bind F11 TOGGLE_FARMING_MODE
+bind F12 CLICK BT4Button50:LeftButton
+bind HOME RAIDTARGET5
+bind F7 CLICK BT4Button40:LeftButton
+bind ` TOGGLEBACKPACK
+bind \ TOGGLERUN
+bind SHIFT-F NONE
+bind F6 CLICK BT4Button66:LeftButton
+bind SHIFT-PAGEUP RAIDTARGET7
+bind SHIFT-HOME RAIDTARGET6
+bind SHIFT-INSERT RAIDTARGET4
+bind CTRL-HOME RAIDTARGET2
+bind CTRL-INSERT RAIDTARGET3
+bind ALT-PAGEUP CLICK BT4Button43:LeftButton
+bind SHIFT-Z NONE
+bind ALT-CTRL-SHIFT-2 CLICK ItemRackOhhaimarkLionheart (AU)DW:LeftButton
+bind ALT-CTRL-SHIFT-1 CLICK ItemRackOhhaimarkLionheart (AU)SnB:LeftButton
+bind ALT-CTRL-SHIFT-3 CLICK ItemRackOhhaimarkLionheart (AU)Rav:LeftButton
+bind SHIFT-/ TOGGLESHEATH
+bind Y CLICK BT4Button45:LeftButton
+bind SHIFT-\ CLICK ItemRackOhhaimarkLionheart (AU)DPS:LeftButton
+bind CTRL-\ CLICK ItemRackOhhaimarkLionheart (AU)Tank:LeftButton
