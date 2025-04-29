@@ -1,0 +1,36 @@
+
+Quartz3DB = {
+["namespaces"] = {
+["Swing"] = {
+},
+["Buff"] = {
+},
+["Interrupt"] = {
+},
+["Flight"] = {
+},
+["Pet"] = {
+},
+["Player"] = {
+},
+["GCD"] = {
+},
+["LibDualSpec-1.0"] = {
+},
+["EnemyCasts"] = {
+},
+["Range"] = {
+},
+["Mirror"] = {
+},
+["Latency"] = {
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

@@ -1,1 +1,4 @@
-SET flaggedTutorials "v11##&##%##'##]"
+SET flaggedTutorials "v11##&##%##'##]##:"
+SET profanityFilter "0"
+SET instantQuestText "1"
+SET AllowDangerousScripts "1"

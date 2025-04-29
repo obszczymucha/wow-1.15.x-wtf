@@ -39,26 +39,25 @@ ModUiDb = {
 },
 ["Target"] = {
 },
-["Item"] = {
-},
-["WeakAuras"] = {
-},
 ["UiMode"] = {
 ["ui_mode"] = 1,
 },
+["WeakAuras"] = {
+},
 ["MinimapScale"] = {
+["minimap_scale"] = 0.7,
 },
-["ColorPicker"] = {
+["Timer"] = {
 },
-["WarriorMode"] = {
-["zones"] = {
+["FrameBuilder"] = {
 },
+["macros"] = {
 },
 ["TankTarget"] = {
 },
 ["Macro"] = {
 },
-["MinimapIcons"] = {
+["ColorPicker"] = {
 },
 ["ExternalEvent"] = {
 },
@@ -71,23 +70,29 @@ ModUiDb = {
 ["Decapitator"] = {
 ["should_equip"] = false,
 },
-["macros"] = {
+["MinimapIcons"] = {
 },
-["FrameBuilder"] = {
+["WarriorMode"] = {
+["zones"] = {
+},
 },
 ["MultiSpec"] = {
 },
 ["NamedEventObserver"] = {
 },
-["Timer"] = {
+["Item"] = {
 },
 },
 ["mods"] = {
 ["BattlefieldMap"] = {
 },
-["Sandbox"] = {
+["EventTrace"] = {
 },
-["FrameVisibility"] = {
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+},
+},
 },
 ["HasDied"] = {
 },
@@ -98,9 +103,9 @@ ModUiDb = {
 },
 ["Drag"] = {
 },
-["Chat"] = {
+["ZoneTextFrame"] = {
 },
-["Minimap"] = {
+["Chat"] = {
 },
 ["ErrorsFrame"] = {
 },
@@ -114,29 +119,21 @@ ModUiDb = {
 },
 ["ChatClear"] = {
 },
-["TargetMacro"] = {
-["target_macro"] = {
-["macros"] = {
-},
-},
+["FramePositions"] = {
 },
 ["ItemId"] = {
 },
-["ping"] = {
+["FrameVisibility"] = {
 },
-["AuctionSold"] = {
+["Sandbox"] = {
 },
 ["DamageMeter"] = {
 },
-["ZoneMiscText"] = {
+["Obszczymucha/MinimapIcons"] = {
 },
-["ZoneTextFrame"] = {
+["Obszczymucha/frames"] = {
 },
 ["RaidWarningFrame"] = {
-},
-["Ignore"] = {
-["ignore_list"] = {
-},
 },
 ["consumes"] = {
 ["consume_macro"] = {
@@ -144,21 +141,25 @@ ModUiDb = {
 },
 },
 },
+["ZoneMiscText"] = {
+},
 ["FriendInvite"] = {
 },
-["Obszczymucha/frames"] = {
+["Ignore"] = {
+["ignore_list"] = {
+},
 },
 ["IsInAGroup"] = {
 },
-["FramePositions"] = {
+["AuctionSold"] = {
 },
 ["DungeonReset"] = {
 },
 ["ChatFilter"] = {
 },
-["Obszczymucha/MinimapIcons"] = {
+["Minimap"] = {
 },
-["EventTrace"] = {
+["ping"] = {
 },
 },
 }

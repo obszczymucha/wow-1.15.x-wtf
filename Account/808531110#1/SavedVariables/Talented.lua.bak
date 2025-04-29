@@ -1,0 +1,32 @@
+
+TalentedDB = {
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+},
+["global"] = {
+["templates"] = {
+["HUNTER"] = {
+},
+["WARRIOR"] = {
+},
+["ROGUE"] = {
+},
+["MAGE"] = {
+},
+["PRIEST"] = {
+},
+["WARLOCK"] = {
+},
+["DRUID"] = {
+},
+["PALADIN"] = {
+},
+["SHAMAN"] = {
+},
+},
+},
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+},
+},
+}

@@ -1,0 +1,18 @@
+
+ThreatPlatesDB = {
+["char"] = {
+["Obszczymucha - Spineshatter"] = {
+["welcome"] = true,
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+},
+["global"] = {
+["version"] = "10.2.14",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

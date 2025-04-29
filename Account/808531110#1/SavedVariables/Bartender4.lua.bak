@@ -1,0 +1,214 @@
+
+Bartender4DB = {
+["namespaces"] = {
+["ActionBars"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["actionbars"] = {
+{
+["hidemacrotext"] = true,
+["buttons"] = 6,
+["hidehotkey"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+["scale"] = 0.96,
+},
+["padding"] = 1,
+},
+{
+["hidemacrotext"] = true,
+["hidehotkey"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 35,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.57,
+},
+["padding"] = -6,
+},
+{
+["rows"] = 3,
+["fadeout"] = true,
+["fadeoutalpha"] = 0,
+["version"] = 3,
+["position"] = {
+["y"] = 111,
+["x"] = 9,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.8,
+},
+["padding"] = 5,
+["visibility"] = {
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+},
+{
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+["padding"] = 5,
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+},
+},
+["MicroMenu"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+["version"] = 3,
+["padding"] = -2,
+},
+},
+},
+["XPBar"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+},
+},
+["BlizzardArt"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+},
+},
+["BagBar"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
+},
+["padding"] = 5,
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+["version"] = 3,
+},
+},
+},
+["StanceBar"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+},
+},
+["PetBar"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["RepBar"] = {
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = true,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+},
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+},
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["blizzardVehicle"] = true,
+["focuscastmodifier"] = false,
+["buttonlock"] = false,
+["minimapIcon"] = {
+["hide"] = true,
+},
+["outofrange"] = "hotkey",
+},
+},
+}

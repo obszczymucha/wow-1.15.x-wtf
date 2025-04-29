@@ -1,0 +1,165 @@
+
+ModUiDb = {
+["mixins"] = {
+["Bag"] = {
+},
+["Combat"] = {
+},
+["ActionBars"] = {
+},
+["Group"] = {
+["group"] = {
+["players"] = {
+},
+},
+},
+["MinimapIconsVisible"] = {
+["visible"] = true,
+["farming_visible"] = true,
+},
+["Frames"] = {
+},
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
+},
+["GlobalReferences"] = {
+},
+["FrameSpacing"] = {
+},
+["FarmingAnchor"] = {
+["point"] = {
+["y"] = 0,
+["x"] = 0,
+["point"] = "CENTER",
+["anchor"] = "UIParent",
+["anchor_point"] = "CENTER",
+},
+["visible"] = false,
+},
+["Target"] = {
+},
+["Item"] = {
+},
+["WeakAuras"] = {
+},
+["MinimapScale"] = {
+["minimap_scale"] = 0.7,
+},
+["WarriorMode"] = {
+["zones"] = {
+},
+},
+["Timer"] = {
+},
+["ColorPicker"] = {
+},
+["TankTarget"] = {
+},
+["Macro"] = {
+},
+["MinimapIcons"] = {
+},
+["ExternalEvent"] = {
+},
+["BattlefieldMinimap"] = {
+},
+["Observer"] = {
+},
+["WarriorShout"] = {
+},
+["Decapitator"] = {
+["should_equip"] = false,
+},
+["macros"] = {
+},
+["FrameBuilder"] = {
+},
+["MultiSpec"] = {
+},
+["NamedEventObserver"] = {
+},
+["UiMode"] = {
+["ui_mode"] = 1,
+},
+},
+["mods"] = {
+["BattlefieldMap"] = {
+},
+["FrameVisibility"] = {
+},
+["Chat"] = {
+},
+["Kara"] = {
+},
+["TrackItems"] = {
+["items"] = {
+},
+["visible"] = true,
+},
+["Drag"] = {
+},
+["ping"] = {
+},
+["Minimap"] = {
+},
+["ErrorsFrame"] = {
+},
+["Outfitter"] = {
+},
+["BugFixes"] = {
+},
+["FarmingTimer"] = {
+},
+["HasDied"] = {
+},
+["ChatClear"] = {
+},
+["IsInAGroup"] = {
+},
+["ItemId"] = {
+},
+["ZoneTextFrame"] = {
+},
+["AuctionSold"] = {
+},
+["DamageMeter"] = {
+},
+["ZoneMiscText"] = {
+},
+["FriendInvite"] = {
+},
+["RaidWarningFrame"] = {
+},
+["Ignore"] = {
+["ignore_list"] = {
+},
+},
+["consumes"] = {
+["consume_macro"] = {
+["consume_links"] = {
+},
+},
+},
+["Obszczymucha/frames"] = {
+},
+["Obszczymucha/MinimapIcons"] = {
+},
+["Sandbox"] = {
+},
+["FramePositions"] = {
+},
+["DungeonReset"] = {
+},
+["ChatFilter"] = {
+},
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+},
+},
+},
+["EventTrace"] = {
+},
+},
+}
