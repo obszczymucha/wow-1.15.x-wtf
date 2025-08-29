@@ -1,0 +1,111 @@
+VER 3 0000000000000008 "1" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/use [mod:ctrl]13
+/cast [mod:alt]Cleave;Heroic Strike
+END
+VER 3 0000000000000009 "2" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/use [mod:ctrl]14
+/cast [nostance:2,mod:alt]Defensive Stance;[stance:2,mod:alt]Disarm;[stance:2]Sunder Armor;Hamstring
+END
+VER 3 000000000000000A "3" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast [mod:alt]Rend;Mortal Strike
+END
+VER 3 000000000000000B "4" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast [nostance:1,mod:alt]Battle Stance;[mod:alt]Sweeping Strikes;[stance:2]Shield Bash;[stance:3]Whirlwind;Overpower
+END
+VER 3 000000000000000C "5" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast [stance:2]Revenge;Piercing Howl
+END
+VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
+END
+VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
+/use Heavy Runecloth Bandage
+END
+VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
+/use Dried King Bolete
+END
+VER 3 000000000000000E "F" "INV_Misc_QuestionMark"
+#showtooltip [mod:shift]Intercept;[nocombat]Charge;Intercept
+/startattack
+/cast [nomod,nocombat,nostance:1]Battle Stance;[combat,nostance:3]Berserker Stance;[mod:shift,nostance:3]Berserker Stance;[mod:shift]Intercept;[combat,stance:3]Intercept;Charge
+END
+VER 3 0000000000000003 "F1" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt,nostance:1]Battle Stance;[mod:alt,stance:1]Mocking Blow;[mod:alt,stance:3]Hamstring;[stance:3]Pummel;Thunder Clap
+END
+VER 3 0000000000000004 "F2" "INV_Misc_QuestionMark"
+#showtooltip [mod:alt]Berserker Rage;[mod:shift]Hamstring;Demoralizing Shout
+/cast [mod:alt,nostance:3]Berserker Stance;[mod:shift,stance:2]Berserker Stance;[mod:alt,stance:3]Berserker Rage;[mod:shift]Hamstring;Demoralizing Shout
+END
+VER 3 0000000000000005 "F3" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast War Stomp
+END
+VER 3 0000000000000006 "F4" "INV_Misc_QuestionMark"
+#showtooltip Shield Wall
+/cast [stance:3]Recklessness;Shield Wall
+END
+VER 3 0000000000000007 "F5" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Death Wish
+END
+VER 3 0000000000000015 "fstack" "132089"
+/fstack
+END
+VER 3 000000000000000F "G" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt]Bloodrage;[mod:shift]Battle Shout;[mod:ctrl]Commanding Shout
+/castsequence [nomod] Bloodrage,Battle Shout
+END
+VER 3 0000000000000013 "Mount" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount [mounted]
+/use [mod:ctrl]Brown Kodo;[mod:shift]Great Brown Kodo;[flyable]Swift Red Windrider;Great Brown Kodo
+END
+VER 3 0000000000000010 "R" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast [mod:alt,nostance:3]Berserker Stance;[mod:alt,stance:3]Pummel;[stance:2]Piercing Howl;Execute
+END
+VER 3 0000000000000019 "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Raging Reef Crawler
+/targetexact Greymist Oracle
+/targetexact The Threshwackonator 4100
+/targetexact Flagglemurk the Cruel
+/targetexact Moonstalker Matriarch
+/targetexact Xabraxxis
+/targetexact Pelturas Whitemoon
+/targetlasttarget [dead]
+END
+VER 3 0000000000000018 "shoot" "132222"
+/cast [worn:Gun]Shoot Gun;Shoot Bow
+END
+VER 3 0000000000000014 "T1" "132212"
+/target Blackhand Summoner
+/script local p="Blackhand Summoner";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+END
+VER 3 0000000000000017 "T2" "132212"
+/target Hulking Mountain
+/script local p="Hulking Mountain";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+END
+VER 3 0000000000000012 "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:alt]Throw;[stance:2]Taunt;Defensive Stance
+END
+VER 3 0000000000000011 "Z" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:alt]Heavy Netherweave Bandage;[mod:ctrl]Heavy Netherweave Bandage;Fel Iron Bomb
+END

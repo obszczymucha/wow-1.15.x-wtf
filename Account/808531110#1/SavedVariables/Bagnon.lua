@@ -8,6 +8,7 @@ Bagnon_Sets = {
 },
 ["herbColor"] = {
 },
+["flashFind"] = true,
 ["inscribeColor"] = {
 },
 ["soulColor"] = {
@@ -20,6 +21,7 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
+["glowPoor"] = false,
 ["keyColor"] = {
 },
 ["normalColor"] = {
@@ -29,6 +31,7 @@ Bagnon_Sets = {
 ["mineColor"] = {
 },
 ["latest"] = {
+["cooldown"] = 1757047224,
 },
 ["version"] = "9.1.6",
 ["customRules"] = {
@@ -177,18 +180,38 @@ Bagnon_Sets = {
 ["hiddenBags"] = {
 },
 ["color"] = {
+0,
+0,
+0,
+0.5342593789100647,
 },
-["hiddenRules"] = {
-},
-["y"] = 100,
-["x"] = -50,
-["borderColor"] = {
-},
+["sort"] = false,
+["skin"] = "OnePixel",
+["bagToggle"] = true,
 ["filters"] = {
 "all",
 "normal",
 "trade",
 },
+["enabled"] = true,
+["options"] = false,
+["money"] = true,
+["hiddenRules"] = {
+},
+["borderColor"] = {
+0.6470588445663452,
+0.4705882668495178,
+0.3450980484485626,
+0.449999988079071,
+},
+["y"] = 231.9114685058594,
+["x"] = -161.5360644725552,
+["search"] = false,
+["broker"] = false,
+["spacing"] = 0,
+["columns"] = 17,
+["itemScale"] = 0.93,
+["scale"] = 0.88,
 },
 ["bank"] = {
 ["rules"] = {
@@ -213,14 +236,19 @@ Bagnon_Sets = {
 "quest",
 "misc",
 },
+["point"] = "TOPLEFT",
 ["hiddenBags"] = {
 },
 ["color"] = {
 },
-["borderColor"] = {
-},
 ["hiddenRules"] = {
 },
+["y"] = -299.8204956054688,
+["x"] = 273.9763793945313,
+["borderColor"] = {
+},
+["columns"] = 7,
+["spacing"] = -6,
 ["filters"] = {
 "all",
 "reagent",

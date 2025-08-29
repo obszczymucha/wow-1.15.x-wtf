@@ -3,5 +3,12 @@ Blizzard_CombatText: enabled
 ThreatClassic2: disabled
 Recount: disabled
 Outfitter: disabled
-Quartz: disabled
-TidyPlates_ThreatPlates: disabled
+Quartz: enabled
+TidyPlates_ThreatPlates: enabled
+RollFor: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled
+AutoLayer_Vanilla: enabled
+Talented_Data: enabled
+Talented: disabled
+XPBarNone: disabled

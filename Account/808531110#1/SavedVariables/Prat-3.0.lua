@@ -2,6 +2,22 @@
 Prat3DB = {
 ["namespaces"] = {
 ["Prat_ChannelColorMemory"] = {
+["profiles"] = {
+["Default"] = {
+["colors"] = {
+["world"] = {
+["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
+},
+["layer"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+},
+},
+},
 },
 ["Prat_Fading"] = {
 },
@@ -29,8 +45,8 @@ Prat3DB = {
 ["minchatwidthdefault"] = 296,
 ["maxchatheightdefault"] = 400,
 ["initialized"] = true,
-["framealphastatic"] = true,
 ["maxchatwidthdefault"] = 608.0000610351562,
+["framealphastatic"] = true,
 },
 },
 },
@@ -54,7 +70,7 @@ Prat3DB = {
 ["size"] = {
 ["ChatFrame2"] = 13,
 ["WhisperTabs"] = 13,
-["ChatFrame1"] = 13,
+["ChatFrame1"] = 14,
 },
 },
 },

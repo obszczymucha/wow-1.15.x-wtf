@@ -2,6 +2,11 @@
 Chinchilla2DB = {
 ["namespaces"] = {
 ["Ping"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
 },
 ["Coordinates"] = {
 ["profiles"] = {
@@ -56,6 +61,16 @@ nil,
 },
 },
 ["Position"] = {
+["profiles"] = {
+["Default"] = {
+["minimap"] = {
+"TOP",
+29.14236794794944,
+-128.385061722171,
+},
+["enabled"] = false,
+},
+},
 },
 ["Location"] = {
 ["profiles"] = {
