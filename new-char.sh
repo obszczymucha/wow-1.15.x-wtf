@@ -19,11 +19,20 @@ create_directories() {
 
 update_account_profile() {
   local account_name="$1"
-  local base_char_name="$2"
-  local new_char_name="$3"
+  local realm_name="$2"
+  local base_char_name="$3"
+  local new_char_name="$4"
 
-  local path="Account/${account_name}/SavedVariables/"
-  # TODO: Call an update-account-profile script with "$path" as an argument.
+  local path="Account/${account_name}/SavedVariables"
+  
+  eval "$(luarocks path --bin 2>/dev/null)" || true
+  
+  if [[ -f "clone-profile.lua" ]]; then
+    echo "Updating addon profiles..."
+    lua clone-profile.lua "$path" "$realm_name" "$base_char_name" "$new_char_name"
+  else
+    echo "Warning: clone-profile.lua not found, skipping addon profile updates"
+  fi
 }
 
 main() {
@@ -38,7 +47,7 @@ main() {
   local new_char_name="$4"
   clean_up_directories "$account_name" "$realm_name" "$new_char_name"
   create_directories "$account_name" "$realm_name" "$base_char_name" "$new_char_name"
-  update_account_profile "$account_name" "$base_char_name" "$new_char_name"
+  update_account_profile "$account_name" "$realm_name" "$base_char_name" "$new_char_name"
 }
 
 main "$@"
