@@ -31,7 +31,7 @@ VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
 /cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
 END
 VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
-/use Heavy Runecloth Bandage
+/script print("No bandage set.")
 END
 VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
 /use Dried King Bolete

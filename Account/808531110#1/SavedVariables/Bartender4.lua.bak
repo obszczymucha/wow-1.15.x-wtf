@@ -33,14 +33,14 @@ Bartender4DB = {
 {
 ["rows"] = 3,
 ["fadeout"] = true,
-["fadeoutalpha"] = 0,
+["version"] = 3,
 ["position"] = {
 ["y"] = 90.74439222133742,
 ["x"] = 2.719284098137678,
 ["point"] = "BOTTOMLEFT",
 ["scale"] = 0.800000011920929,
 },
-["version"] = 3,
+["fadeoutalpha"] = 0,
 ["padding"] = -5,
 ["visibility"] = {
 ["overridebar"] = false,

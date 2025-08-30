@@ -2,6 +2,7 @@
 OmniCCDB = {
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["dbVersion"] = 6,

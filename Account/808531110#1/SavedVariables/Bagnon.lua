@@ -31,7 +31,9 @@ Bagnon_Sets = {
 ["mineColor"] = {
 },
 ["latest"] = {
+["id"] = "11.2.5",
 ["cooldown"] = 1757047224,
+["who"] = "Betrime-Spineshatter",
 },
 ["version"] = "9.1.6",
 ["customRules"] = {
@@ -47,15 +49,15 @@ Bagnon_Sets = {
 },
 ["soul"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["mine"] = {
 },
 ["engineer"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["gem"] = {
 },
@@ -63,7 +65,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
 ["normal"] = {
 },
@@ -205,7 +207,7 @@ Bagnon_Sets = {
 0.449999988079071,
 },
 ["y"] = 231.9114685058594,
-["x"] = -161.5360644725552,
+["x"] = -161.5359591531508,
 ["search"] = false,
 ["broker"] = false,
 ["spacing"] = 0,
@@ -243,7 +245,7 @@ Bagnon_Sets = {
 },
 ["hiddenRules"] = {
 },
-["y"] = -299.8204956054688,
+["y"] = -299.82080078125,
 ["x"] = 273.9763793945313,
 ["borderColor"] = {
 },

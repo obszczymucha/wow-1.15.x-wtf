@@ -2,10 +2,13 @@
 ThreatPlatesDB = {
 ["char"] = {
 ["Obszczymucha - Spineshatter"] = {
-["welcome"] = true,
 ["spec"] = {
 true,
 },
+["welcome"] = true,
+},
+["Tachikoma - Spineshatter"] = {
+["welcome"] = true,
 },
 },
 ["global"] = {
@@ -13,6 +16,7 @@ true,
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

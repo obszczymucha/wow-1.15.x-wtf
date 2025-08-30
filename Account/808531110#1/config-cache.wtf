@@ -1,3 +1,8 @@
 SET cameraDistanceMaxZoomFactor "4"
 SET flaggedTutorials "v11##&##%##'##]##:##("
+SET profanityFilter "0"
+SET talentFrameShown "1"
+SET instantQuestText "1"
+SET AllowDangerousScripts "1"
 SET showKeyring "1"
+SET cameraSmoothStyle "0"

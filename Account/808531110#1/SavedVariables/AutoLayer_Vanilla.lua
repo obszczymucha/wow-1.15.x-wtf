@@ -2,11 +2,14 @@
 AutoLayerDB = {
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
-["layered"] = 5,
 ["enabled"] = false,
+["layered"] = 5,
+},
+["Tachikoma - Spineshatter"] = {
 },
 },
 }

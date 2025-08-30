@@ -3,9 +3,8 @@ WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
 ["editor_tab_spaces"] = 4,
-["displays"] = {
-},
-["lastUpgrade"] = 1746322610,
+["editor_font_size"] = 12,
+["login_squelch_time"] = 10,
 ["lastArchiveClear"] = 1756442421,
 ["minimap"] = {
 ["hide"] = true,
@@ -13,10 +12,11 @@ WeakAurasSaved = {
 ["historyCutoff"] = 730,
 ["dbVersion"] = 84,
 ["migrationCutoff"] = 730,
-["registered"] = {
-},
-["editor_font_size"] = 12,
 ["features"] = {
 },
-["login_squelch_time"] = 10,
+["displays"] = {
+},
+["registered"] = {
+},
+["lastUpgrade"] = 1746322610,
 }

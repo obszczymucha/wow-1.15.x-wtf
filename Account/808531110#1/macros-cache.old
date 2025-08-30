@@ -2,7 +2,7 @@ VER 3 0000000000000008 "1" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
 /use [mod:ctrl]13
-/cast [mod:alt]Cleave;Heroic Strike
+/cast [mod:alt]Heroic Strike;Cleave
 END
 VER 3 0000000000000009 "2" "INV_Misc_QuestionMark"
 #showtooltip

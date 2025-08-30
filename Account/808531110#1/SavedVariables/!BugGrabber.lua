@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 492,
+["session"] = 526,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -136,12 +136,34 @@ BugGrabberDB = {
 ["counter"] = 3,
 },
 {
+["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ShadowedUnitFrames' tried to call the protected function 'UNKNOWN()'.",
+["time"] = "2025/08/30 10:04:23",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: ?\n[C]: in function 'RegisterForClicks'\n[Interface/AddOns/ShadowedUnitFrames/modules/units.lua]:602: in function 'CreateUnit'\n[Interface/AddOns/ShadowedUnitFrames/modules/units.lua]:530: in function 'method'\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:791: in function <...erface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua:783>\n[C]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:810: in function 'CallMethod'\n[	local header = self:GetParent()\n\n	self:SetHeight(header:GetAttribute(\"style-height\"))\n	self:SetWidth(header:GetAttribute(\"style-width\"))\n	self:SetScale(header:GetAttribute(\"style-scale\"))\n\n	self:SetAttribute(\"*type1\", \"target\")\n	self:SetAttribute(\"*type2\", \"togglemenu\")\n	self:SetAttribute(\"type2\", \"togglemenu\")\n\n	self:SetAttribute(\"isHeaderDriven\", true)\n\n	-- initialize frame\n	header:CallMethod(\"initialConfigFunction\", self:GetName())\n\n	-- Clique integration\n	local clickHeader = header:GetFrameRef(\"clickcast_header\")\n	if( clickHeader ) then\n		clickHeader:SetAttribute(\"clickcast_button\", self)\n		clickHeader:RunAttribute(\"clickcast_register\")\n	end\n]:14: in function <[string \"	local header = self:GetParent()...\"]:1>\n[tail call]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua]:483: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:446>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:116: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:110>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:173: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:130>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:495: in function 'SecureGroupHeader_Update'\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:62: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:60>",
+["session"] = 519,
+["counter"] = 2,
+},
+{
+["message"] = "Interface/AddOns/ModUi/src/Music.lua:291: unfinished string near '\" ) )'",
+["time"] = "2025/08/30 12:26:36",
+["locals"] = "",
+["stack"] = "",
+["session"] = 521,
+["counter"] = 1,
+},
+{
+["message"] = "Interface/AddOns/ModUi/src/Music.lua:1 Interface/AddOns/ModUi/src/Music.lua:291: unfinished string near '\" ) )'",
+["session"] = 521,
+["time"] = "2025/08/30 12:26:37",
+["counter"] = 2,
+},
+{
 ["message"] = "...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:727: attempt to index local 'self' (a nil value)",
 ["time"] = "2025/05/24 17:49:48",
 ["locals"] = "self = nil\nchatFrame = ChatFrame5 {\n isLayoutDirty = true\n oldestFadingLineTimestamp = 7322.968000\n tellTimer = 7322.089000\n fadeDurationSecs = 3\n shouldFadeAfterInactivity = true\n buttonSide = \"left\"\n textIsCopyable = false\n ResizeButton = ChatFrame5ResizeButton {\n }\n overrideFadeTimestamp = 7322.968000\n isScrollingMessageFrame = true\n name = \"Chat 5\"\n isUninteractable = false\n minimizeButton = ChatFrame5MinimizeButton {\n }\n buttonFrame = ChatFrame5ButtonFrame {\n }\n alternativeDefaultLanguage = \"Common\"\n isInitialized = 1\n hasOwnFontObject = true\n allowScroll = true\n oldAlpha = 0\n channelList = <table> {\n }\n FontStringContainer = Frame {\n }\n messageTypeList = <table> {\n }\n flashTimer = 0\n timeVisibleSecs = 120\n fontObject = table: 000002DA5CBB1C00 {\n }\n zoneChannelList = <table> {\n }\n insertMode = 2\n defaultLanguage = \"Common\"\n Background = ChatFrame5Background {\n }\n isDisplayDirty = true\n onDisplayRefreshedCallbacks = <table> {\n }\n visibleLines = <table> {\n }\n scrollOffset = 0\n historyBuffer = <table> {\n }\n ScrollToBottomButton = Button {\n }\n clickAnywhereButton = ChatFrame5ClickAnywhereButton {\n }\n PratTextures = <table> {\n }\n editBox = ChatFrame5EditBox {\n }\n isLocked = true\n}\nfontSize = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'self' (a nil value)\"\n",
 ["stack"] = "[Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua]:727: in function <...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:722>\n[C]: in function 'FCF_SetChatWindowFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:765: in function 'SetFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:753: in function 'ConfigureAllChatFrames'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/ChatFrames.lua]:636: in function <Interface/AddOns/Prat-3.0/modules/ChatFrames.lua:630>\n[tail call]: ?\n[C]: in function 'FloatingChatFrame_UpdateBackgroundAnchors'\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3302: in function <...ns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua:3288>\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3355: in function 'FCF_DockUpdate'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1036: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:325: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:312>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1047: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:1045>\n[C]: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:364: in function 'BuffFrame_UpdateAllBuffAnchors'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:105: in function 'BuffFrame_Update'\n[Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua]:118: in function <Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua:110>",
-["session"] = 492,
-["counter"] = 85,
+["session"] = 525,
+["counter"] = 88,
 },
 },
 }

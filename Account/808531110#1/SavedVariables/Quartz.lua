@@ -68,6 +68,7 @@ nil,
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

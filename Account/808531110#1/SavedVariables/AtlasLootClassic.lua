@@ -5,25 +5,28 @@ AtlasLootClassicDB = {
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
-"RIGHT",
 nil,
-"RIGHT",
--115.9999771118164,
--46.99997711181641,
+nil,
+"CENTER",
+-138.1473083496094,
+-63.77902603149414,
 },
 ["selected"] = {
 nil,
-"Zul'Gurub",
+"Onyxia",
 nil,
-2,
+3,
 0,
 },
 },
+},
+["Tachikoma - Spineshatter"] = {
 },
 },
 }
