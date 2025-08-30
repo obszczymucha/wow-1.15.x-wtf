@@ -1492,10 +1492,10 @@ true,
 }
 RXPCTrackingData = {
 ["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["profiles"] = {
-["Obszczymucha - Spineshatter"] = {
+["Tachikoma - Spineshatter"] = {
 ["levels"] = {
 [21] = {
 ["groupExperience"] = 1705,
@@ -1637,10 +1637,10 @@ RXPCTrackingData = {
 }
 RXPCComms = {
 ["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["profiles"] = {
-["Obszczymucha - Spineshatter"] = {
+["Tachikoma - Spineshatter"] = {
 ["players"] = {
 ["Dreifünfzwei"] = {
 ["timePlayed"] = 95.11499999999796,

@@ -44,13 +44,13 @@ RollForCharDb = {
 },
 },
 ["|cff0070dd|Hitem:11921::::::::57:::::::::|h[Impervious Giant]|h|r"] = {
-["Obszczymucha"] = {
+["Tachikoma"] = {
 ["rolling_strategy"] = "NormalRoll",
 ["roll_type"] = "OffSpec",
 },
 },
 ["|cff0070dd|Hitem:11920::::::::57:::::::::|h[Wraith Scythe]|h|r"] = {
-["Obszczymucha"] = {
+["Tachikoma"] = {
 ["rolling_strategy"] = "NormalRoll",
 ["roll_type"] = "MainSpec",
 },

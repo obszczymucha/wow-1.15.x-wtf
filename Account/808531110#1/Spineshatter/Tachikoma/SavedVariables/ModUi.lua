@@ -184,7 +184,7 @@ ModUiDb = {
 ["force"] = true,
 },
 },
-["Obszczymucha/frames"] = {
+["Tachikoma/frames"] = {
 },
 ["FramePositions"] = {
 },
@@ -434,7 +434,7 @@ ModUiDb = {
 },
 },
 },
-["Obszczymucha/MinimapIcons"] = {
+["Tachikoma/MinimapIcons"] = {
 },
 ["Sandbox"] = {
 },
