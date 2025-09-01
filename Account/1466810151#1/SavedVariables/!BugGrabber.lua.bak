@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 559,
+["session"] = 561,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",

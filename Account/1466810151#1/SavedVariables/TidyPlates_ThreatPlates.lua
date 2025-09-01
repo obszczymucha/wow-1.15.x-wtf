@@ -4,6 +4,9 @@ ThreatPlatesDB = {
 ["Asdfwerqwer - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Boulderdash - Spineshatter"] = {
+["welcome"] = true,
+},
 ["Obszczymucha - Spineshatter"] = {
 ["welcome"] = true,
 ["spec"] = {
@@ -11,10 +14,10 @@ true,
 },
 },
 ["Tachikoma - Spineshatter"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 },
-["welcome"] = true,
 },
 ["Awertqwertwe - Spineshatter"] = {
 ["welcome"] = true,
@@ -34,6 +37,7 @@ true,
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",

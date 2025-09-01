@@ -5,6 +5,7 @@ AtlasLootClassicDB = {
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 ["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
@@ -14,6 +15,8 @@ AtlasLootClassicDB = {
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
+},
+["Boulderdash - Spineshatter"] = {
 },
 ["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {

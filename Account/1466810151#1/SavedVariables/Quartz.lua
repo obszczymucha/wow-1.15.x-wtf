@@ -68,6 +68,7 @@ nil,
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",

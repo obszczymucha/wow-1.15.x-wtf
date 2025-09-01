@@ -91,3 +91,4 @@ bind SHIFT-Z CLICK BT4Button30:Keybind
 bind ALT-CTRL-F NONE
 bind CTRL-F CLICK BT4Button27:Keybind
 bind SHIFT-X CLICK BT4Button28:Keybind
+bind CTRL-SHIFT-F TOGGLEFPS

@@ -16,15 +16,15 @@ Bagnon_Sets = {
 },
 ["soul"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
 ["key"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["gem"] = {
 },
@@ -32,7 +32,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
 ["enchant"] = {
 },

@@ -11,4 +11,4 @@ WeakAurasArchive: enabled
 AutoLayer_Vanilla: enabled
 Talented_Data: enabled
 Talented: disabled
-XPBarNone: disabled
+XPBarNone: enabled

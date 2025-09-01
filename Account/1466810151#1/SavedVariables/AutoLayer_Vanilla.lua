@@ -2,6 +2,7 @@
 AutoLayerDB = {
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 ["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
@@ -11,6 +12,8 @@ AutoLayerDB = {
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
+},
+["Boulderdash - Spineshatter"] = {
 },
 ["Obszczymucha - Spineshatter"] = {
 ["enabled"] = false,

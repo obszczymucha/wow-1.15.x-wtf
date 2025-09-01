@@ -11,18 +11,21 @@ true,
 ["welcome"] = true,
 },
 ["Tachikoma - Spineshatter"] = {
-["welcome"] = true,
 ["spec"] = {
 true,
 },
-},
-["Dupeczka - Spineshatter"] = {
 ["welcome"] = true,
 },
 ["Ewrtettrrt - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Dupeczka - Spineshatter"] = {
+["welcome"] = true,
+},
 ["Jogobobek - Spineshatter"] = {
+["welcome"] = true,
+},
+["Awertqwertwe - Spineshatter"] = {
 ["welcome"] = true,
 },
 },
@@ -30,9 +33,10 @@ true,
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
-["Dupeczka - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
+["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["version"] = "12.1.1",

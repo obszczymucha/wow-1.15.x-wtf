@@ -1,111 +1,80 @@
-VER 3 000000000000001A "1" "INV_Misc_QuestionMark"
+VER 3 000000000000000D "1" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
-/use [mod:ctrl]13
-/cast [mod:alt]Heroic Strike;Cleave
+/cast Wrath
 END
-VER 3 0000000000000009 "2" "INV_Misc_QuestionMark"
+VER 3 000000000000000E "2" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
-/use [mod:ctrl]14
-/cast [nostance:2,mod:alt]Defensive Stance;[stance:2,mod:alt]Disarm;[stance:2]Sunder Armor;Hamstring
+/cast Healing Touch
 END
-VER 3 000000000000000A "3" "INV_Misc_QuestionMark"
+VER 3 000000000000000F "3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [form:1]Demoralizing Roar;[form:3]Maim;Hurricane
+END
+VER 3 0000000000000010 "4" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
-/cast [mod:alt]Rend;Mortal Strike
+/cast [nomod,form:1]Mangle (Bear)();[nomod,form:3]Mangle (Cat)();[mod:alt,target=player]Regrowth;Regrowth
 END
-VER 3 000000000000000B "4" "INV_Misc_QuestionMark"
+VER 3 0000000000000011 "5" "INV_Misc_QuestionMark"
 #showtooltip
-/startattack
-/cast [nostance:1,mod:alt]Battle Stance;[mod:alt]Sweeping Strikes;[stance:2]Shield Bash;[stance:3]Whirlwind;Overpower
+/startattack [form:1/3]
+/cast [mod:altctrlshift]Aquatic Form;[form:1]Swipe;[form:3]Ferocious Bite;Healing Touch
 END
-VER 3 000000000000000C "5" "INV_Misc_QuestionMark"
+VER 3 0000000000000012 "6" "INV_Misc_QuestionMark"
 #showtooltip
-/startattack
-/cast [stance:2]Revenge;Piercing Howl
+/cast [form:1]Bash;Moonfire
 END
-VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
-#showtooltip
-/startattack
-/cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
-END
-VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
+VER 3 0000000000000019 "AID" "INV_Misc_QuestionMark"
 /script print("No bandage set.")
 END
-VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
-/use Dried King Bolete
-END
-VER 3 000000000000000E "F" "INV_Misc_QuestionMark"
-#showtooltip [mod:shift]Intercept;[nocombat]Charge;Intercept
-/startattack
-/cast [nomod,nocombat,nostance:1]Battle Stance;[combat,nostance:3]Berserker Stance;[mod:shift,nostance:3]Berserker Stance;[mod:shift]Intercept;[combat,stance:3]Intercept;Charge
-END
-VER 3 0000000000000003 "F1" "INV_Misc_QuestionMark"
+VER 3 0000000000000013 "F" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:alt,nostance:1]Battle Stance;[mod:alt,stance:1]Mocking Blow;[mod:alt,stance:3]Hamstring;[stance:3]Pummel;Thunder Clap
+/cast [form:1/3]Faerie Fire (Feral)();Faerie Fire
 END
-VER 3 0000000000000004 "F2" "INV_Misc_QuestionMark"
-#showtooltip [mod:alt]Berserker Rage;[mod:shift]Hamstring;Demoralizing Shout
-/cast [mod:alt,nostance:3]Berserker Stance;[mod:shift,stance:2]Berserker Stance;[mod:alt,stance:3]Berserker Rage;[mod:shift]Hamstring;Demoralizing Shout
-END
-VER 3 0000000000000005 "F3" "INV_Misc_QuestionMark"
+VER 3 0000000000000008 "F1" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
-/cast War Stomp
+/cast [noform:3]Cat Form;[form:3]Dash;[form:1,mod:alt]Frenzied Regeneration;Berserk
 END
-VER 3 0000000000000006 "F4" "INV_Misc_QuestionMark"
-#showtooltip Shield Wall
-/cast [stance:3]Recklessness;Shield Wall
-END
-VER 3 0000000000000007 "F5" "INV_Misc_QuestionMark"
+VER 3 0000000000000009 "F2" "INV_Misc_QuestionMark"
 #showtooltip
-/cast Death Wish
+/cast [mod:alt,form:0]Hibernate;[mod:alt]Barkskin;[form:1]Frenzied Regeneration;[form:3]Tiger's Fury;Barkskin
 END
-VER 3 0000000000000015 "fstack" "132089"
-/fstack
-END
-VER 3 000000000000000F "G" "INV_Misc_QuestionMark"
+VER 3 000000000000000A "F3" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:alt]Bloodrage;[mod:shift]Battle Shout;[mod:ctrl]Commanding Shout
-/castsequence [nomod] Bloodrage,Battle Shout
+/cast [mod:alt,target=player]Innervate;[mod:shift,noharm,nodead]Innervate;War Stomp
 END
-VER 3 0000000000000013 "Mount" "INV_Misc_QuestionMark"
+VER 3 000000000000000B "F4" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Moonfire
+END
+VER 3 000000000000000C "F5" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Mark of the Wild;[mod:alt,target=player]Mark of the Wild;Gift of the Wild
+END
+VER 3 0000000000000014 "G" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Thorns;[mod:alt,target=player]Thorns;[form:1]Enrage;Thorns
+END
+VER 3 0000000000000018 "Mount" "INV_Misc_QuestionMark"
 #showtooltip
 /dismount [mounted]
-/use [mod:ctrl]Brown Kodo;[mod:shift]Great Brown Kodo;[flyable]Swift Red Windrider;Great Brown Kodo
+/use [mod:shift]Great Brown Kodo;[noflyable]Great Brown Kodo
+/cast [flyable,mod:alt]Swift Red Windrider;[flyable]Flight Form
 END
-VER 3 0000000000000010 "R" "INV_Misc_QuestionMark"
+VER 3 0000000000000015 "R" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [form:1/3]Feral Charge;Faerie Fire
+END
+VER 3 0000000000000017 "Taunt" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
-/cast [mod:alt,nostance:3]Berserker Stance;[mod:alt,stance:3]Pummel;[stance:2]Piercing Howl;Execute
+/cast [form:3]Prowl;[noform:1]Dire Bear Form;[form:1]Growl
 END
-VER 3 0000000000000019 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Raging Reef Crawler
-/targetexact Greymist Oracle
-/targetexact The Threshwackonator 4100
-/targetexact Flagglemurk the Cruel
-/targetexact Moonstalker Matriarch
-/targetexact Xabraxxis
-/targetexact Pelturas Whitemoon
-/targetlasttarget [dead]
-END
-VER 3 0000000000000018 "shoot" "132222"
-/cast [worn:Gun]Shoot Gun;Shoot Bow
-END
-VER 3 0000000000000014 "T1" "132212"
-/target Blackhand Summoner
-/script local p="Blackhand Summoner";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
-END
-VER 3 0000000000000017 "T2" "132212"
-/target Hulking Mountain
-/script local p="Hulking Mountain";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
-END
-VER 3 0000000000000012 "Taunt" "INV_Misc_QuestionMark"
+VER 3 0000000000000016 "Z" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:alt]Throw;[stance:2]Taunt;Defensive Stance
-END
-VER 3 0000000000000011 "Z" "INV_Misc_QuestionMark"
-#showtooltip
-/use [mod:alt]Heavy Netherweave Bandage;[mod:ctrl]Heavy Netherweave Bandage;Fel Iron Bomb
+/use [mod:shift]Heavy Netherweave Bandage;[mod:ctrl]Heavy Netherweave Bandage
+/cast [mod:alt]Omen of Clarity
 END

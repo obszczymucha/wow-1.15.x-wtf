@@ -4,9 +4,10 @@ AtlasLootClassicDB = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
+["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
 ["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 },
 ["global"] = {
 ["__addonrevision"] = 3020000,
@@ -46,11 +47,13 @@ nil,
 },
 },
 },
-["Dupeczka - Spineshatter"] = {
-},
 ["Ewrtettrrt - Spineshatter"] = {
 },
+["Dupeczka - Spineshatter"] = {
+},
 ["Jogobobek - Spineshatter"] = {
+},
+["Awertqwertwe - Spineshatter"] = {
 },
 },
 }

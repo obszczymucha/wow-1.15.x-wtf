@@ -1,4 +1,11 @@
 Version: 1
+Frame: SettingsPanel
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -51
+Y: -1
+W: 920
+H: 724
 Frame: CharacterFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -41,10 +48,3 @@ X: 0
 Y: 1
 W: 500
 H: 400
-Frame: SettingsPanel
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -51
-Y: -1
-W: 920
-H: 724
