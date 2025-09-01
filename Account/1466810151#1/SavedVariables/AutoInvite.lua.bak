@@ -1,0 +1,5 @@
+
+AutoInviteDb = {
+["shitlist"] = {
+},
+}
