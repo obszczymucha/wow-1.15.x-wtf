@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 526,
 ["lastSanitation"] = 3,
-["session"] = 525,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
@@ -13,8 +13,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:1 Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
-["time"] = "2025/05/28 15:44:36",
 ["session"] = 394,
+["time"] = "2025/05/28 15:44:36",
 ["counter"] = 8,
 },
 {
@@ -27,8 +27,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/FramePositions.lua:1 Interface/AddOns/ModUi/src/FramePositions.lua:56: unexpected symbol near ')'",
-["time"] = "2025/05/28 15:56:34",
 ["session"] = 399,
+["time"] = "2025/05/28 15:56:34",
 ["counter"] = 2,
 },
 {
@@ -153,8 +153,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/Music.lua:1 Interface/AddOns/ModUi/src/Music.lua:291: unfinished string near '\" ) )'",
-["time"] = "2025/08/30 12:26:37",
 ["session"] = 521,
+["time"] = "2025/08/30 12:26:37",
 ["counter"] = 2,
 },
 {

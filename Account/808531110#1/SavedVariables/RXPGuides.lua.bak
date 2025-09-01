@@ -22,11 +22,49 @@ RXPSettings = {
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
+"LEFT",
+nil,
+"LEFT",
+196.5393524169922,
+-39.94991302490234,
+},
+},
+["RXPFrame"] = {
+{
+"BOTTOMLEFT",
+nil,
+"BOTTOMLEFT",
+16.33997917175293,
+13.95383071899414,
+},
+},
+["activeItemFrame"] = {
+{
+"LEFT",
+nil,
+"LEFT",
+19.16399955749512,
+-151.8103332519531,
+},
+},
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+},
 ["season"] = 0,
 ["frameSizes"] = {
-["arrowFrame"] = {
-31.99994659423828,
-31.99999809265137,
+["activeTargetFrame"] = {
+87.92010498046875,
+67.99996185302734,
 },
 ["RXPFrame"] = {
 234.9999847412109,
@@ -36,9 +74,9 @@ RXPSettings = {
 76.72911071777344,
 39.99998474121094,
 },
-["activeTargetFrame"] = {
-87.92012023925781,
-67.99996185302734,
+["arrowFrame"] = {
+31.99994659423828,
+31.99999809265137,
 },
 },
 ["itemUpgradeSpec"] = "Warrior",
@@ -61,44 +99,6 @@ RXPSettings = {
 ["frameHeight"] = 124.9999847412109,
 ["macroAnnounced"] = true,
 ["showDangerousUnitscan"] = true,
-["framePositions"] = {
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"BOTTOMLEFT",
-nil,
-"BOTTOMLEFT",
-16.33997917175293,
-13.95383071899414,
-},
-},
-["activeItemFrame"] = {
-{
-"LEFT",
-nil,
-"LEFT",
-19.16399955749512,
--151.8103332519531,
-},
-},
-["activeTargetFrame"] = {
-{
-"LEFT",
-nil,
-"LEFT",
-196.5393371582031,
--39.94991302490234,
-},
-},
-},
 ["phase"] = 1,
 },
 },

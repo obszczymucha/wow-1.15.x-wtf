@@ -48,12 +48,7 @@ nil,
 },
 ["RangeCircle"] = {
 },
-["Expander"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -93,11 +88,17 @@ nil,
 },
 },
 },
-["Zoom"] = {
+["Expander"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
 },
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

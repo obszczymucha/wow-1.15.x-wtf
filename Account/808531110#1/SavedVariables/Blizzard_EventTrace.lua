@@ -1,15 +1,15 @@
 
 EventTraceSavedVars = {
-["ShowTimestamp"] = true,
-["LogEventsWhenHidden"] = true,
-["ShowArguments"] = true,
-["LogCREvents"] = true,
-["Filters"] = {
-["User"] = {
-},
-},
-["Size"] = {
-["Height"] = 400,
-["Width"] = 715,
-},
+	["LogEventsWhenHidden"] = true,
+	["Filters"] = {
+		["User"] = {
+		},
+	},
+	["ShowArguments"] = true,
+	["ShowTimestamp"] = true,
+	["Size"] = {
+		["Height"] = 400,
+		["Width"] = 715,
+	},
+	["LogCREvents"] = true,
 }
