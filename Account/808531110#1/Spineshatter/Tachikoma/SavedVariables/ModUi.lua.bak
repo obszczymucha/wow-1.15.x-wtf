@@ -447,15 +447,15 @@ ModUiDb = {
 },
 },
 },
-["Chat"] = {
+["Tachikoma/MinimapIcons"] = {
 },
-["FrameVisibility"] = {
+["Chat"] = {
 },
 ["AuctionSold"] = {
 },
-["Sandbox"] = {
+["FrameVisibility"] = {
 },
-["Tachikoma/MinimapIcons"] = {
+["Sandbox"] = {
 },
 ["ZoneMiscText"] = {
 },
@@ -463,8 +463,13 @@ ModUiDb = {
 },
 ["music"] = {
 ["music"] = {
-["playlist_id"] = "elwynn",
+},
 ["force"] = true,
+["playlist_id"] = "default",
+["current_track"] = {
+["start"] = 1756716333,
+["length"] = 55,
+["name"] = "Elwynn 1",
 },
 },
 },

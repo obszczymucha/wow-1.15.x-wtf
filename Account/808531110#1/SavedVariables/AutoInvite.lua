@@ -1,5 +1,5 @@
 
 AutoInviteDb = {
-	["shitlist"] = {
-	},
+["shitlist"] = {
+},
 }

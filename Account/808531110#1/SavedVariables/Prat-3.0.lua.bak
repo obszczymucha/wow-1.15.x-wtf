@@ -6,29 +6,29 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["chuj"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["localdefense"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["layer"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["princesskenny"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["world"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 },
 },
@@ -46,7 +46,7 @@ Prat3DB = {
 },
 ["Prat_ServerNames"] = {
 },
-["Prat_UrlCopy"] = {
+["Prat_TellTarget"] = {
 },
 ["Prat_AltNames"] = {
 },
@@ -92,31 +92,7 @@ Prat3DB = {
 },
 ["Prat_KeyBindings"] = {
 },
-["Prat_ChannelNames"] = {
-["profiles"] = {
-["Default"] = {
-["nickname"] = {
-["LocalDefense"] = "LD",
-["Trade"] = "T",
-["General"] = "G",
-["world"] = "W",
-},
-},
-},
-},
 ["Prat_DebugModules"] = {
-},
-["Prat_Paragraph"] = {
-},
-["Prat_Achievements"] = {
-},
-["Prat_Bubbles"] = {
-},
-["Prat_Alias"] = {
-},
-["Prat_OriginalButtons"] = {
-},
-["Prat_Highlight"] = {
 },
 ["Prat_Timestamps"] = {
 ["profiles"] = {
@@ -125,13 +101,37 @@ Prat3DB = {
 },
 },
 },
-["Prat_Sounds"] = {
+["Prat_ChannelSticky"] = {
+},
+["Prat_Paragraph"] = {
+},
+["Prat_Achievements"] = {
+},
+["Prat_Alias"] = {
+},
+["Prat_OriginalButtons"] = {
+},
+["Prat_Highlight"] = {
+},
+["Prat_Bubbles"] = {
+},
+["Prat_UrlCopy"] = {
 },
 ["Prat_Invites"] = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_ChannelSticky"] = {
+["Prat_ChannelNames"] = {
+["profiles"] = {
+["Default"] = {
+["nickname"] = {
+["LocalDefense"] = "LD",
+["world"] = "W",
+["General"] = "G",
+["Trade"] = "T",
+},
+},
+},
 },
 ["Prat_ChatLog"] = {
 },
@@ -144,7 +144,7 @@ Prat3DB = {
 },
 },
 },
-["Prat_TellTarget"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_HoverTips"] = {
 },

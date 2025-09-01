@@ -179,10 +179,17 @@ ModUiDb = {
 ["ItemId"] = {
 },
 ["music"] = {
+["shuffle"] = false,
+["current_track"] = {
+["start"] = 1756716378,
+["length"] = 55,
+["name"] = "Elwynn 1",
+},
+["last_track_index"] = 1,
 ["music"] = {
+},
 ["playlist_id"] = "elwynn",
 ["force"] = true,
-},
 },
 ["Tachikoma/frames"] = {
 },

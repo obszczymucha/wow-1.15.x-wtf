@@ -2,9 +2,42 @@
 Bagnon_Sets = {
 ["tackleColor"] = {
 },
-["leatherColor"] = {
+["latest"] = {
+["id"] = "11.2.5",
+["cooldown"] = 1757047224,
+["who"] = "Betrime-Spineshatter",
 },
-["engineerColor"] = {
+["color"] = {
+["quiver"] = {
+},
+["account"] = {
+},
+["enchant"] = {
+},
+["soul"] = {
+},
+["inscribe"] = {
+},
+["mine"] = {
+},
+["gem"] = {
+},
+["leather"] = {
+},
+["reagent"] = {
+},
+["key"] = {
+},
+["engineer"] = {
+},
+["tackle"] = {
+},
+["fridge"] = {
+},
+["normal"] = {
+},
+["herb"] = {
+},
 },
 ["herbColor"] = {
 },
@@ -20,59 +53,6 @@ Bagnon_Sets = {
 ["gemColor"] = {
 },
 ["enchantColor"] = {
-},
-["glowPoor"] = false,
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["latest"] = {
-["id"] = "11.2.5",
-["cooldown"] = 1757047224,
-["who"] = "Betrime-Spineshatter",
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["color"] = {
-["quiver"] = {
-},
-["account"] = {
-},
-["enchant"] = {
-},
-["soul"] = {
-},
-["reagent"] = {
-},
-["mine"] = {
-},
-["engineer"] = {
-},
-["inscribe"] = {
-},
-["fridge"] = {
-},
-["gem"] = {
-},
-["key"] = {
-},
-["tackle"] = {
-},
-["leather"] = {
-},
-["normal"] = {
-},
-["herb"] = {
-},
-},
-["fridgeColor"] = {
 },
 ["global"] = {
 ["vault"] = {
@@ -138,11 +118,11 @@ Bagnon_Sets = {
 "quest",
 "misc",
 },
-["borderColor"] = {
+["hiddenBags"] = {
 },
 ["color"] = {
 },
-["hiddenBags"] = {
+["borderColor"] = {
 },
 ["hiddenRules"] = {
 },
@@ -181,14 +161,9 @@ Bagnon_Sets = {
 ["point"] = "BOTTOMRIGHT",
 ["hiddenBags"] = {
 },
-["color"] = {
-0,
-0,
-0,
-0.5342593789100647,
-},
+["scale"] = 0.88,
 ["sort"] = false,
-["skin"] = "OnePixel",
+["spacing"] = 0,
 ["bagToggle"] = true,
 ["filters"] = {
 "all",
@@ -198,22 +173,27 @@ Bagnon_Sets = {
 ["enabled"] = true,
 ["options"] = false,
 ["money"] = true,
+["itemScale"] = 0.93,
 ["hiddenRules"] = {
 },
+["y"] = 231.9114685058594,
+["x"] = -161.5359591531508,
+["search"] = false,
+["broker"] = false,
+["columns"] = 17,
+["color"] = {
+0,
+0,
+0,
+0.5342593789100647,
+},
+["skin"] = "OnePixel",
 ["borderColor"] = {
 0.6470588445663452,
 0.4705882668495178,
 0.3450980484485626,
 0.449999988079071,
 },
-["y"] = 231.9114685058594,
-["x"] = -161.5359591531508,
-["search"] = false,
-["broker"] = false,
-["spacing"] = 0,
-["columns"] = 17,
-["itemScale"] = 0.93,
-["scale"] = 0.88,
 },
 ["bank"] = {
 ["rules"] = {
@@ -247,10 +227,10 @@ Bagnon_Sets = {
 },
 ["y"] = -299.82080078125,
 ["x"] = 273.9763793945313,
+["spacing"] = -6,
 ["borderColor"] = {
 },
 ["columns"] = 7,
-["spacing"] = -6,
 ["filters"] = {
 "all",
 "reagent",
@@ -260,5 +240,25 @@ Bagnon_Sets = {
 "miscellaneous",
 },
 },
+},
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["engineerColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["glowPoor"] = false,
+["fridgeColor"] = {
+},
+["leatherColor"] = {
 },
 }

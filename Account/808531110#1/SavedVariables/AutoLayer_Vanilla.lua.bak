@@ -10,6 +10,8 @@ AutoLayerDB = {
 ["layered"] = 5,
 },
 ["Tachikoma - Spineshatter"] = {
+["layered"] = 5,
+["enabled"] = false,
 },
 },
 }

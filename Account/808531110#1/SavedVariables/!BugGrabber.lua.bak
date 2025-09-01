@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 526,
 ["lastSanitation"] = 3,
+["session"] = 553,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
@@ -13,8 +13,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:1 Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
-["session"] = 394,
 ["time"] = "2025/05/28 15:44:36",
+["session"] = 394,
 ["counter"] = 8,
 },
 {
@@ -27,8 +27,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/FramePositions.lua:1 Interface/AddOns/ModUi/src/FramePositions.lua:56: unexpected symbol near ')'",
-["session"] = 399,
 ["time"] = "2025/05/28 15:56:34",
+["session"] = 399,
 ["counter"] = 2,
 },
 {
@@ -153,8 +153,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/ModUi/src/Music.lua:1 Interface/AddOns/ModUi/src/Music.lua:291: unfinished string near '\" ) )'",
-["session"] = 521,
 ["time"] = "2025/08/30 12:26:37",
+["session"] = 521,
 ["counter"] = 2,
 },
 {
@@ -164,6 +164,22 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua]:727: in function <...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:722>\n[C]: in function 'FCF_SetChatWindowFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:765: in function 'SetFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:753: in function 'ConfigureAllChatFrames'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/ChatFrames.lua]:636: in function <Interface/AddOns/Prat-3.0/modules/ChatFrames.lua:630>\n[tail call]: ?\n[C]: in function 'FloatingChatFrame_UpdateBackgroundAnchors'\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3302: in function <...ns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua:3288>\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3355: in function 'FCF_DockUpdate'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1036: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:325: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:312>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1047: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:1045>\n[C]: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:364: in function 'BuffFrame_UpdateAllBuffAnchors'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:105: in function 'BuffFrame_Update'\n[Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua]:118: in function <Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua:110>",
 ["session"] = 525,
 ["counter"] = 88,
+},
+{
+["message"] = "[string \"ModUiDb.music\"]:1: '=' expected near '<eof>'",
+["time"] = "2025/09/01 18:40:08",
+["locals"] = "(*temporary) = \"ModUiDb.music\"\n",
+["stack"] = "[C]: in function 'RunScript'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:2275: in function '?'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:5057: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:5003>\n[C]: in function 'ChatEdit_ParseText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:4709: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4708>\n[C]: in function 'ChatEdit_SendText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:4745: in function 'ChatEdit_OnEnterPressed'\n[*ChatFrame.xml:120_OnEnterPressed]:1: in function <[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1>",
+["session"] = 549,
+["counter"] = 1,
+},
+{
+["message"] = "[string \"return ModUiDb.mod.music\"]:1: attempt to index field 'mod' (a nil value)",
+["time"] = "2025/09/01 18:40:44",
+["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'mod' (a nil value)\"\n",
+["stack"] = "[return ModUiDb.mod.music]:1: in function 'func'\n[Interface/AddOns/Blizzard_SharedXML/Dump.lua]:408: in function 'DevTools_DumpCommand'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:2537: in function '?'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:5057: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:5003>\n[C]: in function 'ChatEdit_ParseText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:4709: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4708>\n[C]: in function 'ChatEdit_SendText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:4745: in function 'ChatEdit_OnEnterPressed'\n[*ChatFrame.xml:120_OnEnterPressed]:1: in function <[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1>",
+["session"] = 549,
+["counter"] = 1,
 },
 },
 }
