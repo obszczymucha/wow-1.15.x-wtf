@@ -2,6 +2,8 @@
 XPBarNoneDB = {
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,23 +21,20 @@ XPBarNoneDB = {
 ["g"] = 0.4666666984558106,
 ["r"] = 0.3490196168422699,
 },
-["remaining"] = {
-["r"] = 0.6745098233222961,
-["g"] = 0.9098039865493774,
-["b"] = 1,
-},
 ["resting"] = {
-["r"] = 0.6549019813537598,
-["g"] = 1,
 ["b"] = 0.6980392336845398,
+["g"] = 1,
+["r"] = 0.6549019813537598,
+},
+["remaining"] = {
+["b"] = 1,
+["g"] = 0.9098039865493774,
+["r"] = 0.6745098233222961,
 },
 ["rested"] = {
 ["g"] = 0.7490196228027344,
 ["r"] = 0.1803921610116959,
 },
-},
-["rep"] = {
-["showrepbar"] = true,
 },
 },
 },

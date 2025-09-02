@@ -9,6 +9,19 @@ Quartz3DB = {
 },
 ["Flight"] = {
 },
+["Pet"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 667.0411987304688,
+},
+},
+},
+["Range"] = {
+},
+["EnemyCasts"] = {
+},
+["GCD"] = {
+},
 ["Mirror"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -26,7 +39,14 @@ nil,
 },
 },
 },
-["Range"] = {
+["Target"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 667.0411987304688,
+},
+},
+},
+["Interrupt"] = {
 },
 ["Player"] = {
 ["profiles"] = {
@@ -43,38 +63,18 @@ nil,
 },
 },
 },
-["GCD"] = {
-},
-["Interrupt"] = {
-},
-["Target"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Pet"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["EnemyCasts"] = {
-},
 ["Latency"] = {
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -86,14 +86,14 @@ nil,
 1,
 },
 ["modules"] = {
-["Swing"] = false,
+["Tradeskill"] = false,
 ["Buff"] = false,
 ["Interrupt"] = false,
 ["Range"] = false,
 ["GCD"] = false,
-["Tradeskill"] = false,
-["Timer"] = false,
 ["Pet"] = false,
+["Timer"] = false,
+["Swing"] = false,
 ["Target"] = false,
 ["Latency"] = false,
 },

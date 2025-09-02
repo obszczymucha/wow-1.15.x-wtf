@@ -36,7 +36,7 @@ Prat3DB = {
 },
 ["Prat_Fading"] = {
 },
-["Prat_Scroll"] = {
+["Prat_Sounds"] = {
 },
 ["Prat_Mentions"] = {
 },
@@ -46,7 +46,7 @@ Prat3DB = {
 },
 ["Prat_ServerNames"] = {
 },
-["Prat_TellTarget"] = {
+["Prat_UrlCopy"] = {
 },
 ["Prat_AltNames"] = {
 },
@@ -77,7 +77,7 @@ Prat3DB = {
 },
 },
 },
-["Prat_History"] = {
+["Prat_ChannelSticky"] = {
 },
 ["Prat_Font"] = {
 ["profiles"] = {
@@ -92,15 +92,15 @@ Prat3DB = {
 },
 ["Prat_KeyBindings"] = {
 },
+["Prat_Bubbles"] = {
+},
 ["Prat_DebugModules"] = {
-},
-["Prat_Sounds"] = {
-},
-["Prat_ChannelSticky"] = {
 },
 ["Prat_Paragraph"] = {
 },
 ["Prat_Achievements"] = {
+},
+["Prat_TellTarget"] = {
 },
 ["Prat_Alias"] = {
 },
@@ -108,7 +108,18 @@ Prat3DB = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_Bubbles"] = {
+["Prat_Timestamps"] = {
+["profiles"] = {
+["Default"] = {
+["formatcode"] = "%H:%M",
+},
+},
+},
+["Prat_History"] = {
+},
+["Prat_Invites"] = {
+},
+["Prat_LinkInfoIcons"] = {
 },
 ["Prat_ChannelNames"] = {
 ["profiles"] = {
@@ -122,12 +133,6 @@ Prat3DB = {
 },
 },
 },
-["Prat_Invites"] = {
-},
-["Prat_LinkInfoIcons"] = {
-},
-["Prat_UrlCopy"] = {
-},
 ["Prat_ChatLog"] = {
 },
 ["Prat_Search"] = {
@@ -139,30 +144,25 @@ Prat3DB = {
 },
 },
 },
-["Prat_Timestamps"] = {
-["profiles"] = {
-["Default"] = {
-["formatcode"] = "%H:%M",
-},
-},
+["Prat_Scroll"] = {
 },
 ["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -172,7 +172,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

@@ -47,12 +47,7 @@ nil,
 },
 ["RangeCircle"] = {
 },
-["Ping"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -92,18 +87,23 @@ nil,
 },
 },
 },
-["Zoom"] = {
+["Ping"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

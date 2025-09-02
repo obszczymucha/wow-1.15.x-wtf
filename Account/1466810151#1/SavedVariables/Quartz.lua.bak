@@ -9,6 +9,43 @@ Quartz3DB = {
 },
 ["Flight"] = {
 },
+["Pet"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 667.0411987304688,
+},
+},
+},
+["Range"] = {
+},
+["EnemyCasts"] = {
+},
+["GCD"] = {
+},
+["Player"] = {
+["profiles"] = {
+["Default"] = {
+["h"] = 13,
+["timefontsize"] = 8,
+["w"] = 130,
+["y"] = 125,
+["border"] = "None",
+["fontsize"] = 9,
+["texture"] = "Charcoal",
+["showticks"] = false,
+["x"] = 696,
+},
+},
+},
+["Target"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 667.0411987304688,
+},
+},
+},
+["Interrupt"] = {
+},
 ["Mirror"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -26,54 +63,18 @@ nil,
 },
 },
 },
-["Range"] = {
-},
-["Player"] = {
-["profiles"] = {
-["Default"] = {
-["h"] = 13,
-["timefontsize"] = 8,
-["w"] = 130,
-["y"] = 125,
-["border"] = "None",
-["fontsize"] = 9,
-["texture"] = "Charcoal",
-["showticks"] = false,
-["x"] = 696,
-},
-},
-},
-["GCD"] = {
-},
-["EnemyCasts"] = {
-},
-["Target"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Pet"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Interrupt"] = {
-},
 ["Latency"] = {
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -85,15 +86,15 @@ nil,
 },
 ["backgroundalpha"] = 0.525,
 ["modules"] = {
-["Swing"] = false,
+["Tradeskill"] = false,
 ["Buff"] = false,
 ["Interrupt"] = false,
 ["Range"] = false,
 ["GCD"] = false,
-["Tradeskill"] = false,
+["Pet"] = false,
 ["Timer"] = false,
 ["Target"] = false,
-["Pet"] = false,
+["Swing"] = false,
 ["Latency"] = false,
 },
 },

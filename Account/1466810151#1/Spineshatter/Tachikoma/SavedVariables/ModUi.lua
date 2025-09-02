@@ -1,7 +1,21 @@
 
 ModUiDb = {
 ["mixins"] = {
-["CombatQueue"] = {
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = -41.46719360351563,
+["point"] = "TOP",
+["y"] = -69.30265045166016,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 19.06044578552246,
+["point"] = "TOP",
+["y"] = -52.50723648071289,
+},
+},
 },
 ["Bag"] = {
 },
@@ -21,28 +35,16 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = -41.46719360351563,
-["point"] = "TOP",
-["y"] = -69.30265045166016,
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 19.06044578552246,
-["point"] = "TOP",
-["y"] = -52.50723648071289,
-},
-},
-},
-["FrameSpacing"] = {
-["frame_spacing"] = 30,
+["Item"] = {
 },
 ["GlobalReferences"] = {
 },
-["Item"] = {
+["FrameSpacing"] = {
+["frame_spacing"] = 30,
 },
 ["FarmingAnchor"] = {
 ["point"] = {
@@ -57,24 +59,32 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["ui_mode"] = 1,
 ["farming_mode_lock"] = false,
+["ui_mode"] = 1,
 },
 ["WeakAuras"] = {
 },
-["Timer"] = {
+["WarriorMode"] = {
+["zones"] = {
+["Hall of Blackhand"] = {
+["The Beast"] = "Single",
 },
-["FrameBuilder"] = {
+},
+["mode"] = "Auto",
+},
+["MinimapScale"] = {
+["farming_minimap_scale"] = 1.1,
+["minimap_scale"] = 0.79,
 },
 ["macros"] = {
 },
-["ColorPicker"] = {
+["MinimapIcons"] = {
 },
 ["TankTarget"] = {
 },
 ["Macro"] = {
 },
-["MinimapIcons"] = {
+["ColorPicker"] = {
 },
 ["ExternalEvent"] = {
 },
@@ -88,25 +98,15 @@ ModUiDb = {
 ["Decapitator"] = {
 ["should_equip"] = false,
 },
-["MinimapScale"] = {
-["farming_minimap_scale"] = 1.1,
-["minimap_scale"] = 0.79,
+["FrameBuilder"] = {
 },
-["WarriorMode"] = {
-["zones"] = {
-["Hall of Blackhand"] = {
-["The Beast"] = "Single",
-},
-},
-["mode"] = "Auto",
+["Timer"] = {
 },
 ["MultiSpec"] = {
 },
 ["NamedEventObserver"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["CombatQueue"] = {
 },
 },
 ["mods"] = {
@@ -152,12 +152,12 @@ ModUiDb = {
 "|cffffffff|Hitem:8950::::::::54:::::::::|h[Homemade Cherry Pie]|h|r",
 },
 ["consume_macro"] = {
-["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 ["consume_links"] = {
 "|cffffffff|Hitem:2681::::::::10:::::::::|h[Roasted Boar Meat]|h|r",
 "|cffffffff|Hitem:2679::::::::10:::::::::|h[Charred Wolf Meat]|h|r",
 "|cffffffff|Hitem:414::::::::10:::::::::|h[Dalaran Sharp]|h|r",
 },
+["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 },
 },
 ["FriendInvite"] = {
@@ -178,42 +178,180 @@ ModUiDb = {
 },
 ["ItemId"] = {
 },
-["TargetMacro"] = {
-["target_macro"] = {
-["macros"] = {
+["music"] = {
+["music"] = {
+},
+["shuffle"] = false,
+["current_track"] = {
+["start"] = 1756808059,
+["length"] = 191,
+["name"] = "Azuremyst 7",
+},
+["force"] = true,
+["last_track_index"] = 16,
+["playlist_id"] = "default",
+["playlist"] = {
+["last_track_index"] = 16,
+["tracks"] = {
 {
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Blackhand Summoner",
+["length"] = 55,
+["name"] = "Elwynn 1",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest01.mp3",
 },
 {
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Hulking Mountain",
+["length"] = 72,
+["name"] = "Elwynn 2",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest02.mp3",
 },
-["T1"] = {
-["fishing"] = true,
+{
+["length"] = 64,
+["name"] = "Elwynn 3",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest03.mp3",
+},
+{
+["length"] = 81,
+["name"] = "Zangarmarsh 1",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni01.mp3",
+},
+{
+["length"] = 120,
+["name"] = "Zangarmarsh 2",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni02.mp3",
+},
+{
+["length"] = 59,
+["name"] = "Zangarmarsh 3",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni03.mp3",
+},
+{
+["length"] = 102,
+["name"] = "Zangarmarsh 4",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni04.mp3",
+},
+{
+["length"] = 71,
+["name"] = "Zangarmarsh 5",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni05.mp3",
+},
+{
+["length"] = 89,
+["name"] = "Zangarmarsh 6",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni06.mp3",
+},
+{
+["length"] = 206,
+["name"] = "Azuremyst 1",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni01.mp3",
+},
+{
+["length"] = 124,
+["name"] = "Azuremyst 2",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02.mp3",
+},
+{
+["length"] = 129,
+["name"] = "Azuremyst 3",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02r.mp3",
+},
+{
+["length"] = 187,
+["name"] = "Azuremyst 4",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03.mp3",
+},
+{
+["length"] = 188,
+["name"] = "Azuremyst 5",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03r.mp3",
+},
+{
+["length"] = 158,
+["name"] = "Azuremyst 6",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni04.mp3",
+},
+{
+["length"] = 191,
+["name"] = "Azuremyst 7",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni05.mp3",
+},
+{
+["length"] = 110,
+["name"] = "Azuremyst 8",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni06.mp3",
+},
+{
+["length"] = 110,
+["name"] = "Azuremyst 9",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni07r.mp3",
+},
+{
+["length"] = 99,
+["name"] = "Azuremyst 10",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni08r.mp3",
+},
+{
+["length"] = 109,
+["name"] = "Azuremyst 11",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni01.mp3",
+},
+{
+["length"] = 107,
+["name"] = "Azuremyst 12",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni02.mp3",
+},
+{
+["length"] = 93,
+["name"] = "Azuremyst 13",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni03.mp3",
+},
+{
+["length"] = 103,
+["name"] = "Azuremyst 14",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni01.mp3",
+},
+{
+["length"] = 74,
+["name"] = "Azuremyst 15",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni02.mp3",
+},
+{
+["length"] = 149,
+["name"] = "Azuremyst 16",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni03.mp3",
+},
+{
+["length"] = 73,
+["name"] = "Azuremyst 17",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni04.mp3",
+},
+{
+["length"] = 98,
+["name"] = "Azuremyst 18",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni05.mp3",
+},
+{
+["length"] = 120,
+["name"] = "Auchindoun 1",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni01.mp3",
+},
+{
+["length"] = 150,
+["name"] = "Auchindoun 2",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni02.mp3",
+},
+{
+["length"] = 120,
+["name"] = "Auchindoun 3",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni03.mp3",
 },
 },
+["name"] = "Default",
 },
 },
-["HasDied"] = {
+["Tachikoma/frames"] = {
 },
 ["FramePositions"] = {
 },
-["ZoneTextFrame"] = {
-},
 ["ZoneMiscText"] = {
-},
-["Tachikoma/MinimapIcons"] = {
-},
-["Chat"] = {
-},
-["Sandbox"] = {
-},
-["FrameVisibility"] = {
-},
-["AuctionSold"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -261,9 +399,9 @@ ModUiDb = {
 ["time"] = 1747256284,
 ["reason"] = "fucking stockade boost spammer",
 },
-["Putasam"] = {
-["time"] = 1749280302,
-["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
+["Ichimi"] = {
+["time"] = 1747820674,
+["reason"] = "fucktard BRD puller",
 },
 ["Kribben"] = {
 ["time"] = 1746282558,
@@ -277,9 +415,9 @@ ModUiDb = {
 ["time"] = 1746285213,
 ["reason"] = "rolled on strength ring as druid in Stockades",
 },
-["Vancaster"] = {
-["time"] = 1748095945,
-["reason"] = "fucktard spammer",
+["Dyrachyó"] = {
+["time"] = 1749280323,
+["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
 },
 ["Mortybrain"] = {
 ["time"] = 1749264099,
@@ -289,13 +427,13 @@ ModUiDb = {
 ["time"] = 1746888687,
 ["reason"] = "Pontimex",
 },
-["Adúnaphel"] = {
-["time"] = 1746926521,
-["reason"] = "doesn't invite for quests",
+["Lkjk"] = {
+["time"] = 1749370024,
+["reason"] = "piece of fuck group leaver",
 },
-["Dyrachyó"] = {
-["time"] = 1749280323,
-["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
+["Hilbot"] = {
+["time"] = 1747032838,
+["reason"] = "group leaver (Ulda)",
 },
 ["Mynamelai"] = {
 ["time"] = 1746288186,
@@ -305,41 +443,41 @@ ModUiDb = {
 ["time"] = 1747982415,
 ["reason"] = "fucking group leaver and fucktard",
 },
-["Lkjk"] = {
-["time"] = 1749370024,
-["reason"] = "piece of fuck group leaver",
+["Adúnaphel"] = {
+["time"] = 1746926521,
+["reason"] = "doesn't invite for quests",
 },
-["Clasix"] = {
-["time"] = 1747916312,
-["reason"] = "can you sum?",
-},
-["Oldworld"] = {
-["time"] = 1746528130,
-["reason"] = "boost spammer",
-},
-["Fmlkms"] = {
-["time"] = 1747383187,
-["reason"] = "did the quest then bailed Mara",
+["Desperatus"] = {
+["time"] = 1747387006,
+["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
 },
 ["Valleyboy"] = {
 ["time"] = 1747916305,
 ["reason"] = "group leaver",
 },
-["Foddy"] = {
-["time"] = 1749617466,
-["reason"] = "spamming fuck",
+["Fmlkms"] = {
+["time"] = 1747383187,
+["reason"] = "did the quest then bailed Mara",
 },
-["Relgeiz"] = {
-["time"] = 1748002458,
-["reason"] = "group leaver and elitist fuck",
+["Oldworld"] = {
+["time"] = 1746528130,
+["reason"] = "boost spammer",
+},
+["Royieal"] = {
+["time"] = 1749290190,
+["reason"] = "fucktard group leaver",
+},
+["Páránøiáz"] = {
+["time"] = 1747260536,
+["reason"] = "fucking layer spammer",
 },
 ["Leparitka"] = {
 ["time"] = 1747377638,
 ["reason"] = "group leaver",
 },
-["Kissmelove"] = {
-["time"] = 1749122028,
-["reason"] = "spammer",
+["Sorser"] = {
+["time"] = 1747740557,
+["reason"] = "ninjaed elemental card in BRD",
 },
 ["Arthase"] = {
 ["time"] = 1747817678,
@@ -349,17 +487,17 @@ ModUiDb = {
 ["time"] = 1748002495,
 ["reason"] = "fuck and group leaver",
 },
-["Visionest"] = {
-["time"] = 1749104267,
-["reason"] = "dmt spam",
+["Anemal"] = {
+["time"] = 1747032165,
+["reason"] = "fucking retard",
 },
-["Otpwar"] = {
-["time"] = 1747032202,
-["reason"] = "trash fuck",
+["Raned"] = {
+["time"] = 1748598921,
+["reason"] = "mage fuck",
 },
-["Royieal"] = {
-["time"] = 1749290190,
-["reason"] = "fucktard group leaver",
+["Foddy"] = {
+["time"] = 1749617466,
+["reason"] = "spamming fuck",
 },
 ["Dedulok"] = {
 ["time"] = 1747376189,
@@ -409,21 +547,21 @@ ModUiDb = {
 ["time"] = 1747567339,
 ["reason"] = "stupid fuck didnt help pvp",
 },
-["Raned"] = {
-["time"] = 1748598921,
-["reason"] = "mage fuck",
+["Otpwar"] = {
+["time"] = 1747032202,
+["reason"] = "trash fuck",
 },
-["Anemal"] = {
-["time"] = 1747032165,
-["reason"] = "fucking retard",
+["Visionest"] = {
+["time"] = 1749104267,
+["reason"] = "dmt spam",
 },
-["Sorser"] = {
-["time"] = 1747740557,
-["reason"] = "ninjaed elemental card in BRD",
+["Kissmelove"] = {
+["time"] = 1749122028,
+["reason"] = "spammer",
 },
-["Páránøiáz"] = {
-["time"] = 1747260536,
-["reason"] = "fucking layer spammer",
+["Relgeiz"] = {
+["time"] = 1748002458,
+["reason"] = "group leaver and elitist fuck",
 },
 ["Beragor"] = {
 ["time"] = 1747212628,
@@ -433,21 +571,21 @@ ModUiDb = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Desperatus"] = {
-["time"] = 1747387006,
-["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
+["Clasix"] = {
+["time"] = 1747916312,
+["reason"] = "can you sum?",
 },
 ["Rostig"] = {
 ["time"] = 1749291787,
 ["reason"] = "group leaver",
 },
-["Hilbot"] = {
-["time"] = 1747032838,
-["reason"] = "group leaver (Ulda)",
+["Vancaster"] = {
+["time"] = 1748095945,
+["reason"] = "fucktard spammer",
 },
-["Ichimi"] = {
-["time"] = 1747820674,
-["reason"] = "fucktard BRD puller",
+["Putasam"] = {
+["time"] = 1749280302,
+["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
 },
 ["Gnrk"] = {
 ["time"] = 1749030325,
@@ -459,19 +597,37 @@ ModUiDb = {
 },
 },
 },
-["Tachikoma/frames"] = {
+["Tachikoma/MinimapIcons"] = {
 },
-["music"] = {
-["shuffle"] = false,
-["force"] = true,
-["playlist_id"] = "elwynn",
-["last_track_index"] = 2,
-["current_track"] = {
-["start"] = 1756728979,
-["length"] = 72,
-["name"] = "Elwynn 2",
+["Sandbox"] = {
 },
-["music"] = {
+["AuctionSold"] = {
+},
+["FrameVisibility"] = {
+},
+["Chat"] = {
+},
+["ZoneTextFrame"] = {
+},
+["HasDied"] = {
+},
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Kolkar",
+},
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "chuj",
+},
+["T1"] = {
+["fishing"] = true,
+},
+},
 },
 },
 },

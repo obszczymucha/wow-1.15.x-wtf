@@ -4,16 +4,7 @@ ThreatPlatesDB = {
 ["Asdfwerqwer - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Boulderdash - Spineshatter"] = {
-["welcome"] = true,
-},
 ["Obszczymucha - Spineshatter"] = {
-["welcome"] = true,
-["spec"] = {
-true,
-},
-},
-["Tachikoma - Spineshatter"] = {
 ["welcome"] = true,
 ["spec"] = {
 true,
@@ -22,13 +13,25 @@ true,
 ["Awertqwertwe - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Ewrtettrrt - Spineshatter"] = {
+["welcome"] = true,
+},
+["Boulderdash - Spineshatter"] = {
+["spec"] = {
+true,
+},
+["welcome"] = true,
+},
 ["Dupeczka - Spineshatter"] = {
 ["welcome"] = true,
 },
 ["Jogobobek - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Ewrtettrrt - Spineshatter"] = {
+["Tachikoma - Spineshatter"] = {
+["spec"] = {
+true,
+},
 ["welcome"] = true,
 },
 },
@@ -37,13 +40,13 @@ true,
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -93,14 +96,14 @@ true,
 },
 },
 ["targetWidget"] = {
-["theme"] = "squarethin",
+["ON"] = false,
 ["HPBarColor"] = {
 ["g"] = 0.5490196347236633,
 ["r"] = 0.3921568989753723,
 },
 ["ModeHPBar"] = true,
 ["ModeNames"] = true,
-["ON"] = false,
+["theme"] = "squarethin",
 },
 },
 },
