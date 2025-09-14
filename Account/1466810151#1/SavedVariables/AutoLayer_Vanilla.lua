@@ -2,36 +2,36 @@
 AutoLayerDB = {
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 ["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
 ["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
 },
-["Obszczymucha - Spineshatter"] = {
-["enabled"] = false,
-["layered"] = 5,
+["Ewrtettrrt - Spineshatter"] = {
 },
 ["Awertqwertwe - Spineshatter"] = {
 },
-["Ewrtettrrt - Spineshatter"] = {
-},
-["Boulderdash - Spineshatter"] = {
-["enabled"] = false,
+["Tachikoma - Spineshatter"] = {
 ["layered"] = 5,
+["enabled"] = false,
 },
 ["Dupeczka - Spineshatter"] = {
 },
 ["Jogobobek - Spineshatter"] = {
 },
-["Tachikoma - Spineshatter"] = {
-["layered"] = 5,
+["Boulderdash - Spineshatter"] = {
 ["enabled"] = false,
+["layered"] = 5,
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["layered"] = 5,
 },
 },
 }

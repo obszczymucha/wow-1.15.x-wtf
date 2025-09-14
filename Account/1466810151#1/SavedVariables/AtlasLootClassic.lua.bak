@@ -1,24 +1,36 @@
 
 AtlasLootClassicDB = {
-["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-},
 ["global"] = {
 ["__addonrevision"] = 3020000,
+},
+["profileKeys"] = {
+["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
+["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
+["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
 },
-["Ewrtettrrt - Spineshatter"] = {
-},
 ["Awertqwertwe - Spineshatter"] = {
+},
+["Obszczymucha - Spineshatter"] = {
+["GUI"] = {
+["point"] = {
+[3] = "CENTER",
+[4] = -138.1473083496094,
+[5] = -63.77902603149414,
+},
+["selected"] = {
+[5] = 0,
+[2] = "Onyxia",
+[4] = 3,
+},
+},
 },
 ["Tachikoma - Spineshatter"] = {
 ["GUI"] = {
@@ -36,10 +48,6 @@ nil,
 },
 },
 },
-["Dupeczka - Spineshatter"] = {
-},
-["Jogobobek - Spineshatter"] = {
-},
 ["Boulderdash - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
@@ -56,19 +64,11 @@ nil,
 },
 },
 },
-["Obszczymucha - Spineshatter"] = {
-["GUI"] = {
-["point"] = {
-[3] = "CENTER",
-[4] = -138.1473083496094,
-[5] = -63.77902603149414,
+["Jogobobek - Spineshatter"] = {
 },
-["selected"] = {
-[5] = 0,
-[2] = "Onyxia",
-[4] = 3,
+["Dupeczka - Spineshatter"] = {
 },
-},
+["Ewrtettrrt - Spineshatter"] = {
 },
 },
 }

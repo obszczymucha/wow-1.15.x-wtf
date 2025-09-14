@@ -24,78 +24,6 @@ Bartender4DB = {
 },
 },
 {
-["padding"] = 5,
-["rows"] = 12,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -82,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["padding"] = 5,
-["rows"] = 12,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -42,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = 3,
-["point"] = "BOTTOM",
-},
-},
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[13] = {
-},
-[15] = {
-},
-},
-},
-["Ewrtettrrt - Spineshatter"] = {
-["actionbars"] = {
-{
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 41.75,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = -207.0000457763672,
-["x"] = -230.5,
-["point"] = "CENTER",
-},
-},
-{
 ["rows"] = 12,
 ["padding"] = 5,
 ["version"] = 3,
@@ -168,8 +96,8 @@ Bartender4DB = {
 },
 },
 {
-["padding"] = 5,
 ["rows"] = 12,
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -178,8 +106,8 @@ Bartender4DB = {
 },
 },
 {
-["padding"] = 5,
 ["rows"] = 12,
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -219,25 +147,114 @@ Bartender4DB = {
 },
 },
 },
-["Tachikoma - Spineshatter"] = {
+["Obszczymucha - Spineshatter"] = {
 ["actionbars"] = {
 {
-["buttons"] = 6,
 ["version"] = 3,
-["hidehotkey"] = true,
 ["position"] = {
 ["y"] = 41.75,
 ["x"] = -510,
 ["point"] = "BOTTOM",
 ["scale"] = 0.96,
 },
+["buttons"] = 6,
 ["padding"] = 1,
+["hidehotkey"] = true,
 ["hidemacrotext"] = true,
 },
 {
 ["version"] = 3,
+["position"] = {
+["y"] = 35,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.57,
+},
 ["padding"] = -6,
 ["hidehotkey"] = true,
+["hidemacrotext"] = true,
+},
+{
+["fadeout"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 90.74439222133742,
+["x"] = 2.719284098137678,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.800000011920929,
+},
+["padding"] = -5,
+["rows"] = 3,
+["visibility"] = {
+["vehicleui"] = false,
+["overridebar"] = false,
+},
+["fadeoutalpha"] = 0,
+},
+{
+["padding"] = -6,
+["rows"] = 3,
+["version"] = 3,
+["position"] = {
+["y"] = 206.9354400634766,
+["x"] = -323.7935180664063,
+["point"] = "RIGHT",
+["scale"] = 0.75,
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Tachikoma - Spineshatter"] = {
+["actionbars"] = {
+{
+["buttons"] = 6,
+["hidehotkey"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+["scale"] = 0.96,
+},
+["hidemacrotext"] = true,
+["padding"] = 1,
+},
+{
+["hidehotkey"] = true,
+["padding"] = -6,
+["version"] = 3,
 ["position"] = {
 ["y"] = 35,
 ["x"] = 151,
@@ -248,15 +265,15 @@ Bartender4DB = {
 },
 {
 ["rows"] = 3,
+["fadeout"] = true,
 ["version"] = 3,
-["fadeoutalpha"] = 0,
 ["position"] = {
 ["y"] = 90.74439222133742,
 ["x"] = 2.719284098137678,
 ["point"] = "BOTTOMLEFT",
 ["scale"] = 0.800000011920929,
 },
-["fadeout"] = true,
+["fadeoutalpha"] = 0,
 ["padding"] = -5,
 ["visibility"] = {
 ["overridebar"] = false,
@@ -308,47 +325,63 @@ Bartender4DB = {
 },
 },
 },
-["Dupeczka - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
 ["actionbars"] = {
 {
-["padding"] = 6,
-["version"] = 3,
+["hidehotkey"] = true,
+["buttons"] = 6,
+["hidemacrotext"] = true,
+["padding"] = 1,
 ["position"] = {
 ["y"] = 41.75,
 ["x"] = -510,
 ["point"] = "BOTTOM",
+["scale"] = 0.96,
+},
+["version"] = 3,
+},
+{
+["hidehotkey"] = true,
+["position"] = {
+["y"] = 35,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.57,
+},
+["padding"] = -6,
+["hidemacrotext"] = true,
+["version"] = 3,
+},
+{
+["version"] = 3,
+["fadeout"] = true,
+["position"] = {
+["y"] = 90.74439222133742,
+["x"] = 2.719284098137678,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.800000011920929,
+},
+["padding"] = -5,
+["rows"] = 3,
+["visibility"] = {
+["vehicleui"] = false,
+["overridebar"] = false,
+},
+["fadeoutalpha"] = 0,
+},
+{
+["padding"] = -6,
+["rows"] = 3,
+["version"] = 3,
+["position"] = {
+["y"] = 206.9354400634766,
+["x"] = -323.7935180664063,
+["point"] = "RIGHT",
+["scale"] = 0.75,
 },
 },
 {
 ["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = -207.0000457763672,
-["x"] = -230.5,
-["point"] = "CENTER",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -82,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
-["rows"] = 12,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 610,
-["x"] = -42,
-["point"] = "BOTTOMRIGHT",
-},
-},
-{
 ["padding"] = 6,
 ["version"] = 3,
 ["position"] = {
@@ -358,6 +391,7 @@ Bartender4DB = {
 },
 },
 {
+["enabled"] = false,
 ["padding"] = 6,
 ["version"] = 3,
 ["position"] = {
@@ -401,6 +435,78 @@ Bartender4DB = {
 },
 },
 {
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["rows"] = 12,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Dupeczka - Spineshatter"] = {
+["actionbars"] = {
+{
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -207.0000457763672,
+["x"] = -230.5,
+["point"] = "CENTER",
+},
+},
+{
 ["padding"] = 5,
 ["rows"] = 12,
 ["version"] = 3,
@@ -452,63 +558,47 @@ Bartender4DB = {
 },
 },
 },
-["Boulderdash - Spineshatter"] = {
+["Ewrtettrrt - Spineshatter"] = {
 ["actionbars"] = {
 {
-["hidehotkey"] = true,
-["buttons"] = 6,
+["padding"] = 6,
 ["version"] = 3,
-["hidemacrotext"] = true,
 ["position"] = {
 ["y"] = 41.75,
 ["x"] = -510,
 ["point"] = "BOTTOM",
-["scale"] = 0.96,
-},
-["padding"] = 1,
-},
-{
-["hidehotkey"] = true,
-["position"] = {
-["y"] = 35,
-["x"] = 151,
-["point"] = "BOTTOMLEFT",
-["scale"] = 0.57,
-},
-["padding"] = -6,
-["version"] = 3,
-["hidemacrotext"] = true,
-},
-{
-["version"] = 3,
-["fadeout"] = true,
-["position"] = {
-["y"] = 90.74439222133742,
-["x"] = 2.719284098137678,
-["point"] = "BOTTOMLEFT",
-["scale"] = 0.800000011920929,
-},
-["rows"] = 3,
-["padding"] = -5,
-["visibility"] = {
-["overridebar"] = false,
-["vehicleui"] = false,
-},
-["fadeoutalpha"] = 0,
-},
-{
-["rows"] = 3,
-["padding"] = -6,
-["version"] = 3,
-["position"] = {
-["y"] = 206.9354400634766,
-["x"] = -323.7935180664063,
-["point"] = "RIGHT",
-["scale"] = 0.75,
 },
 },
 {
 ["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = -207.0000457763672,
+["x"] = -230.5,
+["point"] = "CENTER",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -82,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
+["padding"] = 5,
+["rows"] = 12,
+["version"] = 3,
+["position"] = {
+["y"] = 610,
+["x"] = -42,
+["point"] = "BOTTOMRIGHT",
+},
+},
+{
 ["padding"] = 6,
 ["version"] = 3,
 ["position"] = {
@@ -518,96 +608,6 @@ Bartender4DB = {
 },
 },
 {
-["enabled"] = false,
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = -510,
-["point"] = "BOTTOM",
-},
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[13] = {
-},
-[15] = {
-},
-},
-},
-["Obszczymucha - Spineshatter"] = {
-["actionbars"] = {
-{
-["version"] = 3,
-["position"] = {
-["y"] = 41.75,
-["x"] = -510,
-["point"] = "BOTTOM",
-["scale"] = 0.96,
-},
-["hidemacrotext"] = true,
-["padding"] = 1,
-["hidehotkey"] = true,
-["buttons"] = 6,
-},
-{
-["version"] = 3,
-["position"] = {
-["y"] = 35,
-["x"] = 151,
-["point"] = "BOTTOMLEFT",
-["scale"] = 0.57,
-},
-["padding"] = -6,
-["hidemacrotext"] = true,
-["hidehotkey"] = true,
-},
-{
-["fadeout"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 90.74439222133742,
-["x"] = 2.719284098137678,
-["point"] = "BOTTOMLEFT",
-["scale"] = 0.800000011920929,
-},
-["rows"] = 3,
-["padding"] = -5,
-["visibility"] = {
-["overridebar"] = false,
-["vehicleui"] = false,
-},
-["fadeoutalpha"] = 0,
-},
-{
-["rows"] = 3,
-["padding"] = -6,
-["version"] = 3,
-["position"] = {
-["y"] = 206.9354400634766,
-["x"] = -323.7935180664063,
-["point"] = "RIGHT",
-["scale"] = 0.75,
-},
-},
-{
-["enabled"] = false,
-["padding"] = 6,
-["version"] = 3,
-["position"] = {
-["y"] = 110,
-["x"] = 3,
-["point"] = "BOTTOM",
-},
-},
-{
-["enabled"] = false,
 ["padding"] = 6,
 ["version"] = 3,
 ["position"] = {
@@ -644,16 +644,6 @@ Bartender4DB = {
 ["y"] = 42,
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
-["padding"] = -2,
-["version"] = 3,
-["position"] = {
-["scale"] = 1,
-["x"] = 33,
-["point"] = "BOTTOM",
-["y"] = 42,
-},
-},
 ["Awertqwertwe - Spineshatter"] = {
 ["padding"] = -2,
 ["version"] = 3,
@@ -662,6 +652,17 @@ Bartender4DB = {
 ["x"] = 33,
 ["point"] = "BOTTOM",
 ["y"] = 42,
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
 },
 },
 ["Tachikoma - Spineshatter"] = {
@@ -675,14 +676,15 @@ Bartender4DB = {
 ["version"] = 3,
 ["padding"] = -2,
 },
-["Dupeczka - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
+["enabled"] = false,
 ["padding"] = -2,
 ["version"] = 3,
 ["position"] = {
-["scale"] = 1,
+["y"] = 42,
 ["x"] = 33,
 ["point"] = "BOTTOM",
-["y"] = 42,
+["scale"] = 1,
 },
 },
 ["Jogobobek - Spineshatter"] = {
@@ -695,26 +697,24 @@ Bartender4DB = {
 ["y"] = 42,
 },
 },
-["Boulderdash - Spineshatter"] = {
-["enabled"] = false,
+["Dupeczka - Spineshatter"] = {
 ["padding"] = -2,
 ["version"] = 3,
 ["position"] = {
-["y"] = 42,
+["scale"] = 1,
 ["x"] = 33,
 ["point"] = "BOTTOM",
-["scale"] = 1,
+["y"] = 42,
 },
 },
-["Obszczymucha - Spineshatter"] = {
-["enabled"] = false,
+["Ewrtettrrt - Spineshatter"] = {
 ["padding"] = -2,
 ["version"] = 3,
 ["position"] = {
-["y"] = 42,
+["scale"] = 1,
 ["x"] = 33,
 ["point"] = "BOTTOM",
-["scale"] = 1,
+["y"] = 42,
 },
 },
 },
@@ -730,7 +730,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
+["Awertqwertwe - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -739,8 +739,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Awertqwertwe - Spineshatter"] = {
-["enabled"] = true,
+["Obszczymucha - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 54,
@@ -756,8 +755,7 @@ Bartender4DB = {
 },
 ["version"] = 3,
 },
-["Dupeczka - Spineshatter"] = {
-["enabled"] = true,
+["Boulderdash - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 54,
@@ -774,7 +772,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boulderdash - Spineshatter"] = {
+["Dupeczka - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 54,
@@ -782,7 +781,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Obszczymucha - Spineshatter"] = {
+["Ewrtettrrt - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 54,
@@ -803,7 +803,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
+["Awertqwertwe - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -812,8 +812,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Awertqwertwe - Spineshatter"] = {
-["enabled"] = true,
+["Obszczymucha - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 47,
@@ -829,8 +828,7 @@ Bartender4DB = {
 },
 ["version"] = 3,
 },
-["Dupeczka - Spineshatter"] = {
-["enabled"] = true,
+["Boulderdash - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 47,
@@ -847,7 +845,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boulderdash - Spineshatter"] = {
+["Dupeczka - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 47,
@@ -855,7 +854,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Obszczymucha - Spineshatter"] = {
+["Ewrtettrrt - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 47,
@@ -877,16 +877,6 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 272,
-["point"] = "BOTTOM",
-},
-},
 ["Awertqwertwe - Spineshatter"] = {
 ["verticalAlignment"] = "CENTER",
 ["padding"] = 5,
@@ -894,46 +884,6 @@ Bartender4DB = {
 ["position"] = {
 ["y"] = 42,
 ["x"] = 272,
-["point"] = "BOTTOM",
-},
-},
-["Tachikoma - Spineshatter"] = {
-["enabled"] = false,
-["version"] = 3,
-["position"] = {
-["y"] = 41,
-["x"] = 296,
-["point"] = "BOTTOM",
-},
-["padding"] = 5,
-},
-["Dupeczka - Spineshatter"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 272,
-["point"] = "BOTTOM",
-},
-},
-["Jogobobek - Spineshatter"] = {
-["verticalAlignment"] = "CENTER",
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 42,
-["x"] = 272,
-["point"] = "BOTTOM",
-},
-},
-["Boulderdash - Spineshatter"] = {
-["enabled"] = false,
-["padding"] = 5,
-["version"] = 3,
-["position"] = {
-["y"] = 41,
-["x"] = 296,
 ["point"] = "BOTTOM",
 },
 },
@@ -947,75 +897,54 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-},
-},
-["Vehicle"] = {
-["profiles"] = {
-["Asdfwerqwer - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
-},
-},
-["Ewrtettrrt - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
-},
-},
-["Awertqwertwe - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
-},
-},
 ["Tachikoma - Spineshatter"] = {
 ["enabled"] = false,
-["position"] = {
-["y"] = 42.49996948242188,
-["x"] = 104.5001220703125,
-["point"] = "CENTER",
-},
-["version"] = 3,
-},
-["Dupeczka - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
 },
-},
-["Jogobobek - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
-["point"] = "CENTER",
-},
+["padding"] = 5,
 },
 ["Boulderdash - Spineshatter"] = {
 ["enabled"] = false,
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
-["y"] = 42.49996948242188,
-["x"] = 104.5001220703125,
-["point"] = "CENTER",
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
 },
 },
-["Obszczymucha - Spineshatter"] = {
-["enabled"] = false,
+["Jogobobek - Spineshatter"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
-["y"] = 42.49996948242188,
-["x"] = 104.5001220703125,
-["point"] = "CENTER",
+["y"] = 42,
+["x"] = 272,
+["point"] = "BOTTOM",
+},
+},
+["Dupeczka - Spineshatter"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 272,
+["point"] = "BOTTOM",
+},
+},
+["Ewrtettrrt - Spineshatter"] = {
+["verticalAlignment"] = "CENTER",
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 272,
+["point"] = "BOTTOM",
 },
 },
 },
@@ -1031,15 +960,6 @@ Bartender4DB = {
 ["y"] = 143,
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["scale"] = 1,
-["x"] = -460,
-["point"] = "BOTTOM",
-["y"] = 143,
-},
-},
 ["Awertqwertwe - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
@@ -1047,6 +967,16 @@ Bartender4DB = {
 ["x"] = -460,
 ["point"] = "BOTTOM",
 ["y"] = 143,
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
 },
 },
 ["Tachikoma - Spineshatter"] = {
@@ -1059,13 +989,14 @@ Bartender4DB = {
 ["scale"] = 1,
 },
 },
-["Dupeczka - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
+["enabled"] = false,
 ["version"] = 3,
 ["position"] = {
-["scale"] = 1,
+["y"] = 143,
 ["x"] = -460,
 ["point"] = "BOTTOM",
-["y"] = 143,
+["scale"] = 1,
 },
 },
 ["Jogobobek - Spineshatter"] = {
@@ -1077,24 +1008,93 @@ Bartender4DB = {
 ["y"] = 143,
 },
 },
-["Boulderdash - Spineshatter"] = {
-["enabled"] = false,
+["Dupeczka - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 143,
+["scale"] = 1,
 ["x"] = -460,
 ["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+["Ewrtettrrt - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
 ["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["Asdfwerqwer - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["Awertqwertwe - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
 },
 },
 ["Obszczymucha - Spineshatter"] = {
 ["enabled"] = false,
 ["version"] = 3,
 ["position"] = {
-["y"] = 143,
-["x"] = -460,
-["point"] = "BOTTOM",
-["scale"] = 1,
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["enabled"] = false,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+["version"] = 3,
+},
+["Boulderdash - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+["Jogobobek - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["Dupeczka - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
+},
+},
+["Ewrtettrrt - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
+["point"] = "CENTER",
 },
 },
 },
@@ -1109,14 +1109,6 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 143,
-["x"] = -120,
-["point"] = "BOTTOM",
-},
-},
 ["Awertqwertwe - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
@@ -1125,8 +1117,34 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
+["Obszczymucha - Spineshatter"] = {
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+["showgrid"] = true,
+},
 ["Tachikoma - Spineshatter"] = {
 ["showgrid"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["Boulderdash - Spineshatter"] = {
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+["showgrid"] = true,
+},
+["Jogobobek - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 143,
@@ -1142,25 +1160,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
-["version"] = 3,
-["position"] = {
-["y"] = 143,
-["x"] = -120,
-["point"] = "BOTTOM",
-},
-},
-["Boulderdash - Spineshatter"] = {
-["showgrid"] = true,
-["version"] = 3,
-["position"] = {
-["y"] = 143,
-["x"] = -120,
-["point"] = "BOTTOM",
-},
-},
-["Obszczymucha - Spineshatter"] = {
-["showgrid"] = true,
+["Ewrtettrrt - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 143,
@@ -1181,7 +1181,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Ewrtettrrt - Spineshatter"] = {
+["Awertqwertwe - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1190,8 +1190,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Awertqwertwe - Spineshatter"] = {
-["enabled"] = true,
+["Obszczymucha - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 61,
@@ -1207,8 +1206,7 @@ Bartender4DB = {
 },
 ["version"] = 3,
 },
-["Dupeczka - Spineshatter"] = {
-["enabled"] = true,
+["Boulderdash - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 61,
@@ -1225,7 +1223,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boulderdash - Spineshatter"] = {
+["Dupeczka - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 61,
@@ -1233,7 +1232,8 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Obszczymucha - Spineshatter"] = {
+["Ewrtettrrt - Spineshatter"] = {
+["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 61,
@@ -1246,21 +1246,16 @@ Bartender4DB = {
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
 ["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
+["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
+["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
-["focuscastmodifier"] = false,
-["blizzardVehicle"] = true,
-["outofrange"] = "hotkey",
-},
-["Ewrtettrrt - Spineshatter"] = {
 ["focuscastmodifier"] = false,
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
@@ -1270,30 +1265,35 @@ Bartender4DB = {
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
 },
+["Obszczymucha - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["minimapIcon"] = {
+["hide"] = true,
+},
+["colors"] = {
+["range"] = {
+["b"] = 0.3176470696926117,
+["g"] = 0.3411764800548554,
+["r"] = 0.7568628191947937,
+},
+},
+["buttonlock"] = false,
+["blizzardVehicle"] = true,
+},
 ["Tachikoma - Spineshatter"] = {
 ["blizzardVehicle"] = true,
 ["focuscastmodifier"] = false,
 ["colors"] = {
 ["range"] = {
-["r"] = 0.7568628191947937,
-["g"] = 0.3411764800548554,
 ["b"] = 0.3176470696926117,
+["g"] = 0.3411764800548554,
+["r"] = 0.7568628191947937,
 },
 },
 ["buttonlock"] = false,
 ["minimapIcon"] = {
 ["hide"] = true,
 },
-},
-["Dupeczka - Spineshatter"] = {
-["focuscastmodifier"] = false,
-["blizzardVehicle"] = true,
-["outofrange"] = "hotkey",
-},
-["Jogobobek - Spineshatter"] = {
-["focuscastmodifier"] = false,
-["blizzardVehicle"] = true,
-["outofrange"] = "hotkey",
 },
 ["Boulderdash - Spineshatter"] = {
 ["focuscastmodifier"] = false,
@@ -1302,28 +1302,28 @@ Bartender4DB = {
 },
 ["colors"] = {
 ["range"] = {
-["r"] = 0.7568628191947937,
-["g"] = 0.3411764800548554,
 ["b"] = 0.3176470696926117,
+["g"] = 0.3411764800548554,
+["r"] = 0.7568628191947937,
 },
 },
 ["buttonlock"] = false,
 ["blizzardVehicle"] = true,
 },
-["Obszczymucha - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["focuscastmodifier"] = false,
-["minimapIcon"] = {
-["hide"] = true,
-},
-["colors"] = {
-["range"] = {
-["r"] = 0.7568628191947937,
-["g"] = 0.3411764800548554,
-["b"] = 0.3176470696926117,
-},
-},
-["buttonlock"] = false,
 ["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Dupeczka - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
+},
+["Ewrtettrrt - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["blizzardVehicle"] = true,
+["outofrange"] = "hotkey",
 },
 },
 }

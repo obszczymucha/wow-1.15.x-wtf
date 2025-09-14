@@ -7,33 +7,33 @@ Bagnon_Sets = {
 ["color"] = {
 ["quiver"] = {
 },
-["account"] = {
+["herb"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
 ["soul"] = {
 },
-["reagent"] = {
+["engineer"] = {
 },
 ["mine"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["leather"] = {
 },
 ["fridge"] = {
 },
-["engineer"] = {
+["key"] = {
 },
 ["inscribe"] = {
 },
 ["tackle"] = {
 },
-["gem"] = {
+["reagent"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
-["herb"] = {
+["account"] = {
 },
 },
 ["herbColor"] = {
@@ -50,7 +50,7 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
-["fridgeColor"] = {
+["inscribeColor"] = {
 },
 ["keyColor"] = {
 },
@@ -60,39 +60,20 @@ Bagnon_Sets = {
 },
 ["mineColor"] = {
 },
+["engineerColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["latest"] = {
+["cooldown"] = 1758416394,
+},
 ["global"] = {
 ["vault"] = {
 ["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
-},
-["color"] = {
-},
-["borderColor"] = {
-},
-["hiddenRules"] = {
-},
-["filters"] = {
+["sidebar"] = {
 "all",
 "reagent",
 "consumable",
@@ -101,72 +82,22 @@ Bagnon_Sets = {
 "miscellaneous",
 },
 },
-["guild"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
-},
 ["color"] = {
 },
 ["borderColor"] = {
 },
 ["hiddenRules"] = {
-},
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
 },
 },
 ["inventory"] = {
 ["rules"] = {
+["sidebar"] = {
 "all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
+"normal",
 "trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
+},
 },
 ["point"] = "BOTTOMRIGHT",
-["hiddenBags"] = {
-},
 ["color"] = {
 0,
 0,
@@ -176,57 +107,56 @@ Bagnon_Sets = {
 ["sort"] = false,
 ["spacing"] = 0,
 ["bagToggle"] = true,
-["filters"] = {
-"all",
-"normal",
-"trade",
-},
 ["enabled"] = true,
-["columns"] = 10,
+["columns"] = 12,
 ["money"] = true,
 ["hiddenRules"] = {
 },
-["skin"] = "OnePixel",
-["y"] = 165.630615234375,
-["x"] = -306.1614474344008,
+["options"] = false,
+["y"] = 159.2751770019531,
+["x"] = -270.0264376687758,
 ["search"] = false,
 ["broker"] = false,
+["itemScale"] = 0.93,
+["scale"] = 0.88,
 ["borderColor"] = {
 0.6470588445663452,
 0.4705882668495178,
 0.3450980484485626,
 0.449999988079071,
 },
-["scale"] = 0.88,
-["itemScale"] = 0.93,
-["options"] = false,
+["skin"] = "OnePixel",
+},
+["guild"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["color"] = {
+},
+["borderColor"] = {
+},
+["hiddenRules"] = {
+},
 },
 ["bank"] = {
 ["rules"] = {
+["sidebar"] = {
 "all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
 },
 ["point"] = "TOPLEFT",
-["hiddenBags"] = {
-},
 ["color"] = {
 },
 ["hiddenRules"] = {
@@ -237,28 +167,8 @@ Bagnon_Sets = {
 },
 ["columns"] = 7,
 ["spacing"] = -6,
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
 },
 },
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["latest"] = {
-["id"] = "11.2.5",
-["cooldown"] = 1757047224,
-["who"] = "Betrime-Spineshatter",
-},
-["engineerColor"] = {
-},
-["inscribeColor"] = {
+["fridgeColor"] = {
 },
 }

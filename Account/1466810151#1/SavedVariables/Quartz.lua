@@ -22,6 +22,30 @@ Quartz3DB = {
 },
 ["GCD"] = {
 },
+["Player"] = {
+["profiles"] = {
+["Default"] = {
+["h"] = 13,
+["timefontsize"] = 8,
+["w"] = 130,
+["y"] = 125,
+["border"] = "None",
+["fontsize"] = 9,
+["texture"] = "Charcoal",
+["showticks"] = false,
+["x"] = 696,
+},
+},
+},
+["Target"] = {
+["profiles"] = {
+["Default"] = {
+["x"] = 667.0411987304688,
+},
+},
+},
+["Interrupt"] = {
+},
 ["Mirror"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -39,52 +63,28 @@ nil,
 },
 },
 },
-["Target"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Interrupt"] = {
-},
-["Player"] = {
-["profiles"] = {
-["Default"] = {
-["h"] = 13,
-["timefontsize"] = 8,
-["w"] = 130,
-["y"] = 125,
-["x"] = 696,
-["border"] = "None",
-["fontsize"] = 9,
-["texture"] = "Charcoal",
-["showticks"] = false,
-},
-},
-},
 ["Latency"] = {
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["backgroundalpha"] = 0.525,
 ["castingcolor"] = {
 0.7882353663444519,
 0.545098066329956,
 0.4000000357627869,
 1,
 },
+["backgroundalpha"] = 0.525,
 ["modules"] = {
 ["Tradeskill"] = false,
 ["Buff"] = false,
@@ -93,8 +93,8 @@ nil,
 ["GCD"] = false,
 ["Pet"] = false,
 ["Timer"] = false,
-["Swing"] = false,
 ["Target"] = false,
+["Swing"] = false,
 ["Latency"] = false,
 },
 },

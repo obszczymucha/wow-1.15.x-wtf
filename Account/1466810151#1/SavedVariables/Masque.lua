@@ -6,22 +6,22 @@ MasqueDB = {
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["LDB"] = {
-["hide"] = true,
 ["position"] = 0,
+["hide"] = true,
 },
 ["Groups"] = {
-["Bagnon"] = {
+["Bagnon_bank - bags"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
@@ -31,8 +31,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_StanceBar"] = {
 ["Upgraded"] = true,
@@ -48,8 +48,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["ShadowedUF_Raid"] = {
 ["Gloss"] = true,
@@ -61,8 +61,8 @@ MasqueDB = {
 0.4138888716697693,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_1"] = {
 ["Gloss"] = true,
@@ -73,12 +73,6 @@ MasqueDB = {
 1,
 1,
 0.2509258985519409,
-},
-["Normal"] = {
-0.3058823645114899,
-0.3137255012989044,
-0.3294117748737335,
-1,
 },
 ["Highlight"] = {
 0.6039215922355652,
@@ -92,9 +86,15 @@ MasqueDB = {
 0.4666666984558106,
 0.7000000178813934,
 },
+["Normal"] = {
+0.3058823645114899,
+0.3137255012989044,
+0.3294117748737335,
+1,
 },
-["SkinID"] = "Entropy - Obsidium",
+},
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_3"] = {
 ["Gloss"] = true,
@@ -113,8 +113,8 @@ MasqueDB = {
 1,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bagnon_guildbank - items"] = {
 ["Gloss"] = true,
@@ -126,23 +126,17 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
-["WeakAuras"] = {
+["ShadowedUF_Player"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
 1,
 1,
 1,
-0.3350152373313904,
-},
-["Normal"] = {
-0.2549019753932953,
-0.2549019753932953,
-0.2549019753932953,
-1,
+0.4138888716697693,
 },
 },
 ["Inherit"] = false,
@@ -165,8 +159,8 @@ MasqueDB = {
 1,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_5"] = {
 ["Gloss"] = true,
@@ -185,8 +179,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["ShadowedUF_Boss"] = {
 ["Inherit"] = false,
@@ -208,8 +202,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bagnon_voidstorage - bags"] = {
 ["Gloss"] = true,
@@ -221,8 +215,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_6"] = {
 ["Gloss"] = true,
@@ -241,8 +235,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bagnon_inventory - items"] = {
 ["Gloss"] = true,
@@ -254,8 +248,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["ShadowedUF_Arena"] = {
 ["Inherit"] = false,
@@ -270,8 +264,8 @@ MasqueDB = {
 0.4138888716697693,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4_2"] = {
 ["Gloss"] = true,
@@ -282,12 +276,6 @@ MasqueDB = {
 1,
 1,
 0.2212963104248047,
-},
-["Normal"] = {
-0.4470588564872742,
-0.458823561668396,
-0.4823529720306397,
-0.8905707150697708,
 },
 ["Highlight"] = {
 0.686274528503418,
@@ -301,9 +289,15 @@ MasqueDB = {
 0.2980392277240753,
 0.5100000202655792,
 },
+["Normal"] = {
+0.4470588564872742,
+0.458823561668396,
+0.4823529720306397,
+0.8905707150697708,
 },
-["SkinID"] = "Entropy - Obsidium",
+},
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["WeakAuras_dJKhBnYEhoY"] = {
 ["Gloss"] = true,
@@ -322,8 +316,8 @@ MasqueDB = {
 0.3350152373313904,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bagnon_bank - items"] = {
 ["Gloss"] = true,
@@ -335,8 +329,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bagnon_voidstorage - items"] = {
 ["Gloss"] = true,
@@ -348,8 +342,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["WeakAuras_GBiNLrJQvlq"] = {
 ["Gloss"] = true,
@@ -368,10 +362,10 @@ MasqueDB = {
 0.3350152373313904,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
-["Bagnon_bank - bags"] = {
+["Bagnon"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
@@ -381,8 +375,28 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
 ["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
+},
+["WeakAuras_4Ocpk8tyPKN"] = {
+["Gloss"] = true,
+["Upgraded"] = true,
+["Colors"] = {
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
+},
+["Gloss"] = {
+1,
+1,
+1,
+0.3350152373313904,
+},
+},
+["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
 },
 ["Bartender4"] = {
 ["Gloss"] = true,
@@ -400,74 +414,8 @@ MasqueDB = {
 1,
 },
 },
-["SkinID"] = "Entropy - Obsidium",
-["Inherit"] = false,
-},
-["WeakAuras_NaJ3hmu)AmJ"] = {
-["Gloss"] = true,
-["Upgraded"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.3350152373313904,
-},
-["Normal"] = {
-0.2549019753932953,
-0.2549019753932953,
-0.2549019753932953,
-1,
-},
-},
 ["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
-},
-["Bagnon_inventory - bags"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.3250002861022949,
-},
-},
-["SkinID"] = "Entropy - Obsidium",
-["Inherit"] = false,
-},
-["Bartender4_BagBar"] = {
-["Upgraded"] = true,
-["Inherit"] = false,
-},
-["ShadowedUF_Player"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.4138888716697693,
-},
-},
-["SkinID"] = "Entropy - Obsidium",
-["Inherit"] = false,
-},
-["ShadowedUF_Target"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.4138888716697693,
-},
-},
-["SkinID"] = "Entropy - Obsidium",
-["Inherit"] = false,
-},
-["ShadowedUF_Party"] = {
-["Inherit"] = false,
 },
 ["Bartender4_Flyout"] = {
 ["Gloss"] = true,
@@ -485,24 +433,76 @@ MasqueDB = {
 1,
 },
 },
+["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+},
+["ShadowedUF_Party"] = {
 ["Inherit"] = false,
 },
-["WeakAuras_4Ocpk8tyPKN"] = {
+["WeakAuras"] = {
 ["Gloss"] = true,
-["Upgraded"] = true,
 ["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.3350152373313904,
+},
 ["Normal"] = {
 0.2549019753932953,
 0.2549019753932953,
 0.2549019753932953,
 1,
 },
+},
+["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["ShadowedUF_Target"] = {
+["Gloss"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.4138888716697693,
+},
+},
+["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
+},
+["Bartender4_BagBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
+},
+["Bagnon_inventory - bags"] = {
+["Gloss"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.3250002861022949,
+},
+},
+["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
+},
+["WeakAuras_NaJ3hmu)AmJ"] = {
+["Gloss"] = true,
+["Upgraded"] = true,
+["Colors"] = {
 ["Gloss"] = {
 1,
 1,
 1,
 0.3350152373313904,
+},
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
 },
 },
 ["SkinID"] = "Entropy - Obsidium",

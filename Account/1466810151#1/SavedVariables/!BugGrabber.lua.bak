@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 588,
 ["lastSanitation"] = 3,
-["session"] = 585,
 ["errors"] = {
 {
 ["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Bagnon' tried to call the protected function 'PutItemInBag()'.",
@@ -26,6 +26,14 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua]:727: in function <...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:722>\n[C]: in function 'FCF_SetChatWindowFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:765: in function 'SetFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:753: in function 'ConfigureAllChatFrames'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/ChatFrames.lua]:636: in function <Interface/AddOns/Prat-3.0/modules/ChatFrames.lua:630>\n[tail call]: ?\n[C]: in function 'FloatingChatFrame_UpdateBackgroundAnchors'\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3302: in function <...ns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua:3288>\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3355: in function 'FCF_DockUpdate'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1036: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:325: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:312>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1047: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:1045>\n[C]: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:364: in function 'BuffFrame_UpdateAllBuffAnchors'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:105: in function 'BuffFrame_Update'\n[Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua]:118: in function <Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua:110>",
 ["session"] = 585,
 ["counter"] = 5,
+},
+{
+["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'Bagnon' tried to call the protected function 'UNKNOWN()'.",
+["time"] = "2025/09/02 19:50:14",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n}\n",
+["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: ?\n[C]: in function 'UseContainerItem'\n[Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame_Shared.lua]:1352: in function <...zard_UIPanels_Game/Classic/ContainerFrame_Shared.lua:1299>\n[C]: in function 'ContainerFrameItemButton_OnClick'\n[*ContainerFrame.xml:163_OnClick]:13: in function <[string \"*ContainerFrame.xml:163_OnClick\"]:1>",
+["session"] = 587,
+["counter"] = 2,
 },
 },
 }

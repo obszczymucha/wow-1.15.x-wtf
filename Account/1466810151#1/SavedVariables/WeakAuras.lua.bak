@@ -27,15 +27,16 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["names"] = {
+},
 ["type"] = "aura2",
 ["spellIds"] = {
 },
@@ -43,8 +44,7 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
-["names"] = {
-},
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -55,32 +55,13 @@ WeakAurasSaved = {
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
 ["stagger"] = 0,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["anchorFrameFrame"] = "SUFUnittarget",
 ["subRegions"] = {
 },
-["uid"] = "pb8jb71psxd",
-["internalVersion"] = 84,
+["borderInset"] = 1,
+["fullCircle"] = true,
 ["load"] = {
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -92,50 +73,69 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
 },
-["useLimit"] = false,
+["gridType"] = "RD",
 ["backdropColor"] = {
 1,
 1,
 1,
 0.5,
 },
-["gridType"] = "RD",
+["useLimit"] = false,
 ["animate"] = false,
-["rotation"] = 0,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
+["limit"] = 5,
 ["sort"] = "none",
-["stepAngle"] = 15,
-["config"] = {
+["authorOptions"] = {
 },
 ["constantFactor"] = "RADIUS",
 ["arcLength"] = 360,
 ["borderOffset"] = 4,
-["alpha"] = 1,
-["frameStrata"] = 1,
-["id"] = "Main Notifications",
-["rowSpace"] = 1,
 ["gridWidth"] = 5,
+["rowSpace"] = 1,
+["id"] = "Main Notifications",
+["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
-["limit"] = 5,
-["borderInset"] = 1,
-["anchorFrameFrame"] = "SUFUnittarget",
-["authorOptions"] = {
+["stepAngle"] = 15,
+["config"] = {
 },
+["rotation"] = 0,
+["internalVersion"] = 84,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["fullCircle"] = true,
+["uid"] = "pb8jb71psxd",
 },
 ["MOTW running out"] = {
 ["iconSource"] = -1,
@@ -149,9 +149,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -162,20 +162,20 @@ WeakAurasSaved = {
 "Mark of the Wild",
 "Gift of the Wild",
 },
-["useRem"] = true,
+["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnActive",
 ["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
-["useName"] = true,
-["rem"] = "20",
+["unit"] = "player",
+["names"] = {
+},
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
-["names"] = {
-},
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["rem"] = "20",
+["useName"] = true,
+["useRem"] = true,
 },
 ["untrigger"] = {
 },
@@ -240,87 +240,87 @@ WeakAurasSaved = {
 },
 ["useGlowColor"] = false,
 ["glowXOffset"] = 0,
-["glow"] = false,
-["glowScale"] = 1,
 ["glowThickness"] = 1,
+["glowScale"] = 1,
+["glow"] = false,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["spec"] = {
+["zone"] = "-Thunder Bluff",
+["talent"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff",
 ["use_vehicle"] = false,
 ["class"] = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["xOffset"] = 0,
+["information"] = {
+},
 ["icon"] = true,
-["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["keepAspectRatio"] = false,
+["authorOptions"] = {
+},
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["uid"] = "dJKhBnYEhoY",
+["frameStrata"] = 1,
+["id"] = "MOTW running out",
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 46,
+["alpha"] = 1,
+["config"] = {
+},
+["inverse"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["config"] = {
-},
-["frameStrata"] = 1,
-["id"] = "MOTW running out",
-["width"] = 46,
-["useCooldownModRate"] = true,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["uid"] = "dJKhBnYEhoY",
-["inverse"] = false,
-["authorOptions"] = {
-},
 ["conditions"] = {
 },
-["information"] = {
-},
-["xOffset"] = 0,
+["cooldown"] = true,
+["keepAspectRatio"] = false,
 },
 ["Thorns running out"] = {
 ["iconSource"] = -1,
@@ -334,9 +334,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -346,20 +346,20 @@ WeakAurasSaved = {
 ["auranames"] = {
 "Thorns",
 },
-["debuffType"] = "HELPFUL",
+["useRem"] = true,
 ["matchesShowOn"] = "showOnActive",
 ["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
-["unit"] = "player",
-["names"] = {
-},
+["type"] = "aura2",
+["rem"] = "15",
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
-["rem"] = "15",
-["type"] = "aura2",
-["useRem"] = true,
+["names"] = {
+},
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -421,60 +421,60 @@ WeakAurasSaved = {
 },
 ["glowDuration"] = 1,
 ["glowXOffset"] = 0,
-["glowThickness"] = 1,
-["glowScale"] = 1,
 ["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["spec"] = {
+["zone"] = "-Thunder Bluff",
+["talent"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff",
 ["use_vehicle"] = false,
 ["class"] = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["icon"] = true,
+["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
-},
-["information"] = {
 },
 ["color"] = {
 1,
@@ -482,29 +482,29 @@ WeakAurasSaved = {
 1,
 1,
 },
+["parent"] = "Main Notifications",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["id"] = "Thorns running out",
+["width"] = 46,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["uid"] = "GBiNLrJQvlq",
+["inverse"] = false,
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+},
 ["progressSource"] = {
 -1,
 "",
 },
-["authorOptions"] = {
-},
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "GBiNLrJQvlq",
-["alpha"] = 1,
-["id"] = "Thorns running out",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 46,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["parent"] = "Main Notifications",
-["conditions"] = {
-},
-["cooldown"] = true,
-["icon"] = true,
 },
 ["Thorns missing"] = {
 ["iconSource"] = -1,
@@ -519,9 +519,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -537,10 +537,10 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
-["useName"] = true,
+["unit"] = "player",
 ["names"] = {
 },
-["unit"] = "player",
+["useName"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -555,20 +555,20 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -625,67 +625,67 @@ WeakAurasSaved = {
 },
 ["useGlowColor"] = false,
 ["glowXOffset"] = 0,
-["glow"] = false,
-["glowScale"] = 1,
 ["glowThickness"] = 1,
+["glowScale"] = 1,
+["glow"] = false,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["spec"] = {
+["zone"] = "-Thunder Bluff",
+["talent"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff",
 ["use_vehicle"] = false,
 ["class"] = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
-["cooldown"] = true,
-["selfPoint"] = "CENTER",
-["parent"] = "Main Notifications",
-["keepAspectRatio"] = false,
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["config"] = {
+["icon"] = true,
+["information"] = {
 },
-["frameStrata"] = 1,
-["id"] = "Thorns missing",
-["width"] = 46,
-["useCooldownModRate"] = true,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["uid"] = "4Ocpk8tyPKN",
-["inverse"] = false,
+["xOffset"] = 0,
+["selfPoint"] = "CENTER",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["uid"] = "4Ocpk8tyPKN",
+["frameStrata"] = 1,
+["id"] = "Thorns missing",
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
+["width"] = 46,
+["alpha"] = 1,
+["config"] = {
+},
+["inverse"] = false,
+["keepAspectRatio"] = false,
 ["conditions"] = {
 },
-["information"] = {
-},
-["icon"] = true,
+["cooldown"] = true,
+["parent"] = "Main Notifications",
 },
 ["MOTW missing"] = {
 ["iconSource"] = -1,
@@ -716,10 +716,10 @@ WeakAurasSaved = {
 "Mark of the Wild",
 "Gift of the Wild",
 },
-["unit"] = "player",
+["useName"] = true,
 ["names"] = {
 },
-["useName"] = true,
+["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -785,87 +785,87 @@ WeakAurasSaved = {
 },
 ["glowDuration"] = 1,
 ["glowXOffset"] = 0,
-["glowThickness"] = 1,
-["glowScale"] = 1,
 ["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["spec"] = {
+["zone"] = "-Thunder Bluff",
+["talent"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff",
 ["use_vehicle"] = false,
 ["class"] = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["parent"] = "Main Notifications",
-["information"] = {
-},
-["xOffset"] = 0,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["authorOptions"] = {
-},
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["uid"] = "NaJ3hmu)AmJ",
-["useCooldownModRate"] = true,
-["id"] = "MOTW missing",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["width"] = 46,
-["frameStrata"] = 1,
-["config"] = {
-},
-["inverse"] = false,
-["keepAspectRatio"] = false,
-["conditions"] = {
-},
-["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
+},
+},
+["cooldown"] = true,
+["parent"] = "Main Notifications",
+["xOffset"] = 0,
+["keepAspectRatio"] = false,
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["config"] = {
+},
+["useCooldownModRate"] = true,
+["id"] = "MOTW missing",
+["width"] = 46,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["uid"] = "NaJ3hmu)AmJ",
+["inverse"] = false,
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
 },
 },
 },
@@ -874,13 +874,13 @@ WeakAurasSaved = {
 ["minimap"] = {
 ["hide"] = true,
 },
-["historyCutoff"] = 730,
+["lastUpgrade"] = 1746322610,
 ["dbVersion"] = 84,
 ["migrationCutoff"] = 730,
-["features"] = {
-},
-["lastUpgrade"] = 1746322610,
-["login_squelch_time"] = 10,
 ["registered"] = {
+},
+["historyCutoff"] = 730,
+["login_squelch_time"] = 10,
+["features"] = {
 },
 }

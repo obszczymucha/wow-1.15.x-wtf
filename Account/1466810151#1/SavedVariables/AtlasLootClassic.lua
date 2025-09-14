@@ -1,40 +1,26 @@
 
 AtlasLootClassicDB = {
-["global"] = {
-["__addonrevision"] = 3020000,
-},
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 ["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
 ["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+},
+["global"] = {
+["__addonrevision"] = 3020000,
 },
 ["profiles"] = {
 ["Asdfwerqwer - Spineshatter"] = {
 },
-["Obszczymucha - Spineshatter"] = {
-["GUI"] = {
-["point"] = {
-[3] = "CENTER",
-[4] = -138.1473083496094,
-[5] = -63.77902603149414,
-},
-["selected"] = {
-[5] = 0,
-[2] = "Onyxia",
-[4] = 3,
-},
-},
+["Ewrtettrrt - Spineshatter"] = {
 },
 ["Awertqwertwe - Spineshatter"] = {
 },
-["Ewrtettrrt - Spineshatter"] = {
-},
-["Boulderdash - Spineshatter"] = {
+["Tachikoma - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
 [3] = "CENTER",
@@ -54,7 +40,7 @@ nil,
 },
 ["Jogobobek - Spineshatter"] = {
 },
-["Tachikoma - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
 [3] = "CENTER",
@@ -67,6 +53,20 @@ nil,
 nil,
 3,
 0,
+},
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["GUI"] = {
+["point"] = {
+[3] = "CENTER",
+[4] = -138.1473083496094,
+[5] = -63.77902603149414,
+},
+["selected"] = {
+[5] = 0,
+[2] = "Onyxia",
+[4] = 3,
 },
 },
 },

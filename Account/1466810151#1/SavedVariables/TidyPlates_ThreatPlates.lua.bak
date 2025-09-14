@@ -4,11 +4,14 @@ ThreatPlatesDB = {
 ["Asdfwerqwer - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Ewrtettrrt - Spineshatter"] = {
-["welcome"] = true,
-},
 ["Awertqwertwe - Spineshatter"] = {
 ["welcome"] = true,
+},
+["Obszczymucha - Spineshatter"] = {
+["welcome"] = true,
+["spec"] = {
+true,
+},
 },
 ["Tachikoma - Spineshatter"] = {
 ["spec"] = {
@@ -16,45 +19,42 @@ true,
 },
 ["welcome"] = true,
 },
-["Dupeczka - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
+["spec"] = {
+true,
+},
 ["welcome"] = true,
 },
 ["Jogobobek - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Boulderdash - Spineshatter"] = {
-["welcome"] = true,
-["spec"] = {
-true,
-},
-},
-["Obszczymucha - Spineshatter"] = {
-["spec"] = {
-true,
-},
+["Dupeczka - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Ewrtettrrt - Spineshatter"] = {
+["welcome"] = true,
 },
-["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
-["Dupeczka - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["version"] = "12.1.1",
+},
+["profileKeys"] = {
+["Asdfwerqwer - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Dupeczka - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["ColorByReaction"] = {
 ["FriendlyPlayer"] = {
-["r"] = 0.4313725829124451,
-["g"] = 1,
 ["b"] = 0.6509804129600525,
+["g"] = 1,
+["r"] = 0.4313725829124451,
 },
 },
 ["threatWidget"] = {

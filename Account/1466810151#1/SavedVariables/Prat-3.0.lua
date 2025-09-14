@@ -6,29 +6,29 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["chuj"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["localdefense"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["layer"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["princesskenny"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["world"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 },
 },
@@ -57,9 +57,9 @@ Prat3DB = {
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
-["initialized"] = true,
-["maxchatheightdefault"] = 400,
 ["minchatwidthdefault"] = 296,
+["maxchatheightdefault"] = 400,
+["initialized"] = true,
 ["maxchatwidthdefault"] = 608.0000610351562,
 ["framealphastatic"] = true,
 },
@@ -94,11 +94,11 @@ Prat3DB = {
 },
 ["Prat_Bubbles"] = {
 },
-["Prat_DebugModules"] = {
-},
-["Prat_Paragraph"] = {
+["Prat_Scroll"] = {
 },
 ["Prat_Achievements"] = {
+},
+["Prat_Paragraph"] = {
 },
 ["Prat_TellTarget"] = {
 },
@@ -115,23 +115,23 @@ Prat3DB = {
 },
 },
 },
-["Prat_History"] = {
-},
-["Prat_Invites"] = {
-},
-["Prat_LinkInfoIcons"] = {
-},
 ["Prat_ChannelNames"] = {
 ["profiles"] = {
 ["Default"] = {
 ["nickname"] = {
 ["LocalDefense"] = "LD",
-["Trade"] = "T",
-["General"] = "G",
 ["world"] = "W",
+["General"] = "G",
+["Trade"] = "T",
 },
 },
 },
+},
+["Prat_Invites"] = {
+},
+["Prat_LinkInfoIcons"] = {
+},
+["Prat_History"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -144,25 +144,25 @@ Prat3DB = {
 },
 },
 },
-["Prat_Scroll"] = {
+["Prat_DebugModules"] = {
 },
 ["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["ChatLog"] = 2,
+["Alias"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -172,7 +172,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["Alias"] = 2,
+["ChatLog"] = 2,
 },
 },
 },

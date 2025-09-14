@@ -7,11 +7,11 @@ AUCTIONATOR_CONFIG = {
 ["enchant_tooltips"] = false,
 ["starting_price_percentage_2"] = 95,
 ["columns_buying_auctions_2"] = {
-["Stack Price"] = false,
-["Available"] = false,
-["Time Left"] = true,
 ["Unit Price"] = false,
+["Available"] = false,
 ["Seller(s)"] = true,
+["Stack Price"] = false,
+["Time Left"] = true,
 ["You?"] = false,
 },
 ["debug"] = false,
@@ -47,8 +47,8 @@ AUCTIONATOR_CONFIG = {
 ["columns_buying_historical_prices"] = {
 ["Date"] = false,
 ["Unit Price"] = false,
-["Upper Unit Price"] = true,
 ["Available"] = false,
+["Upper Unit Price"] = true,
 },
 ["selling_post_shortcut"] = "SPACE",
 ["shift_stack_tooltips"] = true,
@@ -64,22 +64,22 @@ AUCTIONATOR_CONFIG = {
 ["2742"] = 1,
 ["14256"] = 1,
 ["2728"] = 1,
-["7067"] = 1,
 ["2842"] = 1,
+["2738"] = 1,
 ["7971"] = 1,
 ["4479"] = 1,
-["2740"] = 1,
-["4480"] = 1,
-["2738"] = 1,
-["12808"] = 1,
-["2751"] = 1,
-["12207"] = 1,
 ["19933"] = 1,
+["4480"] = 1,
+["7067"] = 1,
+["12808"] = 1,
+["12207"] = 1,
+["2751"] = 1,
+["2740"] = 1,
 ["10286"] = 1,
 ["3731"] = 2,
 },
 ["selling_confirm_low_price"] = true,
-["gear_vendor_price_multiplier"] = 0,
+["default_list_2"] = "",
 ["vendor_tooltips"] = true,
 ["cancel_undercut_shortcut"] = "SPACE",
 ["columns_cancelling"] = {
@@ -89,37 +89,18 @@ AUCTIONATOR_CONFIG = {
 ["Undercut?"] = false,
 ["Quantity"] = false,
 ["Bid Price"] = true,
-["Undercut Price"] = true,
+["Name"] = false,
 ["Unit Price"] = false,
 ["Time Left"] = false,
-["Name"] = false,
+["Undercut Price"] = true,
 },
 ["selling_grey_post_button"] = true,
-["selling_prev_shortcut"] = "BACKSPACE",
+["prospect_tooltips"] = false,
 ["save_last_duration_as_default"] = false,
 ["mill_tooltips"] = false,
 ["crafting_info_show_cost"] = true,
-["undercut_static_value"] = 1,
+["auction_mean_tooltips"] = false,
 ["show_selling_bid_price"] = false,
-["selling_reselect_item_2"] = {
-["keyName"] = "k_Trade Goods",
-["sortKey"] = "5082_Thin Kodo Leather_0_1_true",
-},
-["columns_shopping_historical_prices"] = {
-["Date"] = false,
-["Unit Price"] = false,
-["Upper Unit Price"] = true,
-["Available"] = false,
-},
-["selling_bag_collapsed"] = false,
-["auction_duration"] = 24,
-["auto_list_search"] = false,
-["auction_chat_log"] = true,
-["crafting_info_show_profit"] = true,
-["mailbox_tooltips"] = true,
-["historical_prices"] = {
-},
-["selling_post_stack_remainder"] = false,
 ["columns_shopping"] = {
 ["Name"] = false,
 ["Available"] = false,
@@ -127,13 +108,32 @@ AUCTIONATOR_CONFIG = {
 ["Owned?"] = true,
 ["Top?"] = true,
 },
-["auction_mean_tooltips"] = false,
+["columns_shopping_historical_prices"] = {
+["Date"] = false,
+["Unit Price"] = false,
+["Available"] = false,
+["Upper Unit Price"] = true,
+},
+["selling_post_stack_remainder"] = false,
+["historical_prices"] = {
+},
+["auto_list_search"] = false,
+["crafting_info_show_profit"] = true,
+["auction_chat_log"] = true,
+["mailbox_tooltips"] = true,
+["auction_duration"] = 24,
+["selling_bag_collapsed"] = false,
+["selling_reselect_item_2"] = {
+["keyName"] = "k_Miscellaneous",
+["sortKey"] = "17056_Light Feather_0_1_true",
+},
+["undercut_static_value"] = 1,
 ["auction_sales_preference"] = "static",
-["prospect_tooltips"] = false,
+["selling_prev_shortcut"] = "BACKSPACE",
 ["splash_screen_version"] = "10.1.6",
 ["crafting_info_show"] = true,
 ["selling_should_reselect_item"] = false,
-["default_list_2"] = "",
+["gear_vendor_price_multiplier"] = 0,
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -145,90 +145,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 ["Spineshatter Horde"] = {
 ["gr:727:of Power"] = "¤aa¡d2071al¡d2071þah¡d2071ÿamþ",
 ["5082"] = "¤aa¡d2071al¡d2071\rah¡d2071\ram\r",
-["17056"] = "¤aa¡d2071al¡d2071›am›ah¡d2071Ÿ",
 ["727"] = "¤aa¡d2071al¡d2071þah¡d2071ÿamþ",
 ["3609"] = "¤aa¡d2071al€amah¡d2071",
+["17056"] = "¤aa¡d2071al¡d2071ÙamÙah¡d2071Ÿ",
+["2632"] = "¤aa¡d2071\ral¡d2071´ah¡d2071µam´",
+["3282"] = "¤aa¡d2071al¡d2071ah¡d2071am",
+["gr:2632:of Power"] = "¤aa¡d2071\ral¡d2071´ah¡d2071µam´",
+["3036"] = "¤aa¡d2071al¡d2071	Àah¡d2071	Áam	À",
 ["2318"] = "¤aa¡d20712al¡d2071 ah¡d2071!am ",
 ["818"] = "¤aa¡d2071ual¡d2071Êah¡d2071ÒamÊ",
 },
 }
 AUCTIONATOR_POSTING_HISTORY = {
-["13465"] = {
-{
-["price"] = 19121,
-["quantity"] = 4,
-["time"] = 1749106350,
-},
-{
-["price"] = 19757,
-["quantity"] = 3,
-["time"] = 1749212819,
-},
-{
-["price"] = 18463,
-["quantity"] = 19,
-["time"] = 1749280361,
-},
-{
-["price"] = 17873,
-["quantity"] = 11,
-["time"] = 1749361600,
-},
-{
-["price"] = 17787,
-["quantity"] = 14,
-["time"] = 1749447804,
-},
-{
-["price"] = 22479,
-["quantity"] = 19,
-["time"] = 1750474346,
-},
-{
-["price"] = 21499,
-["quantity"] = 5,
-["time"] = 1750488544,
-},
-{
-["price"] = 18926,
-["quantity"] = 19,
-["time"] = 1750504705,
-},
-{
-["price"] = 17874,
-["quantity"] = 24,
-["time"] = 1750560671,
-},
-{
-["price"] = 17574,
-["quantity"] = 10,
-["time"] = 1750568536,
-},
-},
-["17056"] = {
-{
-["price"] = 1694,
-["quantity"] = 7,
-["time"] = 1756792185,
-},
-{
-["price"] = 1691,
-["quantity"] = 1,
-["time"] = 1756792876,
-},
-},
-["3685"] = {
-{
-["price"] = 343,
-["quantity"] = 14,
-["time"] = 1746366872,
-},
-{
-["price"] = 334,
-["quantity"] = 7,
-["time"] = 1747405526,
-},
-},
 ["3825"] = {
 {
 ["price"] = 14894,
@@ -239,44 +167,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 14807,
 ["quantity"] = 1,
 ["time"] = 1748310282,
-},
-},
-["3667"] = {
-{
-["price"] = 71,
-["quantity"] = 6,
-["time"] = 1747405529,
-},
-},
-["13444"] = {
-{
-["price"] = 58783,
-["quantity"] = 2,
-["time"] = 1748333457,
-},
-},
-["12205"] = {
-{
-["price"] = 769,
-["quantity"] = 13,
-["time"] = 1747370736,
-},
-{
-["price"] = 725,
-["quantity"] = 3,
-["time"] = 1747405566,
-},
-{
-["price"] = 498,
-["quantity"] = 9,
-["time"] = 1747981854,
-},
-},
-["4480"] = {
-{
-["price"] = 24924,
-["quantity"] = 1,
-["time"] = 1746970298,
 },
 },
 ["1210"] = {
@@ -301,69 +191,82 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747741290,
 },
 },
-["2750"] = {
+["16703"] = {
 {
-["price"] = 573,
+["price"] = 104998,
 ["quantity"] = 1,
-["time"] = 1747145044,
-},
-},
-["7069"] = {
-{
-["price"] = 4405,
-["quantity"] = 3,
-["time"] = 1746929941,
+["time"] = 1748069388,
 },
 {
-["price"] = 673,
+["price"] = 44790,
 ["quantity"] = 1,
-["time"] = 1746970351,
+["time"] = 1748134967,
+},
+},
+["17056"] = {
+{
+["price"] = 1694,
+["quantity"] = 7,
+["time"] = 1756792185,
 },
 {
-["price"] = 861,
+["price"] = 1691,
 ["quantity"] = 1,
-["time"] = 1747981872,
+["time"] = 1756792876,
 },
-},
-["4234"] = {
 {
-["price"] = 594,
-["quantity"] = 3,
-["time"] = 1747187422,
+["price"] = 1497,
+["quantity"] = 13,
+["time"] = 1756807072,
 },
 },
-["7075"] = {
+["2589"] = {
 {
-["price"] = 458,
-["quantity"] = 1,
-["time"] = 1747026761,
+["price"] = 14,
+["quantity"] = 30,
+["time"] = 1746165435,
 },
-},
-["16713"] = {
 {
-["price"] = 39751,
+["price"] = 32,
+["quantity"] = 11,
+["time"] = 1746190473,
+},
+{
+["price"] = 111,
+["quantity"] = 12,
+["time"] = 1746276455,
+},
+{
+["price"] = 37,
+["quantity"] = 8,
+["time"] = 1746288924,
+},
+{
+["price"] = 49,
+["quantity"] = 21,
+["time"] = 1746338016,
+},
+{
+["price"] = 33,
+["quantity"] = 5,
+["time"] = 1746365507,
+},
+},
+["8838"] = {
+{
+["price"] = 1628,
+["quantity"] = 15,
+["time"] = 1748666975,
+},
+{
+["price"] = 1999,
 ["quantity"] = 2,
-["time"] = 1748071695,
+["time"] = 1749212846,
 },
 {
-["price"] = 199998,
-["quantity"] = 2,
-["time"] = 1748134963,
-},
-{
-["price"] = 39999,
-["quantity"] = 2,
-["time"] = 1748163988,
-},
-{
-["price"] = 34989,
+["price"] = 2362,
 ["quantity"] = 1,
-["time"] = 1748235501,
-},
-{
-["price"] = 34368,
-["quantity"] = 1,
-["time"] = 1748310278,
+["time"] = 1749297332,
 },
 },
 ["3356"] = {
@@ -388,13 +291,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748671649,
 },
 },
-["21306"] = {
-{
-["price"] = 109966,
-["quantity"] = 1,
-["time"] = 1756525769,
-},
-},
 ["13302"] = {
 {
 ["price"] = 9656,
@@ -402,21 +298,23 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1749371108,
 },
 },
-["2728"] = {
+["14227"] = {
 {
-["price"] = 4984,
-["quantity"] = 1,
-["time"] = 1746884186,
+["price"] = 3236,
+["quantity"] = 4,
+["time"] = 1747981832,
 },
 {
-["price"] = 1045,
+["price"] = 3381,
 ["quantity"] = 1,
-["time"] = 1746929948,
+["time"] = 1748008278,
 },
+},
+["9253"] = {
 {
-["price"] = 1878,
-["quantity"] = 2,
-["time"] = 1747145075,
+["price"] = 9999,
+["quantity"] = 1,
+["time"] = 1747356646,
 },
 },
 ["14047"] = {
@@ -471,150 +369,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1750568552,
 },
 },
-["13307"] = {
-{
-["price"] = 9996,
-["quantity"] = 1,
-["time"] = 1749371115,
-},
-},
-["12607"] = {
-{
-["price"] = 8639,
-["quantity"] = 1,
-["time"] = 1750492370,
-},
-},
-["14227"] = {
-{
-["price"] = 3236,
-["quantity"] = 4,
-["time"] = 1747981832,
-},
-{
-["price"] = 3381,
-["quantity"] = 1,
-["time"] = 1748008278,
-},
-},
-["7076"] = {
-{
-["price"] = 35194,
-["quantity"] = 1,
-["time"] = 1747981861,
-},
-{
-["price"] = 29996,
-["quantity"] = 1,
-["time"] = 1748059629,
-},
-},
-["3821"] = {
-{
-["price"] = 3099,
-["quantity"] = 12,
-["time"] = 1748666967,
-},
-{
-["price"] = 3023,
-["quantity"] = 1,
-["time"] = 1748671646,
-},
-{
-["price"] = 2190,
-["quantity"] = 12,
-["time"] = 1748754694,
-},
-},
-["9253"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1747356646,
-},
-},
-["1529"] = {
-{
-["price"] = 2193,
-["quantity"] = 1,
-["time"] = 1747033108,
-},
-},
-["3818"] = {
-{
-["price"] = 7897,
-["quantity"] = 13,
-["time"] = 1748163853,
-},
-{
-["price"] = 7299,
-["quantity"] = 2,
-["time"] = 1748666972,
-},
-{
-["price"] = 7054,
-["quantity"] = 5,
-["time"] = 1748671632,
-},
-},
-["13134"] = {
-{
-["price"] = 77986,
-["quantity"] = 1,
-["time"] = 1747707619,
-},
-},
 ["7078"] = {
 {
 ["price"] = 2970,
 ["quantity"] = 1,
 ["time"] = 1747559026,
-},
-},
-["774"] = {
-{
-["price"] = 195,
-["quantity"] = 2,
-["time"] = 1745986501,
-},
-{
-["price"] = 598,
-["quantity"] = 2,
-["time"] = 1746011630,
-},
-{
-["price"] = 688,
-["quantity"] = 1,
-["time"] = 1746448479,
-},
-{
-["price"] = 62,
-["quantity"] = 1,
-["time"] = 1747741273,
-},
-},
-["7909"] = {
-{
-["price"] = 3151,
-["quantity"] = 1,
-["time"] = 1747707598,
-},
-{
-["price"] = 3924,
-["quantity"] = 1,
-["time"] = 1747741277,
-},
-{
-["price"] = 3296,
-["quantity"] = 1,
-["time"] = 1747806584,
-},
-},
-["2735"] = {
-{
-["price"] = 578,
-["quantity"] = 1,
-["time"] = 1747145070,
 },
 },
 ["8831"] = {
@@ -632,33 +391,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 1176,
 ["quantity"] = 3,
 ["time"] = 1748754690,
-},
-},
-["1710"] = {
-{
-["price"] = 734,
-["quantity"] = 6,
-["time"] = 1747707641,
-},
-{
-["price"] = 749,
-["quantity"] = 34,
-["time"] = 1748151649,
-},
-{
-["price"] = 543,
-["quantity"] = 1,
-["time"] = 1748163813,
-},
-{
-["price"] = 540,
-["quantity"] = 2,
-["time"] = 1748164105,
-},
-{
-["price"] = 493,
-["quantity"] = 10,
-["time"] = 1748235506,
 },
 },
 ["2725"] = {
@@ -683,58 +415,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747001106,
 },
 },
-["13468"] = {
-{
-["price"] = 709896,
-["quantity"] = 3,
-["time"] = 1749013719,
-},
-{
-["price"] = 708699,
-["quantity"] = 3,
-["time"] = 1749021290,
-},
-{
-["price"] = 699987,
-["quantity"] = 1,
-["time"] = 1749106336,
-},
-{
-["price"] = 689899,
-["quantity"] = 1,
-["time"] = 1749123023,
-},
-{
-["price"] = 669857,
-["quantity"] = 3,
-["time"] = 1749280350,
-},
-{
-["price"] = 659745,
-["quantity"] = 1,
-["time"] = 1749361590,
-},
-{
-["price"] = 658998,
-["quantity"] = 1,
-["time"] = 1749371056,
-},
-{
-["price"] = 749599,
-["quantity"] = 2,
-["time"] = 1750488537,
-},
-{
-["price"] = 714693,
-["quantity"] = 1,
-["time"] = 1750568521,
-},
-{
-["price"] = 978773,
-["quantity"] = 1,
-["time"] = 1756525750,
-},
-},
 ["2745"] = {
 {
 ["price"] = 1097,
@@ -742,113 +422,50 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746884178,
 },
 },
-["4479"] = {
+["3821"] = {
 {
-["price"] = 620,
-["quantity"] = 6,
-["time"] = 1746970315,
+["price"] = 3099,
+["quantity"] = 12,
+["time"] = 1748666967,
 },
-},
-["7910"] = {
 {
-["price"] = 7273,
+["price"] = 3023,
 ["quantity"] = 1,
-["time"] = 1747645255,
+["time"] = 1748671646,
 },
 {
-["price"] = 11896,
-["quantity"] = 1,
-["time"] = 1747715923,
+["price"] = 2190,
+["quantity"] = 12,
+["time"] = 1748754694,
 },
+},
+["2450"] = {
 {
-["price"] = 5981,
-["quantity"] = 1,
-["time"] = 1747919152,
+["price"] = 159,
+["quantity"] = 3,
+["time"] = 1746338026,
 },
+},
+["774"] = {
 {
-["price"] = 6488,
-["quantity"] = 1,
-["time"] = 1747997295,
-},
-{
-["price"] = 6497,
-["quantity"] = 1,
-["time"] = 1748059621,
-},
-{
-["price"] = 8731,
-["quantity"] = 1,
-["time"] = 1748945330,
-},
-{
-["price"] = 6999,
-["quantity"] = 1,
-["time"] = 1749013734,
-},
-},
-["13443"] = {
-{
-["price"] = 24999,
-["quantity"] = 1,
-["time"] = 1747569848,
-},
-{
-["price"] = 31884,
+["price"] = 195,
 ["quantity"] = 2,
-["time"] = 1747707680,
+["time"] = 1745986501,
 },
 {
-["price"] = 31998,
+["price"] = 598,
+["quantity"] = 2,
+["time"] = 1746011630,
+},
+{
+["price"] = 688,
 ["quantity"] = 1,
-["time"] = 1747830207,
+["time"] = 1746448479,
 },
 {
-["price"] = 24999,
+["price"] = 62,
 ["quantity"] = 1,
-["time"] = 1747889549,
-},
-{
-["price"] = 24998,
-["quantity"] = 22,
-["time"] = 1748252389,
-},
-},
-["2732"] = {
-{
-["price"] = 4940,
-["quantity"] = 1,
-["time"] = 1746884184,
-},
-{
-["price"] = 693,
-["quantity"] = 1,
-["time"] = 1746929953,
-},
-{
-["price"] = 561,
-["quantity"] = 1,
-["time"] = 1746970360,
-},
-},
-["1015"] = {
-{
-["price"] = 481,
-["quantity"] = 1,
-["time"] = 1747405576,
-},
-},
-["8839"] = {
-{
-["price"] = 13999,
-["quantity"] = 1,
-["time"] = 1748671642,
-},
-},
-["12207"] = {
-{
-["price"] = 1067,
-["quantity"] = 7,
-["time"] = 1747207279,
+["time"] = 1747741273,
 },
 },
 ["2449"] = {
@@ -858,70 +475,26 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746099543,
 },
 },
-["5500"] = {
+["2742"] = {
 {
-["price"] = 2099,
-["quantity"] = 1,
-["time"] = 1746448475,
-},
-{
-["price"] = 1995,
-["quantity"] = 1,
-["time"] = 1746531253,
+["price"] = 9998,
+["quantity"] = 2,
+["time"] = 1746604945,
 },
 {
-["price"] = 1491,
+["price"] = 1236,
 ["quantity"] = 1,
-["time"] = 1747741265,
-},
-},
-["818"] = {
-{
-["price"] = 747,
-["quantity"] = 1,
-["time"] = 1746011634,
+["time"] = 1746884181,
 },
 {
-["price"] = 1488,
+["price"] = 484,
 ["quantity"] = 1,
-["time"] = 1746448483,
+["time"] = 1746929956,
 },
 {
-["price"] = 395,
-["quantity"] = 1,
-["time"] = 1746488045,
-},
-{
-["price"] = 395,
-["quantity"] = 1,
-["time"] = 1747741286,
-},
-{
-["price"] = 721,
-["quantity"] = 1,
-["time"] = 1756785994,
-},
-{
-["price"] = 714,
-["quantity"] = 1,
-["time"] = 1756791616,
-},
-},
-["11737"] = {
-{
-["price"] = 3069998,
-["quantity"] = 1,
-["time"] = 1748080117,
-},
-{
-["price"] = 2887103,
-["quantity"] = 1,
-["time"] = 1748097103,
-},
-{
-["price"] = 2667084,
-["quantity"] = 1,
-["time"] = 1748134954,
+["price"] = 1467,
+["quantity"] = 2,
+["time"] = 1747145056,
 },
 },
 ["11018"] = {
@@ -929,56 +502,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 2693,
 ["quantity"] = 11,
 ["time"] = 1747646152,
-},
-},
-["3358"] = {
-{
-["price"] = 2191,
-["quantity"] = 2,
-["time"] = 1746884201,
-},
-{
-["price"] = 824,
-["quantity"] = 1,
-["time"] = 1748671635,
-},
-},
-["8483"] = {
-{
-["price"] = 2681,
-["quantity"] = 11,
-["time"] = 1747361157,
-},
-},
-["7068"] = {
-{
-["price"] = 44423,
-["quantity"] = 1,
-["time"] = 1746970356,
-},
-{
-["price"] = 41198,
-["quantity"] = 1,
-["time"] = 1747538193,
-},
-{
-["price"] = 45998,
-["quantity"] = 1,
-["time"] = 1747559028,
-},
-},
-["11078"] = {
-{
-["price"] = 366,
-["quantity"] = 1,
-["time"] = 1747919183,
-},
-},
-["7972"] = {
-{
-["price"] = 1294,
-["quantity"] = 1,
-["time"] = 1748235488,
 },
 },
 ["7070"] = {
@@ -1082,116 +605,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1750568532,
 },
 },
-["12808"] = {
+["8483"] = {
 {
-["price"] = 2976,
-["quantity"] = 1,
-["time"] = 1747997313,
-},
-{
-["price"] = 5989,
-["quantity"] = 1,
-["time"] = 1749212831,
-},
-{
-["price"] = 5593,
-["quantity"] = 1,
-["time"] = 1749280374,
-},
-{
-["price"] = 4063,
-["quantity"] = 3,
-["time"] = 1749304402,
-},
-},
-["1705"] = {
-{
-["price"] = 8992,
-["quantity"] = 1,
-["time"] = 1746365478,
-},
-{
-["price"] = 2519,
-["quantity"] = 1,
-["time"] = 1746402651,
-},
-{
-["price"] = 2387,
-["quantity"] = 1,
-["time"] = 1746448471,
-},
-{
-["price"] = 4895,
-["quantity"] = 1,
-["time"] = 1747741281,
-},
-},
-["5498"] = {
-{
-["price"] = 346,
-["quantity"] = 1,
-["time"] = 1746241632,
-},
-{
-["price"] = 710,
-["quantity"] = 1,
-["time"] = 1746440070,
-},
-{
-["price"] = 671,
-["quantity"] = 5,
-["time"] = 1746531249,
-},
-{
-["price"] = 482,
-["quantity"] = 1,
-["time"] = 1746862199,
-},
-},
-["2748"] = {
-{
-["price"] = 3346,
-["quantity"] = 1,
-["time"] = 1746884163,
-},
-{
-["price"] = 577,
-["quantity"] = 1,
-["time"] = 1746929959,
-},
-{
-["price"] = 992,
-["quantity"] = 3,
-["time"] = 1747145051,
-},
-{
-["price"] = 4798,
-["quantity"] = 1,
-["time"] = 1747447561,
-},
-},
-["10286"] = {
-{
-["price"] = 599,
-["quantity"] = 7,
-["time"] = 1747552432,
-},
-},
-["7079"] = {
-{
-["price"] = 1176,
-["quantity"] = 4,
-["time"] = 1747474966,
-},
-{
-["price"] = 4346,
-["quantity"] = 2,
-["time"] = 1747889557,
-},
-{
-["price"] = 794,
-["quantity"] = 1,
-["time"] = 1749297337,
+["price"] = 2681,
+["quantity"] = 11,
+["time"] = 1747361157,
 },
 },
 ["13464"] = {
@@ -1241,6 +659,701 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1750568542,
 },
 },
+["5082"] = {
+{
+["price"] = 3332,
+["quantity"] = 1,
+["time"] = 1756797025,
+},
+},
+["19441"] = {
+{
+["price"] = 9999,
+["quantity"] = 1,
+["time"] = 1747981836,
+},
+},
+["12803"] = {
+{
+["price"] = 13967,
+["quantity"] = 1,
+["time"] = 1747552419,
+},
+},
+["12204"] = {
+{
+["price"] = 3862,
+["quantity"] = 1,
+["time"] = 1747405534,
+},
+},
+["gr:727:of Power"] = {
+{
+["price"] = 4094,
+["quantity"] = 1,
+["time"] = 1756785983,
+},
+},
+["2842"] = {
+{
+["price"] = 1423,
+["quantity"] = 1,
+["time"] = 1746190467,
+},
+{
+["price"] = 1294,
+["quantity"] = 2,
+["time"] = 1746338000,
+},
+},
+["8836"] = {
+{
+["price"] = 489,
+["quantity"] = 7,
+["time"] = 1748333321,
+},
+},
+["12037"] = {
+{
+["price"] = 102,
+["quantity"] = 16,
+["time"] = 1747405560,
+},
+},
+["9251"] = {
+{
+["price"] = 9998,
+["quantity"] = 1,
+["time"] = 1747356649,
+},
+},
+["3928"] = {
+{
+["price"] = 2427,
+["quantity"] = 9,
+["time"] = 1748244166,
+},
+{
+["price"] = 2423,
+["quantity"] = 14,
+["time"] = 1748244885,
+},
+},
+["3036"] = {
+{
+["price"] = 2496,
+["quantity"] = 1,
+["time"] = 1756807047,
+},
+},
+["3730"] = {
+{
+["price"] = 239,
+["quantity"] = 4,
+["time"] = 1746366862,
+},
+},
+["2730"] = {
+{
+["price"] = 1166,
+["quantity"] = 1,
+["time"] = 1746604950,
+},
+{
+["price"] = 5794,
+["quantity"] = 1,
+["time"] = 1746929951,
+},
+{
+["price"] = 408,
+["quantity"] = 1,
+["time"] = 1747447565,
+},
+},
+["5504"] = {
+{
+["price"] = 119,
+["quantity"] = 9,
+["time"] = 1746338033,
+},
+{
+["price"] = 184,
+["quantity"] = 21,
+["time"] = 1746531243,
+},
+{
+["price"] = 95,
+["quantity"] = 23,
+["time"] = 1746862191,
+},
+},
+["11205"] = {
+{
+["price"] = 8496,
+["quantity"] = 2,
+["time"] = 1747195359,
+},
+},
+["3182"] = {
+{
+["price"] = 1234,
+["quantity"] = 1,
+["time"] = 1746241617,
+},
+{
+["price"] = 993,
+["quantity"] = 3,
+["time"] = 1746337995,
+},
+},
+["18944"] = {
+{
+["price"] = 584,
+["quantity"] = 15,
+["time"] = 1747538199,
+},
+},
+["3819"] = {
+{
+["price"] = 25986,
+["quantity"] = 1,
+["time"] = 1747405614,
+},
+},
+["9187"] = {
+{
+["price"] = 8348,
+["quantity"] = 11,
+["time"] = 1748238886,
+},
+{
+["price"] = 7538,
+["quantity"] = 10,
+["time"] = 1748310260,
+},
+},
+["12607"] = {
+{
+["price"] = 8639,
+["quantity"] = 1,
+["time"] = 1750492370,
+},
+},
+["21306"] = {
+{
+["price"] = 109966,
+["quantity"] = 1,
+["time"] = 1756525769,
+},
+},
+["2318"] = {
+{
+["price"] = 288,
+["quantity"] = 1,
+["time"] = 1756792167,
+},
+},
+["13465"] = {
+{
+["price"] = 19121,
+["quantity"] = 4,
+["time"] = 1749106350,
+},
+{
+["price"] = 19757,
+["quantity"] = 3,
+["time"] = 1749212819,
+},
+{
+["price"] = 18463,
+["quantity"] = 19,
+["time"] = 1749280361,
+},
+{
+["price"] = 17873,
+["quantity"] = 11,
+["time"] = 1749361600,
+},
+{
+["price"] = 17787,
+["quantity"] = 14,
+["time"] = 1749447804,
+},
+{
+["price"] = 22479,
+["quantity"] = 19,
+["time"] = 1750474346,
+},
+{
+["price"] = 21499,
+["quantity"] = 5,
+["time"] = 1750488544,
+},
+{
+["price"] = 18926,
+["quantity"] = 19,
+["time"] = 1750504705,
+},
+{
+["price"] = 17874,
+["quantity"] = 24,
+["time"] = 1750560671,
+},
+{
+["price"] = 17574,
+["quantity"] = 10,
+["time"] = 1750568536,
+},
+},
+["4234"] = {
+{
+["price"] = 594,
+["quantity"] = 3,
+["time"] = 1747187422,
+},
+},
+["12205"] = {
+{
+["price"] = 769,
+["quantity"] = 13,
+["time"] = 1747370736,
+},
+{
+["price"] = 725,
+["quantity"] = 3,
+["time"] = 1747405566,
+},
+{
+["price"] = 498,
+["quantity"] = 9,
+["time"] = 1747981854,
+},
+},
+["4480"] = {
+{
+["price"] = 24924,
+["quantity"] = 1,
+["time"] = 1746970298,
+},
+},
+["7075"] = {
+{
+["price"] = 458,
+["quantity"] = 1,
+["time"] = 1747026761,
+},
+},
+["16713"] = {
+{
+["price"] = 39751,
+["quantity"] = 2,
+["time"] = 1748071695,
+},
+{
+["price"] = 199998,
+["quantity"] = 2,
+["time"] = 1748134963,
+},
+{
+["price"] = 39999,
+["quantity"] = 2,
+["time"] = 1748163988,
+},
+{
+["price"] = 34989,
+["quantity"] = 1,
+["time"] = 1748235501,
+},
+{
+["price"] = 34368,
+["quantity"] = 1,
+["time"] = 1748310278,
+},
+},
+["3864"] = {
+{
+["price"] = 1493,
+["quantity"] = 1,
+["time"] = 1746929900,
+},
+{
+["price"] = 964,
+["quantity"] = 1,
+["time"] = 1746970366,
+},
+{
+["price"] = 2197,
+["quantity"] = 2,
+["time"] = 1747026788,
+},
+{
+["price"] = 9657,
+["quantity"] = 2,
+["time"] = 1747145096,
+},
+{
+["price"] = 2095,
+["quantity"] = 1,
+["time"] = 1747741268,
+},
+{
+["price"] = 1196,
+["quantity"] = 1,
+["time"] = 1747806588,
+},
+},
+["2728"] = {
+{
+["price"] = 4984,
+["quantity"] = 1,
+["time"] = 1746884186,
+},
+{
+["price"] = 1045,
+["quantity"] = 1,
+["time"] = 1746929948,
+},
+{
+["price"] = 1878,
+["quantity"] = 2,
+["time"] = 1747145075,
+},
+},
+["13307"] = {
+{
+["price"] = 9996,
+["quantity"] = 1,
+["time"] = 1749371115,
+},
+},
+["5498"] = {
+{
+["price"] = 346,
+["quantity"] = 1,
+["time"] = 1746241632,
+},
+{
+["price"] = 710,
+["quantity"] = 1,
+["time"] = 1746440070,
+},
+{
+["price"] = 671,
+["quantity"] = 5,
+["time"] = 1746531249,
+},
+{
+["price"] = 482,
+["quantity"] = 1,
+["time"] = 1746862199,
+},
+},
+["1529"] = {
+{
+["price"] = 2193,
+["quantity"] = 1,
+["time"] = 1747033108,
+},
+},
+["3818"] = {
+{
+["price"] = 7897,
+["quantity"] = 13,
+["time"] = 1748163853,
+},
+{
+["price"] = 7299,
+["quantity"] = 2,
+["time"] = 1748666972,
+},
+{
+["price"] = 7054,
+["quantity"] = 5,
+["time"] = 1748671632,
+},
+},
+["8845"] = {
+{
+["price"] = 14467,
+["quantity"] = 3,
+["time"] = 1749297129,
+},
+},
+["7909"] = {
+{
+["price"] = 3151,
+["quantity"] = 1,
+["time"] = 1747707598,
+},
+{
+["price"] = 3924,
+["quantity"] = 1,
+["time"] = 1747741277,
+},
+{
+["price"] = 3296,
+["quantity"] = 1,
+["time"] = 1747806584,
+},
+},
+["13468"] = {
+{
+["price"] = 709896,
+["quantity"] = 3,
+["time"] = 1749013719,
+},
+{
+["price"] = 708699,
+["quantity"] = 3,
+["time"] = 1749021290,
+},
+{
+["price"] = 699987,
+["quantity"] = 1,
+["time"] = 1749106336,
+},
+{
+["price"] = 689899,
+["quantity"] = 1,
+["time"] = 1749123023,
+},
+{
+["price"] = 669857,
+["quantity"] = 3,
+["time"] = 1749280350,
+},
+{
+["price"] = 659745,
+["quantity"] = 1,
+["time"] = 1749361590,
+},
+{
+["price"] = 658998,
+["quantity"] = 1,
+["time"] = 1749371056,
+},
+{
+["price"] = 749599,
+["quantity"] = 2,
+["time"] = 1750488537,
+},
+{
+["price"] = 714693,
+["quantity"] = 1,
+["time"] = 1750568521,
+},
+{
+["price"] = 978773,
+["quantity"] = 1,
+["time"] = 1756525750,
+},
+},
+["13443"] = {
+{
+["price"] = 24999,
+["quantity"] = 1,
+["time"] = 1747569848,
+},
+{
+["price"] = 31884,
+["quantity"] = 2,
+["time"] = 1747707680,
+},
+{
+["price"] = 31998,
+["quantity"] = 1,
+["time"] = 1747830207,
+},
+{
+["price"] = 24999,
+["quantity"] = 1,
+["time"] = 1747889549,
+},
+{
+["price"] = 24998,
+["quantity"] = 22,
+["time"] = 1748252389,
+},
+},
+["2732"] = {
+{
+["price"] = 4940,
+["quantity"] = 1,
+["time"] = 1746884184,
+},
+{
+["price"] = 693,
+["quantity"] = 1,
+["time"] = 1746929953,
+},
+{
+["price"] = 561,
+["quantity"] = 1,
+["time"] = 1746970360,
+},
+},
+["1015"] = {
+{
+["price"] = 481,
+["quantity"] = 1,
+["time"] = 1747405576,
+},
+},
+["8839"] = {
+{
+["price"] = 13999,
+["quantity"] = 1,
+["time"] = 1748671642,
+},
+},
+["12207"] = {
+{
+["price"] = 1067,
+["quantity"] = 7,
+["time"] = 1747207279,
+},
+},
+["818"] = {
+{
+["price"] = 747,
+["quantity"] = 1,
+["time"] = 1746011634,
+},
+{
+["price"] = 1488,
+["quantity"] = 1,
+["time"] = 1746448483,
+},
+{
+["price"] = 395,
+["quantity"] = 1,
+["time"] = 1746488045,
+},
+{
+["price"] = 395,
+["quantity"] = 1,
+["time"] = 1747741286,
+},
+{
+["price"] = 721,
+["quantity"] = 1,
+["time"] = 1756785994,
+},
+{
+["price"] = 714,
+["quantity"] = 1,
+["time"] = 1756791616,
+},
+},
+["1705"] = {
+{
+["price"] = 8992,
+["quantity"] = 1,
+["time"] = 1746365478,
+},
+{
+["price"] = 2519,
+["quantity"] = 1,
+["time"] = 1746402651,
+},
+{
+["price"] = 2387,
+["quantity"] = 1,
+["time"] = 1746448471,
+},
+{
+["price"] = 4895,
+["quantity"] = 1,
+["time"] = 1747741281,
+},
+},
+["11078"] = {
+{
+["price"] = 366,
+["quantity"] = 1,
+["time"] = 1747919183,
+},
+},
+["3357"] = {
+{
+["price"] = 722,
+["quantity"] = 2,
+["time"] = 1748163931,
+},
+{
+["price"] = 590,
+["quantity"] = 1,
+["time"] = 1749297132,
+},
+},
+["5500"] = {
+{
+["price"] = 2099,
+["quantity"] = 1,
+["time"] = 1746448475,
+},
+{
+["price"] = 1995,
+["quantity"] = 1,
+["time"] = 1746531253,
+},
+{
+["price"] = 1491,
+["quantity"] = 1,
+["time"] = 1747741265,
+},
+},
+["8153"] = {
+{
+["price"] = 12178,
+["quantity"] = 7,
+["time"] = 1747145091,
+},
+{
+["price"] = 11183,
+["quantity"] = 1,
+["time"] = 1747538259,
+},
+{
+["price"] = 9594,
+["quantity"] = 1,
+["time"] = 1747569880,
+},
+{
+["price"] = 9998,
+["quantity"] = 2,
+["time"] = 1748163925,
+},
+},
+["12808"] = {
+{
+["price"] = 2976,
+["quantity"] = 1,
+["time"] = 1747997313,
+},
+{
+["price"] = 5989,
+["quantity"] = 1,
+["time"] = 1749212831,
+},
+{
+["price"] = 5593,
+["quantity"] = 1,
+["time"] = 1749280374,
+},
+{
+["price"] = 4063,
+["quantity"] = 3,
+["time"] = 1749304402,
+},
+},
+["10286"] = {
+{
+["price"] = 599,
+["quantity"] = 7,
+["time"] = 1747552432,
+},
+},
 ["16736"] = {
 {
 ["price"] = 559996,
@@ -1258,46 +1371,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748777895,
 },
 },
-["5082"] = {
-{
-["price"] = 3332,
-["quantity"] = 1,
-["time"] = 1756797025,
-},
-},
-["19441"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1747981836,
-},
-},
-["2740"] = {
-{
-["price"] = 944,
-["quantity"] = 3,
-["time"] = 1747145062,
-},
-},
 ["7971"] = {
 {
 ["price"] = 1489,
 ["quantity"] = 2,
 ["time"] = 1747145102,
-},
-},
-["1401"] = {
-{
-["price"] = 522,
-["quantity"] = 6,
-["time"] = 1746099535,
-},
-},
-["12803"] = {
-{
-["price"] = 13967,
-["quantity"] = 1,
-["time"] = 1747552419,
 },
 },
 ["13094"] = {
@@ -1356,31 +1434,36 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1756525766,
 },
 },
-["11205"] = {
+["4337"] = {
 {
-["price"] = 8496,
+["price"] = 853,
+["quantity"] = 1,
+["time"] = 1747187414,
+},
+{
+["price"] = 990,
+["quantity"] = 5,
+["time"] = 1747370749,
+},
+{
+["price"] = 8432,
+["quantity"] = 1,
+["time"] = 1747919148,
+},
+{
+["price"] = 1496,
 ["quantity"] = 2,
-["time"] = 1747195359,
-},
-},
-["__dbversion"] = 1,
-["1206"] = {
-{
-["price"] = 6998,
-["quantity"] = 1,
-["time"] = 1746337992,
+["time"] = 1747981841,
 },
 {
-["price"] = 6589,
+["price"] = 990,
 ["quantity"] = 1,
-["time"] = 1746448462,
+["time"] = 1747997292,
 },
-},
-["16724"] = {
 {
-["price"] = 229999,
+["price"] = 898,
 ["quantity"] = 1,
-["time"] = 1748080135,
+["time"] = 1748008282,
 },
 },
 ["2675"] = {
@@ -1390,85 +1473,59 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746366875,
 },
 },
-["gr:727:of Power"] = {
+["__dbversion"] = 1,
+["3282"] = {
 {
-["price"] = 4094,
+["price"] = 787,
 ["quantity"] = 1,
-["time"] = 1756785983,
+["time"] = 1756807057,
 },
 },
-["2842"] = {
+["2632"] = {
 {
-["price"] = 1423,
+["price"] = 2996,
 ["quantity"] = 1,
-["time"] = 1746190467,
+["time"] = 1756807051,
+},
+},
+["1401"] = {
+{
+["price"] = 522,
+["quantity"] = 6,
+["time"] = 1746099535,
+},
+},
+["gr:2632:of Power"] = {
+{
+["price"] = 2996,
+["quantity"] = 1,
+["time"] = 1756807051,
+},
+},
+["3685"] = {
+{
+["price"] = 343,
+["quantity"] = 14,
+["time"] = 1746366872,
 },
 {
-["price"] = 1294,
-["quantity"] = 2,
-["time"] = 1746338000,
-},
-},
-["8836"] = {
-{
-["price"] = 489,
+["price"] = 334,
 ["quantity"] = 7,
-["time"] = 1748333321,
+["time"] = 1747405526,
 },
 },
-["18335"] = {
+["13444"] = {
 {
-["price"] = 3361,
-["quantity"] = 1,
-["time"] = 1750492367,
-},
-{
-["price"] = 1658,
-["quantity"] = 1,
-["time"] = 1750560704,
-},
-},
-["14256"] = {
-{
-["price"] = 40999,
-["quantity"] = 3,
-["time"] = 1747707627,
-},
-},
-["3357"] = {
-{
-["price"] = 722,
+["price"] = 58783,
 ["quantity"] = 2,
-["time"] = 1748163931,
+["time"] = 1748333457,
 },
+},
+["3667"] = {
 {
-["price"] = 590,
-["quantity"] = 1,
-["time"] = 1749297132,
-},
-},
-["12037"] = {
-{
-["price"] = 102,
-["quantity"] = 16,
-["time"] = 1747405560,
-},
-},
-["8838"] = {
-{
-["price"] = 1628,
-["quantity"] = 15,
-["time"] = 1748666975,
-},
-{
-["price"] = 1999,
-["quantity"] = 2,
-["time"] = 1749212846,
-},
-{
-["price"] = 2362,
-["quantity"] = 1,
-["time"] = 1749297332,
+["price"] = 71,
+["quantity"] = 6,
+["time"] = 1747405529,
 },
 },
 ["4305"] = {
@@ -1483,125 +1540,115 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747997300,
 },
 },
-["3730"] = {
+["3731"] = {
 {
-["price"] = 239,
+["price"] = 457,
+["quantity"] = 10,
+["time"] = 1747405519,
+},
+},
+["7069"] = {
+{
+["price"] = 4405,
+["quantity"] = 3,
+["time"] = 1746929941,
+},
+{
+["price"] = 673,
+["quantity"] = 1,
+["time"] = 1746970351,
+},
+{
+["price"] = 861,
+["quantity"] = 1,
+["time"] = 1747981872,
+},
+},
+["727"] = {
+{
+["price"] = 4094,
+["quantity"] = 1,
+["time"] = 1756785983,
+},
+},
+["19933"] = {
+{
+["price"] = 2262,
 ["quantity"] = 4,
-["time"] = 1746366862,
+["time"] = 1747981878,
 },
 },
-["9251"] = {
+["7076"] = {
 {
-["price"] = 9998,
+["price"] = 35194,
 ["quantity"] = 1,
-["time"] = 1747356649,
+["time"] = 1747981861,
 },
-},
-["3864"] = {
 {
-["price"] = 1493,
+["price"] = 29996,
 ["quantity"] = 1,
-["time"] = 1746929900,
+["time"] = 1748059629,
 },
+},
+["9249"] = {
 {
-["price"] = 964,
+["price"] = 4078,
 ["quantity"] = 1,
-["time"] = 1746970366,
+["time"] = 1747361150,
+},
+},
+["4306"] = {
+{
+["price"] = 171,
+["quantity"] = 19,
+["time"] = 1746604980,
 },
 {
-["price"] = 2197,
-["quantity"] = 2,
-["time"] = 1747026788,
+["price"] = 172,
+["quantity"] = 52,
+["time"] = 1746847769,
 },
 {
-["price"] = 9657,
-["quantity"] = 2,
-["time"] = 1747145096,
+["price"] = 178,
+["quantity"] = 46,
+["time"] = 1746858063,
 },
 {
-["price"] = 2095,
+["price"] = 195,
+["quantity"] = 62,
+["time"] = 1746884150,
+},
+{
+["price"] = 167,
+["quantity"] = 108,
+["time"] = 1746929924,
+},
+{
+["price"] = 235,
 ["quantity"] = 1,
-["time"] = 1747741268,
+["time"] = 1746945895,
 },
 {
-["price"] = 1196,
-["quantity"] = 1,
-["time"] = 1747806588,
+["price"] = 193,
+["quantity"] = 50,
+["time"] = 1746970339,
 },
-},
-["3928"] = {
 {
-["price"] = 2427,
+["price"] = 164,
 ["quantity"] = 9,
-["time"] = 1748244166,
+["time"] = 1747026782,
 },
 {
-["price"] = 2423,
-["quantity"] = 14,
-["time"] = 1748244885,
+["price"] = 167,
+["quantity"] = 22,
+["time"] = 1747033237,
 },
 },
-["2742"] = {
+["2735"] = {
 {
-["price"] = 9998,
-["quantity"] = 2,
-["time"] = 1746604945,
-},
-{
-["price"] = 1236,
+["price"] = 578,
 ["quantity"] = 1,
-["time"] = 1746884181,
-},
-{
-["price"] = 484,
-["quantity"] = 1,
-["time"] = 1746929956,
-},
-{
-["price"] = 1467,
-["quantity"] = 2,
-["time"] = 1747145056,
-},
-},
-["13479"] = {
-{
-["price"] = 31392,
-["quantity"] = 1,
-["time"] = 1748754697,
-},
-{
-["price"] = 31389,
-["quantity"] = 1,
-["time"] = 1748777902,
-},
-{
-["price"] = 14998,
-["quantity"] = 1,
-["time"] = 1748862757,
-},
-},
-["2730"] = {
-{
-["price"] = 1166,
-["quantity"] = 1,
-["time"] = 1746604950,
-},
-{
-["price"] = 5794,
-["quantity"] = 1,
-["time"] = 1746929951,
-},
-{
-["price"] = 408,
-["quantity"] = 1,
-["time"] = 1747447565,
-},
-},
-["12204"] = {
-{
-["price"] = 3862,
-["quantity"] = 1,
-["time"] = 1747405534,
+["time"] = 1747145070,
 },
 },
 ["10285"] = {
@@ -1628,40 +1675,25 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748310270,
 },
 },
-["5504"] = {
+["4479"] = {
 {
-["price"] = 119,
-["quantity"] = 9,
-["time"] = 1746338033,
+["price"] = 620,
+["quantity"] = 6,
+["time"] = 1746970315,
 },
+},
+["8951"] = {
 {
-["price"] = 184,
-["quantity"] = 21,
-["time"] = 1746531243,
+["price"] = 8437,
+["quantity"] = 10,
+["time"] = 1748236957,
 },
+},
+["3712"] = {
 {
-["price"] = 95,
-["quantity"] = 23,
-["time"] = 1746862191,
-},
-},
-["727"] = {
-{
-["price"] = 4094,
-["quantity"] = 1,
-["time"] = 1756785983,
-},
-},
-["3182"] = {
-{
-["price"] = 1234,
-["quantity"] = 1,
-["time"] = 1746241617,
-},
-{
-["price"] = 993,
-["quantity"] = 3,
-["time"] = 1746337995,
+["price"] = 619,
+["quantity"] = 7,
+["time"] = 1747405522,
 },
 },
 ["13463"] = {
@@ -1716,107 +1748,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1750568539,
 },
 },
-["4337"] = {
+["13134"] = {
 {
-["price"] = 853,
+["price"] = 77986,
 ["quantity"] = 1,
-["time"] = 1747187414,
-},
-{
-["price"] = 990,
-["quantity"] = 5,
-["time"] = 1747370749,
-},
-{
-["price"] = 8432,
-["quantity"] = 1,
-["time"] = 1747919148,
-},
-{
-["price"] = 1496,
-["quantity"] = 2,
-["time"] = 1747981841,
-},
-{
-["price"] = 990,
-["quantity"] = 1,
-["time"] = 1747997292,
-},
-{
-["price"] = 898,
-["quantity"] = 1,
-["time"] = 1748008282,
-},
-},
-["8153"] = {
-{
-["price"] = 12178,
-["quantity"] = 7,
-["time"] = 1747145091,
-},
-{
-["price"] = 11183,
-["quantity"] = 1,
-["time"] = 1747538259,
-},
-{
-["price"] = 9594,
-["quantity"] = 1,
-["time"] = 1747569880,
-},
-{
-["price"] = 9998,
-["quantity"] = 2,
-["time"] = 1748163925,
-},
-},
-["2738"] = {
-{
-["price"] = 1076,
-["quantity"] = 2,
-["time"] = 1747145067,
-},
-},
-["8845"] = {
-{
-["price"] = 14467,
-["quantity"] = 3,
-["time"] = 1749297129,
-},
-},
-["12184"] = {
-{
-["price"] = 222,
-["quantity"] = 13,
-["time"] = 1747405552,
-},
-},
-["13304"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1749371111,
-},
-},
-["18944"] = {
-{
-["price"] = 584,
-["quantity"] = 15,
-["time"] = 1747538199,
-},
-},
-["11137"] = {
-{
-["price"] = 443,
-["quantity"] = 1,
-["time"] = 1749304381,
-},
-},
-["3712"] = {
-{
-["price"] = 619,
-["quantity"] = 7,
-["time"] = 1747405522,
+["time"] = 1747707619,
 },
 },
 ["2592"] = {
@@ -1861,91 +1797,192 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746970377,
 },
 },
-["8951"] = {
+["2738"] = {
 {
-["price"] = 8437,
-["quantity"] = 10,
-["time"] = 1748236957,
+["price"] = 1076,
+["quantity"] = 2,
+["time"] = 1747145067,
 },
 },
-["3819"] = {
+["1710"] = {
 {
-["price"] = 25986,
+["price"] = 734,
+["quantity"] = 6,
+["time"] = 1747707641,
+},
+{
+["price"] = 749,
+["quantity"] = 34,
+["time"] = 1748151649,
+},
+{
+["price"] = 543,
 ["quantity"] = 1,
-["time"] = 1747405614,
+["time"] = 1748163813,
 },
-},
-["2450"] = {
 {
-["price"] = 159,
+["price"] = 540,
+["quantity"] = 2,
+["time"] = 1748164105,
+},
+{
+["price"] = 493,
+["quantity"] = 10,
+["time"] = 1748235506,
+},
+},
+["12184"] = {
+{
+["price"] = 222,
+["quantity"] = 13,
+["time"] = 1747405552,
+},
+},
+["13304"] = {
+{
+["price"] = 9999,
+["quantity"] = 1,
+["time"] = 1749371111,
+},
+},
+["7068"] = {
+{
+["price"] = 44423,
+["quantity"] = 1,
+["time"] = 1746970356,
+},
+{
+["price"] = 41198,
+["quantity"] = 1,
+["time"] = 1747538193,
+},
+{
+["price"] = 45998,
+["quantity"] = 1,
+["time"] = 1747559028,
+},
+},
+["11137"] = {
+{
+["price"] = 443,
+["quantity"] = 1,
+["time"] = 1749304381,
+},
+},
+["7910"] = {
+{
+["price"] = 7273,
+["quantity"] = 1,
+["time"] = 1747645255,
+},
+{
+["price"] = 11896,
+["quantity"] = 1,
+["time"] = 1747715923,
+},
+{
+["price"] = 5981,
+["quantity"] = 1,
+["time"] = 1747919152,
+},
+{
+["price"] = 6488,
+["quantity"] = 1,
+["time"] = 1747997295,
+},
+{
+["price"] = 6497,
+["quantity"] = 1,
+["time"] = 1748059621,
+},
+{
+["price"] = 8731,
+["quantity"] = 1,
+["time"] = 1748945330,
+},
+{
+["price"] = 6999,
+["quantity"] = 1,
+["time"] = 1749013734,
+},
+},
+["2740"] = {
+{
+["price"] = 944,
 ["quantity"] = 3,
-["time"] = 1746338026,
+["time"] = 1747145062,
 },
 },
-["9187"] = {
+["11737"] = {
 {
-["price"] = 8348,
-["quantity"] = 11,
-["time"] = 1748238886,
-},
-{
-["price"] = 7538,
-["quantity"] = 10,
-["time"] = 1748310260,
-},
-},
-["4306"] = {
-{
-["price"] = 171,
-["quantity"] = 19,
-["time"] = 1746604980,
-},
-{
-["price"] = 172,
-["quantity"] = 52,
-["time"] = 1746847769,
-},
-{
-["price"] = 178,
-["quantity"] = 46,
-["time"] = 1746858063,
-},
-{
-["price"] = 195,
-["quantity"] = 62,
-["time"] = 1746884150,
-},
-{
-["price"] = 167,
-["quantity"] = 108,
-["time"] = 1746929924,
-},
-{
-["price"] = 235,
+["price"] = 3069998,
 ["quantity"] = 1,
-["time"] = 1746945895,
+["time"] = 1748080117,
 },
 {
-["price"] = 193,
-["quantity"] = 50,
-["time"] = 1746970339,
-},
-{
-["price"] = 164,
-["quantity"] = 9,
-["time"] = 1747026782,
-},
-{
-["price"] = 167,
-["quantity"] = 22,
-["time"] = 1747033237,
-},
-},
-["9249"] = {
-{
-["price"] = 4078,
+["price"] = 2887103,
 ["quantity"] = 1,
-["time"] = 1747361150,
+["time"] = 1748097103,
+},
+{
+["price"] = 2667084,
+["quantity"] = 1,
+["time"] = 1748134954,
+},
+},
+["7972"] = {
+{
+["price"] = 1294,
+["quantity"] = 1,
+["time"] = 1748235488,
+},
+},
+["14256"] = {
+{
+["price"] = 40999,
+["quantity"] = 3,
+["time"] = 1747707627,
+},
+},
+["3358"] = {
+{
+["price"] = 2191,
+["quantity"] = 2,
+["time"] = 1746884201,
+},
+{
+["price"] = 824,
+["quantity"] = 1,
+["time"] = 1748671635,
+},
+},
+["2748"] = {
+{
+["price"] = 3346,
+["quantity"] = 1,
+["time"] = 1746884163,
+},
+{
+["price"] = 577,
+["quantity"] = 1,
+["time"] = 1746929959,
+},
+{
+["price"] = 992,
+["quantity"] = 3,
+["time"] = 1747145051,
+},
+{
+["price"] = 4798,
+["quantity"] = 1,
+["time"] = 1747447561,
+},
+},
+["16724"] = {
+{
+["price"] = 229999,
+["quantity"] = 1,
+["time"] = 1748080135,
 },
 },
 ["16712"] = {
@@ -1962,30 +1999,35 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747405540,
 },
 },
-["19933"] = {
+["2750"] = {
 {
-["price"] = 2262,
-["quantity"] = 4,
-["time"] = 1747981878,
-},
-},
-["16703"] = {
-{
-["price"] = 104998,
+["price"] = 573,
 ["quantity"] = 1,
-["time"] = 1748069388,
+["time"] = 1747145044,
 },
+},
+["1206"] = {
 {
-["price"] = 44790,
+["price"] = 6998,
 ["quantity"] = 1,
-["time"] = 1748134967,
+["time"] = 1746337992,
 },
-},
-["3731"] = {
 {
-["price"] = 457,
-["quantity"] = 10,
-["time"] = 1747405519,
+["price"] = 6589,
+["quantity"] = 1,
+["time"] = 1746448462,
+},
+},
+["18335"] = {
+{
+["price"] = 3361,
+["quantity"] = 1,
+["time"] = 1750492367,
+},
+{
+["price"] = 1658,
+["quantity"] = 1,
+["time"] = 1750560704,
 },
 },
 ["2751"] = {
@@ -2000,43 +2042,38 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746929964,
 },
 },
-["2589"] = {
+["13479"] = {
 {
-["price"] = 14,
-["quantity"] = 30,
-["time"] = 1746165435,
-},
-{
-["price"] = 32,
-["quantity"] = 11,
-["time"] = 1746190473,
-},
-{
-["price"] = 111,
-["quantity"] = 12,
-["time"] = 1746276455,
-},
-{
-["price"] = 37,
-["quantity"] = 8,
-["time"] = 1746288924,
-},
-{
-["price"] = 49,
-["quantity"] = 21,
-["time"] = 1746338016,
-},
-{
-["price"] = 33,
-["quantity"] = 5,
-["time"] = 1746365507,
-},
-},
-["2318"] = {
-{
-["price"] = 288,
+["price"] = 31392,
 ["quantity"] = 1,
-["time"] = 1756792167,
+["time"] = 1748754697,
+},
+{
+["price"] = 31389,
+["quantity"] = 1,
+["time"] = 1748777902,
+},
+{
+["price"] = 14998,
+["quantity"] = 1,
+["time"] = 1748862757,
+},
+},
+["7079"] = {
+{
+["price"] = 1176,
+["quantity"] = 4,
+["time"] = 1747474966,
+},
+{
+["price"] = 4346,
+["quantity"] = 2,
+["time"] = 1747889557,
+},
+{
+["price"] = 794,
+["quantity"] = 1,
+["time"] = 1749297337,
 },
 },
 ["19236"] = {
@@ -2228,159 +2265,159 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["2446"] = 5564,
 ["3927"] = 360,
 ["5441"] = 1000,
-["15905"] = 1917,
-["17033"] = 1800,
+["2509"] = 414,
+["844"] = 720,
 ["2520"] = 22165,
-["12703"] = 40000,
+["4291"] = 450,
 ["927"] = 6258,
-["928"] = 8874,
+["17029"] = 900,
 ["923"] = 7869,
 ["2150"] = 2637,
 ["2532"] = 47347,
 ["17038"] = 1800,
-["4595"] = 300,
-["2594"] = 1500,
+["8925"] = 500,
+["1194"] = 104,
 ["2208"] = 3650,
 ["926"] = 8806,
 ["2029"] = 4419,
-["2595"] = 2000,
-["2493"] = 701,
+["849"] = 1326,
+["117"] = 5,
 ["16059"] = 360,
-["2419"] = 7894,
+["2593"] = 150,
 ["7005"] = 74,
 ["8092"] = 18281,
-["16583"] = 9000,
+["5140"] = 25,
 ["8089"] = 18073,
 ["3422"] = 2000,
 ["2535"] = 55400,
-["1198"] = 2676,
-["8932"] = 720,
+["2494"] = 401,
+["3419"] = 500,
 ["18776"] = 9000000,
 ["1845"] = 877,
-["11141"] = 2000,
-["12233"] = 3000,
+["3131"] = 0.135,
+["11285"] = 4.5,
 ["2533"] = 54996,
-["4342"] = 2250,
+["1645"] = 400,
 ["15327"] = 3.6,
-["2421"] = 7952,
-["5042"] = 45,
-["854"] = 3022,
-["2515"] = 0.225,
+["4605"] = 25,
+["845"] = 1447,
+["4497"] = 18000,
+["2209"] = 6404,
 ["17021"] = 630,
 ["12958"] = 50000,
-["6532"] = 250,
 ["18567"] = 150000,
+["2596"] = 120,
 ["2519"] = 0.25,
 ["8957"] = 720,
 ["15906"] = 1924,
 ["1844"] = 728,
 ["8923"] = 200,
 ["4498"] = 2250,
-["15811"] = 24419,
-["8343"] = 1800,
-["1708"] = 200,
+["3421"] = 200,
+["21219"] = 4500,
+["17026"] = 900,
 ["2529"] = 58528,
-["11284"] = 4.5,
+["3713"] = 144,
 ["4599"] = 400,
 ["8093"] = 24467,
 ["2207"] = 2390,
-["6529"] = 50,
-["9303"] = 8000,
+["414"] = 22.4,
+["11444"] = 800,
 ["787"] = 4.4,
-["2489"] = 342,
-["184937"] = 10000,
+["3857"] = 500,
+["4340"] = 315,
 ["3135"] = 0.34,
 ["286"] = 2906,
-["4540"] = 5,
-["1852"] = 1516,
+["12823"] = 20000,
+["4399"] = 200,
 ["3428"] = 360,
-["924"] = 9875,
+["4608"] = 400,
 ["4538"] = 90,
-["11022"] = 900,
-["2665"] = 18,
+["4496"] = 450,
+["15810"] = 9130,
 ["18777"] = 9000000,
 ["287"] = 2197,
 ["17034"] = 180,
-["2026"] = 6286,
+["10290"] = 2250,
 ["6261"] = 900,
-["11362"] = 900,
-["2516"] = 0.05,
+["15326"] = 3.6,
+["12240"] = 6300,
 ["8953"] = 720,
-["2528"] = 46652,
+["3108"] = 0.9,
 ["8950"] = 800,
 ["2101"] = 4,
 ["18778"] = 9000000,
-["4606"] = 100,
-["2530"] = 46997,
-["2139"] = 57,
-["3891"] = 12284,
+["2534"] = 40888,
+["1197"] = 2666,
+["2522"] = 20293,
+["2320"] = 9,
 ["2678"] = 1.8,
 ["2417"] = 15673,
-["5956"] = 18,
-["10647"] = 2000,
-["3770"] = 100,
-["718"] = 1453,
-["2392"] = 372,
-["4539"] = 180,
-["15904"] = 19537,
-["2946"] = 0.135,
-["1707"] = 180,
-["3107"] = 0.34,
-["13485"] = 15000,
 ["17020"] = 900,
+["10647"] = 2000,
+["13485"] = 15000,
+["3107"] = 0.34,
+["1707"] = 180,
+["15904"] = 19537,
+["4539"] = 180,
+["2946"] = 0.135,
+["2392"] = 372,
+["718"] = 1453,
+["3770"] = 100,
+["5956"] = 18,
 ["2027"] = 3815,
 ["3027"] = 6349,
-["2320"] = 9,
-["2522"] = 20293,
-["1197"] = 2666,
-["2534"] = 40888,
-["3108"] = 0.9,
-["12240"] = 6300,
-["15326"] = 3.6,
+["3891"] = 12284,
+["2139"] = 57,
+["2530"] = 46997,
+["4606"] = 100,
+["2528"] = 46652,
+["2516"] = 0.05,
+["11362"] = 900,
 ["8094"] = 24561,
-["10290"] = 2250,
-["15810"] = 9130,
-["4496"] = 450,
-["4608"] = 400,
+["2026"] = 6286,
+["2665"] = 18,
+["11022"] = 900,
+["924"] = 9875,
 ["11109"] = 25,
-["4399"] = 200,
-["12823"] = 20000,
+["1852"] = 1516,
+["4540"] = 5,
 ["8924"] = 100,
-["4340"] = 315,
-["3857"] = 500,
-["11444"] = 800,
-["414"] = 22.4,
-["3713"] = 144,
-["17026"] = 900,
-["21219"] = 4500,
-["3421"] = 200,
+["184937"] = 10000,
+["2489"] = 342,
+["9303"] = 8000,
+["6529"] = 50,
+["11284"] = 4.5,
+["1708"] = 200,
+["8343"] = 1800,
+["15811"] = 24419,
 ["2448"] = 16158,
 ["1846"] = 880,
-["2596"] = 120,
+["6532"] = 250,
 ["4594"] = 180,
 ["12228"] = 5000,
-["2209"] = 6404,
-["4497"] = 18000,
-["845"] = 1447,
-["4605"] = 25,
-["1645"] = 400,
+["2515"] = 0.225,
+["854"] = 3022,
+["5042"] = 45,
+["2421"] = 7952,
+["4342"] = 2250,
 ["3372"] = 40,
-["11285"] = 4.5,
-["3131"] = 0.135,
-["3419"] = 500,
-["2494"] = 401,
+["12233"] = 3000,
+["11141"] = 2000,
+["8932"] = 720,
+["1198"] = 2676,
 ["12239"] = 7000,
 ["4593"] = 90,
-["5140"] = 25,
-["2593"] = 150,
-["117"] = 5,
-["849"] = 1326,
-["1194"] = 104,
-["8925"] = 500,
-["17029"] = 900,
-["4291"] = 450,
-["844"] = 720,
-["2509"] = 414,
+["16583"] = 9000,
+["2419"] = 7894,
+["2493"] = 701,
+["2595"] = 2000,
+["2594"] = 1500,
+["4595"] = 300,
+["928"] = 8874,
+["12703"] = 40000,
+["17033"] = 1800,
+["15905"] = 1917,
 ["285"] = 3200,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
@@ -2413,9 +2450,9 @@ AUCTIONATOR_RECENT_SEARCHES = {
 AUCTIONATOR_SELLING_GROUPS = {
 ["CustomGroups"] = {
 {
-["name"] = "FAVOURITES",
-["type"] = 1,
 ["hidden"] = false,
+["type"] = 1,
+["name"] = "FAVOURITES",
 ["list"] = {
 },
 },
