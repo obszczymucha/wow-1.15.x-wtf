@@ -6,29 +6,29 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["chuj"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["localdefense"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["layer"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["princesskenny"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 ["world"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 },
 },
@@ -57,9 +57,9 @@ Prat3DB = {
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
-["initialized"] = true,
-["maxchatheightdefault"] = 400,
 ["minchatwidthdefault"] = 296,
+["maxchatheightdefault"] = 400,
+["initialized"] = true,
 ["maxchatwidthdefault"] = 608.0000610351562,
 ["framealphastatic"] = true,
 },
@@ -94,7 +94,12 @@ Prat3DB = {
 },
 ["Prat_DebugModules"] = {
 },
-["Prat_Sounds"] = {
+["Prat_Timestamps"] = {
+["profiles"] = {
+["Default"] = {
+["formatcode"] = "%H:%M",
+},
+},
 },
 ["Prat_ChannelSticky"] = {
 },
@@ -110,23 +115,23 @@ Prat3DB = {
 },
 ["Prat_Bubbles"] = {
 },
-["Prat_ChannelNames"] = {
-["profiles"] = {
-["Default"] = {
-["nickname"] = {
-["LocalDefense"] = "LD",
-["Trade"] = "T",
-["General"] = "G",
-["world"] = "W",
-},
-},
-},
+["Prat_UrlCopy"] = {
 },
 ["Prat_Invites"] = {
 },
 ["Prat_LinkInfoIcons"] = {
 },
-["Prat_UrlCopy"] = {
+["Prat_ChannelNames"] = {
+["profiles"] = {
+["Default"] = {
+["nickname"] = {
+["LocalDefense"] = "LD",
+["world"] = "W",
+["General"] = "G",
+["Trade"] = "T",
+},
+},
+},
 },
 ["Prat_ChatLog"] = {
 },
@@ -139,12 +144,7 @@ Prat3DB = {
 },
 },
 },
-["Prat_Timestamps"] = {
-["profiles"] = {
-["Default"] = {
-["formatcode"] = "%H:%M",
-},
-},
+["Prat_Sounds"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -156,7 +156,7 @@ Prat3DB = {
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -166,7 +166,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

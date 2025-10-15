@@ -1,58 +1,58 @@
 
 TalentedDB = {
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-	},
-	["profiles"] = {
-		["Tachikoma - Spineshatter"] = {
-			["last_template"] = "Arms",
-			["framepos"] = {
-				["TalentedFrame"] = {
-					["y"] = 7.6466693878173828,
-					["anchor"] = "CENTER",
-					["x"] = 9.6280050277709961,
-					["anchorTo"] = "CENTER",
-				},
-			},
-		},
-		["Obszczymucha - Spineshatter"] = {
-			["last_template"] = "Arms",
-			["framepos"] = {
-				["TalentedFrame"] = {
-					["y"] = 7.6466693878173828,
-					["anchor"] = "CENTER",
-					["x"] = 9.6280050277709961,
-					["anchorTo"] = "CENTER",
-				},
-			},
-		},
-	},
-	["global"] = {
-		["templates"] = {
-			["DRUID"] = {
-			},
-			["PALADIN"] = {
-			},
-			["PRIEST"] = {
-			},
-			["HUNTER"] = {
-			},
-			["ROGUE"] = {
-			},
-			["WARLOCK"] = {
-			},
-			["WARRIOR"] = {
-				["Arms"] = "M3otBrFa0n5514",
-				["Fury Prot"] = "M2Z5t14Mta5a5503t",
-				["Arms Fury Prot"] = "Mo2t1Z5t14tZ5503t",
-				["Fury"] = "MAotBmAZ5514Mta5a",
-				["Empty"] = "M",
-			},
-			["SHAMAN"] = {
-			},
-			["MAGE"] = {
-			},
-		},
-	},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
+["global"] = {
+["templates"] = {
+["HUNTER"] = {
+},
+["WARRIOR"] = {
+["Arms Fury Prot"] = "Mo2t1Z5t14tZ5503t",
+["Arms"] = "M3otBrFa0n5514",
+["Empty"] = "M",
+["Fury"] = "MAotBmAZ5514Mta5a",
+["Fury Prot"] = "M2Z5t14Mta5a5503t",
+},
+["PALADIN"] = {
+},
+["MAGE"] = {
+},
+["PRIEST"] = {
+},
+["WARLOCK"] = {
+},
+["DRUID"] = {
+},
+["ROGUE"] = {
+},
+["SHAMAN"] = {
+},
+},
+},
+["profiles"] = {
+["Obszczymucha - Spineshatter"] = {
+["last_template"] = "Arms",
+["framepos"] = {
+["TalentedFrame"] = {
+["y"] = 7.646669387817383,
+["x"] = 9.628005027770996,
+["anchor"] = "CENTER",
+["anchorTo"] = "CENTER",
+},
+},
+},
+["Tachikoma - Spineshatter"] = {
+["last_template"] = "Arms",
+["framepos"] = {
+["TalentedFrame"] = {
+["y"] = 7.646669387817383,
+["x"] = 9.628005027770996,
+["anchor"] = "CENTER",
+["anchorTo"] = "CENTER",
+},
+},
+},
+},
 }

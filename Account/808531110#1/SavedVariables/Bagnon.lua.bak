@@ -3,40 +3,38 @@ Bagnon_Sets = {
 ["tackleColor"] = {
 },
 ["latest"] = {
-["id"] = "11.2.5",
-["cooldown"] = 1757047224,
-["who"] = "Betrime-Spineshatter",
+["cooldown"] = 1760954536,
 },
 ["color"] = {
 ["quiver"] = {
 },
-["account"] = {
+["herb"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
 ["soul"] = {
 },
-["inscribe"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["key"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["reagent"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["engineer"] = {
 },
 ["tackle"] = {
 },
-["fridge"] = {
+["leather"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
-["herb"] = {
+["account"] = {
 },
 },
 ["herbColor"] = {
@@ -54,192 +52,7 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
-["global"] = {
-["vault"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
-},
-["color"] = {
-},
-["borderColor"] = {
-},
-["hiddenRules"] = {
-},
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
-["guild"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
-},
-["color"] = {
-},
-["borderColor"] = {
-},
-["hiddenRules"] = {
-},
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
-["inventory"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["point"] = "BOTTOMRIGHT",
-["hiddenBags"] = {
-},
-["scale"] = 0.88,
-["sort"] = false,
-["spacing"] = 0,
-["bagToggle"] = true,
-["filters"] = {
-"all",
-"normal",
-"trade",
-},
-["enabled"] = true,
-["options"] = false,
-["money"] = true,
-["itemScale"] = 0.93,
-["hiddenRules"] = {
-},
-["y"] = 231.9114685058594,
-["x"] = -161.5359591531508,
-["search"] = false,
-["broker"] = false,
-["columns"] = 17,
-["color"] = {
-0,
-0,
-0,
-0.5342593789100647,
-},
-["skin"] = "OnePixel",
-["borderColor"] = {
-0.6470588445663452,
-0.4705882668495178,
-0.3450980484485626,
-0.449999988079071,
-},
-},
-["bank"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["point"] = "TOPLEFT",
-["hiddenBags"] = {
-},
-["color"] = {
-},
-["hiddenRules"] = {
-},
-["y"] = -299.82080078125,
-["x"] = 273.9763793945313,
-["spacing"] = -6,
-["borderColor"] = {
-},
-["columns"] = 7,
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
+["leatherColor"] = {
 },
 ["keyColor"] = {
 },
@@ -249,7 +62,7 @@ Bagnon_Sets = {
 },
 ["mineColor"] = {
 },
-["engineerColor"] = {
+["fridgeColor"] = {
 },
 ["version"] = "9.1.6",
 ["customRules"] = {
@@ -257,8 +70,105 @@ Bagnon_Sets = {
 ["display"] = {
 },
 ["glowPoor"] = false,
-["fridgeColor"] = {
+["engineerColor"] = {
 },
-["leatherColor"] = {
+["global"] = {
+["inventory"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"normal",
+"trade",
+},
+},
+["point"] = "BOTTOMRIGHT",
+["scale"] = 0.88,
+["sort"] = false,
+["spacing"] = 0,
+["bagToggle"] = true,
+["enabled"] = true,
+["options"] = false,
+["money"] = true,
+["itemScale"] = 0.93,
+["borderColor"] = {
+0.6470588445663452,
+0.4705882668495178,
+0.3450980484485626,
+0.449999988079071,
+},
+["y"] = 231.9114685058594,
+["x"] = -161.5359591531508,
+["search"] = false,
+["broker"] = false,
+["skin"] = "OnePixel",
+["color"] = {
+0,
+0,
+0,
+0.5342593789100647,
+},
+["columns"] = 17,
+["hiddenRules"] = {
+},
+},
+["vault"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["borderColor"] = {
+},
+["color"] = {
+},
+["hiddenRules"] = {
+},
+},
+["guild"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["borderColor"] = {
+},
+["color"] = {
+},
+["hiddenRules"] = {
+},
+},
+["bank"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["point"] = "TOPLEFT",
+["color"] = {
+},
+["hiddenRules"] = {
+},
+["y"] = -299.82080078125,
+["x"] = 273.9763793945313,
+["spacing"] = -6,
+["columns"] = 7,
+["borderColor"] = {
+},
+},
 },
 }

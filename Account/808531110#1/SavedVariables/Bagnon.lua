@@ -3,40 +3,38 @@ Bagnon_Sets = {
 ["tackleColor"] = {
 },
 ["latest"] = {
-["id"] = "11.2.5",
-["cooldown"] = 1757047224,
-["who"] = "Betrime-Spineshatter",
+["cooldown"] = 1760954536,
 },
 ["color"] = {
 ["quiver"] = {
 },
-["herb"] = {
+["account"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
 ["soul"] = {
 },
-["fridge"] = {
+["leather"] = {
 },
 ["mine"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["inscribe"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
-["gem"] = {
+["key"] = {
 },
 ["engineer"] = {
 },
 ["tackle"] = {
 },
-["leather"] = {
+["reagent"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
-["account"] = {
+["herb"] = {
 },
 },
 ["herbColor"] = {
@@ -54,119 +52,66 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
-["leatherColor"] = {
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["fridgeColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["glowPoor"] = false,
-["engineerColor"] = {
-},
 ["global"] = {
 ["inventory"] = {
 ["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["point"] = "BOTTOMRIGHT",
-["hiddenBags"] = {
-},
-["scale"] = 0.88,
-["sort"] = false,
-["spacing"] = 0,
-["bagToggle"] = true,
-["filters"] = {
+["sidebar"] = {
 "all",
 "normal",
 "trade",
 },
+},
+["point"] = "BOTTOMRIGHT",
+["scale"] = 0.88,
+["sort"] = false,
+["spacing"] = 0,
+["bagToggle"] = true,
 ["enabled"] = true,
 ["options"] = false,
 ["money"] = true,
 ["itemScale"] = 0.93,
-["borderColor"] = {
-0.6470588445663452,
-0.4705882668495178,
-0.3450980484485626,
-0.449999988079071,
+["hiddenRules"] = {
 },
 ["y"] = 231.9114685058594,
 ["x"] = -161.5359591531508,
 ["search"] = false,
 ["broker"] = false,
-["skin"] = "OnePixel",
+["columns"] = 17,
 ["color"] = {
 0,
 0,
 0,
 0.5342593789100647,
 },
-["columns"] = 17,
+["skin"] = "OnePixel",
+["borderColor"] = {
+0.6470588445663452,
+0.4705882668495178,
+0.3450980484485626,
+0.449999988079071,
+},
+},
+["vault"] = {
+["rules"] = {
+["sidebar"] = {
+"all",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
+},
+["borderColor"] = {
+},
+["color"] = {
+},
 ["hiddenRules"] = {
 },
 },
 ["guild"] = {
 ["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
-},
-["color"] = {
-},
-["borderColor"] = {
-},
-["hiddenRules"] = {
-},
-["filters"] = {
+["sidebar"] = {
 "all",
 "reagent",
 "consumable",
@@ -175,72 +120,25 @@ Bagnon_Sets = {
 "miscellaneous",
 },
 },
-["vault"] = {
-["rules"] = {
-"all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
-},
-["hiddenBags"] = {
+["borderColor"] = {
 },
 ["color"] = {
 },
-["borderColor"] = {
-},
 ["hiddenRules"] = {
-},
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
 },
 },
 ["bank"] = {
 ["rules"] = {
+["sidebar"] = {
 "all",
-"all/normal",
-"all/trade",
-"all/reagent",
-"all/keys",
-"all/quiver",
-"equip",
-"equip/armor",
-"equip/weapon",
-"equip/trinket",
-"use",
-"use/consume",
-"use/enhance",
-"trade",
-"trade/goods",
-"trade/gem",
-"trade/glyph",
-"trade/recipe",
-"quest",
-"misc",
+"reagent",
+"consumable",
+"armor",
+"questitem",
+"miscellaneous",
+},
 },
 ["point"] = "TOPLEFT",
-["hiddenBags"] = {
-},
 ["color"] = {
 },
 ["hiddenRules"] = {
@@ -251,14 +149,26 @@ Bagnon_Sets = {
 ["borderColor"] = {
 },
 ["columns"] = 7,
-["filters"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
 },
 },
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["engineerColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["glowPoor"] = false,
+["fridgeColor"] = {
+},
+["leatherColor"] = {
 },
 }

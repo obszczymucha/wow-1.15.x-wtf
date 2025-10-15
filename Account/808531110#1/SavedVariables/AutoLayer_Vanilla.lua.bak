@@ -6,12 +6,12 @@ AutoLayerDB = {
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
-["enabled"] = false,
 ["layered"] = 5,
+["enabled"] = false,
 },
 ["Tachikoma - Spineshatter"] = {
-["layered"] = 5,
 ["enabled"] = false,
+["layered"] = 5,
 },
 },
 }

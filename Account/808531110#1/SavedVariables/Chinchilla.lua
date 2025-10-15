@@ -47,12 +47,7 @@ nil,
 },
 ["RangeCircle"] = {
 },
-["Ping"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -92,7 +87,12 @@ nil,
 },
 },
 },
-["Zoom"] = {
+["Ping"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
 },
 },
 ["profileKeys"] = {

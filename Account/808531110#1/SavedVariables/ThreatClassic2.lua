@@ -1,20 +1,23 @@
 
 ThreatClassic2DB = {
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["frame"] = {
-				["position"] = {
-					[4] = 17.374910354614261,
-					[5] = -42.548698425292969,
-				},
-			},
-			["bar"] = {
-				["count"] = 8,
-			},
-		},
-	},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["frame"] = {
+["position"] = {
+nil,
+nil,
+nil,
+14.21440505981445,
+-22.00558853149414,
+},
+},
+["bar"] = {
+["count"] = 8,
+},
+},
+},
 }

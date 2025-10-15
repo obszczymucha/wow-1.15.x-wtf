@@ -1,21 +1,7 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = -41.46719360351563,
-["point"] = "TOP",
-["y"] = -69.30265045166016,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 19.06044578552246,
-["point"] = "TOP",
-["y"] = -52.50723648071289,
-},
-},
+["CombatQueue"] = {
 },
 ["Bag"] = {
 },
@@ -35,16 +21,28 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = -41.46719360351563,
+["point"] = "TOP",
+["y"] = -69.30265045166016,
 },
-["Item"] = {
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 19.06044578552246,
+["point"] = "TOP",
+["y"] = -52.50723648071289,
 },
-["GlobalReferences"] = {
+},
 },
 ["FrameSpacing"] = {
 ["frame_spacing"] = 30,
+},
+["GlobalReferences"] = {
+},
+["Item"] = {
 },
 ["FarmingAnchor"] = {
 ["point"] = {
@@ -59,32 +57,24 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["farming_mode_lock"] = false,
 ["ui_mode"] = 1,
+["farming_mode_lock"] = false,
 },
 ["WeakAuras"] = {
 },
-["WarriorMode"] = {
-["zones"] = {
-["Hall of Blackhand"] = {
-["The Beast"] = "Single",
+["Timer"] = {
 },
-},
-["mode"] = "Auto",
-},
-["MinimapScale"] = {
-["farming_minimap_scale"] = 1.1,
-["minimap_scale"] = 0.79,
+["FrameBuilder"] = {
 },
 ["macros"] = {
 },
-["MinimapIcons"] = {
+["ColorPicker"] = {
 },
 ["TankTarget"] = {
 },
 ["Macro"] = {
 },
-["ColorPicker"] = {
+["MinimapIcons"] = {
 },
 ["ExternalEvent"] = {
 },
@@ -98,15 +88,25 @@ ModUiDb = {
 ["Decapitator"] = {
 ["should_equip"] = false,
 },
-["FrameBuilder"] = {
+["MinimapScale"] = {
+["farming_minimap_scale"] = 1.1,
+["minimap_scale"] = 0.79,
 },
-["Timer"] = {
+["WarriorMode"] = {
+["zones"] = {
+["Hall of Blackhand"] = {
+["The Beast"] = "Single",
+},
+},
+["mode"] = "Auto",
 },
 ["MultiSpec"] = {
 },
 ["NamedEventObserver"] = {
 },
-["CombatQueue"] = {
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
 },
 ["mods"] = {
@@ -152,12 +152,12 @@ ModUiDb = {
 "|cffffffff|Hitem:8950::::::::54:::::::::|h[Homemade Cherry Pie]|h|r",
 },
 ["consume_macro"] = {
+["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 ["consume_links"] = {
 "|cffffffff|Hitem:2681::::::::10:::::::::|h[Roasted Boar Meat]|h|r",
 "|cffffffff|Hitem:2679::::::::10:::::::::|h[Charred Wolf Meat]|h|r",
 "|cffffffff|Hitem:414::::::::10:::::::::|h[Dalaran Sharp]|h|r",
 },
-["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 },
 },
 ["FriendInvite"] = {
@@ -178,17 +178,46 @@ ModUiDb = {
 },
 ["ItemId"] = {
 },
-["music"] = {
-["music"] = {
-["playlist_id"] = "elwynn",
-["force"] = true,
+["notes"] = {
+["player_notes"] = {
 },
 },
-["Obszczymucha/frames"] = {
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Blackhand Summoner",
+},
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Hulking Mountain",
+},
+["T1"] = {
+["fishing"] = true,
+},
+},
+},
+},
+["HasDied"] = {
 },
 ["FramePositions"] = {
 },
+["ZoneTextFrame"] = {
+},
 ["ZoneMiscText"] = {
+},
+["Chat"] = {
+},
+["FrameVisibility"] = {
+},
+["Sandbox"] = {
+},
+["AuctionSold"] = {
+},
+["Obszczymucha/MinimapIcons"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -236,9 +265,9 @@ ModUiDb = {
 ["time"] = 1747256284,
 ["reason"] = "fucking stockade boost spammer",
 },
-["Ichimi"] = {
-["time"] = 1747820674,
-["reason"] = "fucktard BRD puller",
+["Putasam"] = {
+["time"] = 1749280302,
+["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
 },
 ["Kribben"] = {
 ["time"] = 1746282558,
@@ -252,9 +281,9 @@ ModUiDb = {
 ["time"] = 1746285213,
 ["reason"] = "rolled on strength ring as druid in Stockades",
 },
-["Dyrachyó"] = {
-["time"] = 1749280323,
-["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
+["Vancaster"] = {
+["time"] = 1748095945,
+["reason"] = "fucktard spammer",
 },
 ["Mortybrain"] = {
 ["time"] = 1749264099,
@@ -264,13 +293,13 @@ ModUiDb = {
 ["time"] = 1746888687,
 ["reason"] = "Pontimex",
 },
-["Lkjk"] = {
-["time"] = 1749370024,
-["reason"] = "piece of fuck group leaver",
+["Adúnaphel"] = {
+["time"] = 1746926521,
+["reason"] = "doesn't invite for quests",
 },
-["Hilbot"] = {
-["time"] = 1747032838,
-["reason"] = "group leaver (Ulda)",
+["Dyrachyó"] = {
+["time"] = 1749280323,
+["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
 },
 ["Mynamelai"] = {
 ["time"] = 1746288186,
@@ -280,41 +309,41 @@ ModUiDb = {
 ["time"] = 1747982415,
 ["reason"] = "fucking group leaver and fucktard",
 },
-["Adúnaphel"] = {
-["time"] = 1746926521,
-["reason"] = "doesn't invite for quests",
+["Lkjk"] = {
+["time"] = 1749370024,
+["reason"] = "piece of fuck group leaver",
 },
-["Desperatus"] = {
-["time"] = 1747387006,
-["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
-},
-["Valleyboy"] = {
-["time"] = 1747916305,
-["reason"] = "group leaver",
-},
-["Fmlkms"] = {
-["time"] = 1747383187,
-["reason"] = "did the quest then bailed Mara",
+["Clasix"] = {
+["time"] = 1747916312,
+["reason"] = "can you sum?",
 },
 ["Oldworld"] = {
 ["time"] = 1746528130,
 ["reason"] = "boost spammer",
 },
-["Royieal"] = {
-["time"] = 1749290190,
-["reason"] = "fucktard group leaver",
+["Fmlkms"] = {
+["time"] = 1747383187,
+["reason"] = "did the quest then bailed Mara",
 },
-["Páránøiáz"] = {
-["time"] = 1747260536,
-["reason"] = "fucking layer spammer",
+["Valleyboy"] = {
+["time"] = 1747916305,
+["reason"] = "group leaver",
+},
+["Foddy"] = {
+["time"] = 1749617466,
+["reason"] = "spamming fuck",
+},
+["Relgeiz"] = {
+["time"] = 1748002458,
+["reason"] = "group leaver and elitist fuck",
 },
 ["Leparitka"] = {
 ["time"] = 1747377638,
 ["reason"] = "group leaver",
 },
-["Sorser"] = {
-["time"] = 1747740557,
-["reason"] = "ninjaed elemental card in BRD",
+["Kissmelove"] = {
+["time"] = 1749122028,
+["reason"] = "spammer",
 },
 ["Arthase"] = {
 ["time"] = 1747817678,
@@ -324,17 +353,17 @@ ModUiDb = {
 ["time"] = 1748002495,
 ["reason"] = "fuck and group leaver",
 },
-["Anemal"] = {
-["time"] = 1747032165,
-["reason"] = "fucking retard",
+["Visionest"] = {
+["time"] = 1749104267,
+["reason"] = "dmt spam",
 },
-["Raned"] = {
-["time"] = 1748598921,
-["reason"] = "mage fuck",
+["Otpwar"] = {
+["time"] = 1747032202,
+["reason"] = "trash fuck",
 },
-["Foddy"] = {
-["time"] = 1749617466,
-["reason"] = "spamming fuck",
+["Royieal"] = {
+["time"] = 1749290190,
+["reason"] = "fucktard group leaver",
 },
 ["Dedulok"] = {
 ["time"] = 1747376189,
@@ -384,21 +413,21 @@ ModUiDb = {
 ["time"] = 1747567339,
 ["reason"] = "stupid fuck didnt help pvp",
 },
-["Otpwar"] = {
-["time"] = 1747032202,
-["reason"] = "trash fuck",
+["Raned"] = {
+["time"] = 1748598921,
+["reason"] = "mage fuck",
 },
-["Visionest"] = {
-["time"] = 1749104267,
-["reason"] = "dmt spam",
+["Anemal"] = {
+["time"] = 1747032165,
+["reason"] = "fucking retard",
 },
-["Kissmelove"] = {
-["time"] = 1749122028,
-["reason"] = "spammer",
+["Sorser"] = {
+["time"] = 1747740557,
+["reason"] = "ninjaed elemental card in BRD",
 },
-["Relgeiz"] = {
-["time"] = 1748002458,
-["reason"] = "group leaver and elitist fuck",
+["Páránøiáz"] = {
+["time"] = 1747260536,
+["reason"] = "fucking layer spammer",
 },
 ["Beragor"] = {
 ["time"] = 1747212628,
@@ -408,21 +437,21 @@ ModUiDb = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Clasix"] = {
-["time"] = 1747916312,
-["reason"] = "can you sum?",
+["Desperatus"] = {
+["time"] = 1747387006,
+["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
 },
 ["Rostig"] = {
 ["time"] = 1749291787,
 ["reason"] = "group leaver",
 },
-["Vancaster"] = {
-["time"] = 1748095945,
-["reason"] = "fucktard spammer",
+["Hilbot"] = {
+["time"] = 1747032838,
+["reason"] = "group leaver (Ulda)",
 },
-["Putasam"] = {
-["time"] = 1749280302,
-["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
+["Ichimi"] = {
+["time"] = 1747820674,
+["reason"] = "fucktard BRD puller",
 },
 ["Gnrk"] = {
 ["time"] = 1749030325,
@@ -434,37 +463,12 @@ ModUiDb = {
 },
 },
 },
-["Obszczymucha/MinimapIcons"] = {
+["Obszczymucha/frames"] = {
 },
-["Sandbox"] = {
-},
-["AuctionSold"] = {
-},
-["FrameVisibility"] = {
-},
-["Chat"] = {
-},
-["ZoneTextFrame"] = {
-},
-["HasDied"] = {
-},
-["TargetMacro"] = {
-["target_macro"] = {
-["macros"] = {
-{
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Blackhand Summoner",
-},
-{
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Hulking Mountain",
-},
-["T1"] = {
-["fishing"] = true,
-},
-},
+["music"] = {
+["music"] = {
+["playlist_id"] = "elwynn",
+["force"] = true,
 },
 },
 },
