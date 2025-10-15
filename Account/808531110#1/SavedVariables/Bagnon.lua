@@ -73,7 +73,7 @@ Bagnon_Sets = {
 ["hiddenRules"] = {
 },
 ["y"] = 231.9114685058594,
-["x"] = -161.5359591531508,
+["x"] = -161.5360644725552,
 ["search"] = false,
 ["broker"] = false,
 ["columns"] = 17,

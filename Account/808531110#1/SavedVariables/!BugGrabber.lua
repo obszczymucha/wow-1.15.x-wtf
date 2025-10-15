@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 559,
+["session"] = 571,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
@@ -274,6 +274,12 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Outfitter/OutfitterUITools.lua]:322: in function 'Construct'\n[Interface/AddOns/Outfitter/Outfitter.lua]:4726: in function 'Function'\n[Interface/AddOns/Outfitter/Libraries/MC2SchedulerLib/MC2SchedulerLib.lua]:242: in function 'OnUpdate2'\n[Interface/AddOns/Outfitter/Libraries/MC2SchedulerLib/MC2SchedulerLib.lua]:178: in function 'OnUpdate'\n[Interface/AddOns/Outfitter/Libraries/MC2SchedulerLib/MC2SchedulerLib.lua]:20: in function <...fitter/Libraries/MC2SchedulerLib/MC2SchedulerLib.lua:20>",
 ["session"] = 558,
 ["counter"] = 3,
+},
+{
+["message"] = "Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.xml:1 Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0/CallbackHandler-1.0.xml(1): error: syntax error",
+["session"] = 571,
+["time"] = "2025/10/15 09:49:00",
+["counter"] = 24,
 },
 },
 }

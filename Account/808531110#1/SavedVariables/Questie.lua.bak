@@ -33023,7 +33023,7 @@ true,
 ["profiles"] = {
 ["Default"] = {
 ["migrationVersion"] = 12,
-["ldbDisplayText"] = "Young Nightsaber slain: 2/7",
+["ldbDisplayText"] = "Plainstrider Meat: 1/7",
 ["trackerShowCompleteQuests"] = false,
 ["nameplateTargetFrameY"] = -8,
 ["nameplateTargetFrameX"] = -4,
