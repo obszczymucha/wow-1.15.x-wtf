@@ -1,11 +1,11 @@
 
 AtlasLootClassicDB = {
-["global"] = {
-["__addonrevision"] = 3020000,
-},
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
+["global"] = {
+["__addonrevision"] = 3020000,
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {

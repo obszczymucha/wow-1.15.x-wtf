@@ -8,33 +8,33 @@ Bagnon_Sets = {
 ["color"] = {
 ["quiver"] = {
 },
-["herb"] = {
+["account"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
 ["soul"] = {
 },
-["fridge"] = {
+["leather"] = {
 },
 ["mine"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["inscribe"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
-["gem"] = {
+["key"] = {
 },
 ["engineer"] = {
 },
 ["tackle"] = {
 },
-["leather"] = {
+["reagent"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
-["account"] = {
+["herb"] = {
 },
 },
 ["herbColor"] = {
@@ -51,26 +51,6 @@ Bagnon_Sets = {
 ["gemColor"] = {
 },
 ["enchantColor"] = {
-},
-["leatherColor"] = {
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["fridgeColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["glowPoor"] = false,
-["engineerColor"] = {
 },
 ["global"] = {
 ["inventory"] = {
@@ -89,28 +69,28 @@ Bagnon_Sets = {
 ["enabled"] = true,
 ["options"] = false,
 ["money"] = true,
-["activeRules"] = {
+["hiddenRules"] = {
 },
 ["itemScale"] = 0.93,
-["borderColor"] = {
-0.6470588445663452,
-0.4705882668495178,
-0.3450980484485626,
-0.449999988079071,
-},
+["columns"] = 17,
 ["y"] = 231.9114685058594,
 ["x"] = -161.5360644725552,
 ["search"] = false,
 ["broker"] = false,
-["skin"] = "OnePixel",
 ["color"] = {
 0,
 0,
 0,
 0.5342593789100647,
 },
-["columns"] = 17,
-["hiddenRules"] = {
+["skin"] = "OnePixel",
+["borderColor"] = {
+0.6470588445663452,
+0.4705882668495178,
+0.3450980484485626,
+0.449999988079071,
+},
+["activeRules"] = {
 },
 },
 ["vault"] = {
@@ -172,11 +152,31 @@ Bagnon_Sets = {
 ["y"] = -299.82080078125,
 ["x"] = 273.9763793945313,
 ["spacing"] = -6,
-["columns"] = 7,
-["activeRules"] = {
-},
 ["borderColor"] = {
 },
+["activeRules"] = {
 },
+["columns"] = 7,
+},
+},
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["engineerColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["glowPoor"] = false,
+["fridgeColor"] = {
+},
+["leatherColor"] = {
 },
 }

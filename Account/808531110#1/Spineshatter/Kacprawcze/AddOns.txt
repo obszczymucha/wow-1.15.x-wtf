@@ -38,7 +38,7 @@ Recount: disabled
 RollFor: enabled
 ShadowedUF_Options: enabled
 ShadowedUnitFrames: enabled
-Talented: disabled
+Talented: enabled
 Talented_Data: enabled
 TidyPlates_ThreatPlates: enabled
 ThreatClassic2: disabled
@@ -48,7 +48,7 @@ WeakAurasArchive: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
-XPBarNone: disabled
+XPBarNone: enabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
