@@ -70,7 +70,7 @@ ModUiDb = {
 ["The Beast"] = "Single",
 },
 },
-["mode"] = "Auto",
+["mode"] = "Single",
 },
 ["MinimapScale"] = {
 ["farming_minimap_scale"] = 1.1,
@@ -184,7 +184,7 @@ ModUiDb = {
 },
 ["music"] = {
 ["playlist"] = {
-["last_track_index"] = 15,
+["name"] = "Default",
 ["tracks"] = {
 {
 ["length"] = 55,
@@ -337,20 +337,14 @@ ModUiDb = {
 ["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni03.mp3",
 },
 },
-["name"] = "Default",
 },
-["force"] = true,
-["current_track"] = {
-["start"] = 1760517343,
-["length"] = 158,
-["name"] = "Azuremyst 6",
-},
+["force"] = false,
 ["music"] = {
 ["playlist_id"] = "elwynn",
 ["force"] = true,
 },
 ["playlist_id"] = "default",
-["last_track_index"] = 15,
+["last_track_index"] = 29,
 },
 ["Obszczymucha/frames"] = {
 },

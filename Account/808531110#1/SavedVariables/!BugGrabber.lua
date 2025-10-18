@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 571,
+["session"] = 583,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/ModUi/src/mixins/UiMode.lua:54: ')' expected (to close '(' at line 53) near 'end'",
@@ -92,14 +92,6 @@ BugGrabberDB = {
 ["time"] = "2025/08/30 12:26:37",
 ["session"] = 521,
 ["counter"] = 2,
-},
-{
-["message"] = "...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:727: attempt to index local 'self' (a nil value)",
-["time"] = "2025/05/24 17:49:48",
-["locals"] = "self = nil\nchatFrame = ChatFrame5 {\n isLayoutDirty = true\n oldestFadingLineTimestamp = 7322.968000\n tellTimer = 7322.089000\n fadeDurationSecs = 3\n shouldFadeAfterInactivity = true\n buttonSide = \"left\"\n textIsCopyable = false\n ResizeButton = ChatFrame5ResizeButton {\n }\n overrideFadeTimestamp = 7322.968000\n isScrollingMessageFrame = true\n name = \"Chat 5\"\n isUninteractable = false\n minimizeButton = ChatFrame5MinimizeButton {\n }\n buttonFrame = ChatFrame5ButtonFrame {\n }\n alternativeDefaultLanguage = \"Common\"\n isInitialized = 1\n hasOwnFontObject = true\n allowScroll = true\n oldAlpha = 0\n channelList = <table> {\n }\n FontStringContainer = Frame {\n }\n messageTypeList = <table> {\n }\n flashTimer = 0\n timeVisibleSecs = 120\n fontObject = table: 000002DA5CBB1C00 {\n }\n zoneChannelList = <table> {\n }\n insertMode = 2\n defaultLanguage = \"Common\"\n Background = ChatFrame5Background {\n }\n isDisplayDirty = true\n onDisplayRefreshedCallbacks = <table> {\n }\n visibleLines = <table> {\n }\n scrollOffset = 0\n historyBuffer = <table> {\n }\n ScrollToBottomButton = Button {\n }\n clickAnywhereButton = ChatFrame5ClickAnywhereButton {\n }\n PratTextures = <table> {\n }\n editBox = ChatFrame5EditBox {\n }\n isLocked = true\n}\nfontSize = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'self' (a nil value)\"\n",
-["stack"] = "[Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua]:727: in function <...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:722>\n[C]: in function 'FCF_SetChatWindowFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:765: in function 'SetFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:753: in function 'ConfigureAllChatFrames'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/ChatFrames.lua]:636: in function <Interface/AddOns/Prat-3.0/modules/ChatFrames.lua:630>\n[tail call]: ?\n[C]: in function 'FloatingChatFrame_UpdateBackgroundAnchors'\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3302: in function <...ns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua:3288>\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3355: in function 'FCF_DockUpdate'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1036: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:325: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:312>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1047: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:1045>\n[C]: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:364: in function 'BuffFrame_UpdateAllBuffAnchors'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:105: in function 'BuffFrame_Update'\n[Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua]:118: in function <Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua:110>",
-["session"] = 525,
-["counter"] = 88,
 },
 {
 ["message"] = "[string \"ModUiDb.music\"]:1: '=' expected near '<eof>'",
@@ -277,9 +269,25 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.xml:1 Interface/AddOns/GatherMate2/Libs/CallbackHandler-1.0/CallbackHandler-1.0.xml(1): error: syntax error",
-["session"] = 571,
+["session"] = 574,
 ["time"] = "2025/10/15 09:49:00",
-["counter"] = 24,
+["counter"] = 30,
+},
+{
+["message"] = "...terface/AddOns/BagBrother/core/classes/itemGroup.lua:166: bad argument #1 to 'pairs' (table expected, got nil)",
+["time"] = "2025/10/18 17:44:50",
+["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
+["stack"] = "[C]: in function 'pairs'\n[Interface/AddOns/BagBrother/core/classes/itemGroup.lua]:166: in function 'IsStatic'\n[Interface/AddOns/BagBrother/frames/inventory/itemGroup.lua]:29: in function <...ace/AddOns/BagBrother/frames/inventory/itemGroup.lua:28>\n[tail call]: ?\n[C]: ?\n[Interface/AddOns/AtlasLootClassic/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua]:19: in function <...sic/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[Interface/AddOns/AtlasLootClassic/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua]:54: in function 'Fire'\n[Interface/AddOns/BagBrother/libs/WildAddon-1.1-10/WildAddon-1.1.lua]:138: in function 'SendSignal'\n[Interface/AddOns/BagBrother/core/api/events.lua]:106: in function 'func'\n[Interface/AddOns/BagBrother/libs/MutexDelay-1.0-3/MutexDelay-1.0.lua]:40: in function <...ns/BagBrother/libs/MutexDelay-1.0/MutexDelay-1.0.lua:34>",
+["session"] = 576,
+["counter"] = 10,
+},
+{
+["message"] = "...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:727: attempt to index local 'self' (a nil value)",
+["time"] = "2025/05/24 17:49:48",
+["locals"] = "self = nil\nchatFrame = ChatFrame5 {\n isLayoutDirty = true\n oldestFadingLineTimestamp = 7322.968000\n tellTimer = 7322.089000\n fadeDurationSecs = 3\n shouldFadeAfterInactivity = true\n buttonSide = \"left\"\n textIsCopyable = false\n ResizeButton = ChatFrame5ResizeButton {\n }\n overrideFadeTimestamp = 7322.968000\n isScrollingMessageFrame = true\n name = \"Chat 5\"\n isUninteractable = false\n minimizeButton = ChatFrame5MinimizeButton {\n }\n buttonFrame = ChatFrame5ButtonFrame {\n }\n alternativeDefaultLanguage = \"Common\"\n isInitialized = 1\n hasOwnFontObject = true\n allowScroll = true\n oldAlpha = 0\n channelList = <table> {\n }\n FontStringContainer = Frame {\n }\n messageTypeList = <table> {\n }\n flashTimer = 0\n timeVisibleSecs = 120\n fontObject = table: 000002DA5CBB1C00 {\n }\n zoneChannelList = <table> {\n }\n insertMode = 2\n defaultLanguage = \"Common\"\n Background = ChatFrame5Background {\n }\n isDisplayDirty = true\n onDisplayRefreshedCallbacks = <table> {\n }\n visibleLines = <table> {\n }\n scrollOffset = 0\n historyBuffer = <table> {\n }\n ScrollToBottomButton = Button {\n }\n clickAnywhereButton = ChatFrame5ClickAnywhereButton {\n }\n PratTextures = <table> {\n }\n editBox = ChatFrame5EditBox {\n }\n isLocked = true\n}\nfontSize = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'self' (a nil value)\"\n",
+["stack"] = "[Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua]:727: in function <...Blizzard_ChatFrameBase/Classic/FloatingChatFrame.lua:722>\n[C]: in function 'FCF_SetChatWindowFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:765: in function 'SetFontSize'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/Font.lua]:753: in function 'ConfigureAllChatFrames'\n[Interface/AddOns/Prat-3.0-3.9.67/modules/ChatFrames.lua]:636: in function <Interface/AddOns/Prat-3.0/modules/ChatFrames.lua:630>\n[tail call]: ?\n[C]: in function 'FloatingChatFrame_UpdateBackgroundAnchors'\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3302: in function <...ns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua:3288>\n[Interface/AddOns/Blizzard_CombatLog/Classic/Blizzard_CombatLog.lua]:3355: in function 'FCF_DockUpdate'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1036: in function 'UIParentManageFramePositions'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:325: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:312>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager.lua]:1047: in function <...IParentPanelManager/Classic/UIParentPanelManager.lua:1045>\n[C]: in function 'UIParent_ManageFramePositions'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:364: in function 'BuffFrame_UpdateAllBuffAnchors'\n[Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua]:105: in function 'BuffFrame_Update'\n[Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:144: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:143>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:147: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua]:118: in function <Interface/AddOns/Blizzard_SharedXMLBase/CvarUtil.lua:110>",
+["session"] = 583,
+["counter"] = 90,
 },
 },
 }
