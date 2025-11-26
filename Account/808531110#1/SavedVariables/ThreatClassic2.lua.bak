@@ -1,10 +1,5 @@
 
 ThreatClassic2DB = {
-	["profileKeys"] = {
-		["Obszczymucha - Spineshatter"] = "Default",
-		["Tachikoma - Spineshatter"] = "Default",
-		["Kacprawcze - Spineshatter"] = "Default",
-	},
 	["profiles"] = {
 		["Default"] = {
 			["frame"] = {
@@ -17,5 +12,10 @@ ThreatClassic2DB = {
 				["count"] = 8,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Tachikoma - Spineshatter"] = "Default",
+		["Obszczymucha - Spineshatter"] = "Default",
+		["Kacprawcze - Spineshatter"] = "Default",
 	},
 }

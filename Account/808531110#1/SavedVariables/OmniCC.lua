@@ -5,11 +5,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["minutes"] = {
-						},
 						["seconds"] = {
 						},
 						["soon"] = {
+						},
+						["minutes"] = {
 						},
 					},
 				},
@@ -17,41 +17,41 @@ OmniCCDB = {
 			["rules"] = {
 				[1] = {
 					["enabled"] = false,
-					["name"] = "Auras",
-					["id"] = "auras",
 					["patterns"] = {
 						[1] = "Aura",
 						[2] = "Buff",
 						[3] = "Debuff",
 					},
+					["id"] = "auras",
+					["name"] = "Auras",
 				},
 				[2] = {
 					["enabled"] = false,
-					["name"] = "Unit Nameplates",
-					["id"] = "plates",
 					["patterns"] = {
 						[1] = "Plate",
 					},
+					["id"] = "plates",
+					["name"] = "Unit Nameplates",
 				},
 				[3] = {
 					["enabled"] = false,
-					["name"] = "Action Bars",
-					["id"] = "actions",
 					["patterns"] = {
 						[1] = "ActionButton",
 						[2] = "MultiBar",
 					},
+					["id"] = "actions",
+					["name"] = "Action Bars",
 				},
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-		["Kacprawcze - Spineshatter"] = "Default",
-	},
 	["global"] = {
 		["addonVersion"] = "11.2.3",
 		["dbVersion"] = 6,
+	},
+	["profileKeys"] = {
+		["Kacprawcze - Spineshatter"] = "Default",
+		["Tachikoma - Spineshatter"] = "Default",
+		["Obszczymucha - Spineshatter"] = "Default",
 	},
 }

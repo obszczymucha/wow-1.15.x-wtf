@@ -2,19 +2,19 @@
 Quartz3DB = {
 	["profiles"] = {
 		["Default"] = {
-			["backgroundalpha"] = 0.52500000000000002,
 			["modules"] = {
+				["Interrupt"] = false,
+				["Latency"] = false,
 				["Timer"] = false,
-				["GCD"] = false,
-				["Pet"] = false,
+				["Swing"] = false,
 				["Tradeskill"] = false,
 				["Buff"] = false,
-				["Latency"] = false,
-				["Interrupt"] = false,
-				["Swing"] = false,
 				["Range"] = false,
+				["Pet"] = false,
+				["GCD"] = false,
 				["Target"] = false,
 			},
+			["backgroundalpha"] = 0.52500000000000002,
 			["castingcolor"] = {
 				[1] = 0.7882353663444519,
 				[2] = 0.54509806632995605,
@@ -23,23 +23,12 @@ Quartz3DB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Kacprawcze - Spineshatter"] = "Default",
+		["Tachikoma - Spineshatter"] = "Default",
+		["Obszczymucha - Spineshatter"] = "Default",
+	},
 	["namespaces"] = {
-		["Mirror"] = {
-			["profiles"] = {
-				["Default"] = {
-					["mirrorx"] = 712,
-					["mirroranchor"] = "free",
-					["mirrortexture"] = "Charcoal",
-					["mirrorheight"] = 13,
-					["mirrory"] = 108,
-					["BREATH"] = {
-						[1] = 0.20392158627510071,
-						[2] = 0.54509806632995605,
-						[4] = 1,
-					},
-				},
-			},
-		},
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -50,15 +39,31 @@ Quartz3DB = {
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["texture"] = "Charcoal",
-					["w"] = 130,
+					["border"] = "None",
 					["timefontsize"] = 8,
+					["w"] = 130,
 					["x"] = 696,
+					["texture"] = "Charcoal",
+					["fontsize"] = 9,
 					["y"] = 125,
 					["showticks"] = false,
-					["border"] = "None",
-					["fontsize"] = 9,
 					["h"] = 13,
+				},
+			},
+		},
+		["Mirror"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mirroranchor"] = "free",
+					["mirrorheight"] = 13,
+					["mirrortexture"] = "Charcoal",
+					["BREATH"] = {
+						[1] = 0.20392158627510071,
+						[2] = 0.54509806632995605,
+						[4] = 1,
+					},
+					["mirrorx"] = 712,
+					["mirrory"] = 108,
 				},
 			},
 		},
@@ -69,10 +74,5 @@ Quartz3DB = {
 				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-		["Kacprawcze - Spineshatter"] = "Default",
 	},
 }

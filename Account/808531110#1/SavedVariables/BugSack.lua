@@ -1,12 +1,12 @@
 
+BugSackLDBIconDB = {
+}
 BugSackDB = {
-	["chatframe"] = true,
+	["mute"] = true,
+	["auto"] = false,
+	["soundMedia"] = "BugSack: Fatality",
 	["fontSize"] = "GameFontHighlight",
 	["altwipe"] = true,
 	["useMaster"] = false,
-	["soundMedia"] = "BugSack: Fatality",
-	["mute"] = true,
-	["auto"] = false,
-}
-BugSackLDBIconDB = {
+	["chatframe"] = true,
 }

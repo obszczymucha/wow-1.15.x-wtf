@@ -2,15 +2,15 @@
 CliqueDB3 = {
 	["char"] = {
 		["Kacprawcze - Spineshatter"] = {
-			["downclick"] = false,
 			["fastooc"] = false,
+			["downclick"] = false,
 			["blizzframes"] = {
 				["statusBarFix"] = false,
 			},
 		},
 		["Obszczymucha - Spineshatter"] = {
-			["downclick"] = false,
 			["fastooc"] = false,
+			["downclick"] = false,
 			["blizzframes"] = {
 				["statusBarFix"] = false,
 			},
@@ -28,15 +28,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["type"] = "target",
-					["unit"] = "mouseover",
 					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
 				},
 				[2] = {
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "menu",
 					["key"] = "BUTTON2",
+					["type"] = "menu",
 				},
 			},
 		},
@@ -47,15 +47,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["type"] = "target",
-					["unit"] = "mouseover",
 					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
 				},
 				[2] = {
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "menu",
 					["key"] = "BUTTON2",
+					["type"] = "menu",
 				},
 			},
 		},

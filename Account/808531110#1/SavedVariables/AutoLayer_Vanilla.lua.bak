@@ -1,22 +1,22 @@
 
 AutoLayerDB = {
-["profileKeys"] = {
-["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-},
-["profiles"] = {
-["Kacprawcze - Spineshatter"] = {
-["enabled"] = false,
-["layered"] = 5,
-},
-["Obszczymucha - Spineshatter"] = {
-["layered"] = 5,
-["enabled"] = false,
-},
-["Tachikoma - Spineshatter"] = {
-["enabled"] = false,
-["layered"] = 5,
-},
-},
+	["profiles"] = {
+		["Tachikoma - Spineshatter"] = {
+			["enabled"] = false,
+			["layered"] = 5,
+		},
+		["Obszczymucha - Spineshatter"] = {
+			["enabled"] = false,
+			["layered"] = 5,
+		},
+		["Kacprawcze - Spineshatter"] = {
+			["enabled"] = false,
+			["layered"] = 5,
+		},
+	},
+	["profileKeys"] = {
+		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+		["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
+	},
 }
