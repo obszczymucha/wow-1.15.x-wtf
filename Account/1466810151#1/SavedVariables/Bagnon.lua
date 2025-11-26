@@ -7,33 +7,33 @@ Bagnon_Sets = {
 ["color"] = {
 ["quiver"] = {
 },
-["herb"] = {
+["account"] = {
 },
-["enchant"] = {
+["normal"] = {
 },
 ["soul"] = {
 },
-["engineer"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["key"] = {
 },
 ["leather"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["inscribe"] = {
 },
 ["tackle"] = {
 },
-["reagent"] = {
+["engineer"] = {
 },
-["normal"] = {
+["enchant"] = {
 },
-["account"] = {
+["herb"] = {
 },
 },
 ["herbColor"] = {
@@ -50,7 +50,7 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
-["inscribeColor"] = {
+["fridgeColor"] = {
 },
 ["keyColor"] = {
 },
@@ -59,16 +59,6 @@ Bagnon_Sets = {
 ["profiles"] = {
 },
 ["mineColor"] = {
-},
-["engineerColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["latest"] = {
-["cooldown"] = 1758416394,
 },
 ["global"] = {
 ["vault"] = {
@@ -82,11 +72,13 @@ Bagnon_Sets = {
 "miscellaneous",
 },
 },
-["color"] = {
-},
 ["borderColor"] = {
 },
+["color"] = {
+},
 ["hiddenRules"] = {
+},
+["activeRules"] = {
 },
 },
 ["inventory"] = {
@@ -108,24 +100,26 @@ Bagnon_Sets = {
 ["spacing"] = 0,
 ["bagToggle"] = true,
 ["enabled"] = true,
-["columns"] = 12,
+["columns"] = 19,
 ["money"] = true,
+["activeRules"] = {
+},
 ["hiddenRules"] = {
 },
-["options"] = false,
-["y"] = 159.2751770019531,
-["x"] = -270.0264376687758,
+["skin"] = "OnePixel",
+["y"] = 120.9574813842773,
+["x"] = -235.0597461131802,
 ["search"] = false,
 ["broker"] = false,
-["itemScale"] = 0.93,
-["scale"] = 0.88,
 ["borderColor"] = {
 0.6470588445663452,
 0.4705882668495178,
 0.3450980484485626,
 0.449999988079071,
 },
-["skin"] = "OnePixel",
+["scale"] = 0.88,
+["itemScale"] = 0.93,
+["options"] = false,
 },
 ["guild"] = {
 ["rules"] = {
@@ -138,11 +132,13 @@ Bagnon_Sets = {
 "miscellaneous",
 },
 },
-["color"] = {
-},
 ["borderColor"] = {
 },
+["color"] = {
+},
 ["hiddenRules"] = {
+},
+["activeRules"] = {
 },
 },
 ["bank"] = {
@@ -161,14 +157,31 @@ Bagnon_Sets = {
 },
 ["hiddenRules"] = {
 },
-["y"] = -299.8212280273438,
-["x"] = 273.9763793945313,
-["borderColor"] = {
-},
-["columns"] = 7,
+["y"] = -206.0311889648438,
+["x"] = 273.9764404296875,
+["skin"] = "OnePixel",
 ["spacing"] = -6,
+["columns"] = 12,
+["activeRules"] = {
+},
+["borderColor"] = {
+1,
+0.7372549176216125,
+0.5254902243614197,
+0.4663465619087219,
 },
 },
-["fridgeColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["latest"] = {
+["cooldown"] = 1764744104,
+},
+["engineerColor"] = {
+},
+["inscribeColor"] = {
 },
 }

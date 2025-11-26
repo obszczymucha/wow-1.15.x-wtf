@@ -1,58 +1,66 @@
 
 TalentedDB = {
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-	},
-	["profiles"] = {
-		["Tachikoma - Spineshatter"] = {
-			["last_template"] = "Arms",
-			["framepos"] = {
-				["TalentedFrame"] = {
-					["y"] = 7.6466693878173828,
-					["anchor"] = "CENTER",
-					["x"] = 9.6280050277709961,
-					["anchorTo"] = "CENTER",
-				},
-			},
-		},
-		["Obszczymucha - Spineshatter"] = {
-			["last_template"] = "Arms",
-			["framepos"] = {
-				["TalentedFrame"] = {
-					["y"] = 7.6466693878173828,
-					["anchor"] = "CENTER",
-					["x"] = 9.6280050277709961,
-					["anchorTo"] = "CENTER",
-				},
-			},
-		},
-	},
-	["global"] = {
-		["templates"] = {
-			["DRUID"] = {
-			},
-			["PALADIN"] = {
-			},
-			["PRIEST"] = {
-			},
-			["HUNTER"] = {
-			},
-			["ROGUE"] = {
-			},
-			["WARLOCK"] = {
-			},
-			["WARRIOR"] = {
-				["Arms"] = "M3otBrFa0n5514",
-				["Fury Prot"] = "M2Z5t14Mta5a5503t",
-				["Arms Fury Prot"] = "Mo2t1Z5t14tZ5503t",
-				["Fury"] = "MAotBmAZ5514Mta5a",
-				["Empty"] = "M",
-			},
-			["SHAMAN"] = {
-			},
-			["MAGE"] = {
-			},
-		},
-	},
+["global"] = {
+["templates"] = {
+["HUNTER"] = {
+},
+["WARRIOR"] = {
+},
+["PALADIN"] = {
+},
+["MAGE"] = {
+},
+["PRIEST"] = {
+},
+["WARLOCK"] = {
+},
+["DRUID"] = {
+["Resto"] = "0ZZty3fwfFa",
+},
+["SHAMAN"] = {
+},
+["ROGUE"] = {
+},
+},
+},
+["profileKeys"] = {
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
+["profiles"] = {
+["Boulderdash - Spineshatter"] = {
+["last_template"] = "Arms",
+["framepos"] = {
+["TalentedFrame"] = {
+["y"] = 7.646669387817383,
+["x"] = 9.628005027770996,
+["anchor"] = "CENTER",
+["anchorTo"] = "CENTER",
+},
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["last_template"] = "Arms",
+["framepos"] = {
+["TalentedFrame"] = {
+["y"] = 7.646669387817383,
+["x"] = 9.628005027770996,
+["anchor"] = "CENTER",
+["anchorTo"] = "CENTER",
+},
+},
+},
+["Tachikoma - Spineshatter"] = {
+["last_template"] = "Resto",
+["framepos"] = {
+["TalentedFrame"] = {
+["y"] = 4.486209392547607,
+["x"] = 10.41817092895508,
+["anchor"] = "CENTER",
+["anchorTo"] = "CENTER",
+},
+},
+},
+},
 }

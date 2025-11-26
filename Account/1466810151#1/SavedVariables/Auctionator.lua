@@ -7,11 +7,11 @@ AUCTIONATOR_CONFIG = {
 ["enchant_tooltips"] = false,
 ["starting_price_percentage_2"] = 95,
 ["columns_buying_auctions_2"] = {
-["Stack Price"] = false,
-["Available"] = false,
-["Time Left"] = true,
 ["Unit Price"] = false,
+["Available"] = false,
 ["Seller(s)"] = true,
+["Stack Price"] = false,
+["Time Left"] = true,
 ["You?"] = false,
 },
 ["debug"] = false,
@@ -47,8 +47,8 @@ AUCTIONATOR_CONFIG = {
 ["columns_buying_historical_prices"] = {
 ["Date"] = false,
 ["Unit Price"] = false,
-["Upper Unit Price"] = true,
 ["Available"] = false,
+["Upper Unit Price"] = true,
 },
 ["selling_post_shortcut"] = "SPACE",
 ["shift_stack_tooltips"] = true,
@@ -61,26 +61,32 @@ AUCTIONATOR_CONFIG = {
 ["replicate_scan_3"] = false,
 ["auction_mean_days_limit"] = 21,
 ["stack_size_memory"] = {
-["14256"] = 1,
+["2748"] = 1,
 ["7971"] = 1,
-["2740"] = 1,
+["4479"] = 1,
+["12803"] = 1,
 ["4480"] = 1,
-["7067"] = 1,
+["15420"] = 5,
+["18512"] = 1,
 ["12207"] = 1,
+["4337"] = 1,
 ["3731"] = 2,
-["2742"] = 1,
 ["2842"] = 1,
-["2728"] = 1,
+["2744"] = 1,
+["2740"] = 1,
+["10286"] = 1,
 ["7070"] = 1,
+["7067"] = 1,
 ["19933"] = 1,
 ["12808"] = 1,
+["2734"] = 1,
 ["2751"] = 1,
-["4479"] = 1,
-["10286"] = 1,
-["2738"] = 1,
+["8391"] = 1,
+["10593"] = 1,
+["2730"] = 1,
 },
 ["selling_confirm_low_price"] = true,
-["gear_vendor_price_multiplier"] = 0,
+["default_list_2"] = "",
 ["vendor_tooltips"] = true,
 ["cancel_undercut_shortcut"] = "SPACE",
 ["columns_cancelling"] = {
@@ -90,37 +96,18 @@ AUCTIONATOR_CONFIG = {
 ["Undercut?"] = false,
 ["Quantity"] = false,
 ["Bid Price"] = true,
-["Undercut Price"] = true,
+["Name"] = false,
 ["Unit Price"] = false,
 ["Time Left"] = false,
-["Name"] = false,
+["Undercut Price"] = true,
 },
 ["selling_grey_post_button"] = true,
-["selling_prev_shortcut"] = "BACKSPACE",
+["prospect_tooltips"] = false,
 ["save_last_duration_as_default"] = false,
 ["mill_tooltips"] = false,
 ["crafting_info_show_cost"] = true,
-["undercut_static_value"] = 1,
+["auction_mean_tooltips"] = false,
 ["show_selling_bid_price"] = false,
-["selling_reselect_item_2"] = {
-["keyName"] = "k_Reagent",
-["sortKey"] = "7070_Elemental Water_0_1_true",
-},
-["columns_shopping_historical_prices"] = {
-["Date"] = false,
-["Unit Price"] = false,
-["Upper Unit Price"] = true,
-["Available"] = false,
-},
-["selling_bag_collapsed"] = false,
-["auction_duration"] = 24,
-["auto_list_search"] = false,
-["auction_chat_log"] = true,
-["crafting_info_show_profit"] = true,
-["mailbox_tooltips"] = true,
-["historical_prices"] = {
-},
-["selling_post_stack_remainder"] = false,
 ["columns_shopping"] = {
 ["Name"] = false,
 ["Available"] = false,
@@ -128,13 +115,32 @@ AUCTIONATOR_CONFIG = {
 ["Owned?"] = true,
 ["Top?"] = true,
 },
-["auction_mean_tooltips"] = false,
+["columns_shopping_historical_prices"] = {
+["Date"] = false,
+["Unit Price"] = false,
+["Available"] = false,
+["Upper Unit Price"] = true,
+},
+["selling_post_stack_remainder"] = false,
+["historical_prices"] = {
+},
+["auto_list_search"] = false,
+["crafting_info_show_profit"] = true,
+["auction_chat_log"] = true,
+["mailbox_tooltips"] = true,
+["auction_duration"] = 24,
+["selling_bag_collapsed"] = false,
+["selling_reselect_item_2"] = {
+["keyName"] = "k_Trade Goods",
+["sortKey"] = "13468_Black Lotus_0_2_true",
+},
+["undercut_static_value"] = 1,
 ["auction_sales_preference"] = "static",
-["prospect_tooltips"] = false,
+["selling_prev_shortcut"] = "BACKSPACE",
 ["splash_screen_version"] = "10.1.6",
 ["crafting_info_show"] = true,
 ["selling_should_reselect_item"] = false,
-["default_list_2"] = "",
+["gear_vendor_price_multiplier"] = 0,
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -143,20 +149,7 @@ AUCTIONATOR_SHOPPING_LISTS = {
 AUCTIONATOR_PRICE_DATABASE = {
 ["__dbversion"] = 8,
 ["Spineshatter Alliance"] = "∏≠d4371x§aa°d1950ÓalÄam„ah°d1950„d3825xL§aa£d1972rd1973Zd1964äal¢d1972:.d19739◊ah£d1972:/d19739ÿd196481am9◊e13067x!§aa°d1966alÄam\000\nÆ`ah°d1966\000\nÆ`d1210x[§aa§d1950>d1949>d1966Sd1951;al¢d1950åd1951ah§d1950çd1949Qd1966Ωd1951	amΩe16703x@§aa¢d1970	d1971al¢d1970\000ö&d1971Æˆah¢d1970\000ö'd1971Æ˜amÆˆe13444x/§aa¢d1972éd1973>alÄah¢d1972\0008td1973Â†amÂ†d2589xO§aa£d1948bd1949Zd1950Gal£d1948\rd1949od1950\"am\"ah£d1948!d1949pd19502e13467x§aa°d1973¸alÄamMüah°d1973Müd3731x&§aa°d1963Óal°d1963…ah°d1963 am…e13302x%§aa°d1985al°d1985%∏ah°d1985%πam%∏e14227x5§aa¢d1964∑d1969øal°d1969\r5ah¢d1964òd1969\r6am\r5d9253x%§aa°d1962al°d1962'ah°d1962'am'e14047xg§aa§d1985ãd1999Œd1984∂d1980al£d1999d1984Cd1980Iam!ah§d1985ßd1999\"d1984Dd1980Jd7078x6§aa¢d1964¡d19708al°d1964öam¸ah¢d1964õd1970¸c858x;§aa£d1963]d1970Ãd1959˝alÄah£d1963d1970=d1959am=d8831xW§aa£d1978\rd1971!d1977al£d1978òd1977\rd1971˚ah£d1978ôd1971¸d1977\ramòd2725xL§aa£d1956d19584d1957%al¢d1956¥d1957\n2amƒah£d1956µd1958ƒd1957±d2745x%§aa°d1956al°d1956Iah°d1956JamId3821x6§aa¢d1978‘d1977ral°d1977œah¢d1978èd1977amèd2450x§aa°d1950alÄam†ah°d1950†d2735x&§aa°d1959al°d1959Bah°d1959CamBd2449x$§aa°d1947öal°d1947dah°d1947eamdd8951x&§aa°d1972,al°d1972 ıah°d1972 ˆam ıe11018x&§aa°d1965˙al°d1965\nÖah°d1965\nÜam\nÖd2744x§aa°d1953alÄaméah°d1953éd4597x§aa°d1959alÄam'ah°d1959'd7070xx§aa¶d1964ed1957Od1971Wd1956d1968\\d1963~al¢d1971S˙d1956]øamS˙ah¶d1964RÀd1957qGd1971S˚d1956]¿d1968^Çd1963m^e12203x>§aa£d1964èd1966Ïd1963°al°d1963·ah£d1964\rd1966Wd1963‚amWe13466x˙§aa™d1986õd1981Ad1980/d1979òd1984≠d1999‡d1985<d1982}d1998Wd1983‚al™d1986±¥d1981üµd1985¢d1979©}d1984£˛d1999õ’d1983≤qd1980¶Rd1998†‰d1982Ø^ah™d1986±µd1981ü∂d1980©=d1979©~d1984£ˇd1999õ÷d1985¢d1982≥Fd1998•†d1983≤ramõ’d8483x&§aa°d1962|al°d1962\nyah°d1962\nzam\nyc929x:§aa£d1959˜d1970id1963ªalÄah£d1959¯d1970√d1963®am√d2748xi§aa§d1959$d1956d1957d1963al§d1963æd1956\rd1957Ad1959‡ah§d1959·d1956\rd1957Bd1963øamæe19441x&§aa°d1969Qal°d1969'ah°d1969'am'e12803x'§aa°d1964(al°d19646èah°d19646êam6èd3174x)§aa¢d1950®d1949|alÄah¢d1950d1949amd1206x5§aa¢d1950Id1951;al°d1950Vamæah¢d1950Wd1951æe12208x7§aa¢d1967gd1963al°d1963ah¢d1967{d1963Pam{c118x+§aa¢d1959Òd1963oalÄah¢d1959d1963#am#d2842xG§aa£d1950d1958õd1948∏al°d1948èah£d1950d1958gd1948êamgd8836x&§aa°d1973Ûal°d1973Èah°d1973ÍamÈe16735x-§aa¢d1964d1965	alÄah¢d1964\000Qd1965ú<amú<e12037x#§aa°d1963xal°d1963famfah°d1963ge13480x+§aa¢d1963d1959alÄah¢d1963id1959√Pamid9295x!§aa°d1977	alÄah°d1977\000Íam\000Íd9251x%§aa°d1962al°d1962'ah°d1962'am'd3928xF§aa£d1972Äd1963d1959aal°d1972	wam	wah£d1972	|d1963Jd1959\"e13479x;§aa¢d1978d1979al¢d1978zùd1979:ñah¢d1978z°d1979:óam:ñd2730xQ§aa£d1953d1957d1963al£d1953éd1957¢d1963òah£d1953èd1957£d1963ôamòe12804x§aa°d1999salÄam‡ah°d1999‡d5504xj§aa•d1951Ød1952ıd1953∆d1956ﬁd1950µal£d1950wd1956_d1952∏am_ah•d1951ãd1952πd1953Cd1956`d1950xe11205x%§aa°d1960al°d1960!0am!0ah°d1960!1d3182x=§aa¢d1950\"d1949,al¢d1950·d1949“ah¢d1950‚d1949”am·e18944x'§aa°d1964zal°d1964Hah°d1964IamHd4338xO§aa§d1953d1956úd1966Úd19621alÄah§d1953ãd1956ñd1966Öd1962áamÖd3819x§aa°d1963ualÄameÉah°d1963eÉd9187x=§aa¢d1972Æd1973ëal¢d1972 úd1973ramrah¢d1972 ùd1973sd9249x%§aa°d1962al°d1962Óah°d1962ÔamÓd3823x§aa°d1977walÄah°d1977:4am:4e19933x&§aa°d1969Ial°d1969÷ah°d1969◊am÷xgr:11970:of Fire Resistancex§aa°d1958alÄam!óah°d1958!ód3830x§aa°d1964alÄam‹ah°d1964‹e13465x“§aa©d1986ÿd1981Íd1980àd1982Çd1984;d1999Ãd1985Cd1998ƒd1983Áalßd1986E{d1981F=d1985E—d1984Hd1983M-d1998IÓd1999D¶ah©d1986E|d1981F>d1980Bzd1982J≤d1984H d1999E”d1985E“d1998W–d1983M.amD¶d4234x'§aa°d1960Ÿal°d1960Rah°d1960SamRe12205xL§aa£d1963àd1969qd1962äal¢d1969Úd1962amÚah£d1963÷d1969Ûd1962d4480x&§aa°d1957al°d1957a\\ah°d1957a]ama\\d4278x§aa°d1956 alÄamßah°d1956ßd7075xD§aa£d1969©d1958Yd1963°al°d1958 ah£d1969%d1958Àd1963ãam%e16713xl§aa§d1972\nd1970%d1973d1971\"al§d1972à≠d1973Ü@d1970õGd1971ú?ah§d1972àÆd1970õHd1973ÜAd1971\000\r?amÜ@d3864xz§aa•d1967;d1957nd1958<d19667d1959-al§d1967¨d1957ƒd1958ïd1959%πam¨ah•d1967≠d1957÷d1958ñd19660d1959%∫e12555x!§aa°d1965alÄam\000'”4ah°d1965\000'”4d2728xR§aa£d1956d1957d1959al£d1956xd1957d1959Vah£d1956yd1957d1959WamVd7974x#§aa°d1963cal°d1963,ah°d1963-am,e13307x%§aa°d1985al°d1985'ah°d1985'\ram'd7068x5§aa¢d1964õd1957_al°d1964≥Æah¢d1964≥Ød1957≠àam≥Æe10620x§aa°d1969≤alÄamxah°d1969xe12528x1§aa¢d1966d1965alÄam\000òÈah¢d1966\000òÈd1965\000_jd7076x-§aa¢d1969œd1970ZalÄah¢d1969â{d1970u-amu-d3818x5§aa¢d1977bd1971∑al°d1977éah¢d1977Ñd1971⁄améd7966x§aa°d1998¡alÄam#ah°d1998#d8845x/§aa¢d1984d1977@alÄam8Ñah¢d19848Ñd1977GÔd7909x5§aa¢d1966@d19678al°d1967‡ah¢d1966Ud1967·am‡e20424x§aa°d1969∞alÄamL8ah°d1969L8e13468x,§aa°d20686al°d2068\000ÔUah°d2068\000ÔVam\000ÔUd9172x§aa°d1977%alÄah°d1977UöamUöe13446x=§aa£d1977√d1959d1963ﬁalÄam'ah£d1977'd19598íd1963DGe13443xr§aa•d1967[d1972ld1964Gd1966_d1968Val£d1972a¶d1964aßd1968aßama¶ah•d1967|ˇd1972aßd1964a®d1966|çd1968a®d2732x;§aa¢d1956d1957al¢d19571d1956Lah¢d1956Md1957∂am1d1015x5§aa¢d1950]d1963∂al°d1963·am·ah¢d1950 d1963‚d8839x§aa°d1977§alÄam6∞ah°d19776∞e12207x5§aa¢d1959}d1960ïal°d1960+am+ah¢d1959Ûd1960,e17414x§aa°d1969alÄam:0ah°d1969:0d4596x§aa°d1959\nalÄamûah°d1959ûc818x[§aa§d1946kd1951;d1952<d1966Pal¢d1952ãd1966ãah§d1946Ïd1951—d1952åd1966åamãe11737xF§aa¢d19702d1971al¢d1970\000,\r¿d1971\000(≤Lah¢d1970\000.ÿ/d1971\000(≤Mam\000(≤Ld5498xR§aa§d1956:d1951Kd1952Bd1949:al°d1949«ah§d1956„d1951«d1952†d1949[am„d3828x§aa°d1977alÄah°d1977áamáe12607x3§aa¢d1998\rd1999al°d1998!øamÿah¢d1998!¿d1999ÿd3357x?§aa¢d1984qd1971÷al¢d1984Nd1971“ah¢d1984Od1971”amNe11078x&§aa°d19682al°d1968nah°d1968oamnd7972x5§aa¢d1972ød1965≠al°d1972amah¢d1972d1965¢d5500xS§aa£d1951,d1952d1966Ual£d19513d1952Àd1966”ah£d19514d1952Ãd1966‘am”d4500x\"§aa°d19992alÄam\000[ ah°d1999\000[ d3358x'§aa°d1977Ωal°d19778ah°d19779am8d2592x|§aa•d1951Ñd1950ñd1956…d1953,d1957¸al•d1957Wd1950d1956rd1951Fd1953àamÉah•d1951∫d1950Kd1956ãd1953âd1957Ñd2799x+§aa¢d1963rd1959aalÄah¢d1963Od1959«amOd3667x#§aa°d1963ïal°d1963Gah°d1963HamGe18945x§aa°d1966qalÄam`ah°d1966`e10286xD§aa£d1964æd1966ïd1962¸al°d1962-ah£d1964Xd1966òd1962/amòe11970x§aa°d1958alÄam!óah°d1958!ód3860x§aa°d1998alÄam≠ah°d1998≠e16736x§aa•d1964d1965d1977d1978d1976al£d1978\000ãzd1965\000˜öd1977\000ã|am\000ãzah•d1964\000–âd1965\000≠d1977\000ã}d1978\000ã|d1976\000ì‡d1710xt§aa•d1971´d1972Ûd1963/d1966∂d1959	al£d1972Ìd1966ﬁd1971ah•d1971Ód1972Ód1963xd1966ﬂd1959‹amÌd4306xÉ§aa¶d1957êd1962$d1953jd1956Sd1958üd1971Óal§d1953´d1956¨d1958wd1957ßam‹ah¶d1957Ïd1962¬d1953¨d1956ƒd1958®d1971‹e13452x\"§aa°d1973:alÄam\000)»ah°d1973\000)»d7971x&§aa°d1959)al°d1959—ah°d1959“am—d2459x§aa°d1977©alÄamGﬂah°d1977Gﬂd7069xM§aa£d1957Jd1969cd1970≥al¢d1969]d1957°amëah£d19576d1969^d1970ëe13094xÉ§aa§d1950d1953d1955d1952al§d1950\000m∞d1955\000pˇd1952\000mÆd1953\000\r?ah•d1951\000m∞d1955\000ÕEd1953\000ÕEd1950\000m±d1952\000ÕEam\000pˇd3832x§aa°d1977alÄah°d1977\n%am\n%e18512x&§aa°d20683al°d2068îhah°d2068îiamîhd7067x3§aa¢d1958Æd19632alÄah¢d1958\000<fd1963\000C“am\000C“e18045x§aa°d1985∑alÄamiah°d1985id4337xy§aa¶d1964fd1982Bd1970ïd1962èd1969îd1968Lal¢d1969Çd1968 ah¶d1964d1982d1970d1962ﬂd1969Ÿd1968 Òamd3712x&§aa°d1963∆al°d1963kah°d1963lamkd2675x#§aa°d1950íal°d1950/ah°d19500am/e10398x§aa°d1964alÄam1.ah°d19641.d1401x%§aa°d1947	al°d1947\nah°d1947am\ne18335x6§aa¢d1998wd1999al°d1998\r!am{ah¢d1998\r\"d1999{e16724x+§aa°d1970al°d1970\000Çoah°d1970\000Çpam\000Çoe13464xÕ§aa®d1986≤d1985sd1981Üd1980Ïd1983Jd1982]d1984:d1999\\al®d1986pd1999âd1981jd19850d1983Pd1982Kd1984‘d1980mamâah®d1986qd19851d1981kd1980nd1983Qd1982Ld1984’d1999äd3730x#§aa°d1950ƒal°d1950Ôah°d1950amÔd1705xL§aa£d1950qd1951@d1966Eal¢d1950# d1951	Tah£d1950#!d1951	ÿd1966 am d3356xK§aa£d1972›d1971jd1977Ñal¢d1972µd1977*ah£d1972∂d1971Ωd1977+am*d4305x6§aa¢d1964ßd1969@al°d1969°am°ah¢d1964sd1969¢e11177x-§aa¢d19705d19812alÄah¢d1970¡Qd1981ûêamûêe12359x7§aa¢d1967æd1969ùal°d1967\n—am\n&ah¢d1967E‡d1969\n&e13463x∆§aa©d1986öd1981\rd1985d1982Ud1984{d1999Îd1983ﬂd1998ãd1980!al•d1980ød1999^d1983d1984Wd1998ˇam^ah©d1986$d1981ld1985Wd1982¶d1984Xd1999_d1983	d1998\000d1980¿d8153xL§aa£d1964‹d1971d1959kal¢d1964%zd1959/íam'ah£d1964+∞d1971'd1959/ìe16737x-§aa¢d1964\nd1965alÄah¢d1964\000yd1965–am–e10285xS§aa§d1969Rd1957Kd1958ed1962Bal°d1958Áamﬁah§d1969ﬁd1957ud1958≠d1962˝e13491x§aa°d1973\nalÄah°d1973≥Cam≥Cd5527x§aa°d1952galÄam…ah°d1952…e14256x&§aa°d19663al°d1966†'ah°d1966†(am†'d8949x=§aa¢d1972sd1973{al¢d1972	¿d19735ah¢d1972	¡d19736am5d2742xg§aa§d1953d1956d1957d1959al§d1953'd1956‘d1957‰d1959ªah§d1953'd1956’d1957Âd1959ºamªe13134x+§aa°d1966al°d1966\0000¢ah°d1966\0000£am\0000¢d2750x&§aa°d1959al°d1959=ah°d1959>am=d2740x%§aa°d1959al°d1959∞ah°d1959±am∞e17413x§aa°d1980alÄamxah°d1980xe21306x+§aa°d2068al°d2068\000≠éah°d2068\000≠èam\000≠éd2738x%§aa°d1959al°d19594ah°d19595am4d7079x=§aa¢d1984;d19688al¢d1984d1968˙ah¢d1984d1968˚ame12184x#§aa°d1963hal°d1963ﬁamﬁah°d1963ﬂe13304x%§aa°d1985al°d1985'ah°d1985'am'd1081x§aa°d1950êalÄam5ah°d19505e11137x6§aa¢d1978id1984ïal°d1984ªah¢d1978Éd1984ºamªd7910x†§aaßd1965Md1970(d1980?d19819d19694d1966md1968Aal•d1970ad1980\"d1966.xd1969Xd1968]ahßd1965jd1970bd1980\"d1981Xd1969Yd1966.yd1968^amXd1529x&§aa°d1958Ial°d1958ëah°d1958íamëd4361x§aa°d1947OalÄam√ah°d1947√c785x§aa°d1971©alÄamah°d1971d8838xW§aa£d1983{d1984Md1977al£d1983œd1984ød1977\\ah£d1983–d1984	;d1977Famøe12204x%§aa°d1963al°d1963ah°d1963amd8150x§aa°d1969‰alÄam˚ah°d1969˚f184937x-§aa¢d19532d19672alÄah¢d1953.?d1967-Cam-Ce16712x+§aa°d1976al°d1976\000~Óah°d1976\000~Ôam\000~Óe12202x&§aa°d1963Bal°d1963üah°d1963†amüd4479x&§aa°d1957≈al°d1957lah°d1957mamle12808xL§aa£d1983Vd1969Qd1984Val¢d1969†d1984ﬂamﬂah£d1983fd1969°d1984⁄d3685x>§aa¢d1950’d1963al¢d1950Wd1963Nah¢d1950Xd1963OamNd2751x<§aa¢d1956d1957al¢d1957d1956'ah¢d1956'\rd1957amc774x^§aa§d1946÷d1951Td1952?d1966Ial£d1946√d1951∞d1966>am>ah§d1946Wd1951±d1952Cd1966?d2555x§aa°d1977alÄah°d1977'am'e19236x;§aa¢d1967\rd1968al¢d1967@”d1968@¡ah¢d1967@‘d1968@¬am@¡",
-["Spineshatter Horde"] = {
-["gr:727:of Power"] = "§aa°d2071al°d2071˛ah°d2071ˇam˛",
-["5082"] = "§aa°d2071al°d2071\rah°d2071\ram\r",
-["727"] = "§aa°d2071al°d2071˛ah°d2071ˇam˛",
-["3609"] = "§aa°d2071alÄamah°d2071",
-["17056"] = "§aa°d2071al°d2071ŸamŸah°d2071ü",
-["7070"] = "§aa°d2083fal°d2083¿ãah°d2083¿åam¿ã",
-["818"] = "§aa°d2071ual°d2071 ah°d2071“am ",
-["3282"] = "§aa°d2071al°d2071ah°d2071am",
-["gr:2632:of Power"] = "§aa°d2071\ral°d2071¥ah°d2071µam¥",
-["3036"] = "§aa°d2071al°d2071	¿ah°d2071	¡am	¿",
-["2318"] = "§aa°d20712al°d2071 ah°d2071!am ",
-["2632"] = "§aa°d2071\ral°d2071¥ah°d2071µam¥",
-},
+["Spineshatter Horde"] = "∏pE13465§Aa°D2157Al°D2157Ah°D2157AmD3685§Aa¢D2127ÿD2126!Al¢D2127aD2126æAh¢D2127bD2126øAmaD3282§Aa°D2071Al°D2071AmAh°D2071D2749§Aa£D21316D2127D2130Al£D2131˛D2127\n%D2130Am˛Ah£D2131ˇD2127\n&D21301D2750§Aa£D2131;D2127\rD2130Al°D2130AmëAh£D2131ëD2127ND2130D4589§Aa¢D2134ID2135£Al°D2135#ÇAm#ÇAh¢D2134%“D2135#ÉD7069§Aa°D2126òAl°D2126ÕAh°D2126ŒAmÕD7912§Aa°D21305Al°D2130{Ah°D2130|Am{D2728§Aa¢D2127D2130!Al¢D2127ND2130ƒAm+ÒAh¢D2127ND2130+ÚD3609§Aa°D2071AlÄAh°D2071AmD7068§Aa¢D2136>D2137KAlÄAm$ÁAh¢D2136'pD2137$ÁE22528§Aa°D2136IAl°D2136ÁAmÁAh°D2136ËD3818§Aa°D2152ÜAlÄAm~Ah°D2152~D7080§Aa°D2146<Al°D2146\000ÜùAm\000ÜùAh°D2146\000ÜûE10593§Aa¢D2138D21403Al¢D2138.tD2140QqAh¢D2138.uD2140QrAmQqD7909§Aa£D2136@D2138DD21402Al¢D2138aD2140VAh£D2136<D2138bD2140WAmVE22611§Aa°D2157AlÄAh°D2157NAmND8831§Aa°D2152”Al°D2152¡Am¡Ah°D2152¬E11108§Aa°D2140AlÄAm=Ah°D2140=D4306§Aa¶D2136YD2126kD2127	D2129»D2131]D2130aAl¶D2136øD2126∑D2127@D2129¥D2131úD2130õAh¶D2136«D2126¬D2127AD2129µD2131ùD2130§AmøD7969§Aa°D21512AlÄAmªÄAh°D2151ªÄD2745§Aa£D2131'D2127D2130Al£D2131£D2127\"¥D2130	øAm£Ah£D2131§D2127\"µD2130	¿D3821§Aa°D2152ùAl°D2152ëAmëAh°D2152íD2318§Aa°D20712Al°D2071 Am Ah°D2071!D9252§Aa°D2134Al°D2134IAmIAh°D2134JD2732§Aa¢D2127D2130(Al¢D2127⁄D2130ÓAmÓAh¢D2127€D2130D2735§Aa°D2130Al°D2130uAh°D2130vAmuE13468§Aa¢D2157KD21529AlÄAh¢D2157\0008¢D2152\000	'æAm\0008¢D3358§Aa°D2152˝Al°D2152úAmúAh°D2152ùD2449§Aa°D2152LAlÄAmAh°D2152D3355§Aa°D2152‰Al°D2152AmAh°D2152 C818§Aa°D2071uAl°D2071 Am Ah°D2071“D1705§Aa°D2126Al°D2126‚Ah°D2126„Am‚E11018§Aa¢D2140ÖD2144Al°D2140◊AmAh¢D2140ÿD2144D8393§Aa¢D2138iD21404AlÄAh¢D2138WD2140àÓAmàÓE14227§Aa¢D2145ªD21475Al°D2147ØAmØAh¢D2145†D2147∞D2744§Aa¢D21315D2130&Al¢D2131ãD2130ïAh¢D2131åD2130AmãC729§Aa°D2125ßAl°D2125AmAh°D2125D3357§Aa°D2152jAl°D2152\rAm\rAh°D2152C765§Aa°D21526Al°D2152ŒAmŒAh°D2152œD7989§Aa°D2151AlÄAmîAh°D2151îE13466§Aa¢D2157ãD2152YAl¢D2157ë˚D2152é∑Ah¢D2157ë¸D2152é∏Amë˚D2592§Aa§D2129QD2126∆D2125D2127?Al¢D2125ND2126*Ah§D2129D2126AD2125OD2127æAmC929§Aa°D2126JAlÄAh°D2126BAmBE15420§Aa°D2146∂Al°D2146AmAh°D2146D9249§Aa°D2134Al°D2134VAmVAh°D2134WE10286§Aa°D2134\\Al°D2134yAmyAh°D2134zD1980§Aa°D2141Al°D2141\000òıAm\000òıAh°D2141\000òˆE13464§Aa°D21579Al°D2157Ah°D2157AmD9298§Aa°D2134\rAlÄAh°D2134}Am}D5082§Aa°D2071Al°D2071\rAm\rAh°D2071\rE10513§Aa°D2138ÿAlÄAh°D21382Am2D8483§Aa°D2143AlÄAh°D2143'Am'D7971§Aa£D2132ND2131eD2134.Al£D2132ÀD2131ID2134XAmXAh£D2132D2131JD2134YC785§Aa°D2152πAlÄAmAh°D2152E12803§Aa£D2142UD2140`D2141wAl°D2141ÕAm≥Ah£D2142≥D2140¡D2141ŒE10512§Aa°D2138êAlÄAh°D2138AmD7067§Aa£D2132êD2133FD2130zAlÄAh£D2132Å·D2133qFD2130rfAmqFD6149§Aa°D2130êAl°D2130-Ah°D21300Am-D2450§Aa¢D2140¨D2152Al¢D2140ÇD2152FAmFAh¢D2140ÉD2152GD2734§Aa¢D2127D21305Al¢D2127ﬁD2130ãAmãAh¢D2127ﬂD2130ßD4337§Aa¢D2136RD2145iAl¢D2136ÌD2145«Am«Ah¢D2136ÓD2145»D4338§Aa™D2142ÖD2137°D2140™D2146öD2136vD2141KD2144ŒD2134ÖD2138bD2135Al©D2142D2137ìD2134+D2136D2141BD2144aD2140yD2138VD2135|Ah™D2142ÄD2137îD2140zD2146aD2136ÑD2141CD2144bD2134}D2138wD2135}AmaD5498§Aa¢D21326D2133BAl¢D2132•D2133YAmYAh¢D2132¶D2133ZOgr:727:of Power§Aa°D2071Al°D2071˛Am˛Ah°D2071ˇD2453§Aa°D21528Al°D2152ôAmôAh°D2152öD2725§Aa£D2131-D2127D2130%Al£D2131⁄D2127uD2130ÈAm⁄Ah£D2131€D2127vD2130ÍD2447§Aa°D2152ÖAl°D2152AmAh°D2152\rD7910§Aa¢D2141?D21327AlÄAm\nAh¢D2141\nD2132›D2632§Aa°D2071\rAl°D2071¥Am¥Ah°D2071µE12037§Aa°D2138ïAlÄAh°D2138NAmNGversionE20404§Aa°D2151£AlÄAm<ÇAh°D2151<ÇD2740§Aa¢D2127\nD2130\rAl¢D2127G=D2130∫Am∫Ah¢D2127G>D2130ªD9359§Aa°D2134AlÄAmú=Ah°D2134ú=D3036§Aa°D2071Al°D2071	¿Am	¿Ah°D2071	¡Pgr:2632:of Power§Aa°D2071\rAl°D2071¥Am¥Ah°D2071µD3827§Aa°D2130\\Al°D2130ÄAh°D2130ÅAmÄD2730§Aa¢D2127D2130Al¢D2127+ÍD2130AmAh¢D2127+ÎD2130D2452§Aa°D2152–Al°D2152WAmWAh°D2152XD7075§Aa°D2132uAl°D2132§Am§Ah°D2132•E14256§Aa¢D21387D2142tAlÄAmKÒAh¢D2138ND2142KÒE10285§Aa°D2136dAlÄAh°D2136AmD7975§Aa°D2138AlÄAh°D2138»Am»C727§Aa°D2071Al°D2071˛Am˛Ah°D2071ˇD6037§Aa°D2135SAl°D2135\nTAh°D2135\nUAm\nTE13463§Aa°D2157‘AlÄAh°D2157ΩAmΩD7070§Aa¢D21342D2135eAl°D2135:Am:Ah¢D2134õD2135;D2742§Aa¢D2127D2130-Al¢D2127◊D2130 Am Ah¢D2127ÿD2130ÌD2738§Aa£D2131D2127D2130!Al£D2131±D2127SD2130\rAm±Ah£D2131≤D2127TD2130∞D2772§Aa°D2133€Al°D2133\rüAm\rüAh°D2133\r†E12184§Aa°D2126Al°D2126√Ah°D2126ƒAm√E11178§Aa°D2151iAlÄAm.‡Ah°D2151.‡D8364§Aa°D2138zAlÄAh°D2138ÁAmÁD8846§Aa°D2138xAlÄAm»Ah°D2138»D3712§Aa°D2157˙Al°D2157FAh°D2157GAmFE13926§Aa°D2135BAlÄAh°D2135u\"Amu\"E17056§Aa°D2125lAlÄAh°D2125éAméD7990§Aa°D2138AlÄAh°D2138\nëAm\nëE18512§Aa°D2150*Al°D2150ﬁ˜Ah°D2150ﬁ¯Amﬁ˜D3864§Aa§D2132SD2126#D2131>D2130~Al¢D2132“D2126⁄Ah§D2132”D2126€D2131ÂD2130€Am“D3356§Aa°D21528AlÄAm2Ah°D21522D7993§Aa°D2138AlÄAh°D2138\n–Am\n–E11176§Aa°D2151QAlÄAmAh°D2151D2748§Aa¢D2127D2130Al¢D2127øD2130wAmwAh¢D2127¿D2130xE19933§Aa¢D2138@D2140[Al¢D2138˚D2140'Ah¢D2138¸D2140'Am'D5500§Aa¶D2136;D2137D2131#D2140<D2138<D2135$Al•D2137\0008~D2131≤D2140íD2138tD2135ñSAmíAh¶D2136°D2137\0008D2131≥D2140ìD2138uD2135ñTD3829§Aa°D2130tAlÄAh°D2130òAmòD2751§Aa¢D2127D2130Al°D2130›Am›Ah¢D2127©D2130ﬁE10561§Aa°D2140HAlÄAh°D21404∑Am4∑D8391§Aa°D2138\\Al°D2138*„Ah°D2138*‰Am*„E14046§Aa°D21572AlÄAh°D2157eèAmeè",
 }
 AUCTIONATOR_POSTING_HISTORY = {
 ["3825"] = {
@@ -221,6 +214,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 13,
 ["time"] = 1756807072,
 },
+{
+["price"] = 397,
+["quantity"] = 8,
+["time"] = 1761446079,
+},
 },
 ["2589"] = {
 {
@@ -252,6 +250,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 33,
 ["quantity"] = 5,
 ["time"] = 1746365507,
+},
+},
+["15420"] = {
+{
+["price"] = 283,
+["quantity"] = 55,
+["time"] = 1763257828,
 },
 },
 ["8838"] = {
@@ -293,6 +298,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748671649,
 },
 },
+["7912"] = {
+{
+["price"] = 2939,
+["quantity"] = 35,
+["time"] = 1761907524,
+},
+},
 ["13302"] = {
 {
 ["price"] = 9656,
@@ -310,6 +322,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 3381,
 ["quantity"] = 1,
 ["time"] = 1748008278,
+},
+{
+["price"] = 3999,
+["quantity"] = 3,
+["time"] = 1763198870,
+},
+{
+["price"] = 4527,
+["quantity"] = 1,
+["time"] = 1763374694,
 },
 },
 ["9253"] = {
@@ -394,6 +416,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 3,
 ["time"] = 1748754690,
 },
+{
+["price"] = 449,
+["quantity"] = 12,
+["time"] = 1763771616,
+},
 },
 ["2725"] = {
 {
@@ -416,12 +443,42 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747001106,
 },
+{
+["price"] = 1397,
+["quantity"] = 1,
+["time"] = 1761642959,
+},
+{
+["price"] = 5097,
+["quantity"] = 1,
+["time"] = 1761883347,
+},
+{
+["price"] = 986,
+["quantity"] = 1,
+["time"] = 1761958168,
+},
 },
 ["2745"] = {
 {
 ["price"] = 1097,
 ["quantity"] = 1,
 ["time"] = 1746884178,
+},
+{
+["price"] = 8884,
+["quantity"] = 1,
+["time"] = 1761642995,
+},
+{
+["price"] = 2495,
+["quantity"] = 1,
+["time"] = 1761907590,
+},
+{
+["price"] = 1187,
+["quantity"] = 1,
+["time"] = 1761958179,
 },
 },
 ["3821"] = {
@@ -440,12 +497,27 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 12,
 ["time"] = 1748754694,
 },
+{
+["price"] = 1681,
+["quantity"] = 51,
+["time"] = 1763771638,
+},
 },
 ["2450"] = {
 {
 ["price"] = 159,
 ["quantity"] = 3,
 ["time"] = 1746338026,
+},
+{
+["price"] = 386,
+["quantity"] = 1,
+["time"] = 1762720929,
+},
+{
+["price"] = 582,
+["quantity"] = 81,
+["time"] = 1763771684,
 },
 },
 ["774"] = {
@@ -498,6 +570,21 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 2,
 ["time"] = 1747145056,
 },
+{
+["price"] = 1495,
+["quantity"] = 2,
+["time"] = 1761642992,
+},
+{
+["price"] = 748,
+["quantity"] = 2,
+["time"] = 1761883371,
+},
+{
+["price"] = 714,
+["quantity"] = 1,
+["time"] = 1761907579,
+},
 },
 ["11018"] = {
 {
@@ -505,13 +592,54 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 11,
 ["time"] = 1747646152,
 },
+{
+["price"] = 983,
+["quantity"] = 49,
+["time"] = 1762721050,
+},
+{
+["price"] = 784,
+["quantity"] = 11,
+["time"] = 1763081087,
+},
+},
+["8393"] = {
+{
+["price"] = 22285,
+["quantity"] = 1,
+["time"] = 1762584133,
+},
+{
+["price"] = 35053,
+["quantity"] = 1,
+["time"] = 1762720933,
+},
+},
+["2744"] = {
+{
+["price"] = 798,
+["quantity"] = 2,
+["time"] = 1761883375,
+},
+{
+["price"] = 661,
+["quantity"] = 1,
+["time"] = 1761907584,
+},
+{
+["price"] = 5003,
+["quantity"] = 2,
+["time"] = 1761958175,
+},
+},
+["729"] = {
+{
+["price"] = 20,
+["quantity"] = 5,
+["time"] = 1761446074,
+},
 },
 ["7070"] = {
-{
-["price"] = 25037,
-["quantity"] = 1,
-["time"] = 1746276276,
-},
 {
 ["price"] = 23999,
 ["quantity"] = 3,
@@ -552,6 +680,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 3,
 ["time"] = 1757820972,
 },
+{
+["price"] = 8090,
+["quantity"] = 1,
+["time"] = 1762247434,
+},
+{
+["price"] = 6970,
+["quantity"] = 2,
+["time"] = 1762294830,
+},
 },
 ["12203"] = {
 {
@@ -561,16 +699,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 },
 },
 ["13466"] = {
-{
-["price"] = 40885,
-["quantity"] = 20,
-["time"] = 1749013711,
-},
-{
-["price"] = 45893,
-["quantity"] = 11,
-["time"] = 1749106340,
-},
 {
 ["price"] = 44894,
 ["quantity"] = 4,
@@ -611,12 +739,29 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 30,
 ["time"] = 1750568532,
 },
+{
+["price"] = 36535,
+["quantity"] = 20,
+["time"] = 1763793631,
+},
+{
+["price"] = 37371,
+["quantity"] = 14,
+["time"] = 1764195992,
+},
 },
 ["8483"] = {
 {
 ["price"] = 2681,
 ["quantity"] = 11,
 ["time"] = 1747361157,
+},
+},
+["929"] = {
+{
+["price"] = 321,
+["quantity"] = 4,
+["time"] = 1761520824,
 },
 },
 ["13464"] = {
@@ -665,6 +810,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 16,
 ["time"] = 1750568542,
 },
+{
+["price"] = 1305,
+["quantity"] = 2,
+["time"] = 1764195973,
+},
 },
 ["5082"] = {
 {
@@ -685,6 +835,28 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 13967,
 ["quantity"] = 1,
 ["time"] = 1747552419,
+},
+{
+["price"] = 1472,
+["quantity"] = 1,
+["time"] = 1762720955,
+},
+{
+["price"] = 1997,
+["quantity"] = 2,
+["time"] = 1762821823,
+},
+},
+["6149"] = {
+{
+["price"] = 3887,
+["quantity"] = 20,
+["time"] = 1761907931,
+},
+{
+["price"] = 3885,
+["quantity"] = 2,
+["time"] = 1761907948,
 },
 },
 ["12204"] = {
@@ -776,6 +948,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747447565,
 },
+{
+["price"] = 11242,
+["quantity"] = 4,
+["time"] = 1761642971,
+},
+{
+["price"] = 5658,
+["quantity"] = 3,
+["time"] = 1761883355,
+},
 },
 ["5504"] = {
 {
@@ -813,11 +995,87 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746337995,
 },
 },
+["2772"] = {
+{
+["price"] = 3487,
+["quantity"] = 3,
+["time"] = 1762165489,
+},
+},
 ["18944"] = {
 {
 ["price"] = 584,
 ["quantity"] = 15,
 ["time"] = 1747538199,
+},
+},
+["4338"] = {
+{
+["price"] = 387,
+["quantity"] = 33,
+["time"] = 1762426348,
+},
+{
+["price"] = 403,
+["quantity"] = 35,
+["time"] = 1762511720,
+},
+{
+["price"] = 374,
+["quantity"] = 16,
+["time"] = 1762559207,
+},
+{
+["price"] = 342,
+["quantity"] = 9,
+["time"] = 1762568722,
+},
+{
+["price"] = 365,
+["quantity"] = 3,
+["time"] = 1762583139,
+},
+{
+["price"] = 377,
+["quantity"] = 32,
+["time"] = 1762758999,
+},
+{
+["price"] = 322,
+["quantity"] = 3,
+["time"] = 1762821790,
+},
+{
+["price"] = 383,
+["quantity"] = 7,
+["time"] = 1762930960,
+},
+{
+["price"] = 353,
+["quantity"] = 34,
+["time"] = 1763081084,
+},
+{
+["price"] = 352,
+["quantity"] = 14,
+["time"] = 1763257833,
+},
+},
+["2734"] = {
+{
+["price"] = 990,
+["quantity"] = 2,
+["time"] = 1761642979,
+},
+{
+["price"] = 5030,
+["quantity"] = 2,
+["time"] = 1761883361,
+},
+{
+["price"] = 2186,
+["quantity"] = 3,
+["time"] = 1761907576,
 },
 },
 ["3819"] = {
@@ -853,6 +1111,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1756525769,
 },
 },
+["9252"] = {
+{
+["price"] = 7497,
+["quantity"] = 3,
+["time"] = 1762247393,
+},
+},
 ["2318"] = {
 {
 ["price"] = 288,
@@ -861,11 +1126,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 },
 },
 ["13465"] = {
-{
-["price"] = 19121,
-["quantity"] = 4,
-["time"] = 1749106350,
-},
 {
 ["price"] = 19757,
 ["quantity"] = 3,
@@ -911,6 +1171,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 10,
 ["time"] = 1750568536,
 },
+{
+["price"] = 5915,
+["quantity"] = 3,
+["time"] = 1764195969,
+},
 },
 ["4234"] = {
 {
@@ -943,11 +1208,38 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1746970298,
 },
 },
+["2749"] = {
+{
+["price"] = 2597,
+["quantity"] = 2,
+["time"] = 1761643007,
+},
+{
+["price"] = 560,
+["quantity"] = 1,
+["time"] = 1761883381,
+},
+{
+["price"] = 496,
+["quantity"] = 1,
+["time"] = 1761907593,
+},
+{
+["price"] = 1534,
+["quantity"] = 1,
+["time"] = 1761958182,
+},
+},
 ["7075"] = {
 {
 ["price"] = 458,
 ["quantity"] = 1,
 ["time"] = 1747026761,
+},
+{
+["price"] = 2980,
+["quantity"] = 1,
+["time"] = 1762081202,
 },
 },
 ["16713"] = {
@@ -1008,6 +1300,26 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747806588,
 },
+{
+["price"] = 1498,
+["quantity"] = 1,
+["time"] = 1761560573,
+},
+{
+["price"] = 3290,
+["quantity"] = 1,
+["time"] = 1761907554,
+},
+{
+["price"] = 2020,
+["quantity"] = 1,
+["time"] = 1761979800,
+},
+{
+["price"] = 1490,
+["quantity"] = 1,
+["time"] = 1762036149,
+},
 },
 ["2728"] = {
 {
@@ -1024,6 +1336,21 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 1878,
 ["quantity"] = 2,
 ["time"] = 1747145075,
+},
+{
+["price"] = 19998,
+["quantity"] = 2,
+["time"] = 1761642963,
+},
+{
+["price"] = 708,
+["quantity"] = 4,
+["time"] = 1761883351,
+},
+{
+["price"] = 11249,
+["quantity"] = 1,
+["time"] = 1761907559,
 },
 },
 ["13307"] = {
@@ -1054,6 +1381,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1746862199,
 },
+{
+["price"] = 3749,
+["quantity"] = 1,
+["time"] = 1762081189,
+},
+{
+["price"] = 1369,
+["quantity"] = 1,
+["time"] = 1762119262,
+},
 },
 ["1529"] = {
 {
@@ -1078,12 +1415,29 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 5,
 ["time"] = 1748671632,
 },
+{
+["price"] = 7037,
+["quantity"] = 15,
+["time"] = 1763771642,
+},
 },
 ["8845"] = {
 {
 ["price"] = 14467,
 ["quantity"] = 3,
 ["time"] = 1749297129,
+},
+},
+["10593"] = {
+{
+["price"] = 11892,
+["quantity"] = 3,
+["time"] = 1762583178,
+},
+{
+["price"] = 20849,
+["quantity"] = 3,
+["time"] = 1762720943,
 },
 },
 ["7909"] = {
@@ -1102,13 +1456,23 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747806584,
 },
+{
+["price"] = 7483,
+["quantity"] = 1,
+["time"] = 1762426365,
+},
+{
+["price"] = 5473,
+["quantity"] = 1,
+["time"] = 1762583136,
+},
+{
+["price"] = 6998,
+["quantity"] = 1,
+["time"] = 1762720920,
+},
 },
 ["13468"] = {
-{
-["price"] = 709896,
-["quantity"] = 3,
-["time"] = 1749013719,
-},
 {
 ["price"] = 708699,
 ["quantity"] = 3,
@@ -1154,6 +1518,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1756525750,
 },
+{
+["price"] = 538785,
+["quantity"] = 1,
+["time"] = 1764195998,
+},
 },
 ["13443"] = {
 {
@@ -1197,6 +1566,21 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 561,
 ["quantity"] = 1,
 ["time"] = 1746970360,
+},
+{
+["price"] = 1498,
+["quantity"] = 2,
+["time"] = 1761642975,
+},
+{
+["price"] = 532,
+["quantity"] = 2,
+["time"] = 1761883358,
+},
+{
+["price"] = 494,
+["quantity"] = 1,
+["time"] = 1761907561,
 },
 },
 ["1015"] = {
@@ -1273,6 +1657,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747741281,
 },
+{
+["price"] = 3298,
+["quantity"] = 1,
+["time"] = 1761560588,
+},
 },
 ["11078"] = {
 {
@@ -1292,6 +1681,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1749297132,
 },
+{
+["price"] = 525,
+["quantity"] = 31,
+["time"] = 1763771652,
+},
 },
 ["5500"] = {
 {
@@ -1308,6 +1702,36 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 1491,
 ["quantity"] = 1,
 ["time"] = 1747741265,
+},
+{
+["price"] = 1458,
+["quantity"] = 1,
+["time"] = 1761979796,
+},
+{
+["price"] = 38483,
+["quantity"] = 1,
+["time"] = 1762338225,
+},
+{
+["price"] = 5024,
+["quantity"] = 1,
+["time"] = 1762426360,
+},
+{
+["price"] = 79998,
+["quantity"] = 1,
+["time"] = 1762511794,
+},
+{
+["price"] = 4980,
+["quantity"] = 1,
+["time"] = 1762559204,
+},
+{
+["price"] = 5778,
+["quantity"] = 1,
+["time"] = 1762720924,
 },
 },
 ["8153"] = {
@@ -1354,11 +1778,51 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1749304402,
 },
 },
+["2452"] = {
+{
+["price"] = 6743,
+["quantity"] = 29,
+["time"] = 1763771677,
+},
+},
+["3667"] = {
+{
+["price"] = 71,
+["quantity"] = 6,
+["time"] = 1747405529,
+},
+},
+["3355"] = {
+{
+["price"] = 6687,
+["quantity"] = 23,
+["time"] = 1763771663,
+},
+},
 ["10286"] = {
 {
 ["price"] = 599,
 ["quantity"] = 7,
 ["time"] = 1747552432,
+},
+{
+["price"] = 633,
+["quantity"] = 2,
+["time"] = 1762247374,
+},
+},
+["765"] = {
+{
+["price"] = 206,
+["quantity"] = 49,
+["time"] = 1763771631,
+},
+},
+["7080"] = {
+{
+["price"] = 99997,
+["quantity"] = 1,
+["time"] = 1763257813,
 },
 },
 ["16736"] = {
@@ -1378,11 +1842,66 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748777895,
 },
 },
+["1980"] = {
+{
+["price"] = 956661,
+["quantity"] = 1,
+["time"] = 1762821830,
+},
+},
+["8391"] = {
+{
+["price"] = 10979,
+["quantity"] = 2,
+["time"] = 1762584138,
+},
+},
+["4589"] = {
+{
+["price"] = 9090,
+["quantity"] = 1,
+["time"] = 1762338222,
+},
+},
 ["7971"] = {
 {
 ["price"] = 1489,
 ["quantity"] = 2,
 ["time"] = 1747145102,
+},
+{
+["price"] = 7497,
+["quantity"] = 2,
+["time"] = 1761979794,
+},
+{
+["price"] = 1995,
+["quantity"] = 1,
+["time"] = 1762036145,
+},
+{
+["price"] = 3586,
+["quantity"] = 1,
+["time"] = 1762081181,
+},
+{
+["price"] = 1880,
+["quantity"] = 2,
+["time"] = 1762247366,
+},
+},
+["2632"] = {
+{
+["price"] = 2996,
+["quantity"] = 1,
+["time"] = 1756807051,
+},
+},
+["6037"] = {
+{
+["price"] = 2644,
+["quantity"] = 2,
+["time"] = 1762294838,
 },
 },
 ["13094"] = {
@@ -1433,12 +1952,71 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 4,
 ["time"] = 1747405300,
 },
+{
+["price"] = 29285,
+["quantity"] = 8,
+["time"] = 1761907539,
+},
+{
+["price"] = 33248,
+["quantity"] = 2,
+["time"] = 1762081198,
+},
+{
+["price"] = 28997,
+["quantity"] = 2,
+["time"] = 1762119269,
+},
 },
 ["18512"] = {
 {
 ["price"] = 37992,
 ["quantity"] = 1,
 ["time"] = 1756525766,
+},
+{
+["price"] = 57079,
+["quantity"] = 2,
+["time"] = 1763589692,
+},
+},
+["2748"] = {
+{
+["price"] = 3346,
+["quantity"] = 1,
+["time"] = 1746884163,
+},
+{
+["price"] = 577,
+["quantity"] = 1,
+["time"] = 1746929959,
+},
+{
+["price"] = 992,
+["quantity"] = 3,
+["time"] = 1747145051,
+},
+{
+["price"] = 4798,
+["quantity"] = 1,
+["time"] = 1747447561,
+},
+{
+["price"] = 959,
+["quantity"] = 3,
+["time"] = 1761643000,
+},
+{
+["price"] = 7799,
+["quantity"] = 2,
+["time"] = 1761883378,
+},
+},
+["13444"] = {
+{
+["price"] = 58783,
+["quantity"] = 2,
+["time"] = 1748333457,
 },
 },
 ["4337"] = {
@@ -1472,44 +2050,15 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1748008282,
 },
-},
-["2675"] = {
 {
-["price"] = 47,
-["quantity"] = 6,
-["time"] = 1746366875,
-},
-},
-["__dbversion"] = 1,
-["3282"] = {
-{
-["price"] = 787,
-["quantity"] = 1,
-["time"] = 1756807057,
-},
-},
-["7079"] = {
-{
-["price"] = 1176,
-["quantity"] = 4,
-["time"] = 1747474966,
-},
-{
-["price"] = 4346,
+["price"] = 749,
 ["quantity"] = 2,
-["time"] = 1747889557,
+["time"] = 1762414400,
 },
 {
-["price"] = 794,
-["quantity"] = 1,
-["time"] = 1749297337,
-},
-},
-["1401"] = {
-{
-["price"] = 522,
-["quantity"] = 6,
-["time"] = 1746099535,
+["price"] = 967,
+["quantity"] = 3,
+["time"] = 1763198850,
 },
 },
 ["13479"] = {
@@ -1529,16 +2078,33 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748862757,
 },
 },
-["3685"] = {
+["2675"] = {
 {
-["price"] = 343,
-["quantity"] = 14,
-["time"] = 1746366872,
+["price"] = 47,
+["quantity"] = 6,
+["time"] = 1746366875,
 },
+},
+["__dbversion"] = 1,
+["2453"] = {
 {
-["price"] = 334,
-["quantity"] = 7,
-["time"] = 1747405526,
+["price"] = 1433,
+["quantity"] = 26,
+["time"] = 1763771669,
+},
+},
+["3731"] = {
+{
+["price"] = 457,
+["quantity"] = 10,
+["time"] = 1747405519,
+},
+},
+["1401"] = {
+{
+["price"] = 522,
+["quantity"] = 6,
+["time"] = 1746099535,
 },
 },
 ["18335"] = {
@@ -1553,16 +2119,45 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1750560704,
 },
 },
-["1206"] = {
+["19933"] = {
 {
-["price"] = 6998,
-["quantity"] = 1,
-["time"] = 1746337992,
+["price"] = 2262,
+["quantity"] = 4,
+["time"] = 1747981878,
 },
 {
-["price"] = 6589,
+["price"] = 2299,
+["quantity"] = 2,
+["time"] = 1762583152,
+},
+{
+["price"] = 9999,
+["quantity"] = 2,
+["time"] = 1762720947,
+},
+},
+["3712"] = {
+{
+["price"] = 619,
+["quantity"] = 7,
+["time"] = 1747405522,
+},
+{
+["price"] = 1094,
+["quantity"] = 7,
+["time"] = 1764195979,
+},
+},
+["9249"] = {
+{
+["price"] = 4078,
 ["quantity"] = 1,
-["time"] = 1746448462,
+["time"] = 1747361150,
+},
+{
+["price"] = 1878,
+["quantity"] = 1,
+["time"] = 1762247396,
 },
 },
 ["4305"] = {
@@ -1577,83 +2172,101 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747997300,
 },
 },
-["2750"] = {
+["4306"] = {
 {
-["price"] = 573,
+["price"] = 164,
+["quantity"] = 9,
+["time"] = 1747026782,
+},
+{
+["price"] = 167,
+["quantity"] = 22,
+["time"] = 1747033237,
+},
+{
+["price"] = 183,
+["quantity"] = 38,
+["time"] = 1761520819,
+},
+{
+["price"] = 193,
+["quantity"] = 37,
+["time"] = 1761560581,
+},
+{
+["price"] = 320,
+["quantity"] = 50,
+["time"] = 1761642433,
+},
+{
+["price"] = 180,
+["quantity"] = 36,
+["time"] = 1761814139,
+},
+{
+["price"] = 155,
+["quantity"] = 35,
+["time"] = 1761884094,
+},
+{
+["price"] = 163,
+["quantity"] = 79,
+["time"] = 1761907551,
+},
+{
+["price"] = 156,
+["quantity"] = 40,
+["time"] = 1761958149,
+},
+{
+["price"] = 191,
+["quantity"] = 9,
+["time"] = 1762426341,
+},
+},
+["7076"] = {
+{
+["price"] = 35194,
 ["quantity"] = 1,
-["time"] = 1747145044,
-},
-},
-["7069"] = {
-{
-["price"] = 4405,
-["quantity"] = 3,
-["time"] = 1746929941,
+["time"] = 1747981861,
 },
 {
-["price"] = 673,
+["price"] = 29996,
 ["quantity"] = 1,
-["time"] = 1746970351,
+["time"] = 1748059629,
 },
+},
+["2447"] = {
 {
-["price"] = 861,
+["price"] = 12,
+["quantity"] = 38,
+["time"] = 1763771695,
+},
+},
+["2735"] = {
+{
+["price"] = 578,
 ["quantity"] = 1,
-["time"] = 1747981872,
+["time"] = 1747145070,
 },
-},
-["727"] = {
 {
-["price"] = 4094,
+["price"] = 629,
 ["quantity"] = 1,
-["time"] = 1756785983,
+["time"] = 1761907951,
 },
 },
-["16724"] = {
+["3827"] = {
 {
-["price"] = 229999,
-["quantity"] = 1,
-["time"] = 1748080135,
+["price"] = 1152,
+["quantity"] = 6,
+["time"] = 1761907656,
 },
 },
-["2748"] = {
+["4479"] = {
 {
-["price"] = 3346,
-["quantity"] = 1,
-["time"] = 1746884163,
-},
-{
-["price"] = 577,
-["quantity"] = 1,
-["time"] = 1746929959,
-},
-{
-["price"] = 992,
-["quantity"] = 3,
-["time"] = 1747145051,
-},
-{
-["price"] = 4798,
-["quantity"] = 1,
-["time"] = 1747447561,
-},
-},
-["3358"] = {
-{
-["price"] = 2191,
-["quantity"] = 2,
-["time"] = 1746884201,
-},
-{
-["price"] = 824,
-["quantity"] = 1,
-["time"] = 1748671635,
-},
-},
-["14256"] = {
-{
-["price"] = 40999,
-["quantity"] = 3,
-["time"] = 1747707627,
+["price"] = 620,
+["quantity"] = 6,
+["time"] = 1746970315,
 },
 },
 ["7972"] = {
@@ -1675,6 +2288,23 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747001101,
 },
 },
+["14256"] = {
+{
+["price"] = 40999,
+["quantity"] = 3,
+["time"] = 1747707627,
+},
+{
+["price"] = 19990,
+["quantity"] = 2,
+["time"] = 1762568718,
+},
+{
+["price"] = 19440,
+["quantity"] = 1,
+["time"] = 1762930964,
+},
+},
 ["8949"] = {
 {
 ["price"] = 2496,
@@ -1685,6 +2315,75 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["price"] = 7477,
 ["quantity"] = 27,
 ["time"] = 1748310270,
+},
+},
+["2740"] = {
+{
+["price"] = 944,
+["quantity"] = 3,
+["time"] = 1747145062,
+},
+{
+["price"] = 18237,
+["quantity"] = 3,
+["time"] = 1761642988,
+},
+{
+["price"] = 954,
+["quantity"] = 2,
+["time"] = 1761883367,
+},
+},
+["2592"] = {
+{
+["price"] = 136,
+["quantity"] = 9,
+["time"] = 1746604985,
+},
+{
+["price"] = 114,
+["quantity"] = 13,
+["time"] = 1746847774,
+},
+{
+["price"] = 394,
+["quantity"] = 16,
+["time"] = 1746884197,
+},
+{
+["price"] = 87,
+["quantity"] = 16,
+["time"] = 1746929927,
+},
+{
+["price"] = 131,
+["quantity"] = 9,
+["time"] = 1746970377,
+},
+{
+["price"] = 334,
+["quantity"] = 23,
+["time"] = 1761466405,
+},
+{
+["price"] = 298,
+["quantity"] = 6,
+["time"] = 1761520813,
+},
+{
+["price"] = 320,
+["quantity"] = 9,
+["time"] = 1761560585,
+},
+{
+["price"] = 189,
+["quantity"] = 2,
+["time"] = 1761642439,
+},
+{
+["price"] = 284,
+["quantity"] = 2,
+["time"] = 1761814143,
 },
 },
 ["11737"] = {
@@ -1704,56 +2403,7 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748134954,
 },
 },
-["2740"] = {
-{
-["price"] = 944,
-["quantity"] = 3,
-["time"] = 1747145062,
-},
-},
-["7910"] = {
-{
-["price"] = 7273,
-["quantity"] = 1,
-["time"] = 1747645255,
-},
-{
-["price"] = 11896,
-["quantity"] = 1,
-["time"] = 1747715923,
-},
-{
-["price"] = 5981,
-["quantity"] = 1,
-["time"] = 1747919152,
-},
-{
-["price"] = 6488,
-["quantity"] = 1,
-["time"] = 1747997295,
-},
-{
-["price"] = 6497,
-["quantity"] = 1,
-["time"] = 1748059621,
-},
-{
-["price"] = 8731,
-["quantity"] = 1,
-["time"] = 1748945330,
-},
-{
-["price"] = 6999,
-["quantity"] = 1,
-["time"] = 1749013734,
-},
-},
 ["13463"] = {
-{
-["price"] = 4999,
-["quantity"] = 2,
-["time"] = 1748772718,
-},
 {
 ["price"] = 6079,
 ["quantity"] = 10,
@@ -1799,12 +2449,10 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 18,
 ["time"] = 1750568539,
 },
-},
-["13134"] = {
 {
-["price"] = 77986,
-["quantity"] = 1,
-["time"] = 1747707619,
+["price"] = 1980,
+["quantity"] = 6,
+["time"] = 1764195976,
 },
 },
 ["7068"] = {
@@ -1823,12 +2471,15 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 1,
 ["time"] = 1747559028,
 },
-},
-["2738"] = {
 {
-["price"] = 1076,
-["quantity"] = 2,
-["time"] = 1747145067,
+["price"] = 10095,
+["quantity"] = 1,
+["time"] = 1762414389,
+},
+{
+["price"] = 9446,
+["quantity"] = 1,
+["time"] = 1762511791,
 },
 },
 ["1710"] = {
@@ -1858,11 +2509,50 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1748235506,
 },
 },
+["2738"] = {
+{
+["price"] = 1076,
+["quantity"] = 2,
+["time"] = 1747145067,
+},
+{
+["price"] = 595,
+["quantity"] = 2,
+["time"] = 1761642984,
+},
+{
+["price"] = 1199,
+["quantity"] = 1,
+["time"] = 1761883364,
+},
+{
+["price"] = 1037,
+["quantity"] = 1,
+["time"] = 1761907581,
+},
+{
+["price"] = 689,
+["quantity"] = 1,
+["time"] = 1761958171,
+},
+},
+["13134"] = {
+{
+["price"] = 77986,
+["quantity"] = 1,
+["time"] = 1747707619,
+},
+},
 ["12184"] = {
 {
 ["price"] = 222,
 ["quantity"] = 13,
 ["time"] = 1747405552,
+},
+{
+["price"] = 195,
+["quantity"] = 18,
+["time"] = 1761560596,
 },
 },
 ["13304"] = {
@@ -1872,46 +2562,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1749371111,
 },
 },
-["2592"] = {
+["8951"] = {
 {
-["price"] = 74,
-["quantity"] = 33,
-["time"] = 1746338010,
-},
-{
-["price"] = 70,
-["quantity"] = 59,
-["time"] = 1746440065,
-},
-{
-["price"] = 185,
-["quantity"] = 6,
-["time"] = 1746448488,
-},
-{
-["price"] = 136,
-["quantity"] = 9,
-["time"] = 1746604985,
-},
-{
-["price"] = 114,
-["quantity"] = 13,
-["time"] = 1746847774,
-},
-{
-["price"] = 394,
-["quantity"] = 16,
-["time"] = 1746884197,
-},
-{
-["price"] = 87,
-["quantity"] = 16,
-["time"] = 1746929927,
-},
-{
-["price"] = 131,
-["quantity"] = 9,
-["time"] = 1746970377,
+["price"] = 8437,
+["quantity"] = 10,
+["time"] = 1748236957,
 },
 },
 ["11137"] = {
@@ -1921,105 +2576,155 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1749304381,
 },
 },
-["3712"] = {
+["7910"] = {
 {
-["price"] = 619,
+["price"] = 7273,
+["quantity"] = 1,
+["time"] = 1747645255,
+},
+{
+["price"] = 11896,
+["quantity"] = 1,
+["time"] = 1747715923,
+},
+{
+["price"] = 5981,
+["quantity"] = 1,
+["time"] = 1747919152,
+},
+{
+["price"] = 6488,
+["quantity"] = 1,
+["time"] = 1747997295,
+},
+{
+["price"] = 6497,
+["quantity"] = 1,
+["time"] = 1748059621,
+},
+{
+["price"] = 8731,
+["quantity"] = 1,
+["time"] = 1748945330,
+},
+{
+["price"] = 6999,
+["quantity"] = 1,
+["time"] = 1749013734,
+},
+{
+["price"] = 7388,
+["quantity"] = 1,
+["time"] = 1762081185,
+},
+{
+["price"] = 6921,
+["quantity"] = 1,
+["time"] = 1762821819,
+},
+},
+["3358"] = {
+{
+["price"] = 2191,
+["quantity"] = 2,
+["time"] = 1746884201,
+},
+{
+["price"] = 824,
+["quantity"] = 1,
+["time"] = 1748671635,
+},
+{
+["price"] = 412,
+["quantity"] = 40,
+["time"] = 1763771645,
+},
+},
+["16724"] = {
+{
+["price"] = 229999,
+["quantity"] = 1,
+["time"] = 1748080135,
+},
+},
+["727"] = {
+{
+["price"] = 4094,
+["quantity"] = 1,
+["time"] = 1756785983,
+},
+},
+["7069"] = {
+{
+["price"] = 4405,
+["quantity"] = 3,
+["time"] = 1746929941,
+},
+{
+["price"] = 673,
+["quantity"] = 1,
+["time"] = 1746970351,
+},
+{
+["price"] = 861,
+["quantity"] = 1,
+["time"] = 1747981872,
+},
+{
+["price"] = 1997,
+["quantity"] = 1,
+["time"] = 1761520809,
+},
+},
+["2750"] = {
+{
+["price"] = 573,
+["quantity"] = 1,
+["time"] = 1747145044,
+},
+{
+["price"] = 532,
+["quantity"] = 1,
+["time"] = 1761883472,
+},
+{
+["price"] = 2192,
+["quantity"] = 1,
+["time"] = 1761958185,
+},
+},
+["1206"] = {
+{
+["price"] = 6998,
+["quantity"] = 1,
+["time"] = 1746337992,
+},
+{
+["price"] = 6589,
+["quantity"] = 1,
+["time"] = 1746448462,
+},
+},
+["3685"] = {
+{
+["price"] = 343,
+["quantity"] = 14,
+["time"] = 1746366872,
+},
+{
+["price"] = 334,
 ["quantity"] = 7,
-["time"] = 1747405522,
-},
-},
-["8951"] = {
-{
-["price"] = 8437,
-["quantity"] = 10,
-["time"] = 1748236957,
-},
-},
-["4479"] = {
-{
-["price"] = 620,
-["quantity"] = 6,
-["time"] = 1746970315,
-},
-},
-["2735"] = {
-{
-["price"] = 578,
-["quantity"] = 1,
-["time"] = 1747145070,
-},
-},
-["4306"] = {
-{
-["price"] = 171,
-["quantity"] = 19,
-["time"] = 1746604980,
+["time"] = 1747405526,
 },
 {
-["price"] = 172,
-["quantity"] = 52,
-["time"] = 1746847769,
+["price"] = 190,
+["quantity"] = 20,
+["time"] = 1761560599,
 },
 {
-["price"] = 178,
-["quantity"] = 46,
-["time"] = 1746858063,
-},
-{
-["price"] = 195,
-["quantity"] = 62,
-["time"] = 1746884150,
-},
-{
-["price"] = 167,
-["quantity"] = 108,
-["time"] = 1746929924,
-},
-{
-["price"] = 235,
-["quantity"] = 1,
-["time"] = 1746945895,
-},
-{
-["price"] = 193,
-["quantity"] = 50,
-["time"] = 1746970339,
-},
-{
-["price"] = 164,
-["quantity"] = 9,
-["time"] = 1747026782,
-},
-{
-["price"] = 167,
-["quantity"] = 22,
-["time"] = 1747033237,
-},
-},
-["9249"] = {
-{
-["price"] = 4078,
-["quantity"] = 1,
-["time"] = 1747361150,
-},
-},
-["7076"] = {
-{
-["price"] = 35194,
-["quantity"] = 1,
-["time"] = 1747981861,
-},
-{
-["price"] = 29996,
-["quantity"] = 1,
-["time"] = 1748059629,
-},
-},
-["19933"] = {
-{
-["price"] = 2262,
-["quantity"] = 4,
-["time"] = 1747981878,
+["price"] = 97,
+["quantity"] = 3,
+["time"] = 1761642436,
 },
 },
 ["16712"] = {
@@ -2036,25 +2741,35 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["time"] = 1747405540,
 },
 },
-["3731"] = {
+["7079"] = {
 {
-["price"] = 457,
-["quantity"] = 10,
-["time"] = 1747405519,
+["price"] = 1176,
+["quantity"] = 4,
+["time"] = 1747474966,
 },
-},
-["3667"] = {
 {
-["price"] = 71,
-["quantity"] = 6,
-["time"] = 1747405529,
-},
-},
-["13444"] = {
-{
-["price"] = 58783,
+["price"] = 4346,
 ["quantity"] = 2,
-["time"] = 1748333457,
+["time"] = 1747889557,
+},
+{
+["price"] = 794,
+["quantity"] = 1,
+["time"] = 1749297337,
+},
+},
+["3282"] = {
+{
+["price"] = 787,
+["quantity"] = 1,
+["time"] = 1756807057,
+},
+},
+["gr:2632:of Power"] = {
+{
+["price"] = 2996,
+["quantity"] = 1,
+["time"] = 1756807051,
 },
 },
 ["2751"] = {
@@ -2068,19 +2783,24 @@ AUCTIONATOR_POSTING_HISTORY = {
 ["quantity"] = 3,
 ["time"] = 1746929964,
 },
-},
-["gr:2632:of Power"] = {
 {
-["price"] = 2996,
-["quantity"] = 1,
-["time"] = 1756807051,
+["price"] = 733,
+["quantity"] = 2,
+["time"] = 1761883501,
 },
 },
-["2632"] = {
+["13926"] = {
 {
-["price"] = 2996,
+["price"] = 29985,
 ["quantity"] = 1,
-["time"] = 1756807051,
+["time"] = 1762294844,
+},
+},
+["22528"] = {
+{
+["price"] = 231,
+["quantity"] = 1,
+["time"] = 1762414385,
 },
 },
 ["19236"] = {
@@ -2102,18 +2822,20 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["837"] = 1012,
 ["13483"] = 15000,
 ["840"] = 768,
+["1835"] = 28,
 ["8948"] = 800,
 ["5173"] = 100,
 ["3590"] = 520,
-["3137"] = 0.9,
-["159"] = 5,
+["3137"] = 1,
+["159"] = 4.4,
 ["851"] = 1821,
 ["2901"] = 81,
 ["5565"] = 4500,
-["2523"] = 25456,
+["2523"] = 28285,
 ["18046"] = 12000,
 ["17032"] = 1800,
 ["4607"] = 200,
+["3607"] = 133,
 ["2930"] = 50,
 ["14341"] = 4500,
 ["5439"] = 90,
@@ -2121,43 +2843,47 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["850"] = 883,
 ["6256"] = 23,
 ["17028"] = 630,
-["2287"] = 25,
+["2287"] = 22.4,
 ["3466"] = 2000,
 ["4536"] = 4.4,
 ["2428"] = 18200,
 ["17189"] = 12043,
 ["2507"] = 1576,
 ["17192"] = 3959,
-["846"] = 1452,
+["846"] = 1307,
 ["4604"] = 5,
 ["19027"] = 5000,
-["8952"] = 800,
+["8952"] = 720,
 ["21099"] = 450,
-["2604"] = 45,
+["2604"] = 50,
+["193"] = 43,
 ["2149"] = 3957,
 ["17187"] = 970,
-["2524"] = 17273,
-["2723"] = 50,
+["2524"] = 19192,
+["2723"] = 45,
 ["2414"] = 720000,
 ["2427"] = 18131,
-["8766"] = 800,
+["8766"] = 720,
 ["839"] = 509,
 ["6217"] = 124,
-["2525"] = 23840,
+["2525"] = 26489,
 ["838"] = 1015,
-["18256"] = 6000,
+["18794"] = 9000000,
+["18256"] = 5400,
+["1836"] = 28,
 ["2490"] = 486,
-["4542"] = 100,
-["2526"] = 17402,
+["19205"] = 40000,
+["4542"] = 90,
+["2526"] = 19336,
 ["2397"] = 194,
 ["17031"] = 900,
-["4544"] = 200,
+["4544"] = 180,
 ["4602"] = 360,
 ["16072"] = 9000,
 ["2424"] = 19315,
 ["3424"] = 500000,
-["4341"] = 450,
-["2521"] = 27806,
+["4341"] = 500,
+["2521"] = 30896,
 ["17030"] = 1800,
 ["6530"] = 100,
 ["5374"] = 350,
@@ -2166,51 +2892,59 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["2511"] = 1192,
 ["2028"] = 4558,
 ["4537"] = 22.4,
-["3771"] = 200,
+["3771"] = 180,
 ["16060"] = 360,
 ["1201"] = 473,
 ["2426"] = 29311,
-["16113"] = 4500,
+["16113"] = 5000,
 ["2451"] = 39266,
 ["4400"] = 2000,
 ["13501"] = 30000,
 ["2492"] = 256,
 ["2491"] = 436,
-["2324"] = 25,
+["2324"] = 22,
 ["3894"] = 26987,
 ["2512"] = 0.05,
 ["9304"] = 8000,
-["4470"] = 34,
-["2325"] = 900,
+["4470"] = 38,
+["2325"] = 1000,
+["2375"] = 156,
 ["2134"] = 74,
-["4471"] = 122,
+["19329"] = 40000,
+["4471"] = 135,
 ["5656"] = 720000,
 ["17036"] = 720,
 ["2153"] = 5334,
-["4601"] = 400,
-["1205"] = 100,
+["4601"] = 360,
+["1205"] = 90,
 ["925"] = 7017,
 ["4592"] = 3.6,
 ["17035"] = 360,
-["4541"] = 25,
+["13724"] = 1200,
+["4541"] = 22.4,
 ["853"] = 2168,
 ["8090"] = 12095,
 ["2425"] = 38769,
-["2531"] = 50552,
+["2366"] = 268,
+["2531"] = 56169,
+["3606"] = 132,
 ["21552"] = 360,
 ["__dbversion"] = 1,
 ["2605"] = 90,
 ["4600"] = 340,
-["16112"] = 1980,
+["16112"] = 2200,
 ["3033"] = 1.35,
-["2692"] = 36,
+["2692"] = 40,
 ["21177"] = 135,
+["15277"] = 720000,
 ["15807"] = 265,
+["12232"] = 4500,
 ["5655"] = 720000,
 ["15903"] = 7305,
 ["2506"] = 285,
 ["3423"] = 20000,
 ["2423"] = 38493,
+["13482"] = 15000,
 ["12819"] = 16000,
 ["2132"] = 92,
 ["12231"] = 2700,
@@ -2219,215 +2953,273 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 ["1202"] = 1655,
 ["2024"] = 5470,
 ["17037"] = 1260,
+["22767"] = 50000,
 ["2030"] = 4990,
-["3030"] = 1.35,
-["2527"] = 26420,
-["3371"] = 4,
+["3030"] = 1.5,
+["2527"] = 29356,
+["3371"] = 3.6,
 ["5060"] = 1500,
+["2371"] = 170,
 ["2148"] = 2616,
 ["3589"] = 518,
 ["3111"] = 0.075,
 ["7371"] = 1800,
 ["2947"] = 0.075,
-["3026"] = 3812,
+["3026"] = 3431,
 ["15907"] = 7413,
+["22768"] = 50000,
 ["1196"] = 1993,
+["22209"] = 50000,
 ["17190"] = 31148,
 ["852"] = 1565,
 ["2495"] = 454,
 ["15808"] = 3276,
 ["8091"] = 12140,
+["2374"] = 156,
 ["2418"] = 15731,
 ["2479"] = 96,
-["843"] = 1077,
+["2373"] = 233,
+["843"] = 969,
+["4605"] = 25,
+["13810"] = 1200,
 ["8088"] = 12002,
+["8925"] = 450,
+["1194"] = 94,
+["1707"] = 180,
 ["15809"] = 13222,
 ["422"] = 90,
-["4289"] = 45,
+["5140"] = 25,
+["2593"] = 135,
+["4289"] = 50,
+["18795"] = 9000000,
+["19442"] = 100000,
 ["2151"] = 2647,
-["16084"] = 9000,
+["16084"] = 10000,
+["4496"] = 500,
+["13813"] = 1200,
 ["2393"] = 185,
 ["922"] = 10834,
+["2678"] = 2,
+["3419"] = 500,
 ["2070"] = 4.4,
+["3024"] = 6388,
 ["2395"] = 290,
 ["2394"] = 374,
-["1843"] = 725,
+["1843"] = 652,
+["12233"] = 3000,
 ["11020"] = 9000,
+["3713"] = 160,
 ["2025"] = 4774,
+["85"] = 56,
 ["2131"] = 49,
-["2321"] = 90,
+["2321"] = 100,
+["2509"] = 373,
+["714"] = 29,
+["3421"] = 200,
+["2522"] = 22548,
+["2396"] = 194,
 ["2420"] = 11937,
 ["3420"] = 5000,
-["1179"] = 25,
+["1179"] = 22.4,
 ["10648"] = 500,
-["2396"] = 194,
+["844"] = 648,
+["117"] = 4.4,
+["3025"] = 18478,
 ["15909"] = 19896,
+["2533"] = 61107,
+["4291"] = 500,
 ["2928"] = 20,
+["4342"] = 2500,
 ["1853"] = 1521,
+["16583"] = 9000,
+["1198"] = 2408,
+["2494"] = 361,
 ["6260"] = 45,
-["2152"] = 5315,
-["5048"] = 45,
+["3131"] = 0.15,
+["2370"] = 339,
+["5048"] = 50,
+["210"] = 40,
+["2535"] = 61556,
 ["2130"] = 49,
 ["2488"] = 482,
 ["2446"] = 5564,
+["18793"] = 9000000,
 ["3927"] = 360,
-["5441"] = 900,
-["15905"] = 1917,
-["17033"] = 1800,
-["2520"] = 22165,
-["12703"] = 40000,
-["927"] = 6258,
-["928"] = 8874,
+["11141"] = 2000,
+["8957"] = 720,
+["2421"] = 7952,
+["5042"] = 45,
+["2520"] = 24628,
+["17029"] = 900,
+["6532"] = 250,
+["4399"] = 200,
 ["923"] = 7869,
 ["2150"] = 2637,
-["2532"] = 47347,
+["2532"] = 52608,
 ["17038"] = 1800,
-["4595"] = 300,
-["2594"] = 1500,
+["15811"] = 24419,
+["2515"] = 0.25,
 ["2208"] = 3285,
 ["926"] = 8806,
 ["2029"] = 3977,
-["2595"] = 2000,
-["2493"] = 631,
-["16059"] = 360,
-["2419"] = 7894,
-["7005"] = 74,
-["8092"] = 18281,
-["16583"] = 9000,
-["8089"] = 18073,
-["3422"] = 2000,
-["2535"] = 55400,
-["1198"] = 2408,
-["8932"] = 720,
-["18776"] = 9000000,
-["1845"] = 877,
-["11141"] = 2000,
-["12233"] = 3000,
-["2533"] = 54996,
-["4342"] = 2250,
-["15327"] = 3.6,
-["2421"] = 7952,
-["5042"] = 45,
-["854"] = 2720,
-["2515"] = 0.225,
 ["17021"] = 630,
 ["12958"] = 50000,
-["6532"] = 250,
+["16059"] = 360,
+["209"] = 54,
+["7005"] = 82,
+["8092"] = 18281,
+["9303"] = 8000,
+["8089"] = 18073,
+["21219"] = 4500,
+["17026"] = 900,
+["3108"] = 1,
+["4497"] = 20000,
+["18776"] = 9000000,
+["11285"] = 5,
+["2530"] = 52219,
+["4606"] = 100,
+["924"] = 9875,
+["12823"] = 20000,
+["15327"] = 4,
+["3596"] = 21,
+["4540"] = 4.4,
+["17020"] = 900,
+["10290"] = 2250,
+["15810"] = 9130,
+["22250"] = 900,
 ["18567"] = 150000,
+["2596"] = 108,
 ["2519"] = 0.225,
-["8957"] = 720,
-["15906"] = 1924,
-["1844"] = 728,
+["15904"] = 19537,
+["194"] = 44,
+["1844"] = 655,
 ["8923"] = 200,
-["4498"] = 2250,
-["15811"] = 24419,
-["8343"] = 1800,
-["1708"] = 200,
-["2529"] = 58528,
-["11284"] = 4.5,
-["4599"] = 400,
+["4498"] = 2500,
+["2665"] = 18,
+["15326"] = 4,
+["2369"] = 135,
+["2529"] = 65031,
+["4599"] = 360,
+["195"] = 32,
 ["8093"] = 24467,
 ["2207"] = 2151,
-["6529"] = 50,
-["9303"] = 8000,
+["2320"] = 10,
+["711"] = 22,
 ["787"] = 4.4,
+["10647"] = 2000,
 ["2489"] = 308,
-["184937"] = 10000,
-["3135"] = 0.34,
+["12240"] = 6300,
 ["286"] = 2906,
-["4540"] = 5,
-["1852"] = 1516,
-["3428"] = 360,
-["924"] = 9875,
+["2417"] = 15673,
+["22766"] = 50000,
+["414"] = 22.4,
+["3857"] = 500,
 ["4538"] = 90,
-["11022"] = 900,
-["2665"] = 18,
+["13485"] = 15000,
+["2026"] = 5657,
 ["18777"] = 9000000,
 ["287"] = 2197,
 ["17034"] = 180,
-["2026"] = 5657,
-["6261"] = 900,
-["11362"] = 900,
-["2516"] = 0.045,
-["8953"] = 720,
-["2528"] = 46652,
-["8950"] = 800,
-["2101"] = 4,
+["19217"] = 40000,
 ["18778"] = 9000000,
-["4606"] = 100,
-["2530"] = 46997,
-["2139"] = 51,
 ["3891"] = 12284,
-["2678"] = 1.8,
-["2417"] = 15673,
-["5956"] = 18,
-["10647"] = 2000,
-["3770"] = 100,
-["718"] = 1453,
-["2392"] = 372,
-["4539"] = 180,
-["15904"] = 19537,
-["2946"] = 0.135,
-["1707"] = 180,
-["3107"] = 0.34,
-["13485"] = 15000,
-["17020"] = 900,
-["2027"] = 3434,
-["3027"] = 6349,
-["2320"] = 9,
-["2522"] = 20293,
+["22214"] = 50000,
+["8953"] = 720,
+["2534"] = 45431,
+["8950"] = 720,
+["2101"] = 4,
 ["1197"] = 2399,
-["2534"] = 40888,
-["3108"] = 0.9,
-["12240"] = 6300,
-["15326"] = 3.6,
-["8094"] = 24561,
-["10290"] = 2250,
-["15810"] = 9130,
-["4496"] = 450,
+["718"] = 1453,
+["19216"] = 22000,
 ["4608"] = 400,
-["11109"] = 25,
-["4399"] = 200,
-["12823"] = 20000,
-["8924"] = 100,
-["4340"] = 315,
-["3857"] = 500,
+["11362"] = 900,
+["2139"] = 51,
+["4340"] = 350,
+["2367"] = 201,
+["3107"] = 0.375,
+["19328"] = 22000,
+["6529"] = 45,
+["5976"] = 10000,
+["6261"] = 900,
+["4539"] = 180,
+["2946"] = 0.15,
+["15290"] = 720000,
+["2516"] = 0.045,
+["1845"] = 877,
+["5956"] = 18,
+["2027"] = 3434,
+["3027"] = 5714,
+["3135"] = 0.375,
 ["11444"] = 800,
-["414"] = 22.4,
-["3713"] = 144,
-["17026"] = 900,
-["21219"] = 4500,
-["3421"] = 200,
+["854"] = 2720,
+["1645"] = 360,
+["2528"] = 51836,
+["1852"] = 1516,
+["184937"] = 10000,
+["8094"] = 24561,
+["11284"] = 4.5,
+["1708"] = 180,
+["8343"] = 2000,
+["845"] = 1302,
+["11109"] = 25,
+["19203"] = 22000,
+["927"] = 6258,
+["8924"] = 100,
+["15906"] = 1924,
+["2209"] = 6404,
+["2493"] = 631,
+["3023"] = 3394,
+["2392"] = 372,
+["2152"] = 5315,
+["3428"] = 360,
+["928"] = 8874,
 ["2448"] = 16158,
 ["1846"] = 880,
-["2596"] = 120,
+["17033"] = 1800,
 ["4594"] = 180,
-["12228"] = 5000,
-["2209"] = 6404,
-["4497"] = 18000,
-["845"] = 1447,
-["4605"] = 25,
-["1645"] = 400,
-["3372"] = 40,
-["11285"] = 4.5,
-["3131"] = 0.135,
-["3419"] = 500,
-["2494"] = 361,
-["12239"] = 7000,
+["12228"] = 4500,
+["12703"] = 40000,
+["3422"] = 2000,
+["15905"] = 1917,
+["11022"] = 900,
+["2372"] = 309,
+["3372"] = 36,
+["2595"] = 1800,
+["5441"] = 900,
+["8932"] = 720,
+["3770"] = 90,
+["12239"] = 6300,
 ["4593"] = 90,
-["5140"] = 25,
-["2593"] = 150,
-["117"] = 5,
+["20075"] = 1800,
+["2419"] = 7894,
+["2364"] = 266,
 ["849"] = 1326,
-["1194"] = 94,
-["8925"] = 500,
-["17029"] = 900,
-["4291"] = 450,
-["844"] = 720,
-["2509"] = 373,
+["2594"] = 1350,
+["4595"] = 300,
+["3595"] = 21,
+["22014"] = 1333333,
+["19447"] = 60000,
+["19446"] = 30000,
 ["285"] = 3200,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
+"runecloth bag",
+"dream dust",
+"large radiant",
+"mithril spurs",
+"encrypted twilight",
+"wastewander",
+"\"mithril casing\";;0;0;0;0;0;0;0;0;;#;;",
+"mithril casing",
+"mithril",
+"gromsblood",
+"silk cloth",
+"long elegant feather",
+"frost oil",
+"page 27",
+"page 26",
+"page 25",
+"mageweave cloth",
 "traveler's backpack",
 "solid grinding stone",
 "mithril bar",
@@ -2441,25 +3233,13 @@ AUCTIONATOR_RECENT_SEARCHES = {
 "ghpst mush",
 "swiftness",
 "mongoose",
-"elixir of mongoose",
-"icecap",
-"major mana potion",
-"libram of voracity",
-"essence of fire",
-"thorium bar",
-"thorium ore",
-"plaguebloom",
-"the judge",
-"battlechaser",
-"belt of valor",
-"tender wolf meat",
 }
 AUCTIONATOR_SELLING_GROUPS = {
 ["CustomGroups"] = {
 {
-["name"] = "FAVOURITES",
-["type"] = 1,
 ["hidden"] = false,
+["type"] = 1,
+["name"] = "FAVOURITES",
 ["list"] = {
 },
 },

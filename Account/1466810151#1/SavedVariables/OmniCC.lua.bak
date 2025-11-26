@@ -5,14 +5,15 @@ OmniCCDB = {
 ["addonVersion"] = "11.2.3",
 },
 ["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

@@ -2,6 +2,7 @@
 AtlasLootClassicDB = {
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["global"] = {
@@ -9,6 +10,24 @@ AtlasLootClassicDB = {
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
+["GUI"] = {
+["point"] = {
+"BOTTOM",
+nil,
+"BOTTOM",
+-138.1473693847656,
+62.88764953613281,
+},
+["selected"] = {
+nil,
+"UpperBlackrockSpire",
+nil,
+1,
+0,
+},
+},
+},
+["Kacprawcze - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
 [3] = "CENTER",
@@ -22,6 +41,9 @@ nil,
 3,
 0,
 },
+},
+["minimap"] = {
+["minimapPos"] = 176.4982782227394,
 },
 },
 ["Tachikoma - Spineshatter"] = {
@@ -32,11 +54,9 @@ nil,
 [5] = -63.77902603149414,
 },
 ["selected"] = {
-nil,
-"Onyxia",
-nil,
-3,
-0,
+[5] = 0,
+[2] = "Onyxia",
+[4] = 3,
 },
 },
 },

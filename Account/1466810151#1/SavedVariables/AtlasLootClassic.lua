@@ -1,26 +1,21 @@
 
 AtlasLootClassicDB = {
-["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-},
 ["global"] = {
 ["__addonrevision"] = 3020000,
 },
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
+["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
+["Boordell - Spineshatter"] = "Boordell - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+},
 ["profiles"] = {
-["Asdfwerqwer - Spineshatter"] = {
-},
-["Ewrtettrrt - Spineshatter"] = {
-},
-["Awertqwertwe - Spineshatter"] = {
-},
-["Tachikoma - Spineshatter"] = {
+["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
 [3] = "CENTER",
@@ -28,17 +23,33 @@ AtlasLootClassicDB = {
 [5] = -63.77902603149414,
 },
 ["selected"] = {
+[5] = 0,
+[2] = "Onyxia",
+[4] = 3,
+},
+},
+},
+["Tachikoma - Spineshatter"] = {
+["GUI"] = {
+["point"] = {
+"BOTTOM",
 nil,
-"Onyxia",
+"BOTTOM",
+-138.0000457763672,
+63.0000114440918,
+},
+["selected"] = {
 nil,
-3,
+"BlackrockDepths",
+26,
+1,
 0,
 },
 },
 },
 ["Dupeczka - Spineshatter"] = {
 },
-["Jogobobek - Spineshatter"] = {
+["Asdfwerqwer - Spineshatter"] = {
 },
 ["Boulderdash - Spineshatter"] = {
 ["GUI"] = {
@@ -56,19 +67,13 @@ nil,
 },
 },
 },
-["Obszczymucha - Spineshatter"] = {
-["GUI"] = {
-["point"] = {
-[3] = "CENTER",
-[4] = -138.1473083496094,
-[5] = -63.77902603149414,
+["Ewrtettrrt - Spineshatter"] = {
 },
-["selected"] = {
-[5] = 0,
-[2] = "Onyxia",
-[4] = 3,
+["Jogobobek - Spineshatter"] = {
 },
+["Boordell - Spineshatter"] = {
 },
+["Awertqwertwe - Spineshatter"] = {
 },
 },
 }

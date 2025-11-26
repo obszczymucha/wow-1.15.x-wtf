@@ -1,23 +1,20 @@
 
 AtlasLootClassicDB = {
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
+["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Boordell - Spineshatter"] = "Boordell - Spineshatter",
+},
 ["global"] = {
 ["__addonrevision"] = 3020000,
 },
-["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Dupeczka - Spineshatter"] = "Dupeczka - Spineshatter",
-["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-},
 ["profiles"] = {
-["Asdfwerqwer - Spineshatter"] = {
-},
-["Awertqwertwe - Spineshatter"] = {
-},
 ["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
@@ -35,18 +32,24 @@ AtlasLootClassicDB = {
 ["Tachikoma - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
-[3] = "CENTER",
-[4] = -138.1473083496094,
-[5] = -63.77902603149414,
+"BOTTOM",
+nil,
+"BOTTOM",
+-138.0000457763672,
+63.0000114440918,
 },
 ["selected"] = {
 nil,
-"Onyxia",
-nil,
-3,
+"BlackrockDepths",
+26,
+1,
 0,
 },
 },
+},
+["Dupeczka - Spineshatter"] = {
+},
+["Asdfwerqwer - Spineshatter"] = {
 },
 ["Boulderdash - Spineshatter"] = {
 ["GUI"] = {
@@ -64,11 +67,13 @@ nil,
 },
 },
 },
+["Ewrtettrrt - Spineshatter"] = {
+},
 ["Jogobobek - Spineshatter"] = {
 },
-["Dupeczka - Spineshatter"] = {
+["Awertqwertwe - Spineshatter"] = {
 },
-["Ewrtettrrt - Spineshatter"] = {
+["Boordell - Spineshatter"] = {
 },
 },
 }

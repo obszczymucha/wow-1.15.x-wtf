@@ -31,10 +31,10 @@ VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
 /cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
 END
 VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
-/script print("No bandage set.")
+/use Heavy Runecloth Bandage
 END
 VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
-/use Homemade Cherry Pie
+/use Big Bear Steak
 END
 VER 3 000000000000000E "F" "INV_Misc_QuestionMark"
 #showtooltip [mod:shift]Intercept;[nocombat]Charge;Intercept
@@ -65,10 +65,10 @@ END
 VER 3 0000000000000015 "fstack" "132089"
 /fstack
 END
-VER 3 000000000000000F "G" "INV_Misc_QuestionMark"
+VER 3 000000000000001B "G" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:alt]Bloodrage;[mod:shift]Battle Shout;[mod:ctrl]Commanding Shout
-/castsequence [nomod] Bloodrage,Battle Shout
+/castsequence [nomod] reset=20 Bloodrage,Battle Shout
 END
 VER 3 0000000000000013 "Mount" "INV_Misc_QuestionMark"
 #showtooltip
@@ -94,12 +94,12 @@ VER 3 0000000000000018 "shoot" "132222"
 /cast [worn:Gun]Shoot Gun;Shoot Bow
 END
 VER 3 0000000000000014 "T1" "132212"
-/target Blackhand Summoner
-/script local p="Blackhand Summoner";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+/target Scourge Cham
+/script local p="Scourge Cham";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
 END
 VER 3 0000000000000017 "T2" "132212"
-/target Hulking Mountain
-/script local p="Hulking Mountain";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+/target Ice Thistle Pat
+/script local p="Ice Thistle Pat";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 7) end
 END
 VER 3 0000000000000012 "Taunt" "INV_Misc_QuestionMark"
 #showtooltip

@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Expander"] = {
+["Ping"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -33,6 +33,7 @@ nil,
 ["Appearance"] = {
 ["profiles"] = {
 ["Default"] = {
+["scale"] = 0.25,
 ["borderStyle"] = "Thin",
 ["borderColor"] = {
 [3] = 0.6313725709915161,
@@ -47,12 +48,7 @@ nil,
 },
 ["RangeCircle"] = {
 },
-["Ping"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -92,18 +88,24 @@ nil,
 },
 },
 },
-["Zoom"] = {
+["Expander"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
 },
 },
 ["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

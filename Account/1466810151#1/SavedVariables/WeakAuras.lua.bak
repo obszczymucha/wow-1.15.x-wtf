@@ -4,6 +4,19 @@ WeakAurasSaved = {
 },
 ["editor_tab_spaces"] = 4,
 ["editor_font_size"] = 12,
+["lastUpgrade"] = 1746322610,
+["lastArchiveClear"] = 1763937344,
+["minimap"] = {
+["hide"] = true,
+},
+["historyCutoff"] = 730,
+["dbVersion"] = 84,
+["migrationCutoff"] = 730,
+["registered"] = {
+},
+["login_squelch_time"] = 10,
+["features"] = {
+},
 ["displays"] = {
 ["Main Notifications"] = {
 ["grow"] = "HORIZONTAL",
@@ -35,14 +48,14 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["names"] = {
-},
+["subeventPrefix"] = "SPELL",
 ["type"] = "aura2",
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["unit"] = "player",
-["subeventPrefix"] = "SPELL",
+["names"] = {
+},
 ["event"] = "Health",
 ["debuffType"] = "HELPFUL",
 },
@@ -55,11 +68,12 @@ WeakAurasSaved = {
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
 ["stagger"] = 0,
-["anchorFrameFrame"] = "SUFUnittarget",
+["rotation"] = 0,
 ["subRegions"] = {
 },
 ["borderInset"] = 1,
-["fullCircle"] = true,
+["authorOptions"] = {
+},
 ["load"] = {
 ["size"] = {
 ["multi"] = {
@@ -78,15 +92,6 @@ WeakAurasSaved = {
 },
 },
 },
-["gridType"] = "RD",
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["useLimit"] = false,
-["animate"] = false,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -107,16 +112,24 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["uid"] = "pb8jb71psxd",
+["animate"] = false,
+["fullCircle"] = true,
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
+["anchorFrameFrame"] = "SUFUnittarget",
+["stepAngle"] = 15,
 ["borderSize"] = 2,
 ["limit"] = 5,
+["borderEdge"] = "Square Full White",
 ["sort"] = "none",
-["authorOptions"] = {
-},
 ["constantFactor"] = "RADIUS",
 ["arcLength"] = 360,
 ["borderOffset"] = 4,
@@ -126,16 +139,16 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["alpha"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
-["stepAngle"] = 15,
+["useLimit"] = false,
 ["config"] = {
 },
-["rotation"] = 0,
 ["internalVersion"] = 84,
+["regionType"] = "dynamicgroup",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["uid"] = "pb8jb71psxd",
+["gridType"] = "RD",
 },
 ["MOTW running out"] = {
 ["iconSource"] = -1,
@@ -157,7 +170,7 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "aura2",
+["useName"] = true,
 ["auranames"] = {
 "Mark of the Wild",
 "Gift of the Wild",
@@ -165,16 +178,16 @@ WeakAurasSaved = {
 ["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnActive",
 ["event"] = "Health",
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
-["names"] = {
-},
+["rem"] = "20",
+["type"] = "aura2",
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
-["rem"] = "20",
-["useName"] = true,
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
 ["useRem"] = true,
 },
 ["untrigger"] = {
@@ -251,17 +264,17 @@ WeakAurasSaved = {
 ["load"] = {
 ["use_mounted"] = false,
 ["use_zone"] = true,
-["zone"] = "-Thunder Bluff",
 ["talent"] = {
 ["multi"] = {
 },
 },
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["use_vehicle"] = false,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -273,10 +286,6 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
-["information"] = {
-},
-["icon"] = true,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -297,17 +306,21 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["information"] = {
+},
+["keepAspectRatio"] = false,
+["xOffset"] = 0,
 ["authorOptions"] = {
 },
 ["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
 ["uid"] = "dJKhBnYEhoY",
-["frameStrata"] = 1,
+["useCooldownModRate"] = true,
 ["id"] = "MOTW running out",
 ["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["width"] = 46,
 ["alpha"] = 1,
+["width"] = 46,
+["frameStrata"] = 1,
 ["config"] = {
 },
 ["inverse"] = false,
@@ -320,7 +333,7 @@ WeakAurasSaved = {
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["keepAspectRatio"] = false,
+["icon"] = true,
 },
 ["Thorns running out"] = {
 ["iconSource"] = -1,
@@ -342,23 +355,23 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["useName"] = true,
+["rem"] = "15",
 ["auranames"] = {
 "Thorns",
 },
 ["useRem"] = true,
 ["matchesShowOn"] = "showOnActive",
 ["event"] = "Health",
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
+["useName"] = true,
 ["type"] = "aura2",
-["rem"] = "15",
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
+["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -432,17 +445,17 @@ WeakAurasSaved = {
 ["load"] = {
 ["use_mounted"] = false,
 ["use_zone"] = true,
-["zone"] = "-Thunder Bluff",
 ["talent"] = {
 ["multi"] = {
 },
 },
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["use_vehicle"] = false,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -454,8 +467,37 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["icon"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["cooldown"] = true,
+["progressSource"] = {
+-1,
+"",
+},
+["icon"] = true,
+["parent"] = "Main Notifications",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["config"] = {
+},
+["frameStrata"] = 1,
+["id"] = "Thorns running out",
+["width"] = 46,
+["useCooldownModRate"] = true,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["uid"] = "GBiNLrJQvlq",
+["inverse"] = false,
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -475,35 +517,6 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["parent"] = "Main Notifications",
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["config"] = {
-},
-["alpha"] = 1,
-["id"] = "Thorns running out",
-["width"] = 46,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["uid"] = "GBiNLrJQvlq",
-["inverse"] = false,
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-},
-["progressSource"] = {
--1,
-"",
 },
 },
 ["Thorns missing"] = {
@@ -636,17 +649,17 @@ WeakAurasSaved = {
 ["load"] = {
 ["use_mounted"] = false,
 ["use_zone"] = true,
-["zone"] = "-Thunder Bluff",
 ["talent"] = {
 ["multi"] = {
 },
 },
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["use_vehicle"] = false,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -658,11 +671,11 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["icon"] = true,
+["selfPoint"] = "CENTER",
 ["information"] = {
 },
-["xOffset"] = 0,
-["selfPoint"] = "CENTER",
+["parent"] = "Main Notifications",
+["icon"] = true,
 ["color"] = {
 1,
 1,
@@ -672,12 +685,12 @@ WeakAurasSaved = {
 ["zoom"] = 0,
 ["cooldownTextDisabled"] = false,
 ["uid"] = "4Ocpk8tyPKN",
-["frameStrata"] = 1,
+["useCooldownModRate"] = true,
 ["id"] = "Thorns missing",
 ["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["width"] = 46,
 ["alpha"] = 1,
+["width"] = 46,
+["frameStrata"] = 1,
 ["config"] = {
 },
 ["inverse"] = false,
@@ -685,7 +698,7 @@ WeakAurasSaved = {
 ["conditions"] = {
 },
 ["cooldown"] = true,
-["parent"] = "Main Notifications",
+["xOffset"] = 0,
 },
 ["MOTW missing"] = {
 ["iconSource"] = -1,
@@ -796,17 +809,17 @@ WeakAurasSaved = {
 ["load"] = {
 ["use_mounted"] = false,
 ["use_zone"] = true,
-["zone"] = "-Thunder Bluff",
 ["talent"] = {
 ["multi"] = {
 },
 },
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["use_vehicle"] = false,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -818,6 +831,16 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["xOffset"] = 0,
+["cooldown"] = true,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -838,20 +861,17 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["cooldown"] = true,
-["parent"] = "Main Notifications",
-["xOffset"] = 0,
 ["keepAspectRatio"] = false,
 ["cooldownTextDisabled"] = false,
 ["zoom"] = 0,
 ["config"] = {
 },
-["useCooldownModRate"] = true,
+["alpha"] = 1,
 ["id"] = "MOTW missing",
 ["width"] = 46,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["useCooldownModRate"] = true,
 ["uid"] = "NaJ3hmu)AmJ",
 ["inverse"] = false,
 ["authorOptions"] = {
@@ -860,27 +880,7 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["actions"] = {
-["start"] = {
+["parent"] = "Main Notifications",
 },
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-},
-["lastArchiveClear"] = 1756442421,
-["minimap"] = {
-["hide"] = true,
-},
-["lastUpgrade"] = 1746322610,
-["dbVersion"] = 84,
-["migrationCutoff"] = 730,
-["registered"] = {
-},
-["historyCutoff"] = 730,
-["login_squelch_time"] = 10,
-["features"] = {
 },
 }

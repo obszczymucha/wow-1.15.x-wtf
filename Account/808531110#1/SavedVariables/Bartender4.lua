@@ -1,579 +1,579 @@
 
 Bartender4DB = {
-	["profiles"] = {
-		["Tachikoma - Spineshatter"] = {
-			["focuscastmodifier"] = false,
-			["buttonlock"] = false,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["colors"] = {
-				["range"] = {
-					["r"] = 0.7568628191947937,
-					["b"] = 0.31764706969261169,
-					["g"] = 0.3411764800548554,
-				},
-			},
-			["blizzardVehicle"] = true,
-		},
-		["Kacprawcze - Spineshatter"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["colors"] = {
-				["range"] = {
-					["r"] = 0.7568628191947937,
-					["b"] = 0.31764706969261169,
-					["g"] = 0.3411764800548554,
-				},
-			},
-			["buttonlock"] = false,
-		},
-		["Obszczymucha - Spineshatter"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["colors"] = {
-				["range"] = {
-					["r"] = 0.7568628191947937,
-					["b"] = 0.31764706969261169,
-					["g"] = 0.3411764800548554,
-				},
-			},
-			["buttonlock"] = false,
-		},
-	},
-	["namespaces"] = {
-		["ActionBars"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["actionbars"] = {
-						[1] = {
-							["buttons"] = 6,
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["padding"] = 1,
-							["position"] = {
-								["x"] = -510,
-								["y"] = 41.75,
-								["point"] = "BOTTOM",
-								["scale"] = 0.95999999999999996,
-							},
-						},
-						[2] = {
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["position"] = {
-								["x"] = 151,
-								["y"] = 35,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.56999999999999995,
-							},
-							["padding"] = -6,
-						},
-						[3] = {
-							["visibility"] = {
-								["overridebar"] = false,
-								["vehicleui"] = false,
-							},
-							["rows"] = 3,
-							["fadeout"] = true,
-							["padding"] = -5,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["x"] = 2.719284098137678,
-								["y"] = 90.744392221337421,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.80000001192092896,
-							},
-							["version"] = 3,
-						},
-						[4] = {
-							["rows"] = 3,
-							["padding"] = -6,
-							["position"] = {
-								["x"] = -323.79351806640631,
-								["y"] = 206.93544006347659,
-								["point"] = "RIGHT",
-								["scale"] = 0.75,
-							},
-							["version"] = 3,
-						},
-						[5] = {
-							["version"] = 3,
-							["padding"] = 6,
-							["position"] = {
-								["x"] = 3,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["enabled"] = false,
-						},
-						[6] = {
-							["version"] = 3,
-							["padding"] = 6,
-							["position"] = {
-								["x"] = -510,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["enabled"] = false,
-						},
-						[7] = {
-						},
-						[8] = {
-						},
-						[9] = {
-						},
-						[10] = {
-						},
-						[13] = {
-						},
-						[15] = {
-						},
-					},
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["actionbars"] = {
-						[1] = {
-							["buttons"] = 6,
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["position"] = {
-								["x"] = -510,
-								["y"] = 41.75,
-								["point"] = "BOTTOM",
-								["scale"] = 0.95999999999999996,
-							},
-							["padding"] = 1,
-						},
-						[2] = {
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["padding"] = -6,
-							["position"] = {
-								["x"] = 151,
-								["y"] = 35,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.56999999999999995,
-							},
-						},
-						[3] = {
-							["visibility"] = {
-								["overridebar"] = false,
-								["vehicleui"] = false,
-							},
-							["rows"] = 3,
-							["fadeout"] = true,
-							["version"] = 3,
-							["fadeoutalpha"] = 0,
-							["padding"] = -5,
-							["position"] = {
-								["x"] = 2.719284098137678,
-								["y"] = 90.744392221337421,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.80000001192092896,
-							},
-						},
-						[4] = {
-							["version"] = 3,
-							["rows"] = 3,
-							["padding"] = -6,
-							["position"] = {
-								["x"] = -323.79351806640631,
-								["y"] = 206.93544006347659,
-								["point"] = "RIGHT",
-								["scale"] = 0.75,
-							},
-						},
-						[5] = {
-							["position"] = {
-								["x"] = 3,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["padding"] = 6,
-							["enabled"] = false,
-						},
-						[6] = {
-							["position"] = {
-								["x"] = -510,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["padding"] = 6,
-							["enabled"] = false,
-						},
-						[7] = {
-						},
-						[8] = {
-						},
-						[9] = {
-						},
-						[10] = {
-						},
-						[13] = {
-						},
-						[15] = {
-						},
-					},
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["actionbars"] = {
-						[1] = {
-							["buttons"] = 6,
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["position"] = {
-								["x"] = -510,
-								["y"] = 41.75,
-								["point"] = "BOTTOM",
-								["scale"] = 0.95999999999999996,
-							},
-							["padding"] = 1,
-						},
-						[2] = {
-							["hidehotkey"] = true,
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["padding"] = -6,
-							["position"] = {
-								["x"] = 151,
-								["y"] = 35,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.56999999999999995,
-							},
-						},
-						[3] = {
-							["visibility"] = {
-								["overridebar"] = false,
-								["vehicleui"] = false,
-							},
-							["rows"] = 3,
-							["fadeout"] = true,
-							["version"] = 3,
-							["fadeoutalpha"] = 0,
-							["padding"] = -5,
-							["position"] = {
-								["x"] = 2.719284098137678,
-								["y"] = 90.744392221337421,
-								["point"] = "BOTTOMLEFT",
-								["scale"] = 0.80000001192092896,
-							},
-						},
-						[4] = {
-							["version"] = 3,
-							["rows"] = 3,
-							["padding"] = -6,
-							["position"] = {
-								["x"] = -323.79351806640631,
-								["y"] = 206.93544006347659,
-								["point"] = "RIGHT",
-								["scale"] = 0.75,
-							},
-						},
-						[5] = {
-							["position"] = {
-								["x"] = 3,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["padding"] = 6,
-							["enabled"] = false,
-						},
-						[6] = {
-							["position"] = {
-								["x"] = -510,
-								["y"] = 110,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["padding"] = 6,
-							["enabled"] = false,
-						},
-						[7] = {
-						},
-						[8] = {
-						},
-						[9] = {
-						},
-						[10] = {
-						},
-						[13] = {
-						},
-						[15] = {
-						},
-					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -460,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["enabled"] = false,
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -460,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["enabled"] = false,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -460,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["enabled"] = false,
-				},
-			},
-		},
-		["BlizzardArt"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -512,
-						["y"] = 47,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["position"] = {
-						["x"] = -512,
-						["y"] = 47,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["position"] = {
-						["x"] = -512,
-						["y"] = 47,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-			},
-		},
-		["MicroMenu"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["padding"] = -2,
-					["position"] = {
-						["x"] = 33,
-						["y"] = 42,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["enabled"] = false,
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = 33,
-						["y"] = 42,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["padding"] = -2,
-					["enabled"] = false,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = 33,
-						["y"] = 42,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-					["padding"] = -2,
-					["enabled"] = false,
-				},
-			},
-		},
-		["XPBar"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -514,
-						["y"] = 54,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["position"] = {
-						["x"] = -514,
-						["y"] = 54,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["position"] = {
-						["x"] = -514,
-						["y"] = 54,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-			},
-		},
-		["PetBar"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["showgrid"] = true,
-					["position"] = {
-						["x"] = -120,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -120,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-					},
-					["showgrid"] = true,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -120,
-						["y"] = 143,
-						["point"] = "BOTTOM",
-					},
-					["showgrid"] = true,
-				},
-			},
-		},
-		["BagBar"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["padding"] = 5,
-					["position"] = {
-						["x"] = 296,
-						["y"] = 41,
-						["point"] = "BOTTOM",
-					},
-					["enabled"] = false,
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["position"] = {
-						["x"] = 296,
-						["y"] = 41,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["padding"] = 5,
-					["enabled"] = false,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["position"] = {
-						["x"] = 296,
-						["y"] = 41,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-					["padding"] = 5,
-					["enabled"] = false,
-				},
-			},
-		},
-		["RepBar"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -514,
-						["y"] = 61,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["position"] = {
-						["x"] = -514,
-						["y"] = 61,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["position"] = {
-						["x"] = -514,
-						["y"] = 61,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Tachikoma - Spineshatter"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = 104.5001220703125,
-						["y"] = 42.499969482421882,
-						["point"] = "CENTER",
-					},
-					["enabled"] = false,
-				},
-				["Kacprawcze - Spineshatter"] = {
-					["position"] = {
-						["x"] = 104.5001220703125,
-						["y"] = 42.499969482421882,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
-					["enabled"] = false,
-				},
-				["Obszczymucha - Spineshatter"] = {
-					["position"] = {
-						["x"] = 104.5001220703125,
-						["y"] = 42.499969482421882,
-						["point"] = "CENTER",
-					},
-					["version"] = 3,
-					["enabled"] = false,
-				},
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-		["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
-		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-	},
+["namespaces"] = {
+["ActionBars"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["actionbars"] = {
+{
+["buttons"] = 6,
+["hidemacrotext"] = true,
+["hidehotkey"] = true,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+["scale"] = 0.96,
+},
+["version"] = 3,
+["padding"] = 1,
+},
+{
+["hidehotkey"] = true,
+["padding"] = -6,
+["version"] = 3,
+["position"] = {
+["y"] = 35,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.57,
+},
+["hidemacrotext"] = true,
+},
+{
+["rows"] = 3,
+["fadeout"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 90.74439222133742,
+["x"] = 2.719284098137678,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.800000011920929,
+},
+["fadeoutalpha"] = 0,
+["padding"] = -5,
+["visibility"] = {
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+},
+{
+["rows"] = 3,
+["version"] = 3,
+["position"] = {
+["y"] = 206.9354400634766,
+["x"] = -323.7935180664063,
+["point"] = "RIGHT",
+["scale"] = 0.75,
+},
+["padding"] = -6,
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+["padding"] = 6,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["actionbars"] = {
+{
+["hidehotkey"] = true,
+["buttons"] = 6,
+["padding"] = 1,
+["hidemacrotext"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 41.75,
+["x"] = -510,
+["point"] = "BOTTOM",
+["scale"] = 0.96,
+},
+},
+{
+["version"] = 3,
+["position"] = {
+["y"] = 35,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.57,
+},
+["padding"] = -6,
+["hidemacrotext"] = true,
+["hidehotkey"] = true,
+},
+{
+["version"] = 3,
+["fadeout"] = true,
+["position"] = {
+["y"] = 90.74439222133742,
+["x"] = 2.719284098137678,
+["point"] = "BOTTOMLEFT",
+["scale"] = 0.800000011920929,
+},
+["padding"] = -5,
+["rows"] = 3,
+["visibility"] = {
+["vehicleui"] = false,
+["overridebar"] = false,
+},
+["fadeoutalpha"] = 0,
+},
+{
+["padding"] = -6,
+["rows"] = 3,
+["version"] = 3,
+["position"] = {
+["y"] = 206.9354400634766,
+["x"] = -323.7935180664063,
+["point"] = "RIGHT",
+["scale"] = 0.75,
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+["Tachikoma - Spineshatter"] = {
+["actionbars"] = {
+{
+["hidehotkey"] = true,
+["position"] = {
+["scale"] = 0.96,
+["x"] = -510,
+["point"] = "BOTTOM",
+["y"] = 41.75,
+},
+["hidemacrotext"] = true,
+["padding"] = 1,
+["version"] = 3,
+["buttons"] = 6,
+},
+{
+["hidehotkey"] = true,
+["position"] = {
+["scale"] = 0.57,
+["x"] = 151,
+["point"] = "BOTTOMLEFT",
+["y"] = 35,
+},
+["padding"] = -6,
+["hidemacrotext"] = true,
+["version"] = 3,
+},
+{
+["fadeout"] = true,
+["version"] = 3,
+["position"] = {
+["scale"] = 0.800000011920929,
+["x"] = 2.719284098137678,
+["point"] = "BOTTOMLEFT",
+["y"] = 90.74439222133742,
+},
+["rows"] = 3,
+["padding"] = -5,
+["visibility"] = {
+["overridebar"] = false,
+["vehicleui"] = false,
+},
+["fadeoutalpha"] = 0,
+},
+{
+["padding"] = -6,
+["rows"] = 3,
+["version"] = 3,
+["position"] = {
+["scale"] = 0.75,
+["x"] = -323.7935180664063,
+["point"] = "RIGHT",
+["y"] = 206.9354400634766,
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = 3,
+["point"] = "BOTTOM",
+},
+},
+{
+["enabled"] = false,
+["padding"] = 6,
+["version"] = 3,
+["position"] = {
+["y"] = 110,
+["x"] = -510,
+["point"] = "BOTTOM",
+},
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[13] = {
+},
+[15] = {
+},
+},
+},
+},
+},
+["MicroMenu"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["enabled"] = false,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+["version"] = 3,
+["padding"] = -2,
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["y"] = 42,
+["x"] = 33,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Tachikoma - Spineshatter"] = {
+["enabled"] = false,
+["padding"] = -2,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = 33,
+["point"] = "BOTTOM",
+["y"] = 42,
+},
+},
+},
+},
+["XPBar"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Obszczymucha - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 54,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["BlizzardArt"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Obszczymucha - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 47,
+["x"] = -512,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["BagBar"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
+},
+["padding"] = 5,
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["enabled"] = false,
+["padding"] = 5,
+["version"] = 3,
+["position"] = {
+["y"] = 41,
+["x"] = 296,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["Vehicle"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["enabled"] = false,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+["version"] = 3,
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
+["point"] = "CENTER",
+},
+},
+},
+},
+["StanceBar"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -460,
+["point"] = "BOTTOM",
+["scale"] = 1,
+},
+},
+["Tachikoma - Spineshatter"] = {
+["enabled"] = false,
+["version"] = 3,
+["position"] = {
+["scale"] = 1,
+["x"] = -460,
+["point"] = "BOTTOM",
+["y"] = 143,
+},
+},
+},
+},
+["PetBar"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["showgrid"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+["showgrid"] = true,
+},
+["Tachikoma - Spineshatter"] = {
+["showgrid"] = true,
+["version"] = 3,
+["position"] = {
+["y"] = 143,
+["x"] = -120,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+["RepBar"] = {
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+["version"] = 3,
+},
+["Obszczymucha - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+["Tachikoma - Spineshatter"] = {
+["version"] = 3,
+["position"] = {
+["y"] = 61,
+["x"] = -514,
+["point"] = "BOTTOM",
+},
+},
+},
+},
+},
+["profileKeys"] = {
+["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
+["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["blizzardVehicle"] = true,
+["focuscastmodifier"] = false,
+["colors"] = {
+["range"] = {
+["r"] = 0.7568628191947937,
+["g"] = 0.3411764800548554,
+["b"] = 0.3176470696926117,
+},
+},
+["buttonlock"] = false,
+["minimapIcon"] = {
+["hide"] = true,
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["minimapIcon"] = {
+["hide"] = true,
+},
+["colors"] = {
+["range"] = {
+["r"] = 0.7568628191947937,
+["g"] = 0.3411764800548554,
+["b"] = 0.3176470696926117,
+},
+},
+["buttonlock"] = false,
+["blizzardVehicle"] = true,
+},
+["Tachikoma - Spineshatter"] = {
+["focuscastmodifier"] = false,
+["minimapIcon"] = {
+["hide"] = true,
+},
+["colors"] = {
+["range"] = {
+["r"] = 0.7568628191947937,
+["g"] = 0.3411764800548554,
+["b"] = 0.3176470696926117,
+},
+},
+["buttonlock"] = false,
+["blizzardVehicle"] = true,
+},
+},
 }

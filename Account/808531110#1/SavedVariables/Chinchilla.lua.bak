@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Expander"] = {
+["Ping"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -33,21 +33,16 @@ nil,
 ["Appearance"] = {
 ["profiles"] = {
 ["Default"] = {
+["borderRadius"] = 81,
 ["borderStyle"] = "Thin",
 ["borderColor"] = {
 [3] = 0.6313725709915161,
 [2] = 0.7333333492279053,
-[4] = 0.5694446265697479,
+[4] = 0.4994651675224304,
 },
 ["shape"] = "SQUARE",
 },
 },
-},
-["TrackingDots"] = {
-},
-["RangeCircle"] = {
-},
-["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -78,8 +73,6 @@ nil,
 },
 },
 },
-["Compass"] = {
-},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -87,7 +80,7 @@ nil,
 },
 },
 },
-["Ping"] = {
+["Expander"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -97,6 +90,7 @@ nil,
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {

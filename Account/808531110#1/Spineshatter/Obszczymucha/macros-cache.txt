@@ -1,0 +1,4 @@
+VER 3 0100000000000001 " " "132341"
+/equipslot [worn:Shields] 17 Dimensional Blade of the Tiger
+/equipslot [noworn:Shields] 17 Crest of Supremacy
+END

@@ -6,29 +6,39 @@ Prat3DB = {
 ["Default"] = {
 ["colors"] = {
 ["chuj"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["general"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["trade"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["localdefense"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["layer"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["princesskenny"] = {
-["b"] = 0.7529412508010864,
-["g"] = 0.7529412508010864,
 ["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
 },
 ["world"] = {
-["r"] = 1,
-["g"] = 0.7529412508010864,
 ["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
 },
 },
 },
@@ -36,13 +46,18 @@ Prat3DB = {
 },
 ["Prat_Fading"] = {
 },
-["Prat_Sounds"] = {
+["Prat_Scroll"] = {
 },
 ["Prat_Mentions"] = {
 },
 ["Prat_CopyChat"] = {
 },
-["Prat_PopupMessage"] = {
+["Prat_Timestamps"] = {
+["profiles"] = {
+["Default"] = {
+["formatcode"] = "%H:%M",
+},
+},
 },
 ["Prat_ServerNames"] = {
 },
@@ -57,9 +72,9 @@ Prat3DB = {
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
-["minchatwidthdefault"] = 296,
-["maxchatheightdefault"] = 400,
 ["initialized"] = true,
+["maxchatheightdefault"] = 400,
+["minchatwidthdefault"] = 296,
 ["maxchatwidthdefault"] = 608.0000610351562,
 ["framealphastatic"] = true,
 },
@@ -77,7 +92,7 @@ Prat3DB = {
 },
 },
 },
-["Prat_ChannelSticky"] = {
+["Prat_History"] = {
 },
 ["Prat_Font"] = {
 ["profiles"] = {
@@ -94,13 +109,13 @@ Prat3DB = {
 },
 ["Prat_Bubbles"] = {
 },
-["Prat_Scroll"] = {
+["Prat_ChannelSticky"] = {
+},
+["Prat_TellTarget"] = {
 },
 ["Prat_Achievements"] = {
 },
-["Prat_Paragraph"] = {
-},
-["Prat_TellTarget"] = {
+["Prat_DebugModules"] = {
 },
 ["Prat_Alias"] = {
 },
@@ -108,30 +123,25 @@ Prat3DB = {
 },
 ["Prat_Highlight"] = {
 },
-["Prat_Timestamps"] = {
-["profiles"] = {
-["Default"] = {
-["formatcode"] = "%H:%M",
+["Prat_Sounds"] = {
 },
+["Prat_PopupMessage"] = {
 },
+["Prat_Invites"] = {
+},
+["Prat_LinkInfoIcons"] = {
 },
 ["Prat_ChannelNames"] = {
 ["profiles"] = {
 ["Default"] = {
 ["nickname"] = {
 ["LocalDefense"] = "LD",
-["world"] = "W",
-["General"] = "G",
 ["Trade"] = "T",
+["General"] = "G",
+["world"] = "W",
 },
 },
 },
-},
-["Prat_Invites"] = {
-},
-["Prat_LinkInfoIcons"] = {
-},
-["Prat_History"] = {
 },
 ["Prat_ChatLog"] = {
 },
@@ -144,25 +154,26 @@ Prat3DB = {
 },
 },
 },
-["Prat_DebugModules"] = {
+["Prat_Paragraph"] = {
 },
 ["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["modules"] = {
-["Alias"] = 2,
+["ChatLog"] = 2,
 ["Mentions"] = 2,
 ["PopupMessage"] = 2,
 ["AltNames"] = 2,
@@ -172,7 +183,7 @@ Prat3DB = {
 ["LinkInfoIcons"] = 2,
 ["DebugModules"] = 2,
 ["OriginalButtons"] = 2,
-["ChatLog"] = 2,
+["Alias"] = 2,
 },
 },
 },

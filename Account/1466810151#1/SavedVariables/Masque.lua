@@ -5,23 +5,24 @@ MasqueDB = {
 },
 },
 ["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["LDB"] = {
-["position"] = 0,
 ["hide"] = true,
+["position"] = 0,
 },
 ["Groups"] = {
-["Bagnon_bank - bags"] = {
+["Bagnon"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
@@ -31,8 +32,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_StanceBar"] = {
 ["Upgraded"] = true,
@@ -48,8 +49,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["ShadowedUF_Raid"] = {
 ["Gloss"] = true,
@@ -61,8 +62,8 @@ MasqueDB = {
 0.4138888716697693,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_1"] = {
 ["Gloss"] = true,
@@ -74,11 +75,11 @@ MasqueDB = {
 1,
 0.2509258985519409,
 },
-["Highlight"] = {
-0.6039215922355652,
-0.3843137621879578,
-0.1803921610116959,
-0.300000011920929,
+["Normal"] = {
+0.3058823645114899,
+0.3137255012989044,
+0.3294117748737335,
+1,
 },
 ["Checked"] = {
 0.9137255549430847,
@@ -86,15 +87,15 @@ MasqueDB = {
 0.4666666984558106,
 0.7000000178813934,
 },
-["Normal"] = {
-0.3058823645114899,
-0.3137255012989044,
-0.3294117748737335,
-1,
+["Highlight"] = {
+0.6039215922355652,
+0.3843137621879578,
+0.1803921610116959,
+0.300000011920929,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_3"] = {
 ["Gloss"] = true,
@@ -113,8 +114,8 @@ MasqueDB = {
 1,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bagnon_guildbank - items"] = {
 ["Gloss"] = true,
@@ -126,17 +127,23 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
-["ShadowedUF_Player"] = {
+["WeakAuras"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
 1,
 1,
 1,
-0.4138888716697693,
+0.3350152373313904,
+},
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
 },
 },
 ["Inherit"] = false,
@@ -159,8 +166,8 @@ MasqueDB = {
 1,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_5"] = {
 ["Gloss"] = true,
@@ -179,8 +186,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["ShadowedUF_Boss"] = {
 ["Inherit"] = false,
@@ -202,8 +209,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bagnon_voidstorage - bags"] = {
 ["Gloss"] = true,
@@ -215,8 +222,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_6"] = {
 ["Gloss"] = true,
@@ -235,8 +242,8 @@ MasqueDB = {
 0.7768521308898926,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bagnon_inventory - items"] = {
 ["Gloss"] = true,
@@ -248,8 +255,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["ShadowedUF_Arena"] = {
 ["Inherit"] = false,
@@ -264,8 +271,8 @@ MasqueDB = {
 0.4138888716697693,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["Bartender4_2"] = {
 ["Gloss"] = true,
@@ -277,11 +284,11 @@ MasqueDB = {
 1,
 0.2212963104248047,
 },
-["Highlight"] = {
-0.686274528503418,
-0.4745098352432251,
-0.3490196168422699,
-0.300000011920929,
+["Normal"] = {
+0.4470588564872742,
+0.458823561668396,
+0.4823529720306397,
+0.8905707150697708,
 },
 ["Checked"] = {
 0.9019608497619629,
@@ -289,15 +296,15 @@ MasqueDB = {
 0.2980392277240753,
 0.5100000202655792,
 },
-["Normal"] = {
-0.4470588564872742,
-0.458823561668396,
-0.4823529720306397,
-0.8905707150697708,
+["Highlight"] = {
+0.686274528503418,
+0.4745098352432251,
+0.3490196168422699,
+0.300000011920929,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["WeakAuras_dJKhBnYEhoY"] = {
 ["Gloss"] = true,
@@ -316,21 +323,12 @@ MasqueDB = {
 0.3350152373313904,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
-},
-["Bagnon_bank - items"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.3250002861022949,
-},
-},
 ["Inherit"] = false,
-["SkinID"] = "Entropy - Obsidium",
+},
+["Bartender4_BagBar"] = {
+["Upgraded"] = true,
+["Inherit"] = false,
 },
 ["Bagnon_voidstorage - items"] = {
 ["Gloss"] = true,
@@ -342,8 +340,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["WeakAuras_GBiNLrJQvlq"] = {
 ["Gloss"] = true,
@@ -362,10 +360,10 @@ MasqueDB = {
 0.3350152373313904,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
-["Bagnon"] = {
+["Bagnon_bank - bags"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
@@ -375,8 +373,8 @@ MasqueDB = {
 0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
 },
 ["WeakAuras_4Ocpk8tyPKN"] = {
 ["Gloss"] = true,
@@ -395,27 +393,83 @@ MasqueDB = {
 0.3350152373313904,
 },
 },
+["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["WeakAuras_NaJ3hmu)AmJ"] = {
+["Gloss"] = true,
+["Upgraded"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.3350152373313904,
+},
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
+},
+},
 ["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
 },
-["Bartender4"] = {
+["Bagnon_inventory - bags"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
 1,
 1,
 1,
-0.2509258985519409,
-},
-["Normal"] = {
-0.3058823645114899,
-0.3137255012989044,
-0.3294117748737335,
-1,
+0.3250002861022949,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["Bagnon_bank - items"] = {
+["Gloss"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.3250002861022949,
+},
+},
+["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["ShadowedUF_Player"] = {
+["Gloss"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.4138888716697693,
+},
+},
+["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["ShadowedUF_Target"] = {
+["Gloss"] = true,
+["Colors"] = {
+["Gloss"] = {
+1,
+1,
+1,
+0.4138888716697693,
+},
+},
+["SkinID"] = "Entropy - Obsidium",
+["Inherit"] = false,
+},
+["ShadowedUF_Party"] = {
+["Inherit"] = false,
 },
 ["Bartender4_Flyout"] = {
 ["Gloss"] = true,
@@ -433,75 +487,22 @@ MasqueDB = {
 1,
 },
 },
-["Inherit"] = false,
 ["SkinID"] = "Entropy - Obsidium",
-},
-["ShadowedUF_Party"] = {
 ["Inherit"] = false,
 },
-["WeakAuras"] = {
+["Bartender4"] = {
 ["Gloss"] = true,
 ["Colors"] = {
 ["Gloss"] = {
 1,
 1,
 1,
-0.3350152373313904,
+0.2509258985519409,
 },
 ["Normal"] = {
-0.2549019753932953,
-0.2549019753932953,
-0.2549019753932953,
-1,
-},
-},
-["SkinID"] = "Entropy - Obsidium",
-["Inherit"] = false,
-},
-["ShadowedUF_Target"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.4138888716697693,
-},
-},
-["Inherit"] = false,
-["SkinID"] = "Entropy - Obsidium",
-},
-["Bartender4_BagBar"] = {
-["Upgraded"] = true,
-["Inherit"] = false,
-},
-["Bagnon_inventory - bags"] = {
-["Gloss"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.3250002861022949,
-},
-},
-["Inherit"] = false,
-["SkinID"] = "Entropy - Obsidium",
-},
-["WeakAuras_NaJ3hmu)AmJ"] = {
-["Gloss"] = true,
-["Upgraded"] = true,
-["Colors"] = {
-["Gloss"] = {
-1,
-1,
-1,
-0.3350152373313904,
-},
-["Normal"] = {
-0.2549019753932953,
-0.2549019753932953,
-0.2549019753932953,
+0.3058823645114899,
+0.3137255012989044,
+0.3294117748737335,
 1,
 },
 },

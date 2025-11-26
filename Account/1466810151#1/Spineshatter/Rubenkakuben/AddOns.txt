@@ -12,7 +12,7 @@ AtlasLootClassic_Factions: enabled
 AtlasLootClassic_PvP: enabled
 Auctionator: enabled
 AutoInvite: enabled
-AutoLayer_Vanilla: enabled
+AutoLayer_Vanilla: disabled
 Bagnon_GuildBank: enabled
 Bagnon_Masque: enabled
 Bagnon_VoidStorage: enabled
@@ -29,7 +29,7 @@ Masque: enabled
 ShadowedUFFacade: enabled
 Masque_Entropy: enabled
 ModUi: enabled
-NovaWorldBuffs: enabled
+NovaWorldBuffs: disabled
 OmniCC: enabled
 OmniCC_Config: enabled
 Outfitter: disabled

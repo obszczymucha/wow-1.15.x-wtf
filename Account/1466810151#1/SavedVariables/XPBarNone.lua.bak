@@ -1,6 +1,7 @@
 
 XPBarNoneDB = {
 ["profileKeys"] = {
+["Boordell - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
@@ -35,6 +36,9 @@ XPBarNoneDB = {
 ["g"] = 0.7490196228027344,
 ["r"] = 0.1803921610116959,
 },
+},
+["rep"] = {
+["showrepbar"] = true,
 },
 },
 },

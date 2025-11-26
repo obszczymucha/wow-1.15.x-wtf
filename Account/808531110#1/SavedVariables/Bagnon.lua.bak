@@ -2,46 +2,44 @@
 Bagnon_Sets = {
 ["tackleColor"] = {
 },
-["latest"] = {
-["cooldown"] = 1760954536,
+["leatherColor"] = {
 },
 ["color"] = {
-["quiver"] = {
-},
-["account"] = {
-},
 ["enchant"] = {
+},
+["herb"] = {
+},
+["inscribe"] = {
 },
 ["soul"] = {
 },
-["leather"] = {
+["reagent"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["engineer"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
 ["fridge"] = {
 },
 ["key"] = {
 },
-["engineer"] = {
+["gem"] = {
 },
 ["tackle"] = {
 },
-["reagent"] = {
-},
 ["normal"] = {
 },
-["herb"] = {
+["quiver"] = {
+},
+["account"] = {
 },
 },
 ["herbColor"] = {
 },
 ["flashFind"] = true,
-["inscribeColor"] = {
-},
+["glowPoor"] = false,
 ["soulColor"] = {
 },
 ["quiverColor"] = {
@@ -52,6 +50,28 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
+["fridgeColor"] = {
+},
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["engineerColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["inscribeColor"] = {
+},
+["latest"] = {
+["cooldown"] = 1764665751,
+},
 ["global"] = {
 ["inventory"] = {
 ["rules"] = {
@@ -61,28 +81,24 @@ Bagnon_Sets = {
 "trade",
 },
 },
-["point"] = "BOTTOMRIGHT",
+["point"] = "BOTTOMLEFT",
 ["scale"] = 0.88,
 ["sort"] = false,
 ["spacing"] = 0,
-["bagToggle"] = true,
+["activeRules"] = {
+},
 ["enabled"] = true,
 ["options"] = false,
 ["money"] = true,
 ["hiddenRules"] = {
 },
 ["itemScale"] = 0.93,
-["columns"] = 17,
-["y"] = 231.9114685058594,
-["x"] = -161.5360644725552,
+["columns"] = 19,
+["y"] = 200.486083984375,
+["x"] = 466.2977905273438,
 ["search"] = false,
 ["broker"] = false,
-["color"] = {
-0,
-0,
-0,
-0.5342593789100647,
-},
+["bagToggle"] = true,
 ["skin"] = "OnePixel",
 ["borderColor"] = {
 0.6470588445663452,
@@ -90,7 +106,11 @@ Bagnon_Sets = {
 0.3450980484485626,
 0.449999988079071,
 },
-["activeRules"] = {
+["color"] = {
+0,
+0,
+0,
+0.5342593789100647,
 },
 },
 ["vault"] = {
@@ -108,9 +128,9 @@ Bagnon_Sets = {
 },
 ["color"] = {
 },
-["hiddenRules"] = {
-},
 ["activeRules"] = {
+},
+["hiddenRules"] = {
 },
 },
 ["guild"] = {
@@ -128,9 +148,9 @@ Bagnon_Sets = {
 },
 ["color"] = {
 },
-["hiddenRules"] = {
-},
 ["activeRules"] = {
+},
+["hiddenRules"] = {
 },
 },
 ["bank"] = {
@@ -147,36 +167,23 @@ Bagnon_Sets = {
 ["point"] = "TOPLEFT",
 ["color"] = {
 },
+["itemScale"] = 0.93,
 ["hiddenRules"] = {
 },
-["y"] = -299.82080078125,
-["x"] = 273.9763793945313,
-["spacing"] = -6,
+["y"] = -252.0970426272088,
+["x"] = 515.5543212890625,
 ["borderColor"] = {
+1,
+0.7176470756530762,
+0.4823529720306397,
+0.3039535880088806,
 },
+["skin"] = "OnePixel",
+["columns"] = 16,
+["spacing"] = 3,
 ["activeRules"] = {
 },
-["columns"] = 7,
+["scale"] = 0.87,
 },
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["engineerColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["glowPoor"] = false,
-["fridgeColor"] = {
-},
-["leatherColor"] = {
 },
 }

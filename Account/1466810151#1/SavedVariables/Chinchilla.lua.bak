@@ -33,6 +33,7 @@ nil,
 ["Appearance"] = {
 ["profiles"] = {
 ["Default"] = {
+["scale"] = 0.25,
 ["borderStyle"] = "Thin",
 ["borderColor"] = {
 [3] = 0.6313725709915161,
@@ -42,12 +43,6 @@ nil,
 ["shape"] = "SQUARE",
 },
 },
-},
-["TrackingDots"] = {
-},
-["RangeCircle"] = {
-},
-["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -78,8 +73,6 @@ nil,
 },
 },
 },
-["Compass"] = {
-},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -96,14 +89,15 @@ nil,
 },
 },
 ["profileKeys"] = {
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
 ["Dupeczka - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

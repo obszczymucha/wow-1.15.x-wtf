@@ -1,9 +1,11 @@
 
 ModUiDb = {
 ["mixins"] = {
-["CombatQueue"] = {
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
-["Bag"] = {
+["CombatQueue"] = {
 },
 ["Combat"] = {
 },
@@ -37,12 +39,12 @@ ModUiDb = {
 },
 },
 },
-["FrameSpacing"] = {
-["frame_spacing"] = 30,
+["Item"] = {
 },
 ["GlobalReferences"] = {
 },
-["Item"] = {
+["FrameSpacing"] = {
+["frame_spacing"] = 30,
 },
 ["FarmingAnchor"] = {
 ["point"] = {
@@ -57,24 +59,32 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["ui_mode"] = 1,
 ["farming_mode_lock"] = false,
+["ui_mode"] = 1,
 },
 ["WeakAuras"] = {
 },
-["Timer"] = {
+["WarriorMode"] = {
+["zones"] = {
+["Hall of Blackhand"] = {
+["The Beast"] = "Single",
 },
-["FrameBuilder"] = {
+},
+["mode"] = "Single",
+},
+["MinimapScale"] = {
+["farming_minimap_scale"] = 1.1,
+["minimap_scale"] = 0.79,
 },
 ["macros"] = {
 },
-["ColorPicker"] = {
+["MinimapIcons"] = {
 },
 ["TankTarget"] = {
 },
 ["Macro"] = {
 },
-["MinimapIcons"] = {
+["ColorPicker"] = {
 },
 ["ExternalEvent"] = {
 },
@@ -88,29 +98,23 @@ ModUiDb = {
 ["Decapitator"] = {
 ["should_equip"] = false,
 },
-["MinimapScale"] = {
-["farming_minimap_scale"] = 1.1,
-["minimap_scale"] = 0.79,
+["FrameBuilder"] = {
 },
-["WarriorMode"] = {
-["zones"] = {
-["Hall of Blackhand"] = {
-["The Beast"] = "Single",
-},
-},
-["mode"] = "Single",
+["Timer"] = {
 },
 ["MultiSpec"] = {
 },
 ["NamedEventObserver"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Bag"] = {
 },
 },
 ["mods"] = {
 ["BattlefieldMap"] = {
+},
+["AntiSpam"] = {
+["keywords"] = {
+},
 },
 ["TrackItems"] = {
 ["items"] = {
@@ -137,6 +141,8 @@ ModUiDb = {
 },
 ["WeakAuras"] = {
 },
+["Kacprawcze/frames"] = {
+},
 ["ping"] = {
 },
 ["DamageMeter"] = {
@@ -152,12 +158,12 @@ ModUiDb = {
 "|cffffffff|Hitem:8950::::::::54:::::::::|h[Homemade Cherry Pie]|h|r",
 },
 ["consume_macro"] = {
-["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 ["consume_links"] = {
 "|cffffffff|Hitem:2681::::::::10:::::::::|h[Roasted Boar Meat]|h|r",
 "|cffffffff|Hitem:2679::::::::10:::::::::|h[Charred Wolf Meat]|h|r",
 "|cffffffff|Hitem:414::::::::10:::::::::|h[Dalaran Sharp]|h|r",
 },
+["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 },
 },
 ["FriendInvite"] = {
@@ -182,288 +188,10 @@ ModUiDb = {
 ["player_notes"] = {
 },
 },
-["TargetMacro"] = {
-["target_macro"] = {
-["macros"] = {
-{
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Blackhand Summoner",
+["KillOnSight"] = {
+["warning_interval_in_seconds"] = 60,
+["kos_list"] = {
 },
-{
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Hulking Mountain",
-},
-["T1"] = {
-["fishing"] = true,
-},
-},
-},
-},
-["HasDied"] = {
-},
-["FramePositions"] = {
-},
-["ZoneTextFrame"] = {
-},
-["ZoneMiscText"] = {
-},
-["Chat"] = {
-},
-["FrameVisibility"] = {
-},
-["Sandbox"] = {
-},
-["AuctionSold"] = {
-},
-["Kacprawcze/MinimapIcons"] = {
-},
-["Ignore"] = {
-["ignore_list"] = {
-["Holixx"] = {
-["time"] = 1746259462,
-["reason"] = "fuck didn't want to help as 60 when I was ganked by 2 hordes",
-},
-["Vancat"] = {
-["time"] = 1747031160,
-["reason"] = "needed on staff in ulda and de'ed it",
-},
-["Skrollan"] = {
-["time"] = 1748936621,
-["reason"] = "group leaver",
-},
-["Melordpal"] = {
-["time"] = 1747982430,
-["reason"] = "group leaver",
-},
-["Mexji"] = {
-["time"] = 1746286746,
-["reason"] = "group leaver Stockades",
-},
-["Béèf"] = {
-["time"] = 1746441679,
-["reason"] = "spammer",
-},
-["Igorm"] = {
-["time"] = 1749290046,
-["reason"] = "leaves after finishing quest in DME (water boss)",
-},
-["Holyeye"] = {
-["time"] = 1747203069,
-["reason"] = "group leaver",
-},
-["Keleborn"] = {
-["time"] = 1747992109,
-["reason"] = "group leaver",
-},
-["Archaeraz"] = {
-["time"] = 1747033147,
-["reason"] = "group leaver",
-},
-["Amirix"] = {
-["time"] = 1747256284,
-["reason"] = "fucking stockade boost spammer",
-},
-["Putasam"] = {
-["time"] = 1749280302,
-["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
-},
-["Kribben"] = {
-["time"] = 1746282558,
-["reason"] = "group leaver (Stockades)",
-},
-["Volund"] = {
-["time"] = 1746888698,
-["reason"] = "Pontimex",
-},
-["Mellotorsk"] = {
-["time"] = 1746285213,
-["reason"] = "rolled on strength ring as druid in Stockades",
-},
-["Vancaster"] = {
-["time"] = 1748095945,
-["reason"] = "fucktard spammer",
-},
-["Mortybrain"] = {
-["time"] = 1749264099,
-["reason"] = "group leaver",
-},
-["Paspoort"] = {
-["time"] = 1746888687,
-["reason"] = "Pontimex",
-},
-["Adúnaphel"] = {
-["time"] = 1746926521,
-["reason"] = "doesn't invite for quests",
-},
-["Dyrachyó"] = {
-["time"] = 1749280323,
-["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
-},
-["Mynamelai"] = {
-["time"] = 1746288186,
-["reason"] = "guild invite spammer",
-},
-["Prominence"] = {
-["time"] = 1747982415,
-["reason"] = "fucking group leaver and fucktard",
-},
-["Lkjk"] = {
-["time"] = 1749370024,
-["reason"] = "piece of fuck group leaver",
-},
-["Clasix"] = {
-["time"] = 1747916312,
-["reason"] = "can you sum?",
-},
-["Oldworld"] = {
-["time"] = 1746528130,
-["reason"] = "boost spammer",
-},
-["Fmlkms"] = {
-["time"] = 1747383187,
-["reason"] = "did the quest then bailed Mara",
-},
-["Valleyboy"] = {
-["time"] = 1747916305,
-["reason"] = "group leaver",
-},
-["Foddy"] = {
-["time"] = 1749617466,
-["reason"] = "spamming fuck",
-},
-["Relgeiz"] = {
-["time"] = 1748002458,
-["reason"] = "group leaver and elitist fuck",
-},
-["Leparitka"] = {
-["time"] = 1747377638,
-["reason"] = "group leaver",
-},
-["Kissmelove"] = {
-["time"] = 1749122028,
-["reason"] = "spammer",
-},
-["Arthase"] = {
-["time"] = 1747817678,
-["reason"] = "cunt let me die twice outside BRD as healer due to no heals",
-},
-["Sînon"] = {
-["time"] = 1748002495,
-["reason"] = "fuck and group leaver",
-},
-["Visionest"] = {
-["time"] = 1749104267,
-["reason"] = "dmt spam",
-},
-["Otpwar"] = {
-["time"] = 1747032202,
-["reason"] = "trash fuck",
-},
-["Royieal"] = {
-["time"] = 1749290190,
-["reason"] = "fucktard group leaver",
-},
-["Dedulok"] = {
-["time"] = 1747376189,
-["reason"] = "group leaver",
-},
-["Blackfrieza"] = {
-["time"] = 1746286666,
-["reason"] = "group leaver Stockades",
-},
-["Pashapal"] = {
-["time"] = 1747035155,
-["reason"] = "group leaver",
-},
-["Thallan"] = {
-["time"] = 1746006555,
-["reason"] = "capslock spammer",
-},
-["Meersi"] = {
-["time"] = 1747129653,
-["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
-},
-["Svartjudas"] = {
-["time"] = 1747982425,
-["reason"] = "fucktard and group leaver",
-},
-["Vanzero"] = {
-["time"] = 1747999036,
-["reason"] = "spammer",
-},
-["Hjon"] = {
-["time"] = 1746855259,
-["reason"] = "group leaver",
-},
-["Coudi"] = {
-["time"] = 1747008590,
-["reason"] = "beggar",
-},
-["Novaseline"] = {
-["time"] = 1746888705,
-["reason"] = "Pontimex",
-},
-["Cortaz"] = {
-["time"] = 1746888678,
-["reason"] = "Pontimex",
-},
-["Vhaeron"] = {
-["time"] = 1747567339,
-["reason"] = "stupid fuck didnt help pvp",
-},
-["Raned"] = {
-["time"] = 1748598921,
-["reason"] = "mage fuck",
-},
-["Anemal"] = {
-["time"] = 1747032165,
-["reason"] = "fucking retard",
-},
-["Sorser"] = {
-["time"] = 1747740557,
-["reason"] = "ninjaed elemental card in BRD",
-},
-["Páránøiáz"] = {
-["time"] = 1747260536,
-["reason"] = "fucking layer spammer",
-},
-["Beragor"] = {
-["time"] = 1747212628,
-["reason"] = "zero IQ fucktard",
-},
-["Maximusblast"] = {
-["time"] = 1746282569,
-["reason"] = "group leaver (Stockades)",
-},
-["Desperatus"] = {
-["time"] = 1747387006,
-["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
-},
-["Rostig"] = {
-["time"] = 1749291787,
-["reason"] = "group leaver",
-},
-["Hilbot"] = {
-["time"] = 1747032838,
-["reason"] = "group leaver (Ulda)",
-},
-["Ichimi"] = {
-["time"] = 1747820674,
-["reason"] = "fucktard BRD puller",
-},
-["Gnrk"] = {
-["time"] = 1749030325,
-["reason"] = "salty skilless fuck",
-},
-["Bactpaxaetsp"] = {
-["time"] = 1747210741,
-["reason"] = "fucktard and group leaver",
-},
-},
-},
-["Kacprawcze/frames"] = {
 },
 ["music"] = {
 ["playlist"] = {
@@ -621,12 +349,293 @@ ModUiDb = {
 },
 },
 },
-["last_track_index"] = 29,
-["force"] = false,
-["playlist_id"] = "default",
 ["music"] = {
 ["playlist_id"] = "elwynn",
 ["force"] = true,
+},
+["last_track_index"] = 29,
+["playlist_id"] = "default",
+["force"] = false,
+},
+["FramePositions"] = {
+},
+["Ignore"] = {
+["ignore_list"] = {
+["Holixx"] = {
+["time"] = 1746259462,
+["reason"] = "fuck didn't want to help as 60 when I was ganked by 2 hordes",
+},
+["Vancat"] = {
+["time"] = 1747031160,
+["reason"] = "needed on staff in ulda and de'ed it",
+},
+["Skrollan"] = {
+["time"] = 1748936621,
+["reason"] = "group leaver",
+},
+["Melordpal"] = {
+["time"] = 1747982430,
+["reason"] = "group leaver",
+},
+["Mexji"] = {
+["time"] = 1746286746,
+["reason"] = "group leaver Stockades",
+},
+["Béèf"] = {
+["time"] = 1746441679,
+["reason"] = "spammer",
+},
+["Igorm"] = {
+["time"] = 1749290046,
+["reason"] = "leaves after finishing quest in DME (water boss)",
+},
+["Holyeye"] = {
+["time"] = 1747203069,
+["reason"] = "group leaver",
+},
+["Keleborn"] = {
+["time"] = 1747992109,
+["reason"] = "group leaver",
+},
+["Archaeraz"] = {
+["time"] = 1747033147,
+["reason"] = "group leaver",
+},
+["Amirix"] = {
+["time"] = 1747256284,
+["reason"] = "fucking stockade boost spammer",
+},
+["Ichimi"] = {
+["time"] = 1747820674,
+["reason"] = "fucktard BRD puller",
+},
+["Kribben"] = {
+["time"] = 1746282558,
+["reason"] = "group leaver (Stockades)",
+},
+["Volund"] = {
+["time"] = 1746888698,
+["reason"] = "Pontimex",
+},
+["Mellotorsk"] = {
+["time"] = 1746285213,
+["reason"] = "rolled on strength ring as druid in Stockades",
+},
+["Hilbot"] = {
+["time"] = 1747032838,
+["reason"] = "group leaver (Ulda)",
+},
+["Mortybrain"] = {
+["time"] = 1749264099,
+["reason"] = "group leaver",
+},
+["Paspoort"] = {
+["time"] = 1746888687,
+["reason"] = "Pontimex",
+},
+["Lkjk"] = {
+["time"] = 1749370024,
+["reason"] = "piece of fuck group leaver",
+},
+["Dyrachyó"] = {
+["time"] = 1749280323,
+["reason"] = "shit ass mage ninjaing runes and not counterspelling in Scholo",
+},
+["Mynamelai"] = {
+["time"] = 1746288186,
+["reason"] = "guild invite spammer",
+},
+["Prominence"] = {
+["time"] = 1747982415,
+["reason"] = "fucking group leaver and fucktard",
+},
+["Adúnaphel"] = {
+["time"] = 1746926521,
+["reason"] = "doesn't invite for quests",
+},
+["Desperatus"] = {
+["time"] = 1747387006,
+["reason"] = "left Mara when Princess was only left cuz he couldnt get inside",
+},
+["Valleyboy"] = {
+["time"] = 1747916305,
+["reason"] = "group leaver",
+},
+["Fmlkms"] = {
+["time"] = 1747383187,
+["reason"] = "did the quest then bailed Mara",
+},
+["Oldworld"] = {
+["time"] = 1746528130,
+["reason"] = "boost spammer",
+},
+["Royieal"] = {
+["time"] = 1749290190,
+["reason"] = "fucktard group leaver",
+},
+["Páránøiáz"] = {
+["time"] = 1747260536,
+["reason"] = "fucking layer spammer",
+},
+["Leparitka"] = {
+["time"] = 1747377638,
+["reason"] = "group leaver",
+},
+["Sorser"] = {
+["time"] = 1747740557,
+["reason"] = "ninjaed elemental card in BRD",
+},
+["Arthase"] = {
+["time"] = 1747817678,
+["reason"] = "cunt let me die twice outside BRD as healer due to no heals",
+},
+["Sînon"] = {
+["time"] = 1748002495,
+["reason"] = "fuck and group leaver",
+},
+["Anemal"] = {
+["time"] = 1747032165,
+["reason"] = "fucking retard",
+},
+["Raned"] = {
+["time"] = 1748598921,
+["reason"] = "mage fuck",
+},
+["Foddy"] = {
+["time"] = 1749617466,
+["reason"] = "spamming fuck",
+},
+["Dedulok"] = {
+["time"] = 1747376189,
+["reason"] = "group leaver",
+},
+["Blackfrieza"] = {
+["time"] = 1746286666,
+["reason"] = "group leaver Stockades",
+},
+["Pashapal"] = {
+["time"] = 1747035155,
+["reason"] = "group leaver",
+},
+["Thallan"] = {
+["time"] = 1746006555,
+["reason"] = "capslock spammer",
+},
+["Meersi"] = {
+["time"] = 1747129653,
+["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
+},
+["Svartjudas"] = {
+["time"] = 1747982425,
+["reason"] = "fucktard and group leaver",
+},
+["Vanzero"] = {
+["time"] = 1747999036,
+["reason"] = "spammer",
+},
+["Hjon"] = {
+["time"] = 1746855259,
+["reason"] = "group leaver",
+},
+["Coudi"] = {
+["time"] = 1747008590,
+["reason"] = "beggar",
+},
+["Novaseline"] = {
+["time"] = 1746888705,
+["reason"] = "Pontimex",
+},
+["Cortaz"] = {
+["time"] = 1746888678,
+["reason"] = "Pontimex",
+},
+["Vhaeron"] = {
+["time"] = 1747567339,
+["reason"] = "stupid fuck didnt help pvp",
+},
+["Otpwar"] = {
+["time"] = 1747032202,
+["reason"] = "trash fuck",
+},
+["Visionest"] = {
+["time"] = 1749104267,
+["reason"] = "dmt spam",
+},
+["Kissmelove"] = {
+["time"] = 1749122028,
+["reason"] = "spammer",
+},
+["Relgeiz"] = {
+["time"] = 1748002458,
+["reason"] = "group leaver and elitist fuck",
+},
+["Beragor"] = {
+["time"] = 1747212628,
+["reason"] = "zero IQ fucktard",
+},
+["Maximusblast"] = {
+["time"] = 1746282569,
+["reason"] = "group leaver (Stockades)",
+},
+["Clasix"] = {
+["time"] = 1747916312,
+["reason"] = "can you sum?",
+},
+["Rostig"] = {
+["time"] = 1749291787,
+["reason"] = "group leaver",
+},
+["Vancaster"] = {
+["time"] = 1748095945,
+["reason"] = "fucktard spammer",
+},
+["Putasam"] = {
+["time"] = 1749280302,
+["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
+},
+["Gnrk"] = {
+["time"] = 1749030325,
+["reason"] = "salty skilless fuck",
+},
+["Bactpaxaetsp"] = {
+["time"] = 1747210741,
+["reason"] = "fucktard and group leaver",
+},
+},
+},
+["ZoneMiscText"] = {
+},
+["Kacprawcze/MinimapIcons"] = {
+},
+["AuctionSold"] = {
+},
+["Sandbox"] = {
+},
+["FrameVisibility"] = {
+},
+["Chat"] = {
+},
+["ZoneTextFrame"] = {
+},
+["HasDied"] = {
+},
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Blackhand Summoner",
+},
+{
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Hulking Mountain",
+},
+["T1"] = {
+["fishing"] = true,
+},
+},
 },
 },
 },
