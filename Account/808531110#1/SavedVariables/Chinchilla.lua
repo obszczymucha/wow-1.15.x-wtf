@@ -1,94 +1,100 @@
 
 Chinchilla2DB = {
-	["profiles"] = {
-		["Default"] = {
-		},
-	},
-	["profileKeys"] = {
-		["Kacprawcze - Spineshatter"] = "Default",
-		["Tachikoma - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-	},
-	["namespaces"] = {
-		["Ping"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
-		},
-		["Expander"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
-		},
-		["ShowHide"] = {
-			["profiles"] = {
-				["Default"] = {
-					["clock"] = "mouseover",
-					["dayNight"] = "mouseover",
-					["zoom"] = "mouseover",
-					["north"] = false,
-				},
-			},
-		},
-		["Position"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-					["minimap"] = {
-						[1] = "TOP",
-						[2] = 29.142367947949442,
-						[3] = -128.385061722171,
-					},
-				},
-			},
-		},
-		["MoveButtons"] = {
-			["profiles"] = {
-				["Default"] = {
-					["clock"] = 269,
-				},
-			},
-		},
-		["Coordinates"] = {
-			["profiles"] = {
-				["Default"] = {
-					["border"] = {
-						[4] = 0,
-					},
-					["background"] = {
-						[4] = 0.68055561184883118,
-					},
-					["enabled"] = false,
-					["positionX"] = -29.99993896484375,
-					["borderTexture"] = "None",
-					["positionY"] = -58.126953125,
-				},
-			},
-		},
-		["Location"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
-		},
-		["Appearance"] = {
-			["profiles"] = {
-				["Default"] = {
-					["shape"] = "SQUARE",
-					["borderStyle"] = "Thin",
-					["borderColor"] = {
-						[2] = 0.73333334922790527,
-						[3] = 0.63137257099151611,
-						[4] = 0.49946516752243042,
-					},
-					["borderRadius"] = 81,
-				},
-			},
-		},
-	},
+["namespaces"] = {
+["Expander"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
+},
+["Coordinates"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+["border"] = {
+nil,
+nil,
+nil,
+0,
+},
+["positionY"] = -58.126953125,
+["positionX"] = -29.99993896484375,
+["borderTexture"] = "None",
+["background"] = {
+nil,
+nil,
+nil,
+0.6805556118488312,
+},
+},
+},
+},
+["Appearance"] = {
+["profiles"] = {
+["Default"] = {
+["borderRadius"] = 81,
+["borderStyle"] = "Thin",
+["borderColor"] = {
+[3] = 0.6313725709915161,
+[2] = 0.7333333492279053,
+[4] = 0.4994651675224304,
+},
+["shape"] = "SQUARE",
+},
+},
+},
+["ShowHide"] = {
+["profiles"] = {
+["Default"] = {
+["north"] = false,
+["dayNight"] = "mouseover",
+["clock"] = "mouseover",
+["zoom"] = "mouseover",
+},
+},
+},
+["Position"] = {
+["profiles"] = {
+["Default"] = {
+["minimap"] = {
+"TOP",
+29.14236794794944,
+-128.385061722171,
+},
+["enabled"] = false,
+},
+},
+},
+["Location"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
+},
+["MoveButtons"] = {
+["profiles"] = {
+["Default"] = {
+["clock"] = 269,
+},
+},
+},
+["Ping"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
 }

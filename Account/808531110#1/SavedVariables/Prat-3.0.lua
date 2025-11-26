@@ -1,120 +1,120 @@
 
 Prat3DB = {
-	["profiles"] = {
-		["Default"] = {
-			["modules"] = {
-				["AltNames"] = 2,
-				["ChatLog"] = 2,
-				["Mentions"] = 2,
-				["Paragraph"] = 2,
-				["LinkInfoIcons"] = 2,
-				["Alias"] = 2,
-				["OriginalButtons"] = 2,
-				["Sounds"] = 2,
-				["DebugModules"] = 2,
-				["PopupMessage"] = 2,
-				["KeyBindings"] = 2,
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Kacprawcze - Spineshatter"] = "Default",
-		["Tachikoma - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-	},
-	["namespaces"] = {
-		["Prat_ChannelNames"] = {
-			["profiles"] = {
-				["Default"] = {
-					["nickname"] = {
-						["General"] = "G",
-						["Trade"] = "T",
-						["LocalDefense"] = "LD",
-						["world"] = "W",
-					},
-				},
-			},
-		},
-		["Prat_Font"] = {
-			["profiles"] = {
-				["Default"] = {
-					["size"] = {
-						["ChatFrame1"] = 14,
-						["WhisperTabs"] = 13,
-						["ChatFrame2"] = 13,
-					},
-				},
-			},
-		},
-		["Prat_Timestamps"] = {
-			["profiles"] = {
-				["Default"] = {
-					["formatcode"] = "%H:%M",
-				},
-			},
-		},
-		["Prat_Frames"] = {
-			["profiles"] = {
-				["Default"] = {
-					["maxchatheightdefault"] = 400,
-					["framealphastatic"] = true,
-					["maxchatwidthdefault"] = 608.00006103515625,
-					["minchatwidthdefault"] = 296,
-					["initialized"] = true,
-				},
-			},
-		},
-		["Prat_Buttons"] = {
-			["profiles"] = {
-				["Default"] = {
-					["showButtons"] = false,
-				},
-			},
-		},
-		["Prat_ChannelColorMemory"] = {
-			["profiles"] = {
-				["Default"] = {
-					["colors"] = {
-						["world"] = {
-							["r"] = 1,
-							["g"] = 0.75294125080108643,
-							["b"] = 0.75294125080108643,
-						},
-						["layer"] = {
-							["b"] = 0.75294125080108643,
-							["g"] = 0.75294125080108643,
-							["r"] = 1,
-						},
-						["princesskenny"] = {
-							["b"] = 0.75294125080108643,
-							["g"] = 0.75294125080108643,
-							["r"] = 1,
-						},
-						["chuj"] = {
-							["b"] = 0.75294125080108643,
-							["g"] = 0.75294125080108643,
-							["r"] = 1,
-						},
-						["localdefense"] = {
-							["b"] = 0.75294125080108643,
-							["g"] = 0.75294125080108643,
-							["r"] = 1,
-						},
-					},
-				},
-			},
-		},
-		["Prat_Editbox"] = {
-			["profiles"] = {
-				["Default"] = {
-					["border"] = "None",
-					["backgroundColor"] = {
-						["a"] = 0.28055578470230103,
-					},
-					["tileSize"] = 10,
-					["colorByChannel"] = false,
-				},
-			},
-		},
-	},
+["namespaces"] = {
+["Prat_ChannelColorMemory"] = {
+["profiles"] = {
+["Default"] = {
+["colors"] = {
+["chuj"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["localdefense"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["layer"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["princesskenny"] = {
+["r"] = 1,
+["g"] = 0.7529412508010864,
+["b"] = 0.7529412508010864,
+},
+["world"] = {
+["b"] = 0.7529412508010864,
+["g"] = 0.7529412508010864,
+["r"] = 1,
+},
+},
+},
+},
+},
+["Prat_Timestamps"] = {
+["profiles"] = {
+["Default"] = {
+["formatcode"] = "%H:%M",
+},
+},
+},
+["Prat_Frames"] = {
+["profiles"] = {
+["Default"] = {
+["initialized"] = true,
+["framealphastatic"] = true,
+["minchatwidthdefault"] = 296,
+["maxchatwidthdefault"] = 608.0000610351562,
+["maxchatheightdefault"] = 400,
+},
+},
+},
+["Prat_Editbox"] = {
+["profiles"] = {
+["Default"] = {
+["border"] = "None",
+["tileSize"] = 10,
+["colorByChannel"] = false,
+["backgroundColor"] = {
+["a"] = 0.280555784702301,
+},
+},
+},
+},
+["Prat_Font"] = {
+["profiles"] = {
+["Default"] = {
+["size"] = {
+["ChatFrame2"] = 13,
+["WhisperTabs"] = 13,
+["ChatFrame1"] = 14,
+},
+},
+},
+},
+["Prat_ChannelNames"] = {
+["profiles"] = {
+["Default"] = {
+["nickname"] = {
+["LocalDefense"] = "LD",
+["world"] = "W",
+["General"] = "G",
+["Trade"] = "T",
+},
+},
+},
+},
+["Prat_Buttons"] = {
+["profiles"] = {
+["Default"] = {
+["showButtons"] = false,
+},
+},
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["modules"] = {
+["Alias"] = 2,
+["Mentions"] = 2,
+["PopupMessage"] = 2,
+["AltNames"] = 2,
+["Sounds"] = 2,
+["Paragraph"] = 2,
+["KeyBindings"] = 2,
+["LinkInfoIcons"] = 2,
+["DebugModules"] = 2,
+["OriginalButtons"] = 2,
+["ChatLog"] = 2,
+},
+},
+},
 }
