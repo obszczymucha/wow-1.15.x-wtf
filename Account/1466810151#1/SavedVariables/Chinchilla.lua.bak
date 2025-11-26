@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Expander"] = {
+["Ping"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -44,6 +44,12 @@ nil,
 },
 },
 },
+["TrackingDots"] = {
+},
+["RangeCircle"] = {
+},
+["Zoom"] = {
+},
 ["ShowHide"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -73,6 +79,8 @@ nil,
 },
 },
 },
+["Compass"] = {
+},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -80,7 +88,7 @@ nil,
 },
 },
 },
-["Ping"] = {
+["Expander"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -96,8 +104,8 @@ nil,
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

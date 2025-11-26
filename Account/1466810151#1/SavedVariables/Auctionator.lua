@@ -1,3250 +1,3250 @@
 
 AUCTIONATOR_CONFIG = {
-["show_selling_bag_2"] = true,
-["no_price_database"] = false,
-["search_no_filters_matched_entry"] = true,
-["hide_splash_screen"] = true,
-["enchant_tooltips"] = false,
-["starting_price_percentage_2"] = 95,
-["columns_buying_auctions_2"] = {
-["Unit Price"] = false,
-["Available"] = false,
-["Seller(s)"] = true,
-["Stack Price"] = false,
-["Time Left"] = true,
-["You?"] = false,
-},
-["debug"] = false,
-["selling_auto_select_next"] = false,
-["selling_favourites_sort_owned"] = false,
-["chain_buy_stacks"] = true,
-["auctions_history_length"] = 10,
-["selling_icon_size_2"] = 35,
-["columns_selling_search_3"] = {
-},
-["price_history_days"] = 21,
-["default_selling_stacks"] = {
-["stackSize"] = 0,
-["numStacks"] = 0,
-},
-["selling_skip_shortcut"] = "SHIFT-SPACE",
-["shopping_list_missing_terms"] = false,
-["shopping_last_container_view"] = 2,
-["selling_ignored_keys"] = {
-},
-["default_tab"] = 0,
-["undercut_items_ahead"] = 0,
-["undercut_percentage"] = 0,
-["columns_posting_history"] = {
-["Date"] = false,
-["Unit Price"] = false,
-["Bid Price"] = true,
-["Quantity"] = false,
-},
-["selling_ignore_item_suffix"] = false,
-["selling_missing_favourites"] = true,
-["selling_always_load_more"] = false,
-["columns_buying_historical_prices"] = {
-["Date"] = false,
-["Unit Price"] = false,
-["Available"] = false,
-["Upper Unit Price"] = true,
-},
-["selling_post_shortcut"] = "SPACE",
-["shift_stack_tooltips"] = true,
-["selling_favourite_keys_2"] = {
-},
-["selling_bag_select_shortcut"] = "alt left click",
-["shopping_always_load_more"] = false,
-["auction_tooltips"] = true,
-["auction_age_tooltips"] = false,
-["replicate_scan_3"] = false,
-["auction_mean_days_limit"] = 21,
-["stack_size_memory"] = {
-["2748"] = 1,
-["7971"] = 1,
-["4479"] = 1,
-["12803"] = 1,
-["4480"] = 1,
-["15420"] = 5,
-["18512"] = 1,
-["12207"] = 1,
-["4337"] = 1,
-["3731"] = 2,
-["2842"] = 1,
-["2744"] = 1,
-["2740"] = 1,
-["10286"] = 1,
-["7070"] = 1,
-["7067"] = 1,
-["19933"] = 1,
-["12808"] = 1,
-["2734"] = 1,
-["2751"] = 1,
-["8391"] = 1,
-["10593"] = 1,
-["2730"] = 1,
-},
-["selling_confirm_low_price"] = true,
-["default_list_2"] = "",
-["vendor_tooltips"] = true,
-["cancel_undercut_shortcut"] = "SPACE",
-["columns_cancelling"] = {
-["Items Ahead"] = false,
-["Stack Price"] = true,
-["Bidder"] = true,
-["Undercut?"] = false,
-["Quantity"] = false,
-["Bid Price"] = true,
-["Name"] = false,
-["Unit Price"] = false,
-["Time Left"] = false,
-["Undercut Price"] = true,
-},
-["selling_grey_post_button"] = true,
-["prospect_tooltips"] = false,
-["save_last_duration_as_default"] = false,
-["mill_tooltips"] = false,
-["crafting_info_show_cost"] = true,
-["auction_mean_tooltips"] = false,
-["show_selling_bid_price"] = false,
-["columns_shopping"] = {
-["Name"] = false,
-["Available"] = false,
-["Price"] = false,
-["Owned?"] = true,
-["Top?"] = true,
-},
-["columns_shopping_historical_prices"] = {
-["Date"] = false,
-["Unit Price"] = false,
-["Available"] = false,
-["Upper Unit Price"] = true,
-},
-["selling_post_stack_remainder"] = false,
-["historical_prices"] = {
-},
-["auto_list_search"] = false,
-["crafting_info_show_profit"] = true,
-["auction_chat_log"] = true,
-["mailbox_tooltips"] = true,
-["auction_duration"] = 24,
-["selling_bag_collapsed"] = false,
-["selling_reselect_item_2"] = {
-["keyName"] = "k_Trade Goods",
-["sortKey"] = "13468_Black Lotus_0_2_true",
-},
-["undercut_static_value"] = 1,
-["auction_sales_preference"] = "static",
-["selling_prev_shortcut"] = "BACKSPACE",
-["splash_screen_version"] = "10.1.6",
-["crafting_info_show"] = true,
-["selling_should_reselect_item"] = false,
-["gear_vendor_price_multiplier"] = 0,
+	["stack_size_memory"] = {
+		["2730"] = 1,
+		["18512"] = 1,
+		["10593"] = 1,
+		["12803"] = 1,
+		["10286"] = 1,
+		["8391"] = 1,
+		["7070"] = 1,
+		["2740"] = 1,
+		["2842"] = 1,
+		["12207"] = 1,
+		["3731"] = 2,
+		["4337"] = 1,
+		["2734"] = 1,
+		["7971"] = 1,
+		["4480"] = 1,
+		["2748"] = 1,
+		["12808"] = 1,
+		["4479"] = 1,
+		["15420"] = 5,
+		["2744"] = 1,
+		["7067"] = 1,
+		["19933"] = 1,
+		["2751"] = 1,
+	},
+	["default_selling_stacks"] = {
+		["stackSize"] = 0,
+		["numStacks"] = 0,
+	},
+	["replicate_scan_3"] = false,
+	["shopping_list_missing_terms"] = false,
+	["columns_selling_search_3"] = {
+	},
+	["show_selling_bag_2"] = true,
+	["price_history_days"] = 21,
+	["gear_vendor_price_multiplier"] = 0,
+	["hide_splash_screen"] = true,
+	["search_no_filters_matched_entry"] = true,
+	["undercut_static_value"] = 1,
+	["auction_mean_days_limit"] = 21,
+	["selling_always_load_more"] = false,
+	["cancel_undercut_shortcut"] = "SPACE",
+	["default_tab"] = 0,
+	["undercut_percentage"] = 0,
+	["crafting_info_show_cost"] = true,
+	["no_price_database"] = false,
+	["columns_shopping_historical_prices"] = {
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Upper Unit Price"] = true,
+		["Available"] = false,
+	},
+	["default_list_2"] = "",
+	["starting_price_percentage_2"] = 95,
+	["auction_mean_tooltips"] = false,
+	["columns_posting_history"] = {
+		["Bid Price"] = true,
+		["Unit Price"] = false,
+		["Quantity"] = false,
+		["Date"] = false,
+	},
+	["selling_missing_favourites"] = true,
+	["save_last_duration_as_default"] = false,
+	["selling_should_reselect_item"] = false,
+	["undercut_items_ahead"] = 0,
+	["mill_tooltips"] = false,
+	["columns_shopping"] = {
+		["Name"] = false,
+		["Price"] = false,
+		["Owned?"] = true,
+		["Available"] = false,
+		["Top?"] = true,
+	},
+	["selling_grey_post_button"] = true,
+	["shopping_always_load_more"] = false,
+	["chain_buy_stacks"] = true,
+	["selling_bag_select_shortcut"] = "alt left click",
+	["vendor_tooltips"] = true,
+	["shopping_last_container_view"] = 2,
+	["selling_reselect_item_2"] = {
+		["sortKey"] = "13468_Black Lotus_0_2_true",
+		["keyName"] = "k_Trade Goods",
+	},
+	["crafting_info_show"] = true,
+	["auction_sales_preference"] = "static",
+	["auction_tooltips"] = true,
+	["debug"] = false,
+	["selling_confirm_low_price"] = true,
+	["auction_age_tooltips"] = false,
+	["columns_cancelling"] = {
+		["Bidder"] = true,
+		["Unit Price"] = false,
+		["Undercut Price"] = true,
+		["Quantity"] = false,
+		["Stack Price"] = true,
+		["Items Ahead"] = false,
+		["Undercut?"] = false,
+		["Bid Price"] = true,
+		["Time Left"] = false,
+		["Name"] = false,
+	},
+	["selling_ignore_item_suffix"] = false,
+	["historical_prices"] = {
+	},
+	["selling_ignored_keys"] = {
+	},
+	["columns_buying_historical_prices"] = {
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Upper Unit Price"] = true,
+		["Available"] = false,
+	},
+	["selling_post_shortcut"] = "SPACE",
+	["selling_favourite_keys_2"] = {
+	},
+	["prospect_tooltips"] = false,
+	["mailbox_tooltips"] = true,
+	["selling_post_stack_remainder"] = false,
+	["crafting_info_show_profit"] = true,
+	["selling_auto_select_next"] = false,
+	["shift_stack_tooltips"] = true,
+	["splash_screen_version"] = "10.1.6",
+	["selling_prev_shortcut"] = "BACKSPACE",
+	["enchant_tooltips"] = false,
+	["selling_favourites_sort_owned"] = false,
+	["auction_duration"] = 24,
+	["selling_icon_size_2"] = 35,
+	["auction_chat_log"] = true,
+	["auctions_history_length"] = 10,
+	["selling_skip_shortcut"] = "SHIFT-SPACE",
+	["show_selling_bid_price"] = false,
+	["selling_bag_collapsed"] = false,
+	["auto_list_search"] = false,
+	["columns_buying_auctions_2"] = {
+		["Time Left"] = true,
+		["Unit Price"] = false,
+		["You?"] = false,
+		["Available"] = false,
+		["Stack Price"] = false,
+		["Seller(s)"] = true,
+	},
 }
 AUCTIONATOR_SAVEDVARS = {
 }
-AUCTIONATOR_SHOPPING_LISTS = {
-}
 AUCTIONATOR_PRICE_DATABASE = {
-["__dbversion"] = 8,
-["Spineshatter Alliance"] = "∏≠d4371x§aa°d1950ÓalÄam„ah°d1950„d3825xL§aa£d1972rd1973Zd1964äal¢d1972:.d19739◊ah£d1972:/d19739ÿd196481am9◊e13067x!§aa°d1966alÄam\000\nÆ`ah°d1966\000\nÆ`d1210x[§aa§d1950>d1949>d1966Sd1951;al¢d1950åd1951ah§d1950çd1949Qd1966Ωd1951	amΩe16703x@§aa¢d1970	d1971al¢d1970\000ö&d1971Æˆah¢d1970\000ö'd1971Æ˜amÆˆe13444x/§aa¢d1972éd1973>alÄah¢d1972\0008td1973Â†amÂ†d2589xO§aa£d1948bd1949Zd1950Gal£d1948\rd1949od1950\"am\"ah£d1948!d1949pd19502e13467x§aa°d1973¸alÄamMüah°d1973Müd3731x&§aa°d1963Óal°d1963…ah°d1963 am…e13302x%§aa°d1985al°d1985%∏ah°d1985%πam%∏e14227x5§aa¢d1964∑d1969øal°d1969\r5ah¢d1964òd1969\r6am\r5d9253x%§aa°d1962al°d1962'ah°d1962'am'e14047xg§aa§d1985ãd1999Œd1984∂d1980al£d1999d1984Cd1980Iam!ah§d1985ßd1999\"d1984Dd1980Jd7078x6§aa¢d1964¡d19708al°d1964öam¸ah¢d1964õd1970¸c858x;§aa£d1963]d1970Ãd1959˝alÄah£d1963d1970=d1959am=d8831xW§aa£d1978\rd1971!d1977al£d1978òd1977\rd1971˚ah£d1978ôd1971¸d1977\ramòd2725xL§aa£d1956d19584d1957%al¢d1956¥d1957\n2amƒah£d1956µd1958ƒd1957±d2745x%§aa°d1956al°d1956Iah°d1956JamId3821x6§aa¢d1978‘d1977ral°d1977œah¢d1978èd1977amèd2450x§aa°d1950alÄam†ah°d1950†d2735x&§aa°d1959al°d1959Bah°d1959CamBd2449x$§aa°d1947öal°d1947dah°d1947eamdd8951x&§aa°d1972,al°d1972 ıah°d1972 ˆam ıe11018x&§aa°d1965˙al°d1965\nÖah°d1965\nÜam\nÖd2744x§aa°d1953alÄaméah°d1953éd4597x§aa°d1959alÄam'ah°d1959'd7070xx§aa¶d1964ed1957Od1971Wd1956d1968\\d1963~al¢d1971S˙d1956]øamS˙ah¶d1964RÀd1957qGd1971S˚d1956]¿d1968^Çd1963m^e12203x>§aa£d1964èd1966Ïd1963°al°d1963·ah£d1964\rd1966Wd1963‚amWe13466x˙§aa™d1986õd1981Ad1980/d1979òd1984≠d1999‡d1985<d1982}d1998Wd1983‚al™d1986±¥d1981üµd1985¢d1979©}d1984£˛d1999õ’d1983≤qd1980¶Rd1998†‰d1982Ø^ah™d1986±µd1981ü∂d1980©=d1979©~d1984£ˇd1999õ÷d1985¢d1982≥Fd1998•†d1983≤ramõ’d8483x&§aa°d1962|al°d1962\nyah°d1962\nzam\nyc929x:§aa£d1959˜d1970id1963ªalÄah£d1959¯d1970√d1963®am√d2748xi§aa§d1959$d1956d1957d1963al§d1963æd1956\rd1957Ad1959‡ah§d1959·d1956\rd1957Bd1963øamæe19441x&§aa°d1969Qal°d1969'ah°d1969'am'e12803x'§aa°d1964(al°d19646èah°d19646êam6èd3174x)§aa¢d1950®d1949|alÄah¢d1950d1949amd1206x5§aa¢d1950Id1951;al°d1950Vamæah¢d1950Wd1951æe12208x7§aa¢d1967gd1963al°d1963ah¢d1967{d1963Pam{c118x+§aa¢d1959Òd1963oalÄah¢d1959d1963#am#d2842xG§aa£d1950d1958õd1948∏al°d1948èah£d1950d1958gd1948êamgd8836x&§aa°d1973Ûal°d1973Èah°d1973ÍamÈe16735x-§aa¢d1964d1965	alÄah¢d1964\000Qd1965ú<amú<e12037x#§aa°d1963xal°d1963famfah°d1963ge13480x+§aa¢d1963d1959alÄah¢d1963id1959√Pamid9295x!§aa°d1977	alÄah°d1977\000Íam\000Íd9251x%§aa°d1962al°d1962'ah°d1962'am'd3928xF§aa£d1972Äd1963d1959aal°d1972	wam	wah£d1972	|d1963Jd1959\"e13479x;§aa¢d1978d1979al¢d1978zùd1979:ñah¢d1978z°d1979:óam:ñd2730xQ§aa£d1953d1957d1963al£d1953éd1957¢d1963òah£d1953èd1957£d1963ôamòe12804x§aa°d1999salÄam‡ah°d1999‡d5504xj§aa•d1951Ød1952ıd1953∆d1956ﬁd1950µal£d1950wd1956_d1952∏am_ah•d1951ãd1952πd1953Cd1956`d1950xe11205x%§aa°d1960al°d1960!0am!0ah°d1960!1d3182x=§aa¢d1950\"d1949,al¢d1950·d1949“ah¢d1950‚d1949”am·e18944x'§aa°d1964zal°d1964Hah°d1964IamHd4338xO§aa§d1953d1956úd1966Úd19621alÄah§d1953ãd1956ñd1966Öd1962áamÖd3819x§aa°d1963ualÄameÉah°d1963eÉd9187x=§aa¢d1972Æd1973ëal¢d1972 úd1973ramrah¢d1972 ùd1973sd9249x%§aa°d1962al°d1962Óah°d1962ÔamÓd3823x§aa°d1977walÄah°d1977:4am:4e19933x&§aa°d1969Ial°d1969÷ah°d1969◊am÷xgr:11970:of Fire Resistancex§aa°d1958alÄam!óah°d1958!ód3830x§aa°d1964alÄam‹ah°d1964‹e13465x“§aa©d1986ÿd1981Íd1980àd1982Çd1984;d1999Ãd1985Cd1998ƒd1983Áalßd1986E{d1981F=d1985E—d1984Hd1983M-d1998IÓd1999D¶ah©d1986E|d1981F>d1980Bzd1982J≤d1984H d1999E”d1985E“d1998W–d1983M.amD¶d4234x'§aa°d1960Ÿal°d1960Rah°d1960SamRe12205xL§aa£d1963àd1969qd1962äal¢d1969Úd1962amÚah£d1963÷d1969Ûd1962d4480x&§aa°d1957al°d1957a\\ah°d1957a]ama\\d4278x§aa°d1956 alÄamßah°d1956ßd7075xD§aa£d1969©d1958Yd1963°al°d1958 ah£d1969%d1958Àd1963ãam%e16713xl§aa§d1972\nd1970%d1973d1971\"al§d1972à≠d1973Ü@d1970õGd1971ú?ah§d1972àÆd1970õHd1973ÜAd1971\000\r?amÜ@d3864xz§aa•d1967;d1957nd1958<d19667d1959-al§d1967¨d1957ƒd1958ïd1959%πam¨ah•d1967≠d1957÷d1958ñd19660d1959%∫e12555x!§aa°d1965alÄam\000'”4ah°d1965\000'”4d2728xR§aa£d1956d1957d1959al£d1956xd1957d1959Vah£d1956yd1957d1959WamVd7974x#§aa°d1963cal°d1963,ah°d1963-am,e13307x%§aa°d1985al°d1985'ah°d1985'\ram'd7068x5§aa¢d1964õd1957_al°d1964≥Æah¢d1964≥Ød1957≠àam≥Æe10620x§aa°d1969≤alÄamxah°d1969xe12528x1§aa¢d1966d1965alÄam\000òÈah¢d1966\000òÈd1965\000_jd7076x-§aa¢d1969œd1970ZalÄah¢d1969â{d1970u-amu-d3818x5§aa¢d1977bd1971∑al°d1977éah¢d1977Ñd1971⁄améd7966x§aa°d1998¡alÄam#ah°d1998#d8845x/§aa¢d1984d1977@alÄam8Ñah¢d19848Ñd1977GÔd7909x5§aa¢d1966@d19678al°d1967‡ah¢d1966Ud1967·am‡e20424x§aa°d1969∞alÄamL8ah°d1969L8e13468x,§aa°d20686al°d2068\000ÔUah°d2068\000ÔVam\000ÔUd9172x§aa°d1977%alÄah°d1977UöamUöe13446x=§aa£d1977√d1959d1963ﬁalÄam'ah£d1977'd19598íd1963DGe13443xr§aa•d1967[d1972ld1964Gd1966_d1968Val£d1972a¶d1964aßd1968aßama¶ah•d1967|ˇd1972aßd1964a®d1966|çd1968a®d2732x;§aa¢d1956d1957al¢d19571d1956Lah¢d1956Md1957∂am1d1015x5§aa¢d1950]d1963∂al°d1963·am·ah¢d1950 d1963‚d8839x§aa°d1977§alÄam6∞ah°d19776∞e12207x5§aa¢d1959}d1960ïal°d1960+am+ah¢d1959Ûd1960,e17414x§aa°d1969alÄam:0ah°d1969:0d4596x§aa°d1959\nalÄamûah°d1959ûc818x[§aa§d1946kd1951;d1952<d1966Pal¢d1952ãd1966ãah§d1946Ïd1951—d1952åd1966åamãe11737xF§aa¢d19702d1971al¢d1970\000,\r¿d1971\000(≤Lah¢d1970\000.ÿ/d1971\000(≤Mam\000(≤Ld5498xR§aa§d1956:d1951Kd1952Bd1949:al°d1949«ah§d1956„d1951«d1952†d1949[am„d3828x§aa°d1977alÄah°d1977áamáe12607x3§aa¢d1998\rd1999al°d1998!øamÿah¢d1998!¿d1999ÿd3357x?§aa¢d1984qd1971÷al¢d1984Nd1971“ah¢d1984Od1971”amNe11078x&§aa°d19682al°d1968nah°d1968oamnd7972x5§aa¢d1972ød1965≠al°d1972amah¢d1972d1965¢d5500xS§aa£d1951,d1952d1966Ual£d19513d1952Àd1966”ah£d19514d1952Ãd1966‘am”d4500x\"§aa°d19992alÄam\000[ ah°d1999\000[ d3358x'§aa°d1977Ωal°d19778ah°d19779am8d2592x|§aa•d1951Ñd1950ñd1956…d1953,d1957¸al•d1957Wd1950d1956rd1951Fd1953àamÉah•d1951∫d1950Kd1956ãd1953âd1957Ñd2799x+§aa¢d1963rd1959aalÄah¢d1963Od1959«amOd3667x#§aa°d1963ïal°d1963Gah°d1963HamGe18945x§aa°d1966qalÄam`ah°d1966`e10286xD§aa£d1964æd1966ïd1962¸al°d1962-ah£d1964Xd1966òd1962/amòe11970x§aa°d1958alÄam!óah°d1958!ód3860x§aa°d1998alÄam≠ah°d1998≠e16736x§aa•d1964d1965d1977d1978d1976al£d1978\000ãzd1965\000˜öd1977\000ã|am\000ãzah•d1964\000–âd1965\000≠d1977\000ã}d1978\000ã|d1976\000ì‡d1710xt§aa•d1971´d1972Ûd1963/d1966∂d1959	al£d1972Ìd1966ﬁd1971ah•d1971Ód1972Ód1963xd1966ﬂd1959‹amÌd4306xÉ§aa¶d1957êd1962$d1953jd1956Sd1958üd1971Óal§d1953´d1956¨d1958wd1957ßam‹ah¶d1957Ïd1962¬d1953¨d1956ƒd1958®d1971‹e13452x\"§aa°d1973:alÄam\000)»ah°d1973\000)»d7971x&§aa°d1959)al°d1959—ah°d1959“am—d2459x§aa°d1977©alÄamGﬂah°d1977Gﬂd7069xM§aa£d1957Jd1969cd1970≥al¢d1969]d1957°amëah£d19576d1969^d1970ëe13094xÉ§aa§d1950d1953d1955d1952al§d1950\000m∞d1955\000pˇd1952\000mÆd1953\000\r?ah•d1951\000m∞d1955\000ÕEd1953\000ÕEd1950\000m±d1952\000ÕEam\000pˇd3832x§aa°d1977alÄah°d1977\n%am\n%e18512x&§aa°d20683al°d2068îhah°d2068îiamîhd7067x3§aa¢d1958Æd19632alÄah¢d1958\000<fd1963\000C“am\000C“e18045x§aa°d1985∑alÄamiah°d1985id4337xy§aa¶d1964fd1982Bd1970ïd1962èd1969îd1968Lal¢d1969Çd1968 ah¶d1964d1982d1970d1962ﬂd1969Ÿd1968 Òamd3712x&§aa°d1963∆al°d1963kah°d1963lamkd2675x#§aa°d1950íal°d1950/ah°d19500am/e10398x§aa°d1964alÄam1.ah°d19641.d1401x%§aa°d1947	al°d1947\nah°d1947am\ne18335x6§aa¢d1998wd1999al°d1998\r!am{ah¢d1998\r\"d1999{e16724x+§aa°d1970al°d1970\000Çoah°d1970\000Çpam\000Çoe13464xÕ§aa®d1986≤d1985sd1981Üd1980Ïd1983Jd1982]d1984:d1999\\al®d1986pd1999âd1981jd19850d1983Pd1982Kd1984‘d1980mamâah®d1986qd19851d1981kd1980nd1983Qd1982Ld1984’d1999äd3730x#§aa°d1950ƒal°d1950Ôah°d1950amÔd1705xL§aa£d1950qd1951@d1966Eal¢d1950# d1951	Tah£d1950#!d1951	ÿd1966 am d3356xK§aa£d1972›d1971jd1977Ñal¢d1972µd1977*ah£d1972∂d1971Ωd1977+am*d4305x6§aa¢d1964ßd1969@al°d1969°am°ah¢d1964sd1969¢e11177x-§aa¢d19705d19812alÄah¢d1970¡Qd1981ûêamûêe12359x7§aa¢d1967æd1969ùal°d1967\n—am\n&ah¢d1967E‡d1969\n&e13463x∆§aa©d1986öd1981\rd1985d1982Ud1984{d1999Îd1983ﬂd1998ãd1980!al•d1980ød1999^d1983d1984Wd1998ˇam^ah©d1986$d1981ld1985Wd1982¶d1984Xd1999_d1983	d1998\000d1980¿d8153xL§aa£d1964‹d1971d1959kal¢d1964%zd1959/íam'ah£d1964+∞d1971'd1959/ìe16737x-§aa¢d1964\nd1965alÄah¢d1964\000yd1965–am–e10285xS§aa§d1969Rd1957Kd1958ed1962Bal°d1958Áamﬁah§d1969ﬁd1957ud1958≠d1962˝e13491x§aa°d1973\nalÄah°d1973≥Cam≥Cd5527x§aa°d1952galÄam…ah°d1952…e14256x&§aa°d19663al°d1966†'ah°d1966†(am†'d8949x=§aa¢d1972sd1973{al¢d1972	¿d19735ah¢d1972	¡d19736am5d2742xg§aa§d1953d1956d1957d1959al§d1953'd1956‘d1957‰d1959ªah§d1953'd1956’d1957Âd1959ºamªe13134x+§aa°d1966al°d1966\0000¢ah°d1966\0000£am\0000¢d2750x&§aa°d1959al°d1959=ah°d1959>am=d2740x%§aa°d1959al°d1959∞ah°d1959±am∞e17413x§aa°d1980alÄamxah°d1980xe21306x+§aa°d2068al°d2068\000≠éah°d2068\000≠èam\000≠éd2738x%§aa°d1959al°d19594ah°d19595am4d7079x=§aa¢d1984;d19688al¢d1984d1968˙ah¢d1984d1968˚ame12184x#§aa°d1963hal°d1963ﬁamﬁah°d1963ﬂe13304x%§aa°d1985al°d1985'ah°d1985'am'd1081x§aa°d1950êalÄam5ah°d19505e11137x6§aa¢d1978id1984ïal°d1984ªah¢d1978Éd1984ºamªd7910x†§aaßd1965Md1970(d1980?d19819d19694d1966md1968Aal•d1970ad1980\"d1966.xd1969Xd1968]ahßd1965jd1970bd1980\"d1981Xd1969Yd1966.yd1968^amXd1529x&§aa°d1958Ial°d1958ëah°d1958íamëd4361x§aa°d1947OalÄam√ah°d1947√c785x§aa°d1971©alÄamah°d1971d8838xW§aa£d1983{d1984Md1977al£d1983œd1984ød1977\\ah£d1983–d1984	;d1977Famøe12204x%§aa°d1963al°d1963ah°d1963amd8150x§aa°d1969‰alÄam˚ah°d1969˚f184937x-§aa¢d19532d19672alÄah¢d1953.?d1967-Cam-Ce16712x+§aa°d1976al°d1976\000~Óah°d1976\000~Ôam\000~Óe12202x&§aa°d1963Bal°d1963üah°d1963†amüd4479x&§aa°d1957≈al°d1957lah°d1957mamle12808xL§aa£d1983Vd1969Qd1984Val¢d1969†d1984ﬂamﬂah£d1983fd1969°d1984⁄d3685x>§aa¢d1950’d1963al¢d1950Wd1963Nah¢d1950Xd1963OamNd2751x<§aa¢d1956d1957al¢d1957d1956'ah¢d1956'\rd1957amc774x^§aa§d1946÷d1951Td1952?d1966Ial£d1946√d1951∞d1966>am>ah§d1946Wd1951±d1952Cd1966?d2555x§aa°d1977alÄah°d1977'am'e19236x;§aa¢d1967\rd1968al¢d1967@”d1968@¡ah¢d1967@‘d1968@¬am@¡",
-["Spineshatter Horde"] = "∏pE13465§Aa°D2157Al°D2157Ah°D2157AmD3685§Aa¢D2127ÿD2126!Al¢D2127aD2126æAh¢D2127bD2126øAmaD3282§Aa°D2071Al°D2071AmAh°D2071D2749§Aa£D21316D2127D2130Al£D2131˛D2127\n%D2130Am˛Ah£D2131ˇD2127\n&D21301D2750§Aa£D2131;D2127\rD2130Al°D2130AmëAh£D2131ëD2127ND2130D4589§Aa¢D2134ID2135£Al°D2135#ÇAm#ÇAh¢D2134%“D2135#ÉD7069§Aa°D2126òAl°D2126ÕAh°D2126ŒAmÕD7912§Aa°D21305Al°D2130{Ah°D2130|Am{D2728§Aa¢D2127D2130!Al¢D2127ND2130ƒAm+ÒAh¢D2127ND2130+ÚD3609§Aa°D2071AlÄAh°D2071AmD7068§Aa¢D2136>D2137KAlÄAm$ÁAh¢D2136'pD2137$ÁE22528§Aa°D2136IAl°D2136ÁAmÁAh°D2136ËD3818§Aa°D2152ÜAlÄAm~Ah°D2152~D7080§Aa°D2146<Al°D2146\000ÜùAm\000ÜùAh°D2146\000ÜûE10593§Aa¢D2138D21403Al¢D2138.tD2140QqAh¢D2138.uD2140QrAmQqD7909§Aa£D2136@D2138DD21402Al¢D2138aD2140VAh£D2136<D2138bD2140WAmVE22611§Aa°D2157AlÄAh°D2157NAmND8831§Aa°D2152”Al°D2152¡Am¡Ah°D2152¬E11108§Aa°D2140AlÄAm=Ah°D2140=D4306§Aa¶D2136YD2126kD2127	D2129»D2131]D2130aAl¶D2136øD2126∑D2127@D2129¥D2131úD2130õAh¶D2136«D2126¬D2127AD2129µD2131ùD2130§AmøD7969§Aa°D21512AlÄAmªÄAh°D2151ªÄD2745§Aa£D2131'D2127D2130Al£D2131£D2127\"¥D2130	øAm£Ah£D2131§D2127\"µD2130	¿D3821§Aa°D2152ùAl°D2152ëAmëAh°D2152íD2318§Aa°D20712Al°D2071 Am Ah°D2071!D9252§Aa°D2134Al°D2134IAmIAh°D2134JD2732§Aa¢D2127D2130(Al¢D2127⁄D2130ÓAmÓAh¢D2127€D2130D2735§Aa°D2130Al°D2130uAh°D2130vAmuE13468§Aa¢D2157KD21529AlÄAh¢D2157\0008¢D2152\000	'æAm\0008¢D3358§Aa°D2152˝Al°D2152úAmúAh°D2152ùD2449§Aa°D2152LAlÄAmAh°D2152D3355§Aa°D2152‰Al°D2152AmAh°D2152 C818§Aa°D2071uAl°D2071 Am Ah°D2071“D1705§Aa°D2126Al°D2126‚Ah°D2126„Am‚E11018§Aa¢D2140ÖD2144Al°D2140◊AmAh¢D2140ÿD2144D8393§Aa¢D2138iD21404AlÄAh¢D2138WD2140àÓAmàÓE14227§Aa¢D2145ªD21475Al°D2147ØAmØAh¢D2145†D2147∞D2744§Aa¢D21315D2130&Al¢D2131ãD2130ïAh¢D2131åD2130AmãC729§Aa°D2125ßAl°D2125AmAh°D2125D3357§Aa°D2152jAl°D2152\rAm\rAh°D2152C765§Aa°D21526Al°D2152ŒAmŒAh°D2152œD7989§Aa°D2151AlÄAmîAh°D2151îE13466§Aa¢D2157ãD2152YAl¢D2157ë˚D2152é∑Ah¢D2157ë¸D2152é∏Amë˚D2592§Aa§D2129QD2126∆D2125D2127?Al¢D2125ND2126*Ah§D2129D2126AD2125OD2127æAmC929§Aa°D2126JAlÄAh°D2126BAmBE15420§Aa°D2146∂Al°D2146AmAh°D2146D9249§Aa°D2134Al°D2134VAmVAh°D2134WE10286§Aa°D2134\\Al°D2134yAmyAh°D2134zD1980§Aa°D2141Al°D2141\000òıAm\000òıAh°D2141\000òˆE13464§Aa°D21579Al°D2157Ah°D2157AmD9298§Aa°D2134\rAlÄAh°D2134}Am}D5082§Aa°D2071Al°D2071\rAm\rAh°D2071\rE10513§Aa°D2138ÿAlÄAh°D21382Am2D8483§Aa°D2143AlÄAh°D2143'Am'D7971§Aa£D2132ND2131eD2134.Al£D2132ÀD2131ID2134XAmXAh£D2132D2131JD2134YC785§Aa°D2152πAlÄAmAh°D2152E12803§Aa£D2142UD2140`D2141wAl°D2141ÕAm≥Ah£D2142≥D2140¡D2141ŒE10512§Aa°D2138êAlÄAh°D2138AmD7067§Aa£D2132êD2133FD2130zAlÄAh£D2132Å·D2133qFD2130rfAmqFD6149§Aa°D2130êAl°D2130-Ah°D21300Am-D2450§Aa¢D2140¨D2152Al¢D2140ÇD2152FAmFAh¢D2140ÉD2152GD2734§Aa¢D2127D21305Al¢D2127ﬁD2130ãAmãAh¢D2127ﬂD2130ßD4337§Aa¢D2136RD2145iAl¢D2136ÌD2145«Am«Ah¢D2136ÓD2145»D4338§Aa™D2142ÖD2137°D2140™D2146öD2136vD2141KD2144ŒD2134ÖD2138bD2135Al©D2142D2137ìD2134+D2136D2141BD2144aD2140yD2138VD2135|Ah™D2142ÄD2137îD2140zD2146aD2136ÑD2141CD2144bD2134}D2138wD2135}AmaD5498§Aa¢D21326D2133BAl¢D2132•D2133YAmYAh¢D2132¶D2133ZOgr:727:of Power§Aa°D2071Al°D2071˛Am˛Ah°D2071ˇD2453§Aa°D21528Al°D2152ôAmôAh°D2152öD2725§Aa£D2131-D2127D2130%Al£D2131⁄D2127uD2130ÈAm⁄Ah£D2131€D2127vD2130ÍD2447§Aa°D2152ÖAl°D2152AmAh°D2152\rD7910§Aa¢D2141?D21327AlÄAm\nAh¢D2141\nD2132›D2632§Aa°D2071\rAl°D2071¥Am¥Ah°D2071µE12037§Aa°D2138ïAlÄAh°D2138NAmNGversionE20404§Aa°D2151£AlÄAm<ÇAh°D2151<ÇD2740§Aa¢D2127\nD2130\rAl¢D2127G=D2130∫Am∫Ah¢D2127G>D2130ªD9359§Aa°D2134AlÄAmú=Ah°D2134ú=D3036§Aa°D2071Al°D2071	¿Am	¿Ah°D2071	¡Pgr:2632:of Power§Aa°D2071\rAl°D2071¥Am¥Ah°D2071µD3827§Aa°D2130\\Al°D2130ÄAh°D2130ÅAmÄD2730§Aa¢D2127D2130Al¢D2127+ÍD2130AmAh¢D2127+ÎD2130D2452§Aa°D2152–Al°D2152WAmWAh°D2152XD7075§Aa°D2132uAl°D2132§Am§Ah°D2132•E14256§Aa¢D21387D2142tAlÄAmKÒAh¢D2138ND2142KÒE10285§Aa°D2136dAlÄAh°D2136AmD7975§Aa°D2138AlÄAh°D2138»Am»C727§Aa°D2071Al°D2071˛Am˛Ah°D2071ˇD6037§Aa°D2135SAl°D2135\nTAh°D2135\nUAm\nTE13463§Aa°D2157‘AlÄAh°D2157ΩAmΩD7070§Aa¢D21342D2135eAl°D2135:Am:Ah¢D2134õD2135;D2742§Aa¢D2127D2130-Al¢D2127◊D2130 Am Ah¢D2127ÿD2130ÌD2738§Aa£D2131D2127D2130!Al£D2131±D2127SD2130\rAm±Ah£D2131≤D2127TD2130∞D2772§Aa°D2133€Al°D2133\rüAm\rüAh°D2133\r†E12184§Aa°D2126Al°D2126√Ah°D2126ƒAm√E11178§Aa°D2151iAlÄAm.‡Ah°D2151.‡D8364§Aa°D2138zAlÄAh°D2138ÁAmÁD8846§Aa°D2138xAlÄAm»Ah°D2138»D3712§Aa°D2157˙Al°D2157FAh°D2157GAmFE13926§Aa°D2135BAlÄAh°D2135u\"Amu\"E17056§Aa°D2125lAlÄAh°D2125éAméD7990§Aa°D2138AlÄAh°D2138\nëAm\nëE18512§Aa°D2150*Al°D2150ﬁ˜Ah°D2150ﬁ¯Amﬁ˜D3864§Aa§D2132SD2126#D2131>D2130~Al¢D2132“D2126⁄Ah§D2132”D2126€D2131ÂD2130€Am“D3356§Aa°D21528AlÄAm2Ah°D21522D7993§Aa°D2138AlÄAh°D2138\n–Am\n–E11176§Aa°D2151QAlÄAmAh°D2151D2748§Aa¢D2127D2130Al¢D2127øD2130wAmwAh¢D2127¿D2130xE19933§Aa¢D2138@D2140[Al¢D2138˚D2140'Ah¢D2138¸D2140'Am'D5500§Aa¶D2136;D2137D2131#D2140<D2138<D2135$Al•D2137\0008~D2131≤D2140íD2138tD2135ñSAmíAh¶D2136°D2137\0008D2131≥D2140ìD2138uD2135ñTD3829§Aa°D2130tAlÄAh°D2130òAmòD2751§Aa¢D2127D2130Al°D2130›Am›Ah¢D2127©D2130ﬁE10561§Aa°D2140HAlÄAh°D21404∑Am4∑D8391§Aa°D2138\\Al°D2138*„Ah°D2138*‰Am*„E14046§Aa°D21572AlÄAh°D2157eèAmeè",
-}
-AUCTIONATOR_POSTING_HISTORY = {
-["3825"] = {
-{
-["price"] = 14894,
-["quantity"] = 16,
-["time"] = 1748244158,
-},
-{
-["price"] = 14807,
-["quantity"] = 1,
-["time"] = 1748310282,
-},
-},
-["1210"] = {
-{
-["price"] = 1360,
-["quantity"] = 1,
-["time"] = 1746241637,
-},
-{
-["price"] = 396,
-["quantity"] = 1,
-["time"] = 1746288920,
-},
-{
-["price"] = 776,
-["quantity"] = 2,
-["time"] = 1746448467,
-},
-{
-["price"] = 444,
-["quantity"] = 1,
-["time"] = 1747741290,
-},
-},
-["16703"] = {
-{
-["price"] = 104998,
-["quantity"] = 1,
-["time"] = 1748069388,
-},
-{
-["price"] = 44790,
-["quantity"] = 1,
-["time"] = 1748134967,
-},
-},
-["17056"] = {
-{
-["price"] = 1694,
-["quantity"] = 7,
-["time"] = 1756792185,
-},
-{
-["price"] = 1691,
-["quantity"] = 1,
-["time"] = 1756792876,
-},
-{
-["price"] = 1497,
-["quantity"] = 13,
-["time"] = 1756807072,
-},
-{
-["price"] = 397,
-["quantity"] = 8,
-["time"] = 1761446079,
-},
-},
-["2589"] = {
-{
-["price"] = 14,
-["quantity"] = 30,
-["time"] = 1746165435,
-},
-{
-["price"] = 32,
-["quantity"] = 11,
-["time"] = 1746190473,
-},
-{
-["price"] = 111,
-["quantity"] = 12,
-["time"] = 1746276455,
-},
-{
-["price"] = 37,
-["quantity"] = 8,
-["time"] = 1746288924,
-},
-{
-["price"] = 49,
-["quantity"] = 21,
-["time"] = 1746338016,
-},
-{
-["price"] = 33,
-["quantity"] = 5,
-["time"] = 1746365507,
-},
-},
-["15420"] = {
-{
-["price"] = 283,
-["quantity"] = 55,
-["time"] = 1763257828,
-},
-},
-["8838"] = {
-{
-["price"] = 1628,
-["quantity"] = 15,
-["time"] = 1748666975,
-},
-{
-["price"] = 1999,
-["quantity"] = 2,
-["time"] = 1749212846,
-},
-{
-["price"] = 2362,
-["quantity"] = 1,
-["time"] = 1749297332,
-},
-},
-["3356"] = {
-{
-["price"] = 53,
-["quantity"] = 2,
-["time"] = 1746365571,
-},
-{
-["price"] = 1468,
-["quantity"] = 11,
-["time"] = 1748164092,
-},
-{
-["price"] = 181,
-["quantity"] = 11,
-["time"] = 1748235495,
-},
-{
-["price"] = 298,
-["quantity"] = 11,
-["time"] = 1748671649,
-},
-},
-["7912"] = {
-{
-["price"] = 2939,
-["quantity"] = 35,
-["time"] = 1761907524,
-},
-},
-["13302"] = {
-{
-["price"] = 9656,
-["quantity"] = 1,
-["time"] = 1749371108,
-},
-},
-["14227"] = {
-{
-["price"] = 3236,
-["quantity"] = 4,
-["time"] = 1747981832,
-},
-{
-["price"] = 3381,
-["quantity"] = 1,
-["time"] = 1748008278,
-},
-{
-["price"] = 3999,
-["quantity"] = 3,
-["time"] = 1763198870,
-},
-{
-["price"] = 4527,
-["quantity"] = 1,
-["time"] = 1763374694,
-},
-},
-["9253"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1747356646,
-},
-},
-["14047"] = {
-{
-["price"] = 862,
-["quantity"] = 60,
-["time"] = 1747815314,
-},
-{
-["price"] = 683,
-["quantity"] = 40,
-["time"] = 1747919194,
-},
-{
-["price"] = 627,
-["quantity"] = 40,
-["time"] = 1747997378,
-},
-{
-["price"] = 797,
-["quantity"] = 40,
-["time"] = 1748008296,
-},
-{
-["price"] = 605,
-["quantity"] = 44,
-["time"] = 1748091294,
-},
-{
-["price"] = 886,
-["quantity"] = 20,
-["time"] = 1748666963,
-},
-{
-["price"] = 841,
-["quantity"] = 20,
-["time"] = 1748939876,
-},
-{
-["price"] = 1091,
-["quantity"] = 28,
-["time"] = 1749304389,
-},
-{
-["price"] = 796,
-["quantity"] = 14,
-["time"] = 1750560677,
-},
-{
-["price"] = 801,
-["quantity"] = 6,
-["time"] = 1750568552,
-},
-},
-["7078"] = {
-{
-["price"] = 2970,
-["quantity"] = 1,
-["time"] = 1747559026,
-},
-},
-["8831"] = {
-{
-["price"] = 1019,
-["quantity"] = 12,
-["time"] = 1748164088,
-},
-{
-["price"] = 3329,
-["quantity"] = 3,
-["time"] = 1748671638,
-},
-{
-["price"] = 1176,
-["quantity"] = 3,
-["time"] = 1748754690,
-},
-{
-["price"] = 449,
-["quantity"] = 12,
-["time"] = 1763771616,
-},
-},
-["2725"] = {
-{
-["price"] = 2996,
-["quantity"] = 1,
-["time"] = 1746884189,
-},
-{
-["price"] = 2992,
-["quantity"] = 1,
-["time"] = 1746929944,
-},
-{
-["price"] = 2610,
-["quantity"] = 1,
-["time"] = 1746970363,
-},
-{
-["price"] = 1987,
-["quantity"] = 1,
-["time"] = 1747001106,
-},
-{
-["price"] = 1397,
-["quantity"] = 1,
-["time"] = 1761642959,
-},
-{
-["price"] = 5097,
-["quantity"] = 1,
-["time"] = 1761883347,
-},
-{
-["price"] = 986,
-["quantity"] = 1,
-["time"] = 1761958168,
-},
-},
-["2745"] = {
-{
-["price"] = 1097,
-["quantity"] = 1,
-["time"] = 1746884178,
-},
-{
-["price"] = 8884,
-["quantity"] = 1,
-["time"] = 1761642995,
-},
-{
-["price"] = 2495,
-["quantity"] = 1,
-["time"] = 1761907590,
-},
-{
-["price"] = 1187,
-["quantity"] = 1,
-["time"] = 1761958179,
-},
-},
-["3821"] = {
-{
-["price"] = 3099,
-["quantity"] = 12,
-["time"] = 1748666967,
-},
-{
-["price"] = 3023,
-["quantity"] = 1,
-["time"] = 1748671646,
-},
-{
-["price"] = 2190,
-["quantity"] = 12,
-["time"] = 1748754694,
-},
-{
-["price"] = 1681,
-["quantity"] = 51,
-["time"] = 1763771638,
-},
-},
-["2450"] = {
-{
-["price"] = 159,
-["quantity"] = 3,
-["time"] = 1746338026,
-},
-{
-["price"] = 386,
-["quantity"] = 1,
-["time"] = 1762720929,
-},
-{
-["price"] = 582,
-["quantity"] = 81,
-["time"] = 1763771684,
-},
-},
-["774"] = {
-{
-["price"] = 195,
-["quantity"] = 2,
-["time"] = 1745986501,
-},
-{
-["price"] = 598,
-["quantity"] = 2,
-["time"] = 1746011630,
-},
-{
-["price"] = 688,
-["quantity"] = 1,
-["time"] = 1746448479,
-},
-{
-["price"] = 62,
-["quantity"] = 1,
-["time"] = 1747741273,
-},
-},
-["2449"] = {
-{
-["price"] = 100,
-["quantity"] = 2,
-["time"] = 1746099543,
-},
-},
-["2742"] = {
-{
-["price"] = 9998,
-["quantity"] = 2,
-["time"] = 1746604945,
-},
-{
-["price"] = 1236,
-["quantity"] = 1,
-["time"] = 1746884181,
-},
-{
-["price"] = 484,
-["quantity"] = 1,
-["time"] = 1746929956,
-},
-{
-["price"] = 1467,
-["quantity"] = 2,
-["time"] = 1747145056,
-},
-{
-["price"] = 1495,
-["quantity"] = 2,
-["time"] = 1761642992,
-},
-{
-["price"] = 748,
-["quantity"] = 2,
-["time"] = 1761883371,
-},
-{
-["price"] = 714,
-["quantity"] = 1,
-["time"] = 1761907579,
-},
-},
-["11018"] = {
-{
-["price"] = 2693,
-["quantity"] = 11,
-["time"] = 1747646152,
-},
-{
-["price"] = 983,
-["quantity"] = 49,
-["time"] = 1762721050,
-},
-{
-["price"] = 784,
-["quantity"] = 11,
-["time"] = 1763081087,
-},
-},
-["8393"] = {
-{
-["price"] = 22285,
-["quantity"] = 1,
-["time"] = 1762584133,
-},
-{
-["price"] = 35053,
-["quantity"] = 1,
-["time"] = 1762720933,
-},
-},
-["2744"] = {
-{
-["price"] = 798,
-["quantity"] = 2,
-["time"] = 1761883375,
-},
-{
-["price"] = 661,
-["quantity"] = 1,
-["time"] = 1761907584,
-},
-{
-["price"] = 5003,
-["quantity"] = 2,
-["time"] = 1761958175,
-},
-},
-["729"] = {
-{
-["price"] = 20,
-["quantity"] = 5,
-["time"] = 1761446074,
-},
-},
-["7070"] = {
-{
-["price"] = 23999,
-["quantity"] = 3,
-["time"] = 1746884159,
-},
-{
-["price"] = 24661,
-["quantity"] = 3,
-["time"] = 1746929935,
-},
-{
-["price"] = 28998,
-["quantity"] = 3,
-["time"] = 1746970343,
-},
-{
-["price"] = 27997,
-["quantity"] = 4,
-["time"] = 1747474970,
-},
-{
-["price"] = 21194,
-["quantity"] = 4,
-["time"] = 1747538378,
-},
-{
-["price"] = 24193,
-["quantity"] = 1,
-["time"] = 1747919176,
-},
-{
-["price"] = 21498,
-["quantity"] = 1,
-["time"] = 1748150003,
-},
-{
-["price"] = 49291,
-["quantity"] = 3,
-["time"] = 1757820972,
-},
-{
-["price"] = 8090,
-["quantity"] = 1,
-["time"] = 1762247434,
-},
-{
-["price"] = 6970,
-["quantity"] = 2,
-["time"] = 1762294830,
-},
-},
-["12203"] = {
-{
-["price"] = 225,
-["quantity"] = 8,
-["time"] = 1747405537,
-},
-},
-["13466"] = {
-{
-["price"] = 44894,
-["quantity"] = 4,
-["time"] = 1749123027,
-},
-{
-["price"] = 45681,
-["quantity"] = 18,
-["time"] = 1749212814,
-},
-{
-["price"] = 41982,
-["quantity"] = 40,
-["time"] = 1749280355,
-},
-{
-["price"] = 41494,
-["quantity"] = 26,
-["time"] = 1749361597,
-},
-{
-["price"] = 45492,
-["quantity"] = 24,
-["time"] = 1749447800,
-},
-{
-["price"] = 42399,
-["quantity"] = 45,
-["time"] = 1750474336,
-},
-{
-["price"] = 41188,
-["quantity"] = 8,
-["time"] = 1750488541,
-},
-{
-["price"] = 39893,
-["quantity"] = 30,
-["time"] = 1750568532,
-},
-{
-["price"] = 36535,
-["quantity"] = 20,
-["time"] = 1763793631,
-},
-{
-["price"] = 37371,
-["quantity"] = 14,
-["time"] = 1764195992,
-},
-},
-["8483"] = {
-{
-["price"] = 2681,
-["quantity"] = 11,
-["time"] = 1747361157,
-},
-},
-["929"] = {
-{
-["price"] = 321,
-["quantity"] = 4,
-["time"] = 1761520824,
-},
-},
-["13464"] = {
-{
-["price"] = 754,
-["quantity"] = 12,
-["time"] = 1748754676,
-},
-{
-["price"] = 365,
-["quantity"] = 11,
-["time"] = 1748930235,
-},
-{
-["price"] = 2154,
-["quantity"] = 6,
-["time"] = 1749013726,
-},
-{
-["price"] = 331,
-["quantity"] = 9,
-["time"] = 1749106354,
-},
-{
-["price"] = 848,
-["quantity"] = 4,
-["time"] = 1749212827,
-},
-{
-["price"] = 980,
-["quantity"] = 18,
-["time"] = 1749280368,
-},
-{
-["price"] = 816,
-["quantity"] = 25,
-["time"] = 1749361606,
-},
-{
-["price"] = 880,
-["quantity"] = 2,
-["time"] = 1749447808,
-},
-{
-["price"] = 905,
-["quantity"] = 16,
-["time"] = 1750568542,
-},
-{
-["price"] = 1305,
-["quantity"] = 2,
-["time"] = 1764195973,
-},
-},
-["5082"] = {
-{
-["price"] = 3332,
-["quantity"] = 1,
-["time"] = 1756797025,
-},
-},
-["19441"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1747981836,
-},
-},
-["12803"] = {
-{
-["price"] = 13967,
-["quantity"] = 1,
-["time"] = 1747552419,
-},
-{
-["price"] = 1472,
-["quantity"] = 1,
-["time"] = 1762720955,
-},
-{
-["price"] = 1997,
-["quantity"] = 2,
-["time"] = 1762821823,
-},
-},
-["6149"] = {
-{
-["price"] = 3887,
-["quantity"] = 20,
-["time"] = 1761907931,
-},
-{
-["price"] = 3885,
-["quantity"] = 2,
-["time"] = 1761907948,
-},
-},
-["12204"] = {
-{
-["price"] = 3862,
-["quantity"] = 1,
-["time"] = 1747405534,
-},
-},
-["gr:727:of Power"] = {
-{
-["price"] = 4094,
-["quantity"] = 1,
-["time"] = 1756785983,
-},
-},
-["2842"] = {
-{
-["price"] = 1423,
-["quantity"] = 1,
-["time"] = 1746190467,
-},
-{
-["price"] = 1294,
-["quantity"] = 2,
-["time"] = 1746338000,
-},
-},
-["8836"] = {
-{
-["price"] = 489,
-["quantity"] = 7,
-["time"] = 1748333321,
-},
-},
-["12037"] = {
-{
-["price"] = 102,
-["quantity"] = 16,
-["time"] = 1747405560,
-},
-},
-["9251"] = {
-{
-["price"] = 9998,
-["quantity"] = 1,
-["time"] = 1747356649,
-},
-},
-["3928"] = {
-{
-["price"] = 2427,
-["quantity"] = 9,
-["time"] = 1748244166,
-},
-{
-["price"] = 2423,
-["quantity"] = 14,
-["time"] = 1748244885,
-},
-},
-["3036"] = {
-{
-["price"] = 2496,
-["quantity"] = 1,
-["time"] = 1756807047,
-},
-},
-["3730"] = {
-{
-["price"] = 239,
-["quantity"] = 4,
-["time"] = 1746366862,
-},
-},
-["2730"] = {
-{
-["price"] = 1166,
-["quantity"] = 1,
-["time"] = 1746604950,
-},
-{
-["price"] = 5794,
-["quantity"] = 1,
-["time"] = 1746929951,
-},
-{
-["price"] = 408,
-["quantity"] = 1,
-["time"] = 1747447565,
-},
-{
-["price"] = 11242,
-["quantity"] = 4,
-["time"] = 1761642971,
-},
-{
-["price"] = 5658,
-["quantity"] = 3,
-["time"] = 1761883355,
-},
-},
-["5504"] = {
-{
-["price"] = 119,
-["quantity"] = 9,
-["time"] = 1746338033,
-},
-{
-["price"] = 184,
-["quantity"] = 21,
-["time"] = 1746531243,
-},
-{
-["price"] = 95,
-["quantity"] = 23,
-["time"] = 1746862191,
-},
-},
-["11205"] = {
-{
-["price"] = 8496,
-["quantity"] = 2,
-["time"] = 1747195359,
-},
-},
-["3182"] = {
-{
-["price"] = 1234,
-["quantity"] = 1,
-["time"] = 1746241617,
-},
-{
-["price"] = 993,
-["quantity"] = 3,
-["time"] = 1746337995,
-},
-},
-["2772"] = {
-{
-["price"] = 3487,
-["quantity"] = 3,
-["time"] = 1762165489,
-},
-},
-["18944"] = {
-{
-["price"] = 584,
-["quantity"] = 15,
-["time"] = 1747538199,
-},
-},
-["4338"] = {
-{
-["price"] = 387,
-["quantity"] = 33,
-["time"] = 1762426348,
-},
-{
-["price"] = 403,
-["quantity"] = 35,
-["time"] = 1762511720,
-},
-{
-["price"] = 374,
-["quantity"] = 16,
-["time"] = 1762559207,
-},
-{
-["price"] = 342,
-["quantity"] = 9,
-["time"] = 1762568722,
-},
-{
-["price"] = 365,
-["quantity"] = 3,
-["time"] = 1762583139,
-},
-{
-["price"] = 377,
-["quantity"] = 32,
-["time"] = 1762758999,
-},
-{
-["price"] = 322,
-["quantity"] = 3,
-["time"] = 1762821790,
-},
-{
-["price"] = 383,
-["quantity"] = 7,
-["time"] = 1762930960,
-},
-{
-["price"] = 353,
-["quantity"] = 34,
-["time"] = 1763081084,
-},
-{
-["price"] = 352,
-["quantity"] = 14,
-["time"] = 1763257833,
-},
-},
-["2734"] = {
-{
-["price"] = 990,
-["quantity"] = 2,
-["time"] = 1761642979,
-},
-{
-["price"] = 5030,
-["quantity"] = 2,
-["time"] = 1761883361,
-},
-{
-["price"] = 2186,
-["quantity"] = 3,
-["time"] = 1761907576,
-},
-},
-["3819"] = {
-{
-["price"] = 25986,
-["quantity"] = 1,
-["time"] = 1747405614,
-},
-},
-["9187"] = {
-{
-["price"] = 8348,
-["quantity"] = 11,
-["time"] = 1748238886,
-},
-{
-["price"] = 7538,
-["quantity"] = 10,
-["time"] = 1748310260,
-},
-},
-["12607"] = {
-{
-["price"] = 8639,
-["quantity"] = 1,
-["time"] = 1750492370,
-},
-},
-["21306"] = {
-{
-["price"] = 109966,
-["quantity"] = 1,
-["time"] = 1756525769,
-},
-},
-["9252"] = {
-{
-["price"] = 7497,
-["quantity"] = 3,
-["time"] = 1762247393,
-},
-},
-["2318"] = {
-{
-["price"] = 288,
-["quantity"] = 1,
-["time"] = 1756792167,
-},
-},
-["13465"] = {
-{
-["price"] = 19757,
-["quantity"] = 3,
-["time"] = 1749212819,
-},
-{
-["price"] = 18463,
-["quantity"] = 19,
-["time"] = 1749280361,
-},
-{
-["price"] = 17873,
-["quantity"] = 11,
-["time"] = 1749361600,
-},
-{
-["price"] = 17787,
-["quantity"] = 14,
-["time"] = 1749447804,
-},
-{
-["price"] = 22479,
-["quantity"] = 19,
-["time"] = 1750474346,
-},
-{
-["price"] = 21499,
-["quantity"] = 5,
-["time"] = 1750488544,
-},
-{
-["price"] = 18926,
-["quantity"] = 19,
-["time"] = 1750504705,
-},
-{
-["price"] = 17874,
-["quantity"] = 24,
-["time"] = 1750560671,
-},
-{
-["price"] = 17574,
-["quantity"] = 10,
-["time"] = 1750568536,
-},
-{
-["price"] = 5915,
-["quantity"] = 3,
-["time"] = 1764195969,
-},
-},
-["4234"] = {
-{
-["price"] = 594,
-["quantity"] = 3,
-["time"] = 1747187422,
-},
-},
-["12205"] = {
-{
-["price"] = 769,
-["quantity"] = 13,
-["time"] = 1747370736,
-},
-{
-["price"] = 725,
-["quantity"] = 3,
-["time"] = 1747405566,
-},
-{
-["price"] = 498,
-["quantity"] = 9,
-["time"] = 1747981854,
-},
-},
-["4480"] = {
-{
-["price"] = 24924,
-["quantity"] = 1,
-["time"] = 1746970298,
-},
-},
-["2749"] = {
-{
-["price"] = 2597,
-["quantity"] = 2,
-["time"] = 1761643007,
-},
-{
-["price"] = 560,
-["quantity"] = 1,
-["time"] = 1761883381,
-},
-{
-["price"] = 496,
-["quantity"] = 1,
-["time"] = 1761907593,
-},
-{
-["price"] = 1534,
-["quantity"] = 1,
-["time"] = 1761958182,
-},
-},
-["7075"] = {
-{
-["price"] = 458,
-["quantity"] = 1,
-["time"] = 1747026761,
-},
-{
-["price"] = 2980,
-["quantity"] = 1,
-["time"] = 1762081202,
-},
-},
-["16713"] = {
-{
-["price"] = 39751,
-["quantity"] = 2,
-["time"] = 1748071695,
-},
-{
-["price"] = 199998,
-["quantity"] = 2,
-["time"] = 1748134963,
-},
-{
-["price"] = 39999,
-["quantity"] = 2,
-["time"] = 1748163988,
-},
-{
-["price"] = 34989,
-["quantity"] = 1,
-["time"] = 1748235501,
-},
-{
-["price"] = 34368,
-["quantity"] = 1,
-["time"] = 1748310278,
-},
-},
-["3864"] = {
-{
-["price"] = 1493,
-["quantity"] = 1,
-["time"] = 1746929900,
-},
-{
-["price"] = 964,
-["quantity"] = 1,
-["time"] = 1746970366,
-},
-{
-["price"] = 2197,
-["quantity"] = 2,
-["time"] = 1747026788,
-},
-{
-["price"] = 9657,
-["quantity"] = 2,
-["time"] = 1747145096,
-},
-{
-["price"] = 2095,
-["quantity"] = 1,
-["time"] = 1747741268,
-},
-{
-["price"] = 1196,
-["quantity"] = 1,
-["time"] = 1747806588,
-},
-{
-["price"] = 1498,
-["quantity"] = 1,
-["time"] = 1761560573,
-},
-{
-["price"] = 3290,
-["quantity"] = 1,
-["time"] = 1761907554,
-},
-{
-["price"] = 2020,
-["quantity"] = 1,
-["time"] = 1761979800,
-},
-{
-["price"] = 1490,
-["quantity"] = 1,
-["time"] = 1762036149,
-},
-},
-["2728"] = {
-{
-["price"] = 4984,
-["quantity"] = 1,
-["time"] = 1746884186,
-},
-{
-["price"] = 1045,
-["quantity"] = 1,
-["time"] = 1746929948,
-},
-{
-["price"] = 1878,
-["quantity"] = 2,
-["time"] = 1747145075,
-},
-{
-["price"] = 19998,
-["quantity"] = 2,
-["time"] = 1761642963,
-},
-{
-["price"] = 708,
-["quantity"] = 4,
-["time"] = 1761883351,
-},
-{
-["price"] = 11249,
-["quantity"] = 1,
-["time"] = 1761907559,
-},
-},
-["13307"] = {
-{
-["price"] = 9996,
-["quantity"] = 1,
-["time"] = 1749371115,
-},
-},
-["5498"] = {
-{
-["price"] = 346,
-["quantity"] = 1,
-["time"] = 1746241632,
-},
-{
-["price"] = 710,
-["quantity"] = 1,
-["time"] = 1746440070,
-},
-{
-["price"] = 671,
-["quantity"] = 5,
-["time"] = 1746531249,
-},
-{
-["price"] = 482,
-["quantity"] = 1,
-["time"] = 1746862199,
-},
-{
-["price"] = 3749,
-["quantity"] = 1,
-["time"] = 1762081189,
-},
-{
-["price"] = 1369,
-["quantity"] = 1,
-["time"] = 1762119262,
-},
-},
-["1529"] = {
-{
-["price"] = 2193,
-["quantity"] = 1,
-["time"] = 1747033108,
-},
-},
-["3818"] = {
-{
-["price"] = 7897,
-["quantity"] = 13,
-["time"] = 1748163853,
-},
-{
-["price"] = 7299,
-["quantity"] = 2,
-["time"] = 1748666972,
-},
-{
-["price"] = 7054,
-["quantity"] = 5,
-["time"] = 1748671632,
-},
-{
-["price"] = 7037,
-["quantity"] = 15,
-["time"] = 1763771642,
-},
-},
-["8845"] = {
-{
-["price"] = 14467,
-["quantity"] = 3,
-["time"] = 1749297129,
-},
-},
-["10593"] = {
-{
-["price"] = 11892,
-["quantity"] = 3,
-["time"] = 1762583178,
-},
-{
-["price"] = 20849,
-["quantity"] = 3,
-["time"] = 1762720943,
-},
-},
-["7909"] = {
-{
-["price"] = 3151,
-["quantity"] = 1,
-["time"] = 1747707598,
-},
-{
-["price"] = 3924,
-["quantity"] = 1,
-["time"] = 1747741277,
-},
-{
-["price"] = 3296,
-["quantity"] = 1,
-["time"] = 1747806584,
-},
-{
-["price"] = 7483,
-["quantity"] = 1,
-["time"] = 1762426365,
-},
-{
-["price"] = 5473,
-["quantity"] = 1,
-["time"] = 1762583136,
-},
-{
-["price"] = 6998,
-["quantity"] = 1,
-["time"] = 1762720920,
-},
-},
-["13468"] = {
-{
-["price"] = 708699,
-["quantity"] = 3,
-["time"] = 1749021290,
-},
-{
-["price"] = 699987,
-["quantity"] = 1,
-["time"] = 1749106336,
-},
-{
-["price"] = 689899,
-["quantity"] = 1,
-["time"] = 1749123023,
-},
-{
-["price"] = 669857,
-["quantity"] = 3,
-["time"] = 1749280350,
-},
-{
-["price"] = 659745,
-["quantity"] = 1,
-["time"] = 1749361590,
-},
-{
-["price"] = 658998,
-["quantity"] = 1,
-["time"] = 1749371056,
-},
-{
-["price"] = 749599,
-["quantity"] = 2,
-["time"] = 1750488537,
-},
-{
-["price"] = 714693,
-["quantity"] = 1,
-["time"] = 1750568521,
-},
-{
-["price"] = 978773,
-["quantity"] = 1,
-["time"] = 1756525750,
-},
-{
-["price"] = 538785,
-["quantity"] = 1,
-["time"] = 1764195998,
-},
-},
-["13443"] = {
-{
-["price"] = 24999,
-["quantity"] = 1,
-["time"] = 1747569848,
-},
-{
-["price"] = 31884,
-["quantity"] = 2,
-["time"] = 1747707680,
-},
-{
-["price"] = 31998,
-["quantity"] = 1,
-["time"] = 1747830207,
-},
-{
-["price"] = 24999,
-["quantity"] = 1,
-["time"] = 1747889549,
-},
-{
-["price"] = 24998,
-["quantity"] = 22,
-["time"] = 1748252389,
-},
-},
-["2732"] = {
-{
-["price"] = 4940,
-["quantity"] = 1,
-["time"] = 1746884184,
-},
-{
-["price"] = 693,
-["quantity"] = 1,
-["time"] = 1746929953,
-},
-{
-["price"] = 561,
-["quantity"] = 1,
-["time"] = 1746970360,
-},
-{
-["price"] = 1498,
-["quantity"] = 2,
-["time"] = 1761642975,
-},
-{
-["price"] = 532,
-["quantity"] = 2,
-["time"] = 1761883358,
-},
-{
-["price"] = 494,
-["quantity"] = 1,
-["time"] = 1761907561,
-},
-},
-["1015"] = {
-{
-["price"] = 481,
-["quantity"] = 1,
-["time"] = 1747405576,
-},
-},
-["8839"] = {
-{
-["price"] = 13999,
-["quantity"] = 1,
-["time"] = 1748671642,
-},
-},
-["12207"] = {
-{
-["price"] = 1067,
-["quantity"] = 7,
-["time"] = 1747207279,
-},
-},
-["818"] = {
-{
-["price"] = 747,
-["quantity"] = 1,
-["time"] = 1746011634,
-},
-{
-["price"] = 1488,
-["quantity"] = 1,
-["time"] = 1746448483,
-},
-{
-["price"] = 395,
-["quantity"] = 1,
-["time"] = 1746488045,
-},
-{
-["price"] = 395,
-["quantity"] = 1,
-["time"] = 1747741286,
-},
-{
-["price"] = 721,
-["quantity"] = 1,
-["time"] = 1756785994,
-},
-{
-["price"] = 714,
-["quantity"] = 1,
-["time"] = 1756791616,
-},
-},
-["1705"] = {
-{
-["price"] = 8992,
-["quantity"] = 1,
-["time"] = 1746365478,
-},
-{
-["price"] = 2519,
-["quantity"] = 1,
-["time"] = 1746402651,
-},
-{
-["price"] = 2387,
-["quantity"] = 1,
-["time"] = 1746448471,
-},
-{
-["price"] = 4895,
-["quantity"] = 1,
-["time"] = 1747741281,
-},
-{
-["price"] = 3298,
-["quantity"] = 1,
-["time"] = 1761560588,
-},
-},
-["11078"] = {
-{
-["price"] = 366,
-["quantity"] = 1,
-["time"] = 1747919183,
-},
-},
-["3357"] = {
-{
-["price"] = 722,
-["quantity"] = 2,
-["time"] = 1748163931,
-},
-{
-["price"] = 590,
-["quantity"] = 1,
-["time"] = 1749297132,
-},
-{
-["price"] = 525,
-["quantity"] = 31,
-["time"] = 1763771652,
-},
-},
-["5500"] = {
-{
-["price"] = 2099,
-["quantity"] = 1,
-["time"] = 1746448475,
-},
-{
-["price"] = 1995,
-["quantity"] = 1,
-["time"] = 1746531253,
-},
-{
-["price"] = 1491,
-["quantity"] = 1,
-["time"] = 1747741265,
-},
-{
-["price"] = 1458,
-["quantity"] = 1,
-["time"] = 1761979796,
-},
-{
-["price"] = 38483,
-["quantity"] = 1,
-["time"] = 1762338225,
-},
-{
-["price"] = 5024,
-["quantity"] = 1,
-["time"] = 1762426360,
-},
-{
-["price"] = 79998,
-["quantity"] = 1,
-["time"] = 1762511794,
-},
-{
-["price"] = 4980,
-["quantity"] = 1,
-["time"] = 1762559204,
-},
-{
-["price"] = 5778,
-["quantity"] = 1,
-["time"] = 1762720924,
-},
-},
-["8153"] = {
-{
-["price"] = 12178,
-["quantity"] = 7,
-["time"] = 1747145091,
-},
-{
-["price"] = 11183,
-["quantity"] = 1,
-["time"] = 1747538259,
-},
-{
-["price"] = 9594,
-["quantity"] = 1,
-["time"] = 1747569880,
-},
-{
-["price"] = 9998,
-["quantity"] = 2,
-["time"] = 1748163925,
-},
-},
-["12808"] = {
-{
-["price"] = 2976,
-["quantity"] = 1,
-["time"] = 1747997313,
-},
-{
-["price"] = 5989,
-["quantity"] = 1,
-["time"] = 1749212831,
-},
-{
-["price"] = 5593,
-["quantity"] = 1,
-["time"] = 1749280374,
-},
-{
-["price"] = 4063,
-["quantity"] = 3,
-["time"] = 1749304402,
-},
-},
-["2452"] = {
-{
-["price"] = 6743,
-["quantity"] = 29,
-["time"] = 1763771677,
-},
-},
-["3667"] = {
-{
-["price"] = 71,
-["quantity"] = 6,
-["time"] = 1747405529,
-},
-},
-["3355"] = {
-{
-["price"] = 6687,
-["quantity"] = 23,
-["time"] = 1763771663,
-},
-},
-["10286"] = {
-{
-["price"] = 599,
-["quantity"] = 7,
-["time"] = 1747552432,
-},
-{
-["price"] = 633,
-["quantity"] = 2,
-["time"] = 1762247374,
-},
-},
-["765"] = {
-{
-["price"] = 206,
-["quantity"] = 49,
-["time"] = 1763771631,
-},
-},
-["7080"] = {
-{
-["price"] = 99997,
-["quantity"] = 1,
-["time"] = 1763257813,
-},
-},
-["16736"] = {
-{
-["price"] = 559996,
-["quantity"] = 1,
-["time"] = 1748666939,
-},
-{
-["price"] = 559996,
-["quantity"] = 1,
-["time"] = 1748754657,
-},
-{
-["price"] = 559994,
-["quantity"] = 1,
-["time"] = 1748777895,
-},
-},
-["1980"] = {
-{
-["price"] = 956661,
-["quantity"] = 1,
-["time"] = 1762821830,
-},
-},
-["8391"] = {
-{
-["price"] = 10979,
-["quantity"] = 2,
-["time"] = 1762584138,
-},
-},
-["4589"] = {
-{
-["price"] = 9090,
-["quantity"] = 1,
-["time"] = 1762338222,
-},
-},
-["7971"] = {
-{
-["price"] = 1489,
-["quantity"] = 2,
-["time"] = 1747145102,
-},
-{
-["price"] = 7497,
-["quantity"] = 2,
-["time"] = 1761979794,
-},
-{
-["price"] = 1995,
-["quantity"] = 1,
-["time"] = 1762036145,
-},
-{
-["price"] = 3586,
-["quantity"] = 1,
-["time"] = 1762081181,
-},
-{
-["price"] = 1880,
-["quantity"] = 2,
-["time"] = 1762247366,
-},
-},
-["2632"] = {
-{
-["price"] = 2996,
-["quantity"] = 1,
-["time"] = 1756807051,
-},
-},
-["6037"] = {
-{
-["price"] = 2644,
-["quantity"] = 2,
-["time"] = 1762294838,
-},
-},
-["13094"] = {
-{
-["price"] = 159152,
-["quantity"] = 1,
-["time"] = 1746365472,
-},
-{
-["price"] = 159152,
-["quantity"] = 2,
-["time"] = 1746440055,
-},
-{
-["price"] = 159150,
-["quantity"] = 1,
-["time"] = 1746488039,
-},
-{
-["price"] = 249156,
-["quantity"] = 1,
-["time"] = 1746523047,
-},
-{
-["price"] = 249156,
-["quantity"] = 1,
-["time"] = 1746559863,
-},
-{
-["price"] = 199999,
-["quantity"] = 1,
-["time"] = 1746604281,
-},
-{
-["price"] = 159999,
-["quantity"] = 1,
-["time"] = 1746762920,
-},
-},
-["7067"] = {
-{
-["price"] = 80997,
-["quantity"] = 1,
-["time"] = 1747026768,
-},
-{
-["price"] = 82897,
-["quantity"] = 4,
-["time"] = 1747405300,
-},
-{
-["price"] = 29285,
-["quantity"] = 8,
-["time"] = 1761907539,
-},
-{
-["price"] = 33248,
-["quantity"] = 2,
-["time"] = 1762081198,
-},
-{
-["price"] = 28997,
-["quantity"] = 2,
-["time"] = 1762119269,
-},
-},
-["18512"] = {
-{
-["price"] = 37992,
-["quantity"] = 1,
-["time"] = 1756525766,
-},
-{
-["price"] = 57079,
-["quantity"] = 2,
-["time"] = 1763589692,
-},
-},
-["2748"] = {
-{
-["price"] = 3346,
-["quantity"] = 1,
-["time"] = 1746884163,
-},
-{
-["price"] = 577,
-["quantity"] = 1,
-["time"] = 1746929959,
-},
-{
-["price"] = 992,
-["quantity"] = 3,
-["time"] = 1747145051,
-},
-{
-["price"] = 4798,
-["quantity"] = 1,
-["time"] = 1747447561,
-},
-{
-["price"] = 959,
-["quantity"] = 3,
-["time"] = 1761643000,
-},
-{
-["price"] = 7799,
-["quantity"] = 2,
-["time"] = 1761883378,
-},
-},
-["13444"] = {
-{
-["price"] = 58783,
-["quantity"] = 2,
-["time"] = 1748333457,
-},
-},
-["4337"] = {
-{
-["price"] = 853,
-["quantity"] = 1,
-["time"] = 1747187414,
-},
-{
-["price"] = 990,
-["quantity"] = 5,
-["time"] = 1747370749,
-},
-{
-["price"] = 8432,
-["quantity"] = 1,
-["time"] = 1747919148,
-},
-{
-["price"] = 1496,
-["quantity"] = 2,
-["time"] = 1747981841,
-},
-{
-["price"] = 990,
-["quantity"] = 1,
-["time"] = 1747997292,
-},
-{
-["price"] = 898,
-["quantity"] = 1,
-["time"] = 1748008282,
-},
-{
-["price"] = 749,
-["quantity"] = 2,
-["time"] = 1762414400,
-},
-{
-["price"] = 967,
-["quantity"] = 3,
-["time"] = 1763198850,
-},
-},
-["13479"] = {
-{
-["price"] = 31392,
-["quantity"] = 1,
-["time"] = 1748754697,
-},
-{
-["price"] = 31389,
-["quantity"] = 1,
-["time"] = 1748777902,
-},
-{
-["price"] = 14998,
-["quantity"] = 1,
-["time"] = 1748862757,
-},
-},
-["2675"] = {
-{
-["price"] = 47,
-["quantity"] = 6,
-["time"] = 1746366875,
-},
-},
-["__dbversion"] = 1,
-["2453"] = {
-{
-["price"] = 1433,
-["quantity"] = 26,
-["time"] = 1763771669,
-},
-},
-["3731"] = {
-{
-["price"] = 457,
-["quantity"] = 10,
-["time"] = 1747405519,
-},
-},
-["1401"] = {
-{
-["price"] = 522,
-["quantity"] = 6,
-["time"] = 1746099535,
-},
-},
-["18335"] = {
-{
-["price"] = 3361,
-["quantity"] = 1,
-["time"] = 1750492367,
-},
-{
-["price"] = 1658,
-["quantity"] = 1,
-["time"] = 1750560704,
-},
-},
-["19933"] = {
-{
-["price"] = 2262,
-["quantity"] = 4,
-["time"] = 1747981878,
-},
-{
-["price"] = 2299,
-["quantity"] = 2,
-["time"] = 1762583152,
-},
-{
-["price"] = 9999,
-["quantity"] = 2,
-["time"] = 1762720947,
-},
-},
-["3712"] = {
-{
-["price"] = 619,
-["quantity"] = 7,
-["time"] = 1747405522,
-},
-{
-["price"] = 1094,
-["quantity"] = 7,
-["time"] = 1764195979,
-},
-},
-["9249"] = {
-{
-["price"] = 4078,
-["quantity"] = 1,
-["time"] = 1747361150,
-},
-{
-["price"] = 1878,
-["quantity"] = 1,
-["time"] = 1762247396,
-},
-},
-["4305"] = {
-{
-["price"] = 1138,
-["quantity"] = 1,
-["time"] = 1747538151,
-},
-{
-["price"] = 929,
-["quantity"] = 1,
-["time"] = 1747997300,
-},
-},
-["4306"] = {
-{
-["price"] = 164,
-["quantity"] = 9,
-["time"] = 1747026782,
-},
-{
-["price"] = 167,
-["quantity"] = 22,
-["time"] = 1747033237,
-},
-{
-["price"] = 183,
-["quantity"] = 38,
-["time"] = 1761520819,
-},
-{
-["price"] = 193,
-["quantity"] = 37,
-["time"] = 1761560581,
-},
-{
-["price"] = 320,
-["quantity"] = 50,
-["time"] = 1761642433,
-},
-{
-["price"] = 180,
-["quantity"] = 36,
-["time"] = 1761814139,
-},
-{
-["price"] = 155,
-["quantity"] = 35,
-["time"] = 1761884094,
-},
-{
-["price"] = 163,
-["quantity"] = 79,
-["time"] = 1761907551,
-},
-{
-["price"] = 156,
-["quantity"] = 40,
-["time"] = 1761958149,
-},
-{
-["price"] = 191,
-["quantity"] = 9,
-["time"] = 1762426341,
-},
-},
-["7076"] = {
-{
-["price"] = 35194,
-["quantity"] = 1,
-["time"] = 1747981861,
-},
-{
-["price"] = 29996,
-["quantity"] = 1,
-["time"] = 1748059629,
-},
-},
-["2447"] = {
-{
-["price"] = 12,
-["quantity"] = 38,
-["time"] = 1763771695,
-},
-},
-["2735"] = {
-{
-["price"] = 578,
-["quantity"] = 1,
-["time"] = 1747145070,
-},
-{
-["price"] = 629,
-["quantity"] = 1,
-["time"] = 1761907951,
-},
-},
-["3827"] = {
-{
-["price"] = 1152,
-["quantity"] = 6,
-["time"] = 1761907656,
-},
-},
-["4479"] = {
-{
-["price"] = 620,
-["quantity"] = 6,
-["time"] = 1746970315,
-},
-},
-["7972"] = {
-{
-["price"] = 1294,
-["quantity"] = 1,
-["time"] = 1748235488,
-},
-},
-["10285"] = {
-{
-["price"] = 29980,
-["quantity"] = 1,
-["time"] = 1746945904,
-},
-{
-["price"] = 1196,
-["quantity"] = 1,
-["time"] = 1747001101,
-},
-},
-["14256"] = {
-{
-["price"] = 40999,
-["quantity"] = 3,
-["time"] = 1747707627,
-},
-{
-["price"] = 19990,
-["quantity"] = 2,
-["time"] = 1762568718,
-},
-{
-["price"] = 19440,
-["quantity"] = 1,
-["time"] = 1762930964,
-},
-},
-["8949"] = {
-{
-["price"] = 2496,
-["quantity"] = 32,
-["time"] = 1748236952,
-},
-{
-["price"] = 7477,
-["quantity"] = 27,
-["time"] = 1748310270,
-},
-},
-["2740"] = {
-{
-["price"] = 944,
-["quantity"] = 3,
-["time"] = 1747145062,
-},
-{
-["price"] = 18237,
-["quantity"] = 3,
-["time"] = 1761642988,
-},
-{
-["price"] = 954,
-["quantity"] = 2,
-["time"] = 1761883367,
-},
-},
-["2592"] = {
-{
-["price"] = 136,
-["quantity"] = 9,
-["time"] = 1746604985,
-},
-{
-["price"] = 114,
-["quantity"] = 13,
-["time"] = 1746847774,
-},
-{
-["price"] = 394,
-["quantity"] = 16,
-["time"] = 1746884197,
-},
-{
-["price"] = 87,
-["quantity"] = 16,
-["time"] = 1746929927,
-},
-{
-["price"] = 131,
-["quantity"] = 9,
-["time"] = 1746970377,
-},
-{
-["price"] = 334,
-["quantity"] = 23,
-["time"] = 1761466405,
-},
-{
-["price"] = 298,
-["quantity"] = 6,
-["time"] = 1761520813,
-},
-{
-["price"] = 320,
-["quantity"] = 9,
-["time"] = 1761560585,
-},
-{
-["price"] = 189,
-["quantity"] = 2,
-["time"] = 1761642439,
-},
-{
-["price"] = 284,
-["quantity"] = 2,
-["time"] = 1761814143,
-},
-},
-["11737"] = {
-{
-["price"] = 3069998,
-["quantity"] = 1,
-["time"] = 1748080117,
-},
-{
-["price"] = 2887103,
-["quantity"] = 1,
-["time"] = 1748097103,
-},
-{
-["price"] = 2667084,
-["quantity"] = 1,
-["time"] = 1748134954,
-},
-},
-["13463"] = {
-{
-["price"] = 6079,
-["quantity"] = 10,
-["time"] = 1748930231,
-},
-{
-["price"] = 5739,
-["quantity"] = 16,
-["time"] = 1749013730,
-},
-{
-["price"] = 6053,
-["quantity"] = 6,
-["time"] = 1749106357,
-},
-{
-["price"] = 5640,
-["quantity"] = 16,
-["time"] = 1749212823,
-},
-{
-["price"] = 5463,
-["quantity"] = 22,
-["time"] = 1749280371,
-},
-{
-["price"] = 6486,
-["quantity"] = 15,
-["time"] = 1749361609,
-},
-{
-["price"] = 5923,
-["quantity"] = 19,
-["time"] = 1749447812,
-},
-{
-["price"] = 6399,
-["quantity"] = 20,
-["time"] = 1750474340,
-},
-{
-["price"] = 6494,
-["quantity"] = 18,
-["time"] = 1750568539,
-},
-{
-["price"] = 1980,
-["quantity"] = 6,
-["time"] = 1764195976,
-},
-},
-["7068"] = {
-{
-["price"] = 44423,
-["quantity"] = 1,
-["time"] = 1746970356,
-},
-{
-["price"] = 41198,
-["quantity"] = 1,
-["time"] = 1747538193,
-},
-{
-["price"] = 45998,
-["quantity"] = 1,
-["time"] = 1747559028,
-},
-{
-["price"] = 10095,
-["quantity"] = 1,
-["time"] = 1762414389,
-},
-{
-["price"] = 9446,
-["quantity"] = 1,
-["time"] = 1762511791,
-},
-},
-["1710"] = {
-{
-["price"] = 734,
-["quantity"] = 6,
-["time"] = 1747707641,
-},
-{
-["price"] = 749,
-["quantity"] = 34,
-["time"] = 1748151649,
-},
-{
-["price"] = 543,
-["quantity"] = 1,
-["time"] = 1748163813,
-},
-{
-["price"] = 540,
-["quantity"] = 2,
-["time"] = 1748164105,
-},
-{
-["price"] = 493,
-["quantity"] = 10,
-["time"] = 1748235506,
-},
-},
-["2738"] = {
-{
-["price"] = 1076,
-["quantity"] = 2,
-["time"] = 1747145067,
-},
-{
-["price"] = 595,
-["quantity"] = 2,
-["time"] = 1761642984,
-},
-{
-["price"] = 1199,
-["quantity"] = 1,
-["time"] = 1761883364,
-},
-{
-["price"] = 1037,
-["quantity"] = 1,
-["time"] = 1761907581,
-},
-{
-["price"] = 689,
-["quantity"] = 1,
-["time"] = 1761958171,
-},
-},
-["13134"] = {
-{
-["price"] = 77986,
-["quantity"] = 1,
-["time"] = 1747707619,
-},
-},
-["12184"] = {
-{
-["price"] = 222,
-["quantity"] = 13,
-["time"] = 1747405552,
-},
-{
-["price"] = 195,
-["quantity"] = 18,
-["time"] = 1761560596,
-},
-},
-["13304"] = {
-{
-["price"] = 9999,
-["quantity"] = 1,
-["time"] = 1749371111,
-},
-},
-["8951"] = {
-{
-["price"] = 8437,
-["quantity"] = 10,
-["time"] = 1748236957,
-},
-},
-["11137"] = {
-{
-["price"] = 443,
-["quantity"] = 1,
-["time"] = 1749304381,
-},
-},
-["7910"] = {
-{
-["price"] = 7273,
-["quantity"] = 1,
-["time"] = 1747645255,
-},
-{
-["price"] = 11896,
-["quantity"] = 1,
-["time"] = 1747715923,
-},
-{
-["price"] = 5981,
-["quantity"] = 1,
-["time"] = 1747919152,
-},
-{
-["price"] = 6488,
-["quantity"] = 1,
-["time"] = 1747997295,
-},
-{
-["price"] = 6497,
-["quantity"] = 1,
-["time"] = 1748059621,
-},
-{
-["price"] = 8731,
-["quantity"] = 1,
-["time"] = 1748945330,
-},
-{
-["price"] = 6999,
-["quantity"] = 1,
-["time"] = 1749013734,
-},
-{
-["price"] = 7388,
-["quantity"] = 1,
-["time"] = 1762081185,
-},
-{
-["price"] = 6921,
-["quantity"] = 1,
-["time"] = 1762821819,
-},
-},
-["3358"] = {
-{
-["price"] = 2191,
-["quantity"] = 2,
-["time"] = 1746884201,
-},
-{
-["price"] = 824,
-["quantity"] = 1,
-["time"] = 1748671635,
-},
-{
-["price"] = 412,
-["quantity"] = 40,
-["time"] = 1763771645,
-},
-},
-["16724"] = {
-{
-["price"] = 229999,
-["quantity"] = 1,
-["time"] = 1748080135,
-},
-},
-["727"] = {
-{
-["price"] = 4094,
-["quantity"] = 1,
-["time"] = 1756785983,
-},
-},
-["7069"] = {
-{
-["price"] = 4405,
-["quantity"] = 3,
-["time"] = 1746929941,
-},
-{
-["price"] = 673,
-["quantity"] = 1,
-["time"] = 1746970351,
-},
-{
-["price"] = 861,
-["quantity"] = 1,
-["time"] = 1747981872,
-},
-{
-["price"] = 1997,
-["quantity"] = 1,
-["time"] = 1761520809,
-},
-},
-["2750"] = {
-{
-["price"] = 573,
-["quantity"] = 1,
-["time"] = 1747145044,
-},
-{
-["price"] = 532,
-["quantity"] = 1,
-["time"] = 1761883472,
-},
-{
-["price"] = 2192,
-["quantity"] = 1,
-["time"] = 1761958185,
-},
-},
-["1206"] = {
-{
-["price"] = 6998,
-["quantity"] = 1,
-["time"] = 1746337992,
-},
-{
-["price"] = 6589,
-["quantity"] = 1,
-["time"] = 1746448462,
-},
-},
-["3685"] = {
-{
-["price"] = 343,
-["quantity"] = 14,
-["time"] = 1746366872,
-},
-{
-["price"] = 334,
-["quantity"] = 7,
-["time"] = 1747405526,
-},
-{
-["price"] = 190,
-["quantity"] = 20,
-["time"] = 1761560599,
-},
-{
-["price"] = 97,
-["quantity"] = 3,
-["time"] = 1761642436,
-},
-},
-["16712"] = {
-{
-["price"] = 949998,
-["quantity"] = 1,
-["time"] = 1748598988,
-},
-},
-["12202"] = {
-{
-["price"] = 415,
-["quantity"] = 10,
-["time"] = 1747405540,
-},
-},
-["7079"] = {
-{
-["price"] = 1176,
-["quantity"] = 4,
-["time"] = 1747474966,
-},
-{
-["price"] = 4346,
-["quantity"] = 2,
-["time"] = 1747889557,
-},
-{
-["price"] = 794,
-["quantity"] = 1,
-["time"] = 1749297337,
-},
-},
-["3282"] = {
-{
-["price"] = 787,
-["quantity"] = 1,
-["time"] = 1756807057,
-},
-},
-["gr:2632:of Power"] = {
-{
-["price"] = 2996,
-["quantity"] = 1,
-["time"] = 1756807051,
-},
-},
-["2751"] = {
-{
-["price"] = 9996,
-["quantity"] = 3,
-["time"] = 1746884174,
-},
-{
-["price"] = 797,
-["quantity"] = 3,
-["time"] = 1746929964,
-},
-{
-["price"] = 733,
-["quantity"] = 2,
-["time"] = 1761883501,
-},
-},
-["13926"] = {
-{
-["price"] = 29985,
-["quantity"] = 1,
-["time"] = 1762294844,
-},
-},
-["22528"] = {
-{
-["price"] = 231,
-["quantity"] = 1,
-["time"] = 1762414385,
-},
-},
-["19236"] = {
-{
-["price"] = 16595,
-["quantity"] = 1,
-["time"] = 1747824521,
-},
-{
-["price"] = 16577,
-["quantity"] = 1,
-["time"] = 1747871671,
-},
-},
-}
-AUCTIONATOR_VENDOR_PRICE_CACHE = {
-["848"] = 1755,
-["2880"] = 100,
-["837"] = 1012,
-["13483"] = 15000,
-["840"] = 768,
-["1835"] = 28,
-["8948"] = 800,
-["5173"] = 100,
-["3590"] = 520,
-["3137"] = 1,
-["159"] = 4.4,
-["851"] = 1821,
-["2901"] = 81,
-["5565"] = 4500,
-["2523"] = 28285,
-["18046"] = 12000,
-["17032"] = 1800,
-["4607"] = 200,
-["3607"] = 133,
-["2930"] = 50,
-["14341"] = 4500,
-["5439"] = 90,
-["847"] = 1749,
-["850"] = 883,
-["6256"] = 23,
-["17028"] = 630,
-["2287"] = 22.4,
-["3466"] = 2000,
-["4536"] = 4.4,
-["2428"] = 18200,
-["17189"] = 12043,
-["2507"] = 1576,
-["17192"] = 3959,
-["846"] = 1307,
-["4604"] = 5,
-["19027"] = 5000,
-["8952"] = 720,
-["21099"] = 450,
-["2604"] = 50,
-["193"] = 43,
-["2149"] = 3957,
-["17187"] = 970,
-["2524"] = 19192,
-["2723"] = 45,
-["2414"] = 720000,
-["2427"] = 18131,
-["8766"] = 720,
-["839"] = 509,
-["6217"] = 124,
-["2525"] = 26489,
-["838"] = 1015,
-["18794"] = 9000000,
-["18256"] = 5400,
-["1836"] = 28,
-["2490"] = 486,
-["19205"] = 40000,
-["4542"] = 90,
-["2526"] = 19336,
-["2397"] = 194,
-["17031"] = 900,
-["4544"] = 180,
-["4602"] = 360,
-["16072"] = 9000,
-["2424"] = 19315,
-["3424"] = 500000,
-["4341"] = 500,
-["2521"] = 30896,
-["17030"] = 1800,
-["6530"] = 100,
-["5374"] = 350,
-["2480"] = 65,
-["2422"] = 7981,
-["2511"] = 1192,
-["2028"] = 4558,
-["4537"] = 22.4,
-["3771"] = 180,
-["16060"] = 360,
-["1201"] = 473,
-["2426"] = 29311,
-["16113"] = 5000,
-["2451"] = 39266,
-["4400"] = 2000,
-["13501"] = 30000,
-["2492"] = 256,
-["2491"] = 436,
-["2324"] = 22,
-["3894"] = 26987,
-["2512"] = 0.05,
-["9304"] = 8000,
-["4470"] = 38,
-["2325"] = 1000,
-["2375"] = 156,
-["2134"] = 74,
-["19329"] = 40000,
-["4471"] = 135,
-["5656"] = 720000,
-["17036"] = 720,
-["2153"] = 5334,
-["4601"] = 360,
-["1205"] = 90,
-["925"] = 7017,
-["4592"] = 3.6,
-["17035"] = 360,
-["13724"] = 1200,
-["4541"] = 22.4,
-["853"] = 2168,
-["8090"] = 12095,
-["2425"] = 38769,
-["2366"] = 268,
-["2531"] = 56169,
-["3606"] = 132,
-["21552"] = 360,
-["__dbversion"] = 1,
-["2605"] = 90,
-["4600"] = 340,
-["16112"] = 2200,
-["3033"] = 1.35,
-["2692"] = 40,
-["21177"] = 135,
-["15277"] = 720000,
-["15807"] = 265,
-["12232"] = 4500,
-["5655"] = 720000,
-["15903"] = 7305,
-["2506"] = 285,
-["3423"] = 20000,
-["2423"] = 38493,
-["13482"] = 15000,
-["12819"] = 16000,
-["2132"] = 92,
-["12231"] = 2700,
-["8030"] = 10000,
-["17186"] = 243,
-["1202"] = 1655,
-["2024"] = 5470,
-["17037"] = 1260,
-["22767"] = 50000,
-["2030"] = 4990,
-["3030"] = 1.5,
-["2527"] = 29356,
-["3371"] = 3.6,
-["5060"] = 1500,
-["2371"] = 170,
-["2148"] = 2616,
-["3589"] = 518,
-["3111"] = 0.075,
-["7371"] = 1800,
-["2947"] = 0.075,
-["3026"] = 3431,
-["15907"] = 7413,
-["22768"] = 50000,
-["1196"] = 1993,
-["22209"] = 50000,
-["17190"] = 31148,
-["852"] = 1565,
-["2495"] = 454,
-["15808"] = 3276,
-["8091"] = 12140,
-["2374"] = 156,
-["2418"] = 15731,
-["2479"] = 96,
-["2373"] = 233,
-["843"] = 969,
-["4605"] = 25,
-["13810"] = 1200,
-["8088"] = 12002,
-["8925"] = 450,
-["1194"] = 94,
-["1707"] = 180,
-["15809"] = 13222,
-["422"] = 90,
-["5140"] = 25,
-["2593"] = 135,
-["4289"] = 50,
-["18795"] = 9000000,
-["19442"] = 100000,
-["2151"] = 2647,
-["16084"] = 10000,
-["4496"] = 500,
-["13813"] = 1200,
-["2393"] = 185,
-["922"] = 10834,
-["2678"] = 2,
-["3419"] = 500,
-["2070"] = 4.4,
-["3024"] = 6388,
-["2395"] = 290,
-["2394"] = 374,
-["1843"] = 652,
-["12233"] = 3000,
-["11020"] = 9000,
-["3713"] = 160,
-["2025"] = 4774,
-["85"] = 56,
-["2131"] = 49,
-["2321"] = 100,
-["2509"] = 373,
-["714"] = 29,
-["3421"] = 200,
-["2522"] = 22548,
-["2396"] = 194,
-["2420"] = 11937,
-["3420"] = 5000,
-["1179"] = 22.4,
-["10648"] = 500,
-["844"] = 648,
-["117"] = 4.4,
-["3025"] = 18478,
-["15909"] = 19896,
-["2533"] = 61107,
-["4291"] = 500,
-["2928"] = 20,
-["4342"] = 2500,
-["1853"] = 1521,
-["16583"] = 9000,
-["1198"] = 2408,
-["2494"] = 361,
-["6260"] = 45,
-["3131"] = 0.15,
-["2370"] = 339,
-["5048"] = 50,
-["210"] = 40,
-["2535"] = 61556,
-["2130"] = 49,
-["2488"] = 482,
-["2446"] = 5564,
-["18793"] = 9000000,
-["3927"] = 360,
-["11141"] = 2000,
-["8957"] = 720,
-["2421"] = 7952,
-["5042"] = 45,
-["2520"] = 24628,
-["17029"] = 900,
-["6532"] = 250,
-["4399"] = 200,
-["923"] = 7869,
-["2150"] = 2637,
-["2532"] = 52608,
-["17038"] = 1800,
-["15811"] = 24419,
-["2515"] = 0.25,
-["2208"] = 3285,
-["926"] = 8806,
-["2029"] = 3977,
-["17021"] = 630,
-["12958"] = 50000,
-["16059"] = 360,
-["209"] = 54,
-["7005"] = 82,
-["8092"] = 18281,
-["9303"] = 8000,
-["8089"] = 18073,
-["21219"] = 4500,
-["17026"] = 900,
-["3108"] = 1,
-["4497"] = 20000,
-["18776"] = 9000000,
-["11285"] = 5,
-["2530"] = 52219,
-["4606"] = 100,
-["924"] = 9875,
-["12823"] = 20000,
-["15327"] = 4,
-["3596"] = 21,
-["4540"] = 4.4,
-["17020"] = 900,
-["10290"] = 2250,
-["15810"] = 9130,
-["22250"] = 900,
-["18567"] = 150000,
-["2596"] = 108,
-["2519"] = 0.225,
-["15904"] = 19537,
-["194"] = 44,
-["1844"] = 655,
-["8923"] = 200,
-["4498"] = 2500,
-["2665"] = 18,
-["15326"] = 4,
-["2369"] = 135,
-["2529"] = 65031,
-["4599"] = 360,
-["195"] = 32,
-["8093"] = 24467,
-["2207"] = 2151,
-["2320"] = 10,
-["711"] = 22,
-["787"] = 4.4,
-["10647"] = 2000,
-["2489"] = 308,
-["12240"] = 6300,
-["286"] = 2906,
-["2417"] = 15673,
-["22766"] = 50000,
-["414"] = 22.4,
-["3857"] = 500,
-["4538"] = 90,
-["13485"] = 15000,
-["2026"] = 5657,
-["18777"] = 9000000,
-["287"] = 2197,
-["17034"] = 180,
-["19217"] = 40000,
-["18778"] = 9000000,
-["3891"] = 12284,
-["22214"] = 50000,
-["8953"] = 720,
-["2534"] = 45431,
-["8950"] = 720,
-["2101"] = 4,
-["1197"] = 2399,
-["718"] = 1453,
-["19216"] = 22000,
-["4608"] = 400,
-["11362"] = 900,
-["2139"] = 51,
-["4340"] = 350,
-["2367"] = 201,
-["3107"] = 0.375,
-["19328"] = 22000,
-["6529"] = 45,
-["5976"] = 10000,
-["6261"] = 900,
-["4539"] = 180,
-["2946"] = 0.15,
-["15290"] = 720000,
-["2516"] = 0.045,
-["1845"] = 877,
-["5956"] = 18,
-["2027"] = 3434,
-["3027"] = 5714,
-["3135"] = 0.375,
-["11444"] = 800,
-["854"] = 2720,
-["1645"] = 360,
-["2528"] = 51836,
-["1852"] = 1516,
-["184937"] = 10000,
-["8094"] = 24561,
-["11284"] = 4.5,
-["1708"] = 180,
-["8343"] = 2000,
-["845"] = 1302,
-["11109"] = 25,
-["19203"] = 22000,
-["927"] = 6258,
-["8924"] = 100,
-["15906"] = 1924,
-["2209"] = 6404,
-["2493"] = 631,
-["3023"] = 3394,
-["2392"] = 372,
-["2152"] = 5315,
-["3428"] = 360,
-["928"] = 8874,
-["2448"] = 16158,
-["1846"] = 880,
-["17033"] = 1800,
-["4594"] = 180,
-["12228"] = 4500,
-["12703"] = 40000,
-["3422"] = 2000,
-["15905"] = 1917,
-["11022"] = 900,
-["2372"] = 309,
-["3372"] = 36,
-["2595"] = 1800,
-["5441"] = 900,
-["8932"] = 720,
-["3770"] = 90,
-["12239"] = 6300,
-["4593"] = 90,
-["20075"] = 1800,
-["2419"] = 7894,
-["2364"] = 266,
-["849"] = 1326,
-["2594"] = 1350,
-["4595"] = 300,
-["3595"] = 21,
-["22014"] = 1333333,
-["19447"] = 60000,
-["19446"] = 30000,
-["285"] = 3200,
-}
-AUCTIONATOR_RECENT_SEARCHES = {
-"runecloth bag",
-"dream dust",
-"large radiant",
-"mithril spurs",
-"encrypted twilight",
-"wastewander",
-"\"mithril casing\";;0;0;0;0;0;0;0;0;;#;;",
-"mithril casing",
-"mithril",
-"gromsblood",
-"silk cloth",
-"long elegant feather",
-"frost oil",
-"page 27",
-"page 26",
-"page 25",
-"mageweave cloth",
-"traveler's backpack",
-"solid grinding stone",
-"mithril bar",
-"sungrass",
-"small radiant shard",
-"black lotus",
-"vision dust",
-"ghost mushroom",
-"recipe: invisibility",
-"invisibility",
-"ghpst mush",
-"swiftness",
-"mongoose",
+	["Spineshatter Alliance"] = "\184\173d4371x\028\164aa\161d1950\024\238al\128am\024\227ah\161d1950\024\227d3825xL\164aa\163d1972\024rd1973\024Zd1964\024\138al\162d1972\025:.d1973\0259\215ah\163d1972\025:/d1973\0259\216d1964\02581am\0259\215e13067x!\164aa\161d1966\002al\128am\026\000\n\174`ah\161d1966\026\000\n\174`d1210x[\164aa\164d1950\024>d1949\024>d1966\024Sd1951\024;al\162d1950\025\001\140d1951\025\003\008ah\164d1950\025\001\141d1949\025\005Qd1966\025\001\189d1951\025\003\tam\025\001\189e16703x@\164aa\162d1970\td1971\024\029al\162d1970\026\000\001\154&d1971\025\174\246ah\162d1970\026\000\001\154'd1971\025\174\247am\025\174\246e13444x/\164aa\162d1972\024\142d1973\024>al\128ah\162d1972\026\000\0018td1973\025\229\160am\025\229\160d2589xO\164aa\163d1948\025\002bd1949\025\002Zd1950\025\003Gal\163d1948\rd1949\024od1950\024\"am\024\"ah\163d1948\024!d1949\024pd1950\0242e13467x\030\164aa\161d1973\024\252al\128am\025M\159ah\161d1973\025M\159d3731x&\164aa\161d1963\024\238al\161d1963\025\001\201ah\161d1963\025\001\202am\025\001\201e13302x%\164aa\161d1985\001al\161d1985\025%\184ah\161d1985\025%\185am\025%\184e14227x5\164aa\162d1964\024\183d1969\024\191al\161d1969\025\r5ah\162d1964\025\008\152d1969\025\r6am\025\r5d9253x%\164aa\161d1962\002al\161d1962\025'\015ah\161d1962\025'\016am\025'\015e14047xg\164aa\164d1985\025\003\139d1999\025\002\206d1984\025\003\182d1980\025\001\003al\163d1999\025\003\028d1984\025\004Cd1980\025\003Iam\025\003!ah\164d1985\025\002\167d1999\025\003\"d1984\025\004Dd1980\025\003Jd7078x6\164aa\162d1964\024\193d1970\025\0018al\161d1964\025\011\154am\025\006\252ah\162d1964\025\011\155d1970\025\006\252c858x;\164aa\163d1963\025\001]d1970\024\204d1959\025\001\253al\128ah\163d1963\024\029d1970\024=d1959\025\001\027am\024=d8831xW\164aa\163d1978\025\002\rd1971\025\002!d1977\025\001\012al\163d1978\025\004\152d1977\025\r\001d1971\025\003\251ah\163d1978\025\004\153d1971\025\003\252d1977\025\r\002am\025\004\152d2725xL\164aa\163d1956\024\028d1958\0244d1957\024%al\162d1956\025\011\180d1957\025\n2am\025\007\196ah\163d1956\025\011\181d1958\025\007\196d1957\025\011\177d2745x%\164aa\161d1956\008al\161d1956\025\004Iah\161d1956\025\004Jam\025\004Id3821x6\164aa\162d1978\024\212d1977\025\001ral\161d1977\025\011\207ah\162d1978\025\008\143d1977\025\012\028am\025\008\143d2450x\028\164aa\161d1950\024\127al\128am\024\160ah\161d1950\024\160d2735x&\164aa\161d1959\024\024al\161d1959\025\002Bah\161d1959\025\002Cam\025\002Bd2449x$\164aa\161d1947\025\001\154al\161d1947\024dah\161d1947\024eam\024dd8951x&\164aa\161d1972\024,al\161d1972\025 \245ah\161d1972\025 \246am\025 \245e11018x&\164aa\161d1965\024\250al\161d1965\025\n\133ah\161d1965\025\n\134am\025\n\133d2744x\029\164aa\161d1953\005al\128am\025\001\142ah\161d1953\025\001\142d4597x\029\164aa\161d1959\007al\128am\025'\015ah\161d1959\025'\015d7070xx\164aa\166d1964\024ed1957\024Od1971\024Wd1956\005d1968\024\\d1963\024~al\162d1971\025S\250d1956\025]\191am\025S\250ah\166d1964\025R\203d1957\025qGd1971\025S\251d1956\025]\192d1968\025^\130d1963\025m^e12203x>\164aa\163d1964\024\143d1966\024\236d1963\024\161al\161d1963\024\225ah\163d1964\rd1966\024Wd1963\024\226am\024We13466x\250\164aa\170d1986\025\001\155d1981\024Ad1980\025\001/d1979\024\152d1984\024\173d1999\024\224d1985\025\001<d1982\024}d1998\025\001Wd1983\025\001\226al\170d1986\025\177\180d1981\025\159\181d1985\025\162\022d1979\025\169}d1984\025\163\254d1999\025\155\213d1983\025\178qd1980\025\166Rd1998\025\160\228d1982\025\175^ah\170d1986\025\177\181d1981\025\159\182d1980\025\169=d1979\025\169~d1984\025\163\255d1999\025\155\214d1985\025\162\023d1982\025\179Fd1998\025\165\160d1983\025\178ram\025\155\213d8483x&\164aa\161d1962\024|al\161d1962\025\nyah\161d1962\025\nzam\025\nyc929x:\164aa\163d1959\024\247d1970\024id1963\025\001\187al\128ah\163d1959\024\248d1970\024\195d1963\025\001\168am\024\195d2748xi\164aa\164d1959\024$d1956\017d1957\024\027d1963\014al\164d1963\025\018\190d1956\025\r\018d1957\025\002Ad1959\025\003\224ah\164d1959\025\003\225d1956\025\r\019d1957\025\002Bd1963\025\018\191am\025\018\190e19441x&\164aa\161d1969\024Qal\161d1969\025'\015ah\161d1969\025'\016am\025'\015e12803x'\164aa\161d1964\025\001(al\161d1964\0256\143ah\161d1964\0256\144am\0256\143d3174x)\164aa\162d1950\024\168d1949\024|al\128ah\162d1950\024\030d1949\014am\024\030d1206x5\164aa\162d1950\024Id1951\024;al\161d1950\025\027Vam\025\025\190ah\162d1950\025\027Wd1951\025\025\190e12208x7\164aa\162d1967\025\001gd1963\025\001\011al\161d1963\025\002\025ah\162d1967\025\003{d1963\025\003Pam\025\003{c118x+\164aa\162d1959\024\241d1963\025\001oal\128ah\162d1959\024\027d1963\024#am\024#d2842xG\164aa\163d1950\025\001\001d1958\025\002\155d1948\025\001\184al\161d1948\025\005\143ah\163d1950\025\005\015d1958\025\005gd1948\025\005\144am\025\005gd8836x&\164aa\161d1973\024\243al\161d1973\025\001\233ah\161d1973\025\001\234am\025\001\233e16735x-\164aa\162d1964\005d1965\tal\128ah\162d1964\026\000\001\017Qd1965\025\156<am\025\156<e12037x#\164aa\161d1963\024xal\161d1963\024fam\024fah\161d1963\024ge13480x+\164aa\162d1963\004d1959\011al\128ah\162d1963\025i\020d1959\025\195Pam\025i\020d9295x!\164aa\161d1977\tal\128ah\161d1977\026\000\001\234\026am\026\000\001\234\026d9251x%\164aa\161d1962\002al\161d1962\025'\014ah\161d1962\025'\015am\025'\014d3928xF\164aa\163d1972\024\128d1963\025\003\007d1959\025\003aal\161d1972\025\twam\025\twah\163d1972\025\t|d1963\025\005Jd1959\025\004\"e13479x;\164aa\162d1978\005d1979\005al\162d1978\025z\157d1979\025:\150ah\162d1978\025z\161d1979\025:\151am\025:\150d2730xQ\164aa\163d1953\016d1957\020d1963\015al\163d1953\025\004\142d1957\025\022\162d1963\025\001\152ah\163d1953\025\004\143d1957\025\022\163d1963\025\001\153am\025\001\152e12804x\030\164aa\161d1999\024sal\128am\025\007\224ah\161d1999\025\007\224d5504xj\164aa\165d1951\024\175d1952\024\245d1953\024\198d1956\024\222d1950\024\181al\163d1950\024wd1956\024_d1952\024\184am\024_ah\165d1951\025\001\139d1952\024\185d1953\024Cd1956\024`d1950\024xe11205x%\164aa\161d1960\004al\161d1960\025!0am\025!0ah\161d1960\025!1d3182x=\164aa\162d1950\024\"d1949\024,al\162d1950\025\003\225d1949\025\004\210ah\162d1950\025\003\226d1949\025\004\211am\025\003\225e18944x'\164aa\161d1964\025\003zal\161d1964\025\002Hah\161d1964\025\002Iam\025\002Hd4338xO\164aa\164d1953\025\003\017d1956\025\001\156d1966\025\001\242d1962\025\0021al\128ah\164d1953\025\001\139d1956\025\001\150d1966\025\001\133d1962\025\001\135am\025\001\133d3819x\030\164aa\161d1963\024ual\128am\025e\131ah\161d1963\025e\131d9187x=\164aa\162d1972\024\174d1973\024\145al\162d1972\025 \156d1973\025\029ram\025\029rah\162d1972\025 \157d1973\025\029sd9249x%\164aa\161d1962\006al\161d1962\025\015\238ah\161d1962\025\015\239am\025\015\238d3823x\030\164aa\161d1977\024wal\128ah\161d1977\025:4am\025:4e19933x&\164aa\161d1969\024Ial\161d1969\025\008\214ah\161d1969\025\008\215am\025\008\214x\027gr:11970:of Fire Resistancex\029\164aa\161d1958\002al\128am\025!\151ah\161d1958\025!\151d3830x\029\164aa\161d1964\005al\128am\025\003\220ah\161d1964\025\003\220e13465x\210\164aa\169d1986\024\216d1981\024\234d1980\024\136d1982\024\130d1984\025\001;d1999\024\204d1985\025\001Cd1998\025\001\196d1983\025\002\231al\167d1986\025E{d1981\025F=d1985\025E\209d1984\025H\031d1983\025M-d1998\025I\238d1999\025D\166ah\169d1986\025E|d1981\025F>d1980\025Bzd1982\025J\178d1984\025H d1999\025E\211d1985\025E\210d1998\025W\208d1983\025M.am\025D\166d4234x'\164aa\161d1960\025\001\217al\161d1960\025\002Rah\161d1960\025\002Sam\025\002Re12205xL\164aa\163d1963\024\136d1969\024qd1962\024\138al\162d1969\025\001\242d1962\025\003\001am\025\001\242ah\163d1963\025\002\214d1969\025\001\243d1962\025\003\002d4480x&\164aa\161d1957\024\027al\161d1957\025a\\ah\161d1957\025a]am\025a\\d4278x\030\164aa\161d1956\024 al\128am\025\022\167ah\161d1956\025\022\167d7075xD\164aa\163d1969\024\169d1958\024Yd1963\024\161al\161d1958\025\001\202ah\163d1969\025\002%d1958\025\001\203d1963\025\001\139am\025\002%e16713xl\164aa\164d1972\nd1970\024%d1973\024\025d1971\024\"al\164d1972\025\136\173d1973\025\134@d1970\025\155Gd1971\025\156?ah\164d1972\025\136\174d1970\025\155Hd1973\025\134Ad1971\026\000\003\r?am\025\134@d3864xz\164aa\165d1967\024;d1957\024nd1958\024<d1966\0247d1959\024-al\164d1967\025\004\172d1957\025\003\196d1958\025\008\149d1959\025%\185am\025\004\172ah\165d1967\025\004\173d1957\025\005\214d1958\025\008\150d1966\025\0080d1959\025%\186e12555x!\164aa\161d1965\001al\128am\026\000'\2114ah\161d1965\026\000'\2114d2728xR\164aa\163d1956\024\024d1957\019d1959\014al\163d1956\025\019xd1957\025\004\021d1959\025\007Vah\163d1956\025\019yd1957\025\004\022d1959\025\007Wam\025\007Vd7974x#\164aa\161d1963\024cal\161d1963\024,ah\161d1963\024-am\024,e13307x%\164aa\161d1985\001al\161d1985\025'\012ah\161d1985\025'\ram\025'\012d7068x5\164aa\162d1964\024\155d1957\024_al\161d1964\025\179\174ah\162d1964\025\179\175d1957\025\173\136am\025\179\174e10620x\031\164aa\161d1969\025\001\178al\128am\025\008xah\161d1969\025\008xe12528x1\164aa\162d1966\001d1965\002al\128am\026\000\001\152\233ah\162d1966\026\000\001\152\233d1965\026\000\001_jd7076x-\164aa\162d1969\024\207d1970\024Zal\128ah\162d1969\025\137{d1970\025u-am\025u-d3818x5\164aa\162d1977\024bd1971\024\183al\161d1977\025\027\142ah\162d1977\025\028\132d1971\025\030\218am\025\027\142d7966x\030\164aa\161d1998\024\193al\128am\025#\017ah\161d1998\025#\017d8845x/\164aa\162d1984\025\001\028d1977\025\001@al\128am\0258\132ah\162d1984\0258\132d1977\025G\239d7909x5\164aa\162d1966\024@d1967\0248al\161d1967\025\012\224ah\162d1966\025\015Ud1967\025\012\225am\025\012\224e20424x\030\164aa\161d1969\024\176al\128am\025L8ah\161d1969\025L8e13468x,\164aa\161d2068\0246al\161d2068\026\000\014\239Uah\161d2068\026\000\014\239Vam\026\000\014\239Ud9172x\030\164aa\161d1977\024%al\128ah\161d1977\025U\154am\025U\154e13446x=\164aa\163d1977\024\195d1959\025\002\024d1963\024\222al\128am\025'\016ah\163d1977\025'\016d1959\0258\146d1963\025DGe13443xr\164aa\165d1967\024[d1972\024ld1964\024Gd1966\024_d1968\024Val\163d1972\025a\166d1964\025a\167d1968\025a\167am\025a\166ah\165d1967\025|\255d1972\025a\167d1964\025a\168d1966\025|\141d1968\025a\168d2732x;\164aa\162d1956\020d1957\022al\162d1957\025\0021d1956\025\019Lah\162d1956\025\019Md1957\025\002\182am\025\0021d1015x5\164aa\162d1950\024]d1963\024\182al\161d1963\025\001\225am\025\001\225ah\162d1950\025\002\202d1963\025\001\226d8839x\030\164aa\161d1977\024\164al\128am\0256\176ah\161d1977\0256\176e12207x5\164aa\162d1959\024}d1960\024\149al\161d1960\025\004+am\025\004+ah\162d1959\025\001\243d1960\025\004,e17414x\029\164aa\161d1969\004al\128am\025:0ah\161d1969\025:0d4596x\029\164aa\161d1959\nal\128am\025\015\158ah\161d1959\025\015\158c818x[\164aa\164d1946\024kd1951\024;d1952\024<d1966\024Pal\162d1952\025\001\139d1966\025\001\139ah\164d1946\025\002\236d1951\025\005\209d1952\025\001\140d1966\025\001\140am\025\001\139e11737xF\164aa\162d1970\0242d1971\014al\162d1970\026\000,\r\192d1971\026\000(\178Lah\162d1970\026\000.\216/d1971\026\000(\178Mam\026\000(\178Ld5498xR\164aa\164d1956\024:d1951\024Kd1952\024Bd1949\024:al\161d1949\024\199ah\164d1956\025\001\227d1951\025\002\199d1952\025\002\160d1949\025\001[am\025\001\227d3828x\029\164aa\161d1977\001al\128ah\161d1977\025\019\135am\025\019\135e12607x3\164aa\162d1998\rd1999\012al\161d1998\025!\191am\025\030\216ah\162d1998\025!\192d1999\025\030\216d3357x?\164aa\162d1984\025\001qd1971\025\001\214al\162d1984\025\002Nd1971\025\002\210ah\162d1984\025\002Od1971\025\002\211am\025\002Ne11078x&\164aa\161d1968\0242al\161d1968\025\001nah\161d1968\025\001oam\025\001nd7972x5\164aa\162d1972\024\191d1965\024\173al\161d1972\025\005\014am\025\005\014ah\162d1972\025\005\015d1965\025\001\162d5500xS\164aa\163d1951\024,d1952\022d1966\024Ual\163d1951\025\0083d1952\025\007\203d1966\025\005\211ah\163d1951\025\0084d1952\025\007\204d1966\025\005\212am\025\005\211d4500x\"\164aa\161d1999\0242al\128am\026\000\003[ ah\161d1999\026\000\003[ d3358x'\164aa\161d1977\025\001\189al\161d1977\025\0038ah\161d1977\025\0039am\025\0038d2592x|\164aa\165d1951\025\002\132d1950\024\150d1956\025\003\201d1953\025\003,d1957\025\002\252al\165d1957\024Wd1950\024\026d1956\024rd1951\024Fd1953\024\136am\024\131ah\165d1951\024\186d1950\024Kd1956\025\001\139d1953\024\137d1957\024\132d2799x+\164aa\162d1963\024rd1959\024aal\128ah\162d1963\024Od1959\025\002\199am\024Od3667x#\164aa\161d1963\024\149al\161d1963\024Gah\161d1963\024Ham\024Ge18945x\029\164aa\161d1966\025\004qal\128am\024`ah\161d1966\024`e10286xD\164aa\163d1964\024\190d1966\024\149d1962\024\252al\161d1962\025\002-ah\163d1964\025\002Xd1966\025\001\152d1962\025\002/am\025\001\152e11970x\029\164aa\161d1958\002al\128am\025!\151ah\161d1958\025!\151d3860x\031\164aa\161d1998\025\001\019al\128am\025\017\173ah\161d1998\025\017\173e16736x\127\164aa\165d1964\001d1965\006d1977\001d1978\002d1976\005al\163d1978\026\000\008\139zd1965\026\000\003\247\154d1977\026\000\008\139|am\026\000\008\139zah\165d1964\026\000\003\208\137d1965\026\000\004\030\173d1977\026\000\008\139}d1978\026\000\008\139|d1976\026\000\004\147\224d1710xt\164aa\165d1971\024\171d1972\024\243d1963\025\001/d1966\024\182d1959\025\002\tal\163d1972\025\001\237d1966\025\002\222d1971\025\002\028ah\165d1971\025\002\238d1972\025\001\238d1963\025\003xd1966\025\002\223d1959\025\002\220am\025\001\237d4306x\131\164aa\166d1957\025\002\144d1962\025\003$d1953\025\003jd1956\025\003Sd1958\025\003\159d1971\024\238al\164d1953\024\171d1956\024\172d1958\024wd1957\024\167am\024\220ah\166d1957\024\236d1962\024\194d1953\024\172d1956\024\196d1958\024\168d1971\024\220e13452x\"\164aa\161d1973\024:al\128am\026\000\002)\200ah\161d1973\026\000\002)\200d7971x&\164aa\161d1959\024)al\161d1959\025\005\209ah\161d1959\025\005\210am\025\005\209d2459x\030\164aa\161d1977\024\169al\128am\025G\223ah\161d1977\025G\223d7069xM\164aa\163d1957\025\001Jd1969\024cd1970\024\179al\162d1969\025\003]d1957\025\002\161am\025\002\145ah\163d1957\025\0176d1969\025\003^d1970\025\002\145e13094x\131\164aa\164d1950\001d1953\002d1955\001d1952\001al\164d1950\026\000\002m\176d1955\026\000\002p\255d1952\026\000\002m\174d1953\026\000\003\r?ah\165d1951\026\000\002m\176d1955\026\000\003\205Ed1953\026\000\003\205Ed1950\026\000\002m\177d1952\026\000\003\205Eam\026\000\002p\255d3832x\029\164aa\161d1977\004al\128ah\161d1977\025\n%am\025\n%e18512x&\164aa\161d2068\0243al\161d2068\025\148hah\161d2068\025\148iam\025\148hd7067x3\164aa\162d1958\024\174d1963\0242al\128ah\162d1958\026\000\001<fd1963\026\000\001C\210am\026\000\001C\210e18045x\030\164aa\161d1985\024\183al\128am\025\023iah\161d1985\025\023id4337xy\164aa\166d1964\024fd1982\024Bd1970\024\149d1962\024\143d1969\024\148d1968\024Lal\162d1969\025\003\130d1968\025 \240ah\166d1964\025\003\015d1982\025\003\025d1970\025\003\018d1962\025\003\223d1969\025\005\217d1968\025 \241am\025\003\025d3712x&\164aa\161d1963\024\198al\161d1963\025\002kah\161d1963\025\002lam\025\002kd2675x#\164aa\161d1950\024\146al\161d1950\024/ah\161d1950\0240am\024/e10398x\029\164aa\161d1964\001al\128am\0251.ah\161d1964\0251.d1401x%\164aa\161d1947\tal\161d1947\025\002\nah\161d1947\025\002\011am\025\002\ne18335x6\164aa\162d1998\024wd1999\025\001\003al\161d1998\025\r!am\025\006{ah\162d1998\025\r\"d1999\025\006{e16724x+\164aa\161d1970\007al\161d1970\026\000\003\130oah\161d1970\026\000\003\130pam\026\000\003\130oe13464x\205\164aa\168d1986\024\178d1985\025\001sd1981\025\001\134d1980\025\001\236d1983\024Jd1982\025\001]d1984\025\001:d1999\025\001\\al\168d1986\025\003pd1999\025\003\137d1981\025\008jd1985\025\0030d1983\025\003Pd1982\025\001Kd1984\025\003\212d1980\025\001mam\025\003\137ah\168d1986\025\003qd1985\025\0031d1981\025\008kd1980\025\001nd1983\025\003Qd1982\025\001Ld1984\025\003\213d1999\025\003\138d3730x#\164aa\161d1950\024\196al\161d1950\024\239ah\161d1950\024\240am\024\239d1705xL\164aa\163d1950\024qd1951\024@d1966\024Eal\162d1950\025# d1951\025\tTah\163d1950\025#!d1951\025\t\216d1966\025\019 am\025\019 d3356xK\164aa\163d1972\025\001\221d1971\024jd1977\024\132al\162d1972\024\181d1977\025\001*ah\163d1972\024\182d1971\025\005\189d1977\025\001+am\025\001*d4305x6\164aa\162d1964\024\167d1969\025\001@al\161d1969\025\003\161am\025\003\161ah\162d1964\025\004sd1969\025\003\162e11177x-\164aa\162d1970\0245d1981\0242al\128ah\162d1970\025\193Qd1981\025\158\144am\025\158\144e12359x7\164aa\162d1967\025\001\190d1969\025\002\157al\161d1967\025\n\209am\025\n&ah\162d1967\025E\224d1969\025\n&e13463x\198\164aa\169d1986\024\154d1981\025\001\rd1985\025\003\025d1982\025\002Ud1984\025\001{d1999\025\001\235d1983\025\001\223d1998\025\002\139d1980\025\002!al\165d1980\025\023\191d1999\025\025^d1983\025\022\008d1984\025\021Wd1998\025\024\255am\025\025^ah\169d1986\025\023$d1981\025\022ld1985\025\025Wd1982\025\023\166d1984\025\021Xd1999\025\025_d1983\025\022\td1998\025\025\000d1980\025\023\192d8153xL\164aa\163d1964\024\220d1971\024\127d1959\024kal\162d1964\025%zd1959\025/\146am\025'\015ah\163d1964\025+\176d1971\025'\015d1959\025/\147e16737x-\164aa\162d1964\nd1965\014al\128ah\162d1964\026\000\001\015yd1965\025\208\025am\025\208\025e10285xS\164aa\164d1969\024Rd1957\024Kd1958\024ed1962\024Bal\161d1958\025\003\231am\025\003\222ah\164d1969\025\003\222d1957\025u\029d1958\025\004\173d1962\025\003\253e13491x\029\164aa\161d1973\nal\128ah\161d1973\025\179Cam\025\179Cd5527x\028\164aa\161d1952\024gal\128am\024\201ah\161d1952\024\201e14256x&\164aa\161d1966\0243al\161d1966\025\160'ah\161d1966\025\160(am\025\160'd8949x=\164aa\162d1972\024sd1973\024{al\162d1972\025\t\192d1973\025\0295ah\162d1972\025\t\193d1973\025\0296am\025\0295d2742xg\164aa\164d1953\001d1956\004d1957\014d1959\016al\164d1953\025'\014d1956\025\004\212d1957\025\001\228d1959\025\005\187ah\164d1953\025'\015d1956\025\004\213d1957\025\001\229d1959\025\005\188am\025\005\187e13134x+\164aa\161d1966\007al\161d1966\026\000\0010\162ah\161d1966\026\000\0010\163am\026\000\0010\162d2750x&\164aa\161d1959\024\025al\161d1959\025\002=ah\161d1959\025\002>am\025\002=d2740x%\164aa\161d1959\016al\161d1959\025\003\176ah\161d1959\025\003\177am\025\003\176e17413x\029\164aa\161d1980\006al\128am\025\030xah\161d1980\025\030xe21306x+\164aa\161d2068\005al\161d2068\026\000\001\173\142ah\161d2068\026\000\001\173\143am\026\000\001\173\142d2738x%\164aa\161d1959\018al\161d1959\025\0044ah\161d1959\025\0045am\025\0044d7079x=\164aa\162d1984\024;d1968\0248al\162d1984\025\003\026d1968\025\016\250ah\162d1984\025\003\027d1968\025\016\251am\025\003\026e12184x#\164aa\161d1963\024hal\161d1963\024\222am\024\222ah\161d1963\024\223e13304x%\164aa\161d1985\003al\161d1985\025'\015ah\161d1985\025'\016am\025'\015d1081x\028\164aa\161d1950\024\144al\128am\0245ah\161d1950\0245e11137x6\164aa\162d1978\024id1984\025\001\149al\161d1984\025\001\187ah\162d1978\025\001\131d1984\025\001\188am\025\001\187d7910x\160\164aa\167d1965\024Md1970\024(d1980\024?d1981\0249d1969\0244d1966\024md1968\024Aal\165d1970\025\025ad1980\025\"\027d1966\025.xd1969\025\025Xd1968\025\023]ah\167d1965\025\028jd1970\025\025bd1980\025\"\028d1981\025\027Xd1969\025\025Yd1966\025.yd1968\025\023^am\025\027Xd1529x&\164aa\161d1958\024Ial\161d1958\025\008\145ah\161d1958\025\008\146am\025\008\145d4361x\028\164aa\161d1947\024Oal\128am\024\195ah\161d1947\024\195c785x\026\164aa\161d1971\024\169al\128am\021ah\161d1971\021d8838xW\164aa\163d1983\025\001{d1984\025\002Md1977\025\001\007al\163d1983\025\007\207d1984\025\007\191d1977\025\006\\ah\163d1983\025\007\208d1984\025\t;d1977\025\030Fam\025\007\191e12204x%\164aa\161d1963\023al\161d1963\025\015\022ah\161d1963\025\015\023am\025\015\022d8150x\028\164aa\161d1969\024\228al\128am\024\251ah\161d1969\024\251f184937x-\164aa\162d1953\0242d1967\0242al\128ah\162d1953\025.?d1967\025-Cam\025-Ce16712x+\164aa\161d1976\006al\161d1976\026\000\014~\238ah\161d1976\026\000\014~\239am\026\000\014~\238e12202x&\164aa\161d1963\024Bal\161d1963\025\001\159ah\161d1963\025\001\160am\025\001\159d4479x&\164aa\161d1957\024\197al\161d1957\025\002lah\161d1957\025\002mam\025\002le12808xL\164aa\163d1983\024Vd1969\024Qd1984\024Val\162d1969\025\011\160d1984\025\015\223am\025\015\223ah\163d1983\025\023fd1969\025\011\161d1984\025\021\218d3685x>\164aa\162d1950\024\213d1963\025\001\023al\162d1950\025\001Wd1963\025\001Nah\162d1950\025\001Xd1963\025\001Oam\025\001Nd2751x<\164aa\162d1956\008d1957\024\025al\162d1957\025\003\029d1956\025'\012ah\162d1956\025'\rd1957\025\003\030am\025\003\029c774x^\164aa\164d1946\024\214d1951\024Td1952\024?d1966\024Ial\163d1946\024\195d1951\025\002\176d1966\024>am\024>ah\164d1946\025\002Wd1951\025\002\177d1952\024Cd1966\024?d2555x\029\164aa\161d1977\007al\128ah\161d1977\025'\015am\025'\015e19236x;\164aa\162d1967\rd1968\017al\162d1967\025@\211d1968\025@\193ah\162d1967\025@\212d1968\025@\194am\025@\193",
+	["Spineshatter Horde"] = "\184pE13465\164Aa\161D2157\025\001\002Al\161D2157\025\023\027Ah\161D2157\025\023\028Am\025\023\027D3685\164Aa\162D2127\024\216D2126\025\001!Al\162D2127\024aD2126\024\190Ah\162D2127\024bD2126\024\191Am\024aD3282\164Aa\161D2071\001Al\161D2071\025\003\019Am\025\003\019Ah\161D2071\025\003\020D2749\164Aa\163D2131\0246D2127\019D2130\024\025Al\163D2131\025\005\254D2127\025\n%D2130\025\001\240Am\025\005\254Ah\163D2131\025\005\255D2127\025\n&D2130\025\0021D2750\164Aa\163D2131\024;D2127\rD2130\016Al\161D2130\025\002\020Am\025\008\145Ah\163D2131\025\008\145D2127\025N\029D2130\025\002\021D4589\164Aa\162D2134\024ID2135\024\163Al\161D2135\025#\130Am\025#\130Ah\162D2134\025%\210D2135\025#\131D7069\164Aa\161D2126\024\152Al\161D2126\025\007\205Ah\161D2126\025\007\206Am\025\007\205D7912\164Aa\161D2130\025\0035Al\161D2130\025\011{Ah\161D2130\025\011|Am\025\011{D2728\164Aa\162D2127\007D2130\024!Al\162D2127\025N\030D2130\025\002\196Am\025+\241Ah\162D2127\025N\031D2130\025+\242D3609\164Aa\161D2071\005Al\128Ah\161D2071\021Am\021D7068\164Aa\162D2136\024>D2137\024KAl\128Am\025$\231Ah\162D2136\025'pD2137\025$\231E22528\164Aa\161D2136\024IAl\161D2136\024\231Am\024\231Ah\161D2136\024\232D3818\164Aa\161D2152\025\001\134Al\128Am\025\027~Ah\161D2152\025\027~D7080\164Aa\161D2146\024<Al\161D2146\026\000\001\134\157Am\026\000\001\134\157Ah\161D2146\026\000\001\134\158E10593\164Aa\162D2138\024\031D2140\0243Al\162D2138\025.tD2140\025QqAh\162D2138\025.uD2140\025QrAm\025QqD7909\164Aa\163D2136\024@D2138\024DD2140\0242Al\162D2138\025\021aD2140\025\027VAh\163D2136\025\029<D2138\025\021bD2140\025\027WAm\025\027VE22611\164Aa\161D2157\002Al\128Ah\161D2157\025N\002Am\025N\002D8831\164Aa\161D2152\024\211Al\161D2152\025\001\193Am\025\001\193Ah\161D2152\025\001\194E11108\164Aa\161D2140\002Al\128Am\024=Ah\161D2140\024=D4306\164Aa\166D2136\025\003YD2126\025\003kD2127\025\002\tD2129\024\200D2131\025\003]D2130\025\003aAl\166D2136\024\191D2126\024\183D2127\025\001@D2129\024\180D2131\024\156D2130\024\155Ah\166D2136\024\199D2126\024\194D2127\025\001AD2129\024\181D2131\024\157D2130\024\164Am\024\191D7969\164Aa\161D2151\0242Al\128Am\025\187\128Ah\161D2151\025\187\128D2745\164Aa\163D2131\024'D2127\024\026D2130\024\028Al\163D2131\025\004\163D2127\025\"\180D2130\025\t\191Am\025\004\163Ah\163D2131\025\004\164D2127\025\"\181D2130\025\t\192D3821\164Aa\161D2152\025\001\157Al\161D2152\025\006\145Am\025\006\145Ah\161D2152\025\006\146D2318\164Aa\161D2071\0242Al\161D2071\025\001 Am\025\001 Ah\161D2071\025\001!D9252\164Aa\161D2134\006Al\161D2134\025\029IAm\025\029IAh\161D2134\025\029JD2732\164Aa\162D2127\020D2130\024(Al\162D2127\025\005\218D2130\025\001\238Am\025\001\238Ah\162D2127\025\005\219D2130\025\002\021D2735\164Aa\161D2130\024\027Al\161D2130\025\002uAh\161D2130\025\002vAm\025\002uE13468\164Aa\162D2157\024KD2152\0249Al\128Ah\162D2157\026\000\0088\162D2152\026\000\t'\190Am\026\000\0088\162D3358\164Aa\161D2152\025\001\253Al\161D2152\025\001\156Am\025\001\156Ah\161D2152\025\001\157D2449\164Aa\161D2152\025\001LAl\128Am\021Ah\161D2152\021D3355\164Aa\161D2152\024\228Al\161D2152\025\026\031Am\025\026\031Ah\161D2152\025\026 C818\164Aa\161D2071\024uAl\161D2071\025\002\202Am\025\002\202Ah\161D2071\025\002\210D1705\164Aa\161D2126\024\027Al\161D2126\025\012\226Ah\161D2126\025\012\227Am\025\012\226E11018\164Aa\162D2140\025\003\133D2144\025\002\019Al\161D2140\025\003\215Am\025\003\017Ah\162D2140\025\003\216D2144\025\003\017D8393\164Aa\162D2138\024iD2140\0244Al\128Ah\162D2138\025W\014D2140\025\136\238Am\025\136\238E14227\164Aa\162D2145\024\187D2147\0245Al\161D2147\025\017\175Am\025\017\175Ah\162D2145\025\015\160D2147\025\017\176D2744\164Aa\162D2131\0245D2130\024&Al\162D2131\025\019\139D2130\025\002\149Ah\162D2131\025\019\140D2130\025\003\031Am\025\019\139C729\164Aa\161D2125\024\167Al\161D2125\020Am\020Ah\161D2125\021D3357\164Aa\161D2152\025\001jAl\161D2152\025\002\rAm\025\002\rAh\161D2152\025\002\014C765\164Aa\161D2152\025\0016Al\161D2152\024\206Am\024\206Ah\161D2152\024\207D7989\164Aa\161D2151\021Al\128Am\025\148\007Ah\161D2151\025\148\007E13466\164Aa\162D2157\024\139D2152\025\002YAl\162D2157\025\145\251D2152\025\142\183Ah\162D2157\025\145\252D2152\025\142\184Am\025\145\251D2592\164Aa\164D2129\025\002QD2126\025\003\198D2125\025\003\006D2127\025\003?Al\162D2125\025\001ND2126\025\001*Ah\164D2129\025\001\029D2126\025\001AD2125\025\001OD2127\024\190Am\025\001\029C929\164Aa\161D2126\024JAl\128Ah\161D2126\025\001BAm\025\001BE15420\164Aa\161D2146\024\182Al\161D2146\025\001\027Am\025\001\027Ah\161D2146\025\001\028D9249\164Aa\161D2134\001Al\161D2134\025\007VAm\025\007VAh\161D2134\025\007WE10286\164Aa\161D2134\024\\Al\161D2134\025\002yAm\025\002yAh\161D2134\025\002zD1980\164Aa\161D2141\015Al\161D2141\026\000\014\152\245Am\026\000\014\152\245Ah\161D2141\026\000\014\152\246E13464\164Aa\161D2157\0249Al\161D2157\025\005\025Ah\161D2157\025\005\026Am\025\005\025D9298\164Aa\161D2134\rAl\128Ah\161D2134\025\016}Am\025\016}D5082\164Aa\161D2071\004Al\161D2071\025\r\004Am\025\r\004Ah\161D2071\025\r\005E10513\164Aa\161D2138\025\014\216Al\128Ah\161D2138\0242Am\0242D8483\164Aa\161D2143\024\025Al\128Ah\161D2143\025'\015Am\025'\015D7971\164Aa\163D2132\024ND2131\024eD2134\024.Al\163D2132\025\007\203D2131\025\029ID2134\025\007XAm\025\007XAh\163D2132\025\014\003D2131\025\029JD2134\025\007YC785\164Aa\161D2152\024\185Al\128Am\020Ah\161D2152\020E12803\164Aa\163D2142\024UD2140\024`D2141\024wAl\161D2141\025\007\205Am\025\006\179Ah\163D2142\025\006\179D2140\025\005\193D2141\025\007\206E10512\164Aa\161D2138\025\001\144Al\128Ah\161D2138\024\024Am\024\024D7067\164Aa\163D2132\024\144D2133\024FD2130\024zAl\128Ah\163D2132\025\129\225D2133\025qFD2130\025rfAm\025qFD6149\164Aa\161D2130\024\144Al\161D2130\025\015-Ah\161D2130\025\0150Am\025\015-D2450\164Aa\162D2140\024\172D2152\025\001\012Al\162D2140\025\001\130D2152\025\002FAm\025\002FAh\162D2140\025\001\131D2152\025\002GD2734\164Aa\162D2127\024\024D2130\0245Al\162D2127\025\003\222D2130\025\008\139Am\025\008\139Ah\162D2127\025\003\223D2130\025\019\167D4337\164Aa\162D2136\024RD2145\024iAl\162D2136\025\002\237D2145\025\003\199Am\025\003\199Ah\162D2136\025\002\238D2145\025\003\200D4338\164Aa\170D2142\025\002\133D2137\025\003\161D2140\025\002\170D2146\025\003\154D2136\025\003vD2141\025\002KD2144\025\001\206D2134\025\003\133D2138\025\003bD2135\025\003\127Al\169D2142\025\001\127D2137\025\001\147D2134\025\001+D2136\025\001\127D2141\025\001BD2144\025\001aD2140\025\001yD2138\025\001VD2135\025\001|Ah\170D2142\025\001\128D2137\025\001\148D2140\025\001zD2146\025\001aD2136\025\001\132D2141\025\001CD2144\025\001bD2134\025\001}D2138\025\001wD2135\025\001}Am\025\001aD5498\164Aa\162D2132\0246D2133\024BAl\162D2132\025\014\165D2133\025\005YAm\025\005YAh\162D2132\025\014\166D2133\025\005ZOgr:727:of Power\164Aa\161D2071\006Al\161D2071\025\015\254Am\025\015\254Ah\161D2071\025\015\255D2453\164Aa\161D2152\025\0028Al\161D2152\025\005\153Am\025\005\153Ah\161D2152\025\005\154D2725\164Aa\163D2131\024-D2127\018D2130\024%Al\163D2131\025\003\218D2127\025\005uD2130\025\019\233Am\025\003\218Ah\163D2131\025\003\219D2127\025\005vD2130\025\019\234D2447\164Aa\161D2152\024\133Al\161D2152\012Am\012Ah\161D2152\rD7910\164Aa\162D2141\024?D2132\0247Al\128Am\025\027\nAh\162D2141\025\027\nD2132\025\028\221D2632\164Aa\161D2071\rAl\161D2071\025\011\180Am\025\011\180Ah\161D2071\025\011\181E12037\164Aa\161D2138\024\149Al\128Ah\161D2138\025\005NAm\025\005NGversion\002E20404\164Aa\161D2151\024\163Al\128Am\025<\130Ah\161D2151\025<\130D2740\164Aa\162D2127\nD2130\rAl\162D2127\025G=D2130\025\003\186Am\025\003\186Ah\162D2127\025G>D2130\025\003\187D9359\164Aa\161D2134\005Al\128Am\025\156=Ah\161D2134\025\156=D3036\164Aa\161D2071\016Al\161D2071\025\t\192Am\025\t\192Ah\161D2071\025\t\193Pgr:2632:of Power\164Aa\161D2071\rAl\161D2071\025\011\180Am\025\011\180Ah\161D2071\025\011\181D3827\164Aa\161D2130\024\\Al\161D2130\025\004\128Ah\161D2130\025\004\129Am\025\004\128D2730\164Aa\162D2127\011D2130\024\028Al\162D2127\025+\234D2130\025\022\026Am\025\022\026Ah\162D2127\025+\235D2130\025\022\027D2452\164Aa\161D2152\024\208Al\161D2152\025\026WAm\025\026WAh\161D2152\025\026XD7075\164Aa\161D2132\024uAl\161D2132\025\011\164Am\025\011\164Ah\161D2132\025\011\165E14256\164Aa\162D2138\0247D2142\024tAl\128Am\025K\241Ah\162D2138\025N\023D2142\025K\241E10285\164Aa\161D2136\024dAl\128Ah\161D2136\025\004\026Am\025\004\026D7975\164Aa\161D2138\007Al\128Ah\161D2138\025\008\200Am\025\008\200C727\164Aa\161D2071\006Al\161D2071\025\015\254Am\025\015\254Ah\161D2071\025\015\255D6037\164Aa\161D2135\024SAl\161D2135\025\nTAh\161D2135\025\nUAm\025\nTE13463\164Aa\161D2157\025\001\212Al\128Ah\161D2157\025\007\189Am\025\007\189D7070\164Aa\162D2134\0242D2135\024eAl\161D2135\025\027:Am\025\027:Ah\162D2134\025\031\155D2135\025\027;D2742\164Aa\162D2127\024\026D2130\024-Al\162D2127\025\005\215D2130\025\002\202Am\025\002\202Ah\162D2127\025\005\216D2130\025\002\237D2738\164Aa\163D2131\024\030D2127\012D2130\024!Al\163D2131\025\002\177D2127\025\002SD2130\025\004\rAm\025\002\177Ah\163D2131\025\002\178D2127\025\002TD2130\025\004\176D2772\164Aa\161D2133\024\219Al\161D2133\025\r\159Am\025\r\159Ah\161D2133\025\r\160E12184\164Aa\161D2126\025\001\018Al\161D2126\024\195Ah\161D2126\024\196Am\024\195E11178\164Aa\161D2151\024iAl\128Am\025.\224Ah\161D2151\025.\224D8364\164Aa\161D2138\024zAl\128Ah\161D2138\025\002\231Am\025\002\231D8846\164Aa\161D2138\025\002xAl\128Am\025\007\200Ah\161D2138\025\007\200D3712\164Aa\161D2157\024\250Al\161D2157\025\004FAh\161D2157\025\004GAm\025\004FE13926\164Aa\161D2135\024BAl\128Ah\161D2135\025u\"Am\025u\"E17056\164Aa\161D2125\024lAl\128Ah\161D2125\025\001\142Am\025\001\142D7990\164Aa\161D2138\005Al\128Ah\161D2138\025\n\145Am\025\n\145E18512\164Aa\161D2150\024*Al\161D2150\025\222\247Ah\161D2150\025\222\248Am\025\222\247D3864\164Aa\164D2132\024SD2126\024#D2131\024>D2130\024~Al\162D2132\025\005\210D2126\025\005\218Ah\164D2132\025\005\211D2126\025\005\219D2131\025\007\229D2130\025\012\219Am\025\005\210D3356\164Aa\161D2152\025\0018Al\128Am\0242Ah\161D2152\0242D7993\164Aa\161D2138\005Al\128Ah\161D2138\025\n\208Am\025\n\208E11176\164Aa\161D2151\025\001QAl\128Am\025\017\025Ah\161D2151\025\017\025D2748\164Aa\162D2127\024\031D2130\024\027Al\162D2127\025\003\191D2130\025\030wAm\025\030wAh\162D2127\025\003\192D2130\025\030xE19933\164Aa\162D2138\024@D2140\024[Al\162D2138\025\008\251D2140\025'\015Ah\162D2138\025\008\252D2140\025'\016Am\025'\015D5500\164Aa\166D2136\024;D2137\024\028D2131\024#D2140\024<D2138\024<D2135\024$Al\165D2137\026\000\0018~D2131\025\005\178D2140\025\022\146D2138\025\019tD2135\025\150SAm\025\022\146Ah\166D2136\025\019\161D2137\026\000\0018\127D2131\025\005\179D2140\025\022\147D2138\025\019uD2135\025\150TD3829\164Aa\161D2130\024tAl\128Ah\161D2130\025\020\152Am\025\020\152D2751\164Aa\162D2127\018D2130\022Al\161D2130\025\002\221Am\025\002\221Ah\162D2127\025\029\169D2130\025\002\222E10561\164Aa\161D2140\024HAl\128Ah\161D2140\0254\183Am\0254\183D8391\164Aa\161D2138\024\\Al\161D2138\025*\227Ah\161D2138\025*\228Am\025*\227E14046\164Aa\161D2157\0242Al\128Ah\161D2157\025e\143Am\025e\143",
+	["__dbversion"] = 8,
 }
 AUCTIONATOR_SELLING_GROUPS = {
-["CustomGroups"] = {
-{
-["hidden"] = false,
-["type"] = 1,
-["name"] = "FAVOURITES",
-["list"] = {
-},
-},
-},
-["Version"] = 1,
-["HiddenItems"] = {
-},
+	["CustomGroups"] = {
+		[1] = {
+			["name"] = "FAVOURITES",
+			["hidden"] = false,
+			["list"] = {
+			},
+			["type"] = 1,
+		},
+	},
+	["HiddenItems"] = {
+	},
+	["Version"] = 1,
+}
+AUCTIONATOR_VENDOR_PRICE_CACHE = {
+	["1202"] = 1655,
+	["2153"] = 5334,
+	["3596"] = 21,
+	["2151"] = 2647,
+	["159"] = 4.4000000000000004,
+	["15327"] = 4,
+	["838"] = 1015,
+	["4497"] = 20000,
+	["8094"] = 24561,
+	["2321"] = 100,
+	["9304"] = 8000,
+	["4544"] = 180,
+	["851"] = 1821,
+	["2150"] = 2637,
+	["3771"] = 180,
+	["2131"] = 49,
+	["3131"] = 0.14999999999999999,
+	["5140"] = 25,
+	["12819"] = 16000,
+	["195"] = 32,
+	["21219"] = 4500,
+	["847"] = 1749,
+	["2426"] = 29311,
+	["18778"] = 9000000,
+	["22766"] = 50000,
+	["1194"] = 94,
+	["21177"] = 135,
+	["2028"] = 4558,
+	["286"] = 2906,
+	["2723"] = 45,
+	["3421"] = 200,
+	["2527"] = 29356,
+	["13483"] = 15000,
+	["3137"] = 1,
+	["2535"] = 61556,
+	["18777"] = 9000000,
+	["8092"] = 18281,
+	["2373"] = 233,
+	["837"] = 1012,
+	["2526"] = 19336,
+	["2395"] = 290,
+	["8948"] = 800,
+	["927"] = 6258,
+	["2325"] = 1000,
+	["852"] = 1565,
+	["839"] = 509,
+	["15811"] = 24419,
+	["2427"] = 18131,
+	["2392"] = 372,
+	["2134"] = 74,
+	["19217"] = 40000,
+	["850"] = 883,
+	["11362"] = 900,
+	["12239"] = 6300,
+	["2324"] = 22,
+	["19203"] = 22000,
+	["4341"] = 500,
+	["4291"] = 500,
+	["4496"] = 500,
+	["2394"] = 374,
+	["848"] = 1755,
+	["4604"] = 5,
+	["4605"] = 25,
+	["2605"] = 90,
+	["8923"] = 200,
+	["117"] = 4.4000000000000004,
+	["18794"] = 9000000,
+	["13724"] = 1200,
+	["3422"] = 2000,
+	["2422"] = 7981,
+	["1853"] = 1521,
+	["16084"] = 10000,
+	["2604"] = 50,
+	["15807"] = 265,
+	["2024"] = 5470,
+	["5173"] = 100,
+	["22767"] = 50000,
+	["7005"] = 82,
+	["1196"] = 1993,
+	["8343"] = 2000,
+	["2070"] = 4.4000000000000004,
+	["4541"] = 22.399999999999999,
+	["17187"] = 970,
+	["4399"] = 200,
+	["22214"] = 50000,
+	["4608"] = 400,
+	["15907"] = 7413,
+	["3371"] = 3.6000000000000001,
+	["2371"] = 170,
+	["2374"] = 156,
+	["787"] = 4.4000000000000004,
+	["7371"] = 1800,
+	["4540"] = 4.4000000000000004,
+	["2207"] = 2151,
+	["8766"] = 720,
+	["10290"] = 2250,
+	["18256"] = 5400,
+	["3428"] = 360,
+	["2428"] = 18200,
+	["19328"] = 22000,
+	["3026"] = 3431,
+	["12231"] = 2700,
+	["11285"] = 5,
+	["2139"] = 51,
+	["849"] = 1326,
+	["2364"] = 266,
+	["4537"] = 22.399999999999999,
+	["15905"] = 1917,
+	["17186"] = 243,
+	["3135"] = 0.375,
+	["16072"] = 9000,
+	["3107"] = 0.375,
+	["8090"] = 12095,
+	["6260"] = 45,
+	["2372"] = 309,
+	["2396"] = 194,
+	["17033"] = 1800,
+	["11444"] = 800,
+	["2027"] = 3434,
+	["3027"] = 5714,
+	["14341"] = 4500,
+	["3033"] = 1.3500000000000001,
+	["12958"] = 50000,
+	["17036"] = 720,
+	["4536"] = 4.4000000000000004,
+	["2519"] = 0.22500000000000001,
+	["4340"] = 350,
+	["2665"] = 18,
+	["2488"] = 482,
+	["1205"] = 90,
+	["6261"] = 900,
+	["2130"] = 49,
+	["4342"] = 2500,
+	["3419"] = 500,
+	["2451"] = 39266,
+	["1197"] = 2399,
+	["2320"] = 10,
+	["184937"] = 10000,
+	["19205"] = 40000,
+	["2446"] = 5564,
+	["15808"] = 3276,
+	["2678"] = 2,
+	["4289"] = 50,
+	["8957"] = 720,
+	["5565"] = 4500,
+	["2419"] = 7894,
+	["4400"] = 2000,
+	["3894"] = 26987,
+	["2529"] = 65031,
+	["2480"] = 65,
+	["2901"] = 81,
+	["6529"] = 45,
+	["19446"] = 30000,
+	["3589"] = 518,
+	["17031"] = 900,
+	["5976"] = 10000,
+	["2479"] = 96,
+	["4538"] = 90,
+	["19329"] = 40000,
+	["2507"] = 1576,
+	["3590"] = 520,
+	["8950"] = 720,
+	["2946"] = 0.14999999999999999,
+	["2516"] = 0.044999999999999998,
+	["2528"] = 51836,
+	["16060"] = 360,
+	["2367"] = 201,
+	["2491"] = 436,
+	["1201"] = 473,
+	["3466"] = 2000,
+	["2509"] = 373,
+	["15904"] = 19537,
+	["22768"] = 50000,
+	["2149"] = 3957,
+	["3770"] = 90,
+	["15326"] = 4,
+	["2490"] = 486,
+	["8925"] = 450,
+	["16113"] = 5000,
+	["1836"] = 28,
+	["1846"] = 880,
+	["4539"] = 180,
+	["2375"] = 156,
+	["11141"] = 2000,
+	["3606"] = 132,
+	["4606"] = 100,
+	["17035"] = 360,
+	["2692"] = 40,
+	["5655"] = 720000,
+	["13810"] = 1200,
+	["714"] = 29,
+	["2366"] = 268,
+	["21552"] = 360,
+	["853"] = 2168,
+	["19216"] = 22000,
+	["193"] = 43,
+	["12823"] = 20000,
+	["2369"] = 135,
+	["12232"] = 4500,
+	["15903"] = 7305,
+	["3023"] = 3394,
+	["5956"] = 18,
+	["4599"] = 360,
+	["17020"] = 900,
+	["3372"] = 36,
+	["5060"] = 1500,
+	["2930"] = 50,
+	["2132"] = 92,
+	["3713"] = 160,
+	["2148"] = 2616,
+	["3111"] = 0.074999999999999997,
+	["17038"] = 1800,
+	["8932"] = 720,
+	["5439"] = 90,
+	["19027"] = 5000,
+	["8091"] = 12140,
+	["194"] = 44,
+	["8952"] = 720,
+	["2397"] = 194,
+	["2947"] = 0.074999999999999997,
+	["2418"] = 15731,
+	["8088"] = 12002,
+	["1707"] = 180,
+	["5042"] = 45,
+	["15809"] = 13222,
+	["2522"] = 22548,
+	["2530"] = 52219,
+	["20075"] = 1800,
+	["5656"] = 720000,
+	["18795"] = 9000000,
+	["13813"] = 1200,
+	["1179"] = 22.399999999999999,
+	["13501"] = 30000,
+	["1645"] = 360,
+	["922"] = 10834,
+	["3024"] = 6388,
+	["17192"] = 3959,
+	["18776"] = 9000000,
+	["6530"] = 100,
+	["1843"] = 652,
+	["2414"] = 720000,
+	["2531"] = 56169,
+	["1835"] = 28,
+	["12233"] = 3000,
+	["15909"] = 19896,
+	["2287"] = 22.399999999999999,
+	["3891"] = 12284,
+	["2593"] = 135,
+	["2521"] = 30896,
+	["22209"] = 50000,
+	["21099"] = 450,
+	["19442"] = 100000,
+	["1844"] = 655,
+	["17032"] = 1800,
+	["4607"] = 200,
+	["3607"] = 133,
+	["17029"] = 900,
+	["8030"] = 10000,
+	["3025"] = 18478,
+	["2494"] = 361,
+	["854"] = 2720,
+	["2595"] = 1800,
+	["3595"] = 21,
+	["2030"] = 4990,
+	["15290"] = 720000,
+	["5441"] = 900,
+	["4593"] = 90,
+	["2928"] = 20,
+	["4602"] = 360,
+	["3857"] = 500,
+	["16583"] = 9000,
+	["1198"] = 2408,
+	["2370"] = 339,
+	["4592"] = 3.6000000000000001,
+	["85"] = 56,
+	["10647"] = 2000,
+	["8093"] = 24467,
+	["5048"] = 50,
+	["2029"] = 3977,
+	["4470"] = 38,
+	["2448"] = 16158,
+	["18046"] = 12000,
+	["18793"] = 9000000,
+	["2512"] = 0.050000000000000003,
+	["843"] = 969,
+	["11284"] = 4.5,
+	["3927"] = 360,
+	["2524"] = 19192,
+	["17030"] = 1800,
+	["12240"] = 6300,
+	["2594"] = 1350,
+	["15810"] = 9130,
+	["2495"] = 454,
+	["844"] = 648,
+	["3108"] = 1,
+	["2421"] = 7952,
+	["17028"] = 630,
+	["2425"] = 38769,
+	["6532"] = 250,
+	["1845"] = 877,
+	["4594"] = 180,
+	["422"] = 90,
+	["845"] = 1302,
+	["285"] = 3200,
+	["16112"] = 2200,
+	["12228"] = 4500,
+	["15906"] = 1924,
+	["9303"] = 8000,
+	["4471"] = 135,
+	["__dbversion"] = 1,
+	["2492"] = 256,
+	["846"] = 1307,
+	["2515"] = 0.25,
+	["2208"] = 3285,
+	["5374"] = 350,
+	["2520"] = 24628,
+	["17021"] = 630,
+	["16059"] = 360,
+	["928"] = 8874,
+	["209"] = 54,
+	["6217"] = 124,
+	["8089"] = 18073,
+	["4600"] = 340,
+	["17037"] = 1260,
+	["2532"] = 52608,
+	["17190"] = 31148,
+	["4542"] = 90,
+	["22250"] = 900,
+	["18567"] = 150000,
+	["2596"] = 108,
+	["2423"] = 38493,
+	["3423"] = 20000,
+	["4498"] = 2500,
+	["2417"] = 15673,
+	["414"] = 22.399999999999999,
+	["2393"] = 185,
+	["13485"] = 15000,
+	["2026"] = 5657,
+	["287"] = 2197,
+	["2506"] = 285,
+	["2534"] = 45431,
+	["2025"] = 4774,
+	["2525"] = 26489,
+	["17189"] = 12043,
+	["711"] = 22,
+	["3030"] = 1.5,
+	["718"] = 1453,
+	["10648"] = 500,
+	["17026"] = 900,
+	["923"] = 7869,
+	["19447"] = 60000,
+	["22014"] = 1333333,
+	["4595"] = 300,
+	["840"] = 768,
+	["6256"] = 23,
+	["8953"] = 720,
+	["924"] = 9875,
+	["2420"] = 11937,
+	["3420"] = 5000,
+	["2533"] = 61107,
+	["2101"] = 4,
+	["2493"] = 631,
+	["17034"] = 180,
+	["2511"] = 1192,
+	["11022"] = 900,
+	["4601"] = 360,
+	["2523"] = 28285,
+	["925"] = 7017,
+	["2489"] = 308,
+	["2152"] = 5315,
+	["15277"] = 720000,
+	["1708"] = 180,
+	["1852"] = 1516,
+	["13482"] = 15000,
+	["926"] = 8806,
+	["2209"] = 6404,
+	["210"] = 40,
+	["8924"] = 100,
+	["2880"] = 100,
+	["11109"] = 25,
+	["12703"] = 40000,
+	["3424"] = 500000,
+	["2424"] = 19315,
+	["11020"] = 9000,
+}
+AUCTIONATOR_POSTING_HISTORY = {
+	["3356"] = {
+		[1] = {
+			["time"] = 1746365571,
+			["quantity"] = 2,
+			["price"] = 53,
+		},
+		[2] = {
+			["time"] = 1748164092,
+			["quantity"] = 11,
+			["price"] = 1468,
+		},
+		[3] = {
+			["time"] = 1748235495,
+			["quantity"] = 11,
+			["price"] = 181,
+		},
+		[4] = {
+			["time"] = 1748671649,
+			["quantity"] = 11,
+			["price"] = 298,
+		},
+	},
+	["16713"] = {
+		[1] = {
+			["time"] = 1748071695,
+			["quantity"] = 2,
+			["price"] = 39751,
+		},
+		[2] = {
+			["time"] = 1748134963,
+			["quantity"] = 2,
+			["price"] = 199998,
+		},
+		[3] = {
+			["time"] = 1748163988,
+			["quantity"] = 2,
+			["price"] = 39999,
+		},
+		[4] = {
+			["time"] = 1748235501,
+			["quantity"] = 1,
+			["price"] = 34989,
+		},
+		[5] = {
+			["time"] = 1748310278,
+			["quantity"] = 1,
+			["price"] = 34368,
+		},
+	},
+	["1529"] = {
+		[1] = {
+			["time"] = 1747033108,
+			["quantity"] = 1,
+			["price"] = 2193,
+		},
+	},
+	["2732"] = {
+		[1] = {
+			["time"] = 1746884184,
+			["quantity"] = 1,
+			["price"] = 4940,
+		},
+		[2] = {
+			["time"] = 1746929953,
+			["quantity"] = 1,
+			["price"] = 693,
+		},
+		[3] = {
+			["time"] = 1746970360,
+			["quantity"] = 1,
+			["price"] = 561,
+		},
+		[4] = {
+			["time"] = 1761642975,
+			["quantity"] = 2,
+			["price"] = 1498,
+		},
+		[5] = {
+			["time"] = 1761883358,
+			["quantity"] = 2,
+			["price"] = 532,
+		},
+		[6] = {
+			["time"] = 1761907561,
+			["quantity"] = 1,
+			["price"] = 494,
+		},
+	},
+	["8153"] = {
+		[1] = {
+			["time"] = 1747145091,
+			["quantity"] = 7,
+			["price"] = 12178,
+		},
+		[2] = {
+			["time"] = 1747538259,
+			["quantity"] = 1,
+			["price"] = 11183,
+		},
+		[3] = {
+			["time"] = 1747569880,
+			["quantity"] = 1,
+			["price"] = 9594,
+		},
+		[4] = {
+			["time"] = 1748163925,
+			["quantity"] = 2,
+			["price"] = 9998,
+		},
+	},
+	["3282"] = {
+		[1] = {
+			["time"] = 1756807057,
+			["quantity"] = 1,
+			["price"] = 787,
+		},
+	},
+	["9187"] = {
+		[1] = {
+			["time"] = 1748238886,
+			["quantity"] = 11,
+			["price"] = 8348,
+		},
+		[2] = {
+			["time"] = 1748310260,
+			["quantity"] = 10,
+			["price"] = 7538,
+		},
+	},
+	["12037"] = {
+		[1] = {
+			["time"] = 1747405560,
+			["quantity"] = 16,
+			["price"] = 102,
+		},
+	},
+	["13302"] = {
+		[1] = {
+			["time"] = 1749371108,
+			["quantity"] = 1,
+			["price"] = 9656,
+		},
+	},
+	["7075"] = {
+		[1] = {
+			["time"] = 1747026761,
+			["quantity"] = 1,
+			["price"] = 458,
+		},
+		[2] = {
+			["time"] = 1762081202,
+			["quantity"] = 1,
+			["price"] = 2980,
+		},
+	},
+	["2589"] = {
+		[1] = {
+			["time"] = 1746165435,
+			["quantity"] = 30,
+			["price"] = 14,
+		},
+		[2] = {
+			["time"] = 1746190473,
+			["quantity"] = 11,
+			["price"] = 32,
+		},
+		[3] = {
+			["time"] = 1746276455,
+			["quantity"] = 12,
+			["price"] = 111,
+		},
+		[4] = {
+			["time"] = 1746288924,
+			["quantity"] = 8,
+			["price"] = 37,
+		},
+		[5] = {
+			["time"] = 1746338016,
+			["quantity"] = 21,
+			["price"] = 49,
+		},
+		[6] = {
+			["time"] = 1746365507,
+			["quantity"] = 5,
+			["price"] = 33,
+		},
+	},
+	["4589"] = {
+		[1] = {
+			["time"] = 1762338222,
+			["quantity"] = 1,
+			["price"] = 9090,
+		},
+	},
+	["7912"] = {
+		[1] = {
+			["time"] = 1761907524,
+			["quantity"] = 35,
+			["price"] = 2939,
+		},
+	},
+	["16724"] = {
+		[1] = {
+			["time"] = 1748080135,
+			["quantity"] = 1,
+			["price"] = 229999,
+		},
+	},
+	["7909"] = {
+		[1] = {
+			["time"] = 1747707598,
+			["quantity"] = 1,
+			["price"] = 3151,
+		},
+		[2] = {
+			["time"] = 1747741277,
+			["quantity"] = 1,
+			["price"] = 3924,
+		},
+		[3] = {
+			["time"] = 1747806584,
+			["quantity"] = 1,
+			["price"] = 3296,
+		},
+		[4] = {
+			["time"] = 1762426365,
+			["quantity"] = 1,
+			["price"] = 7483,
+		},
+		[5] = {
+			["time"] = 1762583136,
+			["quantity"] = 1,
+			["price"] = 5473,
+		},
+		[6] = {
+			["time"] = 1762720920,
+			["quantity"] = 1,
+			["price"] = 6998,
+		},
+	},
+	["14256"] = {
+		[1] = {
+			["time"] = 1747707627,
+			["quantity"] = 3,
+			["price"] = 40999,
+		},
+		[2] = {
+			["time"] = 1762568718,
+			["quantity"] = 2,
+			["price"] = 19990,
+		},
+		[3] = {
+			["time"] = 1762930964,
+			["quantity"] = 1,
+			["price"] = 19440,
+		},
+	},
+	["4479"] = {
+		[1] = {
+			["time"] = 1746970315,
+			["quantity"] = 6,
+			["price"] = 620,
+		},
+	},
+	["7910"] = {
+		[1] = {
+			["time"] = 1747645255,
+			["quantity"] = 1,
+			["price"] = 7273,
+		},
+		[2] = {
+			["time"] = 1747715923,
+			["quantity"] = 1,
+			["price"] = 11896,
+		},
+		[3] = {
+			["time"] = 1747919152,
+			["quantity"] = 1,
+			["price"] = 5981,
+		},
+		[4] = {
+			["time"] = 1747997295,
+			["quantity"] = 1,
+			["price"] = 6488,
+		},
+		[5] = {
+			["time"] = 1748059621,
+			["quantity"] = 1,
+			["price"] = 6497,
+		},
+		[6] = {
+			["time"] = 1748945330,
+			["quantity"] = 1,
+			["price"] = 8731,
+		},
+		[7] = {
+			["time"] = 1749013734,
+			["quantity"] = 1,
+			["price"] = 6999,
+		},
+		[8] = {
+			["time"] = 1762081185,
+			["quantity"] = 1,
+			["price"] = 7388,
+		},
+		[9] = {
+			["time"] = 1762821819,
+			["quantity"] = 1,
+			["price"] = 6921,
+		},
+	},
+	["18944"] = {
+		[1] = {
+			["time"] = 1747538199,
+			["quantity"] = 15,
+			["price"] = 584,
+		},
+	},
+	["3825"] = {
+		[1] = {
+			["time"] = 1748244158,
+			["quantity"] = 16,
+			["price"] = 14894,
+		},
+		[2] = {
+			["time"] = 1748310282,
+			["quantity"] = 1,
+			["price"] = 14807,
+		},
+	},
+	["14047"] = {
+		[1] = {
+			["time"] = 1747815314,
+			["quantity"] = 60,
+			["price"] = 862,
+		},
+		[2] = {
+			["time"] = 1747919194,
+			["quantity"] = 40,
+			["price"] = 683,
+		},
+		[3] = {
+			["time"] = 1747997378,
+			["quantity"] = 40,
+			["price"] = 627,
+		},
+		[4] = {
+			["time"] = 1748008296,
+			["quantity"] = 40,
+			["price"] = 797,
+		},
+		[5] = {
+			["time"] = 1748091294,
+			["quantity"] = 44,
+			["price"] = 605,
+		},
+		[6] = {
+			["time"] = 1748666963,
+			["quantity"] = 20,
+			["price"] = 886,
+		},
+		[7] = {
+			["time"] = 1748939876,
+			["quantity"] = 20,
+			["price"] = 841,
+		},
+		[8] = {
+			["time"] = 1749304389,
+			["quantity"] = 28,
+			["price"] = 1091,
+		},
+		[9] = {
+			["time"] = 1750560677,
+			["quantity"] = 14,
+			["price"] = 796,
+		},
+		[10] = {
+			["time"] = 1750568552,
+			["quantity"] = 6,
+			["price"] = 801,
+		},
+	},
+	["12803"] = {
+		[1] = {
+			["time"] = 1747552419,
+			["quantity"] = 1,
+			["price"] = 13967,
+		},
+		[2] = {
+			["time"] = 1762720955,
+			["quantity"] = 1,
+			["price"] = 1472,
+		},
+		[3] = {
+			["time"] = 1762821823,
+			["quantity"] = 2,
+			["price"] = 1997,
+		},
+	},
+	["2632"] = {
+		[1] = {
+			["time"] = 1756807051,
+			["quantity"] = 1,
+			["price"] = 2996,
+		},
+	},
+	["1015"] = {
+		[1] = {
+			["time"] = 1747405576,
+			["quantity"] = 1,
+			["price"] = 481,
+		},
+	},
+	["9253"] = {
+		[1] = {
+			["time"] = 1747356646,
+			["quantity"] = 1,
+			["price"] = 9999,
+		},
+	},
+	["6149"] = {
+		[1] = {
+			["time"] = 1761907931,
+			["quantity"] = 20,
+			["price"] = 3887,
+		},
+		[2] = {
+			["time"] = 1761907948,
+			["quantity"] = 2,
+			["price"] = 3885,
+		},
+	},
+	["3182"] = {
+		[1] = {
+			["time"] = 1746241617,
+			["quantity"] = 1,
+			["price"] = 1234,
+		},
+		[2] = {
+			["time"] = 1746337995,
+			["quantity"] = 3,
+			["price"] = 993,
+		},
+	},
+	["9251"] = {
+		[1] = {
+			["time"] = 1747356649,
+			["quantity"] = 1,
+			["price"] = 9998,
+		},
+	},
+	["9252"] = {
+		[1] = {
+			["time"] = 1762247393,
+			["quantity"] = 3,
+			["price"] = 7497,
+		},
+	},
+	["8836"] = {
+		[1] = {
+			["time"] = 1748333321,
+			["quantity"] = 7,
+			["price"] = 489,
+		},
+	},
+	["3864"] = {
+		[1] = {
+			["time"] = 1746929900,
+			["quantity"] = 1,
+			["price"] = 1493,
+		},
+		[2] = {
+			["time"] = 1746970366,
+			["quantity"] = 1,
+			["price"] = 964,
+		},
+		[3] = {
+			["time"] = 1747026788,
+			["quantity"] = 2,
+			["price"] = 2197,
+		},
+		[4] = {
+			["time"] = 1747145096,
+			["quantity"] = 2,
+			["price"] = 9657,
+		},
+		[5] = {
+			["time"] = 1747741268,
+			["quantity"] = 1,
+			["price"] = 2095,
+		},
+		[6] = {
+			["time"] = 1747806588,
+			["quantity"] = 1,
+			["price"] = 1196,
+		},
+		[7] = {
+			["time"] = 1761560573,
+			["quantity"] = 1,
+			["price"] = 1498,
+		},
+		[8] = {
+			["time"] = 1761907554,
+			["quantity"] = 1,
+			["price"] = 3290,
+		},
+		[9] = {
+			["time"] = 1761979800,
+			["quantity"] = 1,
+			["price"] = 2020,
+		},
+		[10] = {
+			["time"] = 1762036149,
+			["quantity"] = 1,
+			["price"] = 1490,
+		},
+	},
+	["3036"] = {
+		[1] = {
+			["time"] = 1756807047,
+			["quantity"] = 1,
+			["price"] = 2496,
+		},
+	},
+	["10593"] = {
+		[1] = {
+			["time"] = 1762583178,
+			["quantity"] = 3,
+			["price"] = 11892,
+		},
+		[2] = {
+			["time"] = 1762720943,
+			["quantity"] = 3,
+			["price"] = 20849,
+		},
+	},
+	["13466"] = {
+		[1] = {
+			["time"] = 1749123027,
+			["quantity"] = 4,
+			["price"] = 44894,
+		},
+		[2] = {
+			["time"] = 1749212814,
+			["quantity"] = 18,
+			["price"] = 45681,
+		},
+		[3] = {
+			["time"] = 1749280355,
+			["quantity"] = 40,
+			["price"] = 41982,
+		},
+		[4] = {
+			["time"] = 1749361597,
+			["quantity"] = 26,
+			["price"] = 41494,
+		},
+		[5] = {
+			["time"] = 1749447800,
+			["quantity"] = 24,
+			["price"] = 45492,
+		},
+		[6] = {
+			["time"] = 1750474336,
+			["quantity"] = 45,
+			["price"] = 42399,
+		},
+		[7] = {
+			["time"] = 1750488541,
+			["quantity"] = 8,
+			["price"] = 41188,
+		},
+		[8] = {
+			["time"] = 1750568532,
+			["quantity"] = 30,
+			["price"] = 39893,
+		},
+		[9] = {
+			["time"] = 1763793631,
+			["quantity"] = 20,
+			["price"] = 36535,
+		},
+		[10] = {
+			["time"] = 1764195992,
+			["quantity"] = 14,
+			["price"] = 37371,
+		},
+	},
+	["3667"] = {
+		[1] = {
+			["time"] = 1747405529,
+			["quantity"] = 6,
+			["price"] = 71,
+		},
+	},
+	["5504"] = {
+		[1] = {
+			["time"] = 1746338033,
+			["quantity"] = 9,
+			["price"] = 119,
+		},
+		[2] = {
+			["time"] = 1746531243,
+			["quantity"] = 21,
+			["price"] = 184,
+		},
+		[3] = {
+			["time"] = 1746862191,
+			["quantity"] = 23,
+			["price"] = 95,
+		},
+	},
+	["2728"] = {
+		[1] = {
+			["time"] = 1746884186,
+			["quantity"] = 1,
+			["price"] = 4984,
+		},
+		[2] = {
+			["time"] = 1746929948,
+			["quantity"] = 1,
+			["price"] = 1045,
+		},
+		[3] = {
+			["time"] = 1747145075,
+			["quantity"] = 2,
+			["price"] = 1878,
+		},
+		[4] = {
+			["time"] = 1761642963,
+			["quantity"] = 2,
+			["price"] = 19998,
+		},
+		[5] = {
+			["time"] = 1761883351,
+			["quantity"] = 4,
+			["price"] = 708,
+		},
+		[6] = {
+			["time"] = 1761907559,
+			["quantity"] = 1,
+			["price"] = 11249,
+		},
+	},
+	["2772"] = {
+		[1] = {
+			["time"] = 1762165489,
+			["quantity"] = 3,
+			["price"] = 3487,
+		},
+	},
+	["11737"] = {
+		[1] = {
+			["time"] = 1748080117,
+			["quantity"] = 1,
+			["price"] = 3069998,
+		},
+		[2] = {
+			["time"] = 1748097103,
+			["quantity"] = 1,
+			["price"] = 2887103,
+		},
+		[3] = {
+			["time"] = 1748134954,
+			["quantity"] = 1,
+			["price"] = 2667084,
+		},
+	},
+	["2842"] = {
+		[1] = {
+			["time"] = 1746190467,
+			["quantity"] = 1,
+			["price"] = 1423,
+		},
+		[2] = {
+			["time"] = 1746338000,
+			["quantity"] = 2,
+			["price"] = 1294,
+		},
+	},
+	["5082"] = {
+		[1] = {
+			["time"] = 1756797025,
+			["quantity"] = 1,
+			["price"] = 3332,
+		},
+	},
+	["21306"] = {
+		[1] = {
+			["time"] = 1756525769,
+			["quantity"] = 1,
+			["price"] = 109966,
+		},
+	},
+	["2749"] = {
+		[1] = {
+			["time"] = 1761643007,
+			["quantity"] = 2,
+			["price"] = 2597,
+		},
+		[2] = {
+			["time"] = 1761883381,
+			["quantity"] = 1,
+			["price"] = 560,
+		},
+		[3] = {
+			["time"] = 1761907593,
+			["quantity"] = 1,
+			["price"] = 496,
+		},
+		[4] = {
+			["time"] = 1761958182,
+			["quantity"] = 1,
+			["price"] = 1534,
+		},
+	},
+	["2735"] = {
+		[1] = {
+			["time"] = 1747145070,
+			["quantity"] = 1,
+			["price"] = 578,
+		},
+		[2] = {
+			["time"] = 1761907951,
+			["quantity"] = 1,
+			["price"] = 629,
+		},
+	},
+	["8951"] = {
+		[1] = {
+			["time"] = 1748236957,
+			["quantity"] = 10,
+			["price"] = 8437,
+		},
+	},
+	["2744"] = {
+		[1] = {
+			["time"] = 1761883375,
+			["quantity"] = 2,
+			["price"] = 798,
+		},
+		[2] = {
+			["time"] = 1761907584,
+			["quantity"] = 1,
+			["price"] = 661,
+		},
+		[3] = {
+			["time"] = 1761958175,
+			["quantity"] = 2,
+			["price"] = 5003,
+		},
+	},
+	["774"] = {
+		[1] = {
+			["time"] = 1745986501,
+			["quantity"] = 2,
+			["price"] = 195,
+		},
+		[2] = {
+			["time"] = 1746011630,
+			["quantity"] = 2,
+			["price"] = 598,
+		},
+		[3] = {
+			["time"] = 1746448479,
+			["quantity"] = 1,
+			["price"] = 688,
+		},
+		[4] = {
+			["time"] = 1747741273,
+			["quantity"] = 1,
+			["price"] = 62,
+		},
+	},
+	["13134"] = {
+		[1] = {
+			["time"] = 1747707619,
+			["quantity"] = 1,
+			["price"] = 77986,
+		},
+	},
+	["13468"] = {
+		[1] = {
+			["time"] = 1749021290,
+			["quantity"] = 3,
+			["price"] = 708699,
+		},
+		[2] = {
+			["time"] = 1749106336,
+			["quantity"] = 1,
+			["price"] = 699987,
+		},
+		[3] = {
+			["time"] = 1749123023,
+			["quantity"] = 1,
+			["price"] = 689899,
+		},
+		[4] = {
+			["time"] = 1749280350,
+			["quantity"] = 3,
+			["price"] = 669857,
+		},
+		[5] = {
+			["time"] = 1749361590,
+			["quantity"] = 1,
+			["price"] = 659745,
+		},
+		[6] = {
+			["time"] = 1749371056,
+			["quantity"] = 1,
+			["price"] = 658998,
+		},
+		[7] = {
+			["time"] = 1750488537,
+			["quantity"] = 2,
+			["price"] = 749599,
+		},
+		[8] = {
+			["time"] = 1750568521,
+			["quantity"] = 1,
+			["price"] = 714693,
+		},
+		[9] = {
+			["time"] = 1756525750,
+			["quantity"] = 1,
+			["price"] = 978773,
+		},
+		[10] = {
+			["time"] = 1764195998,
+			["quantity"] = 1,
+			["price"] = 538785,
+		},
+	},
+	["12202"] = {
+		[1] = {
+			["time"] = 1747405540,
+			["quantity"] = 10,
+			["price"] = 415,
+		},
+	},
+	["13463"] = {
+		[1] = {
+			["time"] = 1748930231,
+			["quantity"] = 10,
+			["price"] = 6079,
+		},
+		[2] = {
+			["time"] = 1749013730,
+			["quantity"] = 16,
+			["price"] = 5739,
+		},
+		[3] = {
+			["time"] = 1749106357,
+			["quantity"] = 6,
+			["price"] = 6053,
+		},
+		[4] = {
+			["time"] = 1749212823,
+			["quantity"] = 16,
+			["price"] = 5640,
+		},
+		[5] = {
+			["time"] = 1749280371,
+			["quantity"] = 22,
+			["price"] = 5463,
+		},
+		[6] = {
+			["time"] = 1749361609,
+			["quantity"] = 15,
+			["price"] = 6486,
+		},
+		[7] = {
+			["time"] = 1749447812,
+			["quantity"] = 19,
+			["price"] = 5923,
+		},
+		[8] = {
+			["time"] = 1750474340,
+			["quantity"] = 20,
+			["price"] = 6399,
+		},
+		[9] = {
+			["time"] = 1750568539,
+			["quantity"] = 18,
+			["price"] = 6494,
+		},
+		[10] = {
+			["time"] = 1764195976,
+			["quantity"] = 6,
+			["price"] = 1980,
+		},
+	},
+	["18335"] = {
+		[1] = {
+			["time"] = 1750492367,
+			["quantity"] = 1,
+			["price"] = 3361,
+		},
+		[2] = {
+			["time"] = 1750560704,
+			["quantity"] = 1,
+			["price"] = 1658,
+		},
+	},
+	["22528"] = {
+		[1] = {
+			["time"] = 1762414385,
+			["quantity"] = 1,
+			["price"] = 231,
+		},
+	},
+	["2740"] = {
+		[1] = {
+			["time"] = 1747145062,
+			["quantity"] = 3,
+			["price"] = 944,
+		},
+		[2] = {
+			["time"] = 1761642988,
+			["quantity"] = 3,
+			["price"] = 18237,
+		},
+		[3] = {
+			["time"] = 1761883367,
+			["quantity"] = 2,
+			["price"] = 954,
+		},
+	},
+	["2742"] = {
+		[1] = {
+			["time"] = 1746604945,
+			["quantity"] = 2,
+			["price"] = 9998,
+		},
+		[2] = {
+			["time"] = 1746884181,
+			["quantity"] = 1,
+			["price"] = 1236,
+		},
+		[3] = {
+			["time"] = 1746929956,
+			["quantity"] = 1,
+			["price"] = 484,
+		},
+		[4] = {
+			["time"] = 1747145056,
+			["quantity"] = 2,
+			["price"] = 1467,
+		},
+		[5] = {
+			["time"] = 1761642992,
+			["quantity"] = 2,
+			["price"] = 1495,
+		},
+		[6] = {
+			["time"] = 1761883371,
+			["quantity"] = 2,
+			["price"] = 748,
+		},
+		[7] = {
+			["time"] = 1761907579,
+			["quantity"] = 1,
+			["price"] = 714,
+		},
+	},
+	["13094"] = {
+		[1] = {
+			["time"] = 1746365472,
+			["quantity"] = 1,
+			["price"] = 159152,
+		},
+		[2] = {
+			["time"] = 1746440055,
+			["quantity"] = 2,
+			["price"] = 159152,
+		},
+		[3] = {
+			["time"] = 1746488039,
+			["quantity"] = 1,
+			["price"] = 159150,
+		},
+		[4] = {
+			["time"] = 1746523047,
+			["quantity"] = 1,
+			["price"] = 249156,
+		},
+		[5] = {
+			["time"] = 1746559863,
+			["quantity"] = 1,
+			["price"] = 249156,
+		},
+		[6] = {
+			["time"] = 1746604281,
+			["quantity"] = 1,
+			["price"] = 199999,
+		},
+		[7] = {
+			["time"] = 1746762920,
+			["quantity"] = 1,
+			["price"] = 159999,
+		},
+	},
+	["4337"] = {
+		[1] = {
+			["time"] = 1747187414,
+			["quantity"] = 1,
+			["price"] = 853,
+		},
+		[2] = {
+			["time"] = 1747370749,
+			["quantity"] = 5,
+			["price"] = 990,
+		},
+		[3] = {
+			["time"] = 1747919148,
+			["quantity"] = 1,
+			["price"] = 8432,
+		},
+		[4] = {
+			["time"] = 1747981841,
+			["quantity"] = 2,
+			["price"] = 1496,
+		},
+		[5] = {
+			["time"] = 1747997292,
+			["quantity"] = 1,
+			["price"] = 990,
+		},
+		[6] = {
+			["time"] = 1748008282,
+			["quantity"] = 1,
+			["price"] = 898,
+		},
+		[7] = {
+			["time"] = 1762414400,
+			["quantity"] = 2,
+			["price"] = 749,
+		},
+		[8] = {
+			["time"] = 1763198850,
+			["quantity"] = 3,
+			["price"] = 967,
+		},
+	},
+	["11137"] = {
+		[1] = {
+			["time"] = 1749304381,
+			["quantity"] = 1,
+			["price"] = 443,
+		},
+	},
+	["1210"] = {
+		[1] = {
+			["time"] = 1746241637,
+			["quantity"] = 1,
+			["price"] = 1360,
+		},
+		[2] = {
+			["time"] = 1746288920,
+			["quantity"] = 1,
+			["price"] = 396,
+		},
+		[3] = {
+			["time"] = 1746448467,
+			["quantity"] = 2,
+			["price"] = 776,
+		},
+		[4] = {
+			["time"] = 1747741290,
+			["quantity"] = 1,
+			["price"] = 444,
+		},
+	},
+	["7068"] = {
+		[1] = {
+			["time"] = 1746970356,
+			["quantity"] = 1,
+			["price"] = 44423,
+		},
+		[2] = {
+			["time"] = 1747538193,
+			["quantity"] = 1,
+			["price"] = 41198,
+		},
+		[3] = {
+			["time"] = 1747559028,
+			["quantity"] = 1,
+			["price"] = 45998,
+		},
+		[4] = {
+			["time"] = 1762414389,
+			["quantity"] = 1,
+			["price"] = 10095,
+		},
+		[5] = {
+			["time"] = 1762511791,
+			["quantity"] = 1,
+			["price"] = 9446,
+		},
+	},
+	["3355"] = {
+		[1] = {
+			["time"] = 1763771663,
+			["quantity"] = 23,
+			["price"] = 6687,
+		},
+	},
+	["13479"] = {
+		[1] = {
+			["time"] = 1748754697,
+			["quantity"] = 1,
+			["price"] = 31392,
+		},
+		[2] = {
+			["time"] = 1748777902,
+			["quantity"] = 1,
+			["price"] = 31389,
+		},
+		[3] = {
+			["time"] = 1748862757,
+			["quantity"] = 1,
+			["price"] = 14998,
+		},
+	},
+	["7972"] = {
+		[1] = {
+			["time"] = 1748235488,
+			["quantity"] = 1,
+			["price"] = 1294,
+		},
+	},
+	["13444"] = {
+		[1] = {
+			["time"] = 1748333457,
+			["quantity"] = 2,
+			["price"] = 58783,
+		},
+	},
+	["11018"] = {
+		[1] = {
+			["time"] = 1747646152,
+			["quantity"] = 11,
+			["price"] = 2693,
+		},
+		[2] = {
+			["time"] = 1762721050,
+			["quantity"] = 49,
+			["price"] = 983,
+		},
+		[3] = {
+			["time"] = 1763081087,
+			["quantity"] = 11,
+			["price"] = 784,
+		},
+	},
+	["8391"] = {
+		[1] = {
+			["time"] = 1762584138,
+			["quantity"] = 2,
+			["price"] = 10979,
+		},
+	},
+	["1705"] = {
+		[1] = {
+			["time"] = 1746365478,
+			["quantity"] = 1,
+			["price"] = 8992,
+		},
+		[2] = {
+			["time"] = 1746402651,
+			["quantity"] = 1,
+			["price"] = 2519,
+		},
+		[3] = {
+			["time"] = 1746448471,
+			["quantity"] = 1,
+			["price"] = 2387,
+		},
+		[4] = {
+			["time"] = 1747741281,
+			["quantity"] = 1,
+			["price"] = 4895,
+		},
+		[5] = {
+			["time"] = 1761560588,
+			["quantity"] = 1,
+			["price"] = 3298,
+		},
+	},
+	["10285"] = {
+		[1] = {
+			["time"] = 1746945904,
+			["quantity"] = 1,
+			["price"] = 29980,
+		},
+		[2] = {
+			["time"] = 1747001101,
+			["quantity"] = 1,
+			["price"] = 1196,
+		},
+	},
+	["7070"] = {
+		[1] = {
+			["time"] = 1746884159,
+			["quantity"] = 3,
+			["price"] = 23999,
+		},
+		[2] = {
+			["time"] = 1746929935,
+			["quantity"] = 3,
+			["price"] = 24661,
+		},
+		[3] = {
+			["time"] = 1746970343,
+			["quantity"] = 3,
+			["price"] = 28998,
+		},
+		[4] = {
+			["time"] = 1747474970,
+			["quantity"] = 4,
+			["price"] = 27997,
+		},
+		[5] = {
+			["time"] = 1747538378,
+			["quantity"] = 4,
+			["price"] = 21194,
+		},
+		[6] = {
+			["time"] = 1747919176,
+			["quantity"] = 1,
+			["price"] = 24193,
+		},
+		[7] = {
+			["time"] = 1748150003,
+			["quantity"] = 1,
+			["price"] = 21498,
+		},
+		[8] = {
+			["time"] = 1757820972,
+			["quantity"] = 3,
+			["price"] = 49291,
+		},
+		[9] = {
+			["time"] = 1762247434,
+			["quantity"] = 1,
+			["price"] = 8090,
+		},
+		[10] = {
+			["time"] = 1762294830,
+			["quantity"] = 2,
+			["price"] = 6970,
+		},
+	},
+	["13443"] = {
+		[1] = {
+			["time"] = 1747569848,
+			["quantity"] = 1,
+			["price"] = 24999,
+		},
+		[2] = {
+			["time"] = 1747707680,
+			["quantity"] = 2,
+			["price"] = 31884,
+		},
+		[3] = {
+			["time"] = 1747830207,
+			["quantity"] = 1,
+			["price"] = 31998,
+		},
+		[4] = {
+			["time"] = 1747889549,
+			["quantity"] = 1,
+			["price"] = 24999,
+		},
+		[5] = {
+			["time"] = 1748252389,
+			["quantity"] = 22,
+			["price"] = 24998,
+		},
+	},
+	["13464"] = {
+		[1] = {
+			["time"] = 1748754676,
+			["quantity"] = 12,
+			["price"] = 754,
+		},
+		[2] = {
+			["time"] = 1748930235,
+			["quantity"] = 11,
+			["price"] = 365,
+		},
+		[3] = {
+			["time"] = 1749013726,
+			["quantity"] = 6,
+			["price"] = 2154,
+		},
+		[4] = {
+			["time"] = 1749106354,
+			["quantity"] = 9,
+			["price"] = 331,
+		},
+		[5] = {
+			["time"] = 1749212827,
+			["quantity"] = 4,
+			["price"] = 848,
+		},
+		[6] = {
+			["time"] = 1749280368,
+			["quantity"] = 18,
+			["price"] = 980,
+		},
+		[7] = {
+			["time"] = 1749361606,
+			["quantity"] = 25,
+			["price"] = 816,
+		},
+		[8] = {
+			["time"] = 1749447808,
+			["quantity"] = 2,
+			["price"] = 880,
+		},
+		[9] = {
+			["time"] = 1750568542,
+			["quantity"] = 16,
+			["price"] = 905,
+		},
+		[10] = {
+			["time"] = 1764195973,
+			["quantity"] = 2,
+			["price"] = 1305,
+		},
+	},
+	["12808"] = {
+		[1] = {
+			["time"] = 1747997313,
+			["quantity"] = 1,
+			["price"] = 2976,
+		},
+		[2] = {
+			["time"] = 1749212831,
+			["quantity"] = 1,
+			["price"] = 5989,
+		},
+		[3] = {
+			["time"] = 1749280374,
+			["quantity"] = 1,
+			["price"] = 5593,
+		},
+		[4] = {
+			["time"] = 1749304402,
+			["quantity"] = 3,
+			["price"] = 4063,
+		},
+	},
+	["2592"] = {
+		[1] = {
+			["time"] = 1746604985,
+			["quantity"] = 9,
+			["price"] = 136,
+		},
+		[2] = {
+			["time"] = 1746847774,
+			["quantity"] = 13,
+			["price"] = 114,
+		},
+		[3] = {
+			["time"] = 1746884197,
+			["quantity"] = 16,
+			["price"] = 394,
+		},
+		[4] = {
+			["time"] = 1746929927,
+			["quantity"] = 16,
+			["price"] = 87,
+		},
+		[5] = {
+			["time"] = 1746970377,
+			["quantity"] = 9,
+			["price"] = 131,
+		},
+		[6] = {
+			["time"] = 1761466405,
+			["quantity"] = 23,
+			["price"] = 334,
+		},
+		[7] = {
+			["time"] = 1761520813,
+			["quantity"] = 6,
+			["price"] = 298,
+		},
+		[8] = {
+			["time"] = 1761560585,
+			["quantity"] = 9,
+			["price"] = 320,
+		},
+		[9] = {
+			["time"] = 1761642439,
+			["quantity"] = 2,
+			["price"] = 189,
+		},
+		[10] = {
+			["time"] = 1761814143,
+			["quantity"] = 2,
+			["price"] = 284,
+		},
+	},
+	["3821"] = {
+		[1] = {
+			["time"] = 1748666967,
+			["quantity"] = 12,
+			["price"] = 3099,
+		},
+		[2] = {
+			["time"] = 1748671646,
+			["quantity"] = 1,
+			["price"] = 3023,
+		},
+		[3] = {
+			["time"] = 1748754694,
+			["quantity"] = 12,
+			["price"] = 2190,
+		},
+		[4] = {
+			["time"] = 1763771638,
+			["quantity"] = 51,
+			["price"] = 1681,
+		},
+	},
+	["1401"] = {
+		[1] = {
+			["time"] = 1746099535,
+			["quantity"] = 6,
+			["price"] = 522,
+		},
+	},
+	["7067"] = {
+		[1] = {
+			["time"] = 1747026768,
+			["quantity"] = 1,
+			["price"] = 80997,
+		},
+		[2] = {
+			["time"] = 1747405300,
+			["quantity"] = 4,
+			["price"] = 82897,
+		},
+		[3] = {
+			["time"] = 1761907539,
+			["quantity"] = 8,
+			["price"] = 29285,
+		},
+		[4] = {
+			["time"] = 1762081198,
+			["quantity"] = 2,
+			["price"] = 33248,
+		},
+		[5] = {
+			["time"] = 1762119269,
+			["quantity"] = 2,
+			["price"] = 28997,
+		},
+	},
+	["2730"] = {
+		[1] = {
+			["time"] = 1746604950,
+			["quantity"] = 1,
+			["price"] = 1166,
+		},
+		[2] = {
+			["time"] = 1746929951,
+			["quantity"] = 1,
+			["price"] = 5794,
+		},
+		[3] = {
+			["time"] = 1747447565,
+			["quantity"] = 1,
+			["price"] = 408,
+		},
+		[4] = {
+			["time"] = 1761642971,
+			["quantity"] = 4,
+			["price"] = 11242,
+		},
+		[5] = {
+			["time"] = 1761883355,
+			["quantity"] = 3,
+			["price"] = 5658,
+		},
+	},
+	["18512"] = {
+		[1] = {
+			["time"] = 1756525766,
+			["quantity"] = 1,
+			["price"] = 37992,
+		},
+		[2] = {
+			["time"] = 1763589692,
+			["quantity"] = 2,
+			["price"] = 57079,
+		},
+	},
+	["8845"] = {
+		[1] = {
+			["time"] = 1749297129,
+			["quantity"] = 3,
+			["price"] = 14467,
+		},
+	},
+	["3818"] = {
+		[1] = {
+			["time"] = 1748163853,
+			["quantity"] = 13,
+			["price"] = 7897,
+		},
+		[2] = {
+			["time"] = 1748666972,
+			["quantity"] = 2,
+			["price"] = 7299,
+		},
+		[3] = {
+			["time"] = 1748671632,
+			["quantity"] = 5,
+			["price"] = 7054,
+		},
+		[4] = {
+			["time"] = 1763771642,
+			["quantity"] = 15,
+			["price"] = 7037,
+		},
+	},
+	["3730"] = {
+		[1] = {
+			["time"] = 1746366862,
+			["quantity"] = 4,
+			["price"] = 239,
+		},
+	},
+	["3731"] = {
+		[1] = {
+			["time"] = 1747405519,
+			["quantity"] = 10,
+			["price"] = 457,
+		},
+	},
+	["16712"] = {
+		[1] = {
+			["time"] = 1748598988,
+			["quantity"] = 1,
+			["price"] = 949998,
+		},
+	},
+	["1206"] = {
+		[1] = {
+			["time"] = 1746337992,
+			["quantity"] = 1,
+			["price"] = 6998,
+		},
+		[2] = {
+			["time"] = 1746448462,
+			["quantity"] = 1,
+			["price"] = 6589,
+		},
+	},
+	["gr:727:of Power"] = {
+		[1] = {
+			["time"] = 1756785983,
+			["quantity"] = 1,
+			["price"] = 4094,
+		},
+	},
+	["7078"] = {
+		[1] = {
+			["time"] = 1747559026,
+			["quantity"] = 1,
+			["price"] = 2970,
+		},
+	},
+	["2745"] = {
+		[1] = {
+			["time"] = 1746884178,
+			["quantity"] = 1,
+			["price"] = 1097,
+		},
+		[2] = {
+			["time"] = 1761642995,
+			["quantity"] = 1,
+			["price"] = 8884,
+		},
+		[3] = {
+			["time"] = 1761907590,
+			["quantity"] = 1,
+			["price"] = 2495,
+		},
+		[4] = {
+			["time"] = 1761958179,
+			["quantity"] = 1,
+			["price"] = 1187,
+		},
+	},
+	["4305"] = {
+		[1] = {
+			["time"] = 1747538151,
+			["quantity"] = 1,
+			["price"] = 1138,
+		},
+		[2] = {
+			["time"] = 1747997300,
+			["quantity"] = 1,
+			["price"] = 929,
+		},
+	},
+	["2725"] = {
+		[1] = {
+			["time"] = 1746884189,
+			["quantity"] = 1,
+			["price"] = 2996,
+		},
+		[2] = {
+			["time"] = 1746929944,
+			["quantity"] = 1,
+			["price"] = 2992,
+		},
+		[3] = {
+			["time"] = 1746970363,
+			["quantity"] = 1,
+			["price"] = 2610,
+		},
+		[4] = {
+			["time"] = 1747001106,
+			["quantity"] = 1,
+			["price"] = 1987,
+		},
+		[5] = {
+			["time"] = 1761642959,
+			["quantity"] = 1,
+			["price"] = 1397,
+		},
+		[6] = {
+			["time"] = 1761883347,
+			["quantity"] = 1,
+			["price"] = 5097,
+		},
+		[7] = {
+			["time"] = 1761958168,
+			["quantity"] = 1,
+			["price"] = 986,
+		},
+	},
+	["19441"] = {
+		[1] = {
+			["time"] = 1747981836,
+			["quantity"] = 1,
+			["price"] = 9999,
+		},
+	},
+	["12204"] = {
+		[1] = {
+			["time"] = 1747405534,
+			["quantity"] = 1,
+			["price"] = 3862,
+		},
+	},
+	["__dbversion"] = 1,
+	["3928"] = {
+		[1] = {
+			["time"] = 1748244166,
+			["quantity"] = 9,
+			["price"] = 2427,
+		},
+		[2] = {
+			["time"] = 1748244885,
+			["quantity"] = 14,
+			["price"] = 2423,
+		},
+	},
+	["3685"] = {
+		[1] = {
+			["time"] = 1746366872,
+			["quantity"] = 14,
+			["price"] = 343,
+		},
+		[2] = {
+			["time"] = 1747405526,
+			["quantity"] = 7,
+			["price"] = 334,
+		},
+		[3] = {
+			["time"] = 1761560599,
+			["quantity"] = 20,
+			["price"] = 190,
+		},
+		[4] = {
+			["time"] = 1761642436,
+			["quantity"] = 3,
+			["price"] = 97,
+		},
+	},
+	["8393"] = {
+		[1] = {
+			["time"] = 1762584133,
+			["quantity"] = 1,
+			["price"] = 22285,
+		},
+		[2] = {
+			["time"] = 1762720933,
+			["quantity"] = 1,
+			["price"] = 35053,
+		},
+	},
+	["2734"] = {
+		[1] = {
+			["time"] = 1761642979,
+			["quantity"] = 2,
+			["price"] = 990,
+		},
+		[2] = {
+			["time"] = 1761883361,
+			["quantity"] = 2,
+			["price"] = 5030,
+		},
+		[3] = {
+			["time"] = 1761907576,
+			["quantity"] = 3,
+			["price"] = 2186,
+		},
+	},
+	["3358"] = {
+		[1] = {
+			["time"] = 1746884201,
+			["quantity"] = 2,
+			["price"] = 2191,
+		},
+		[2] = {
+			["time"] = 1748671635,
+			["quantity"] = 1,
+			["price"] = 824,
+		},
+		[3] = {
+			["time"] = 1763771645,
+			["quantity"] = 40,
+			["price"] = 412,
+		},
+	},
+	["3827"] = {
+		[1] = {
+			["time"] = 1761907656,
+			["quantity"] = 6,
+			["price"] = 1152,
+		},
+	},
+	["13307"] = {
+		[1] = {
+			["time"] = 1749371115,
+			["quantity"] = 1,
+			["price"] = 9996,
+		},
+	},
+	["1710"] = {
+		[1] = {
+			["time"] = 1747707641,
+			["quantity"] = 6,
+			["price"] = 734,
+		},
+		[2] = {
+			["time"] = 1748151649,
+			["quantity"] = 34,
+			["price"] = 749,
+		},
+		[3] = {
+			["time"] = 1748163813,
+			["quantity"] = 1,
+			["price"] = 543,
+		},
+		[4] = {
+			["time"] = 1748164105,
+			["quantity"] = 2,
+			["price"] = 540,
+		},
+		[5] = {
+			["time"] = 1748235506,
+			["quantity"] = 10,
+			["price"] = 493,
+		},
+	},
+	["929"] = {
+		[1] = {
+			["time"] = 1761520824,
+			["quantity"] = 4,
+			["price"] = 321,
+		},
+	},
+	["2318"] = {
+		[1] = {
+			["time"] = 1756792167,
+			["quantity"] = 1,
+			["price"] = 288,
+		},
+	},
+	["13926"] = {
+		[1] = {
+			["time"] = 1762294844,
+			["quantity"] = 1,
+			["price"] = 29985,
+		},
+	},
+	["4338"] = {
+		[1] = {
+			["time"] = 1762426348,
+			["quantity"] = 33,
+			["price"] = 387,
+		},
+		[2] = {
+			["time"] = 1762511720,
+			["quantity"] = 35,
+			["price"] = 403,
+		},
+		[3] = {
+			["time"] = 1762559207,
+			["quantity"] = 16,
+			["price"] = 374,
+		},
+		[4] = {
+			["time"] = 1762568722,
+			["quantity"] = 9,
+			["price"] = 342,
+		},
+		[5] = {
+			["time"] = 1762583139,
+			["quantity"] = 3,
+			["price"] = 365,
+		},
+		[6] = {
+			["time"] = 1762758999,
+			["quantity"] = 32,
+			["price"] = 377,
+		},
+		[7] = {
+			["time"] = 1762821790,
+			["quantity"] = 3,
+			["price"] = 322,
+		},
+		[8] = {
+			["time"] = 1762930960,
+			["quantity"] = 7,
+			["price"] = 383,
+		},
+		[9] = {
+			["time"] = 1763081084,
+			["quantity"] = 34,
+			["price"] = 353,
+		},
+		[10] = {
+			["time"] = 1763257833,
+			["quantity"] = 14,
+			["price"] = 352,
+		},
+	},
+	["4480"] = {
+		[1] = {
+			["time"] = 1746970298,
+			["quantity"] = 1,
+			["price"] = 24924,
+		},
+	},
+	["7971"] = {
+		[1] = {
+			["time"] = 1747145102,
+			["quantity"] = 2,
+			["price"] = 1489,
+		},
+		[2] = {
+			["time"] = 1761979794,
+			["quantity"] = 2,
+			["price"] = 7497,
+		},
+		[3] = {
+			["time"] = 1762036145,
+			["quantity"] = 1,
+			["price"] = 1995,
+		},
+		[4] = {
+			["time"] = 1762081181,
+			["quantity"] = 1,
+			["price"] = 3586,
+		},
+		[5] = {
+			["time"] = 1762247366,
+			["quantity"] = 2,
+			["price"] = 1880,
+		},
+	},
+	["11078"] = {
+		[1] = {
+			["time"] = 1747919183,
+			["quantity"] = 1,
+			["price"] = 366,
+		},
+	},
+	["10286"] = {
+		[1] = {
+			["time"] = 1747552432,
+			["quantity"] = 7,
+			["price"] = 599,
+		},
+		[2] = {
+			["time"] = 1762247374,
+			["quantity"] = 2,
+			["price"] = 633,
+		},
+	},
+	["12207"] = {
+		[1] = {
+			["time"] = 1747207279,
+			["quantity"] = 7,
+			["price"] = 1067,
+		},
+	},
+	["2675"] = {
+		[1] = {
+			["time"] = 1746366875,
+			["quantity"] = 6,
+			["price"] = 47,
+		},
+	},
+	["12205"] = {
+		[1] = {
+			["time"] = 1747370736,
+			["quantity"] = 13,
+			["price"] = 769,
+		},
+		[2] = {
+			["time"] = 1747405566,
+			["quantity"] = 3,
+			["price"] = 725,
+		},
+		[3] = {
+			["time"] = 1747981854,
+			["quantity"] = 9,
+			["price"] = 498,
+		},
+	},
+	["2750"] = {
+		[1] = {
+			["time"] = 1747145044,
+			["quantity"] = 1,
+			["price"] = 573,
+		},
+		[2] = {
+			["time"] = 1761883472,
+			["quantity"] = 1,
+			["price"] = 532,
+		},
+		[3] = {
+			["time"] = 1761958185,
+			["quantity"] = 1,
+			["price"] = 2192,
+		},
+	},
+	["3712"] = {
+		[1] = {
+			["time"] = 1747405522,
+			["quantity"] = 7,
+			["price"] = 619,
+		},
+		[2] = {
+			["time"] = 1764195979,
+			["quantity"] = 7,
+			["price"] = 1094,
+		},
+	},
+	["818"] = {
+		[1] = {
+			["time"] = 1746011634,
+			["quantity"] = 1,
+			["price"] = 747,
+		},
+		[2] = {
+			["time"] = 1746448483,
+			["quantity"] = 1,
+			["price"] = 1488,
+		},
+		[3] = {
+			["time"] = 1746488045,
+			["quantity"] = 1,
+			["price"] = 395,
+		},
+		[4] = {
+			["time"] = 1747741286,
+			["quantity"] = 1,
+			["price"] = 395,
+		},
+		[5] = {
+			["time"] = 1756785994,
+			["quantity"] = 1,
+			["price"] = 721,
+		},
+		[6] = {
+			["time"] = 1756791616,
+			["quantity"] = 1,
+			["price"] = 714,
+		},
+	},
+	["4306"] = {
+		[1] = {
+			["time"] = 1747026782,
+			["quantity"] = 9,
+			["price"] = 164,
+		},
+		[2] = {
+			["time"] = 1747033237,
+			["quantity"] = 22,
+			["price"] = 167,
+		},
+		[3] = {
+			["time"] = 1761520819,
+			["quantity"] = 38,
+			["price"] = 183,
+		},
+		[4] = {
+			["time"] = 1761560581,
+			["quantity"] = 37,
+			["price"] = 193,
+		},
+		[5] = {
+			["time"] = 1761642433,
+			["quantity"] = 50,
+			["price"] = 320,
+		},
+		[6] = {
+			["time"] = 1761814139,
+			["quantity"] = 36,
+			["price"] = 180,
+		},
+		[7] = {
+			["time"] = 1761884094,
+			["quantity"] = 35,
+			["price"] = 155,
+		},
+		[8] = {
+			["time"] = 1761907551,
+			["quantity"] = 79,
+			["price"] = 163,
+		},
+		[9] = {
+			["time"] = 1761958149,
+			["quantity"] = 40,
+			["price"] = 156,
+		},
+		[10] = {
+			["time"] = 1762426341,
+			["quantity"] = 9,
+			["price"] = 191,
+		},
+	},
+	["8483"] = {
+		[1] = {
+			["time"] = 1747361157,
+			["quantity"] = 11,
+			["price"] = 2681,
+		},
+	},
+	["8839"] = {
+		[1] = {
+			["time"] = 1748671642,
+			["quantity"] = 1,
+			["price"] = 13999,
+		},
+	},
+	["2751"] = {
+		[1] = {
+			["time"] = 1746884174,
+			["quantity"] = 3,
+			["price"] = 9996,
+		},
+		[2] = {
+			["time"] = 1746929964,
+			["quantity"] = 3,
+			["price"] = 797,
+		},
+		[3] = {
+			["time"] = 1761883501,
+			["quantity"] = 2,
+			["price"] = 733,
+		},
+	},
+	["5500"] = {
+		[1] = {
+			["time"] = 1746448475,
+			["quantity"] = 1,
+			["price"] = 2099,
+		},
+		[2] = {
+			["time"] = 1746531253,
+			["quantity"] = 1,
+			["price"] = 1995,
+		},
+		[3] = {
+			["time"] = 1747741265,
+			["quantity"] = 1,
+			["price"] = 1491,
+		},
+		[4] = {
+			["time"] = 1761979796,
+			["quantity"] = 1,
+			["price"] = 1458,
+		},
+		[5] = {
+			["time"] = 1762338225,
+			["quantity"] = 1,
+			["price"] = 38483,
+		},
+		[6] = {
+			["time"] = 1762426360,
+			["quantity"] = 1,
+			["price"] = 5024,
+		},
+		[7] = {
+			["time"] = 1762511794,
+			["quantity"] = 1,
+			["price"] = 79998,
+		},
+		[8] = {
+			["time"] = 1762559204,
+			["quantity"] = 1,
+			["price"] = 4980,
+		},
+		[9] = {
+			["time"] = 1762720924,
+			["quantity"] = 1,
+			["price"] = 5778,
+		},
+	},
+	["8831"] = {
+		[1] = {
+			["time"] = 1748164088,
+			["quantity"] = 12,
+			["price"] = 1019,
+		},
+		[2] = {
+			["time"] = 1748671638,
+			["quantity"] = 3,
+			["price"] = 3329,
+		},
+		[3] = {
+			["time"] = 1748754690,
+			["quantity"] = 3,
+			["price"] = 1176,
+		},
+		[4] = {
+			["time"] = 1763771616,
+			["quantity"] = 12,
+			["price"] = 449,
+		},
+	},
+	["2449"] = {
+		[1] = {
+			["time"] = 1746099543,
+			["quantity"] = 2,
+			["price"] = 100,
+		},
+	},
+	["14227"] = {
+		[1] = {
+			["time"] = 1747981832,
+			["quantity"] = 4,
+			["price"] = 3236,
+		},
+		[2] = {
+			["time"] = 1748008278,
+			["quantity"] = 1,
+			["price"] = 3381,
+		},
+		[3] = {
+			["time"] = 1763198870,
+			["quantity"] = 3,
+			["price"] = 3999,
+		},
+		[4] = {
+			["time"] = 1763374694,
+			["quantity"] = 1,
+			["price"] = 4527,
+		},
+	},
+	["3357"] = {
+		[1] = {
+			["time"] = 1748163931,
+			["quantity"] = 2,
+			["price"] = 722,
+		},
+		[2] = {
+			["time"] = 1749297132,
+			["quantity"] = 1,
+			["price"] = 590,
+		},
+		[3] = {
+			["time"] = 1763771652,
+			["quantity"] = 31,
+			["price"] = 525,
+		},
+	},
+	["2452"] = {
+		[1] = {
+			["time"] = 1763771677,
+			["quantity"] = 29,
+			["price"] = 6743,
+		},
+	},
+	["2738"] = {
+		[1] = {
+			["time"] = 1747145067,
+			["quantity"] = 2,
+			["price"] = 1076,
+		},
+		[2] = {
+			["time"] = 1761642984,
+			["quantity"] = 2,
+			["price"] = 595,
+		},
+		[3] = {
+			["time"] = 1761883364,
+			["quantity"] = 1,
+			["price"] = 1199,
+		},
+		[4] = {
+			["time"] = 1761907581,
+			["quantity"] = 1,
+			["price"] = 1037,
+		},
+		[5] = {
+			["time"] = 1761958171,
+			["quantity"] = 1,
+			["price"] = 689,
+		},
+	},
+	["765"] = {
+		[1] = {
+			["time"] = 1763771631,
+			["quantity"] = 49,
+			["price"] = 206,
+		},
+	},
+	["2453"] = {
+		[1] = {
+			["time"] = 1763771669,
+			["quantity"] = 26,
+			["price"] = 1433,
+		},
+	},
+	["5498"] = {
+		[1] = {
+			["time"] = 1746241632,
+			["quantity"] = 1,
+			["price"] = 346,
+		},
+		[2] = {
+			["time"] = 1746440070,
+			["quantity"] = 1,
+			["price"] = 710,
+		},
+		[3] = {
+			["time"] = 1746531249,
+			["quantity"] = 5,
+			["price"] = 671,
+		},
+		[4] = {
+			["time"] = 1746862199,
+			["quantity"] = 1,
+			["price"] = 482,
+		},
+		[5] = {
+			["time"] = 1762081189,
+			["quantity"] = 1,
+			["price"] = 3749,
+		},
+		[6] = {
+			["time"] = 1762119262,
+			["quantity"] = 1,
+			["price"] = 1369,
+		},
+	},
+	["16736"] = {
+		[1] = {
+			["time"] = 1748666939,
+			["quantity"] = 1,
+			["price"] = 559996,
+		},
+		[2] = {
+			["time"] = 1748754657,
+			["quantity"] = 1,
+			["price"] = 559996,
+		},
+		[3] = {
+			["time"] = 1748777895,
+			["quantity"] = 1,
+			["price"] = 559994,
+		},
+	},
+	["1980"] = {
+		[1] = {
+			["time"] = 1762821830,
+			["quantity"] = 1,
+			["price"] = 956661,
+		},
+	},
+	["7069"] = {
+		[1] = {
+			["time"] = 1746929941,
+			["quantity"] = 3,
+			["price"] = 4405,
+		},
+		[2] = {
+			["time"] = 1746970351,
+			["quantity"] = 1,
+			["price"] = 673,
+		},
+		[3] = {
+			["time"] = 1747981872,
+			["quantity"] = 1,
+			["price"] = 861,
+		},
+		[4] = {
+			["time"] = 1761520809,
+			["quantity"] = 1,
+			["price"] = 1997,
+		},
+	},
+	["2748"] = {
+		[1] = {
+			["time"] = 1746884163,
+			["quantity"] = 1,
+			["price"] = 3346,
+		},
+		[2] = {
+			["time"] = 1746929959,
+			["quantity"] = 1,
+			["price"] = 577,
+		},
+		[3] = {
+			["time"] = 1747145051,
+			["quantity"] = 3,
+			["price"] = 992,
+		},
+		[4] = {
+			["time"] = 1747447561,
+			["quantity"] = 1,
+			["price"] = 4798,
+		},
+		[5] = {
+			["time"] = 1761643000,
+			["quantity"] = 3,
+			["price"] = 959,
+		},
+		[6] = {
+			["time"] = 1761883378,
+			["quantity"] = 2,
+			["price"] = 7799,
+		},
+	},
+	["3819"] = {
+		[1] = {
+			["time"] = 1747405614,
+			["quantity"] = 1,
+			["price"] = 25986,
+		},
+	},
+	["8838"] = {
+		[1] = {
+			["time"] = 1748666975,
+			["quantity"] = 15,
+			["price"] = 1628,
+		},
+		[2] = {
+			["time"] = 1749212846,
+			["quantity"] = 2,
+			["price"] = 1999,
+		},
+		[3] = {
+			["time"] = 1749297332,
+			["quantity"] = 1,
+			["price"] = 2362,
+		},
+	},
+	["12203"] = {
+		[1] = {
+			["time"] = 1747405537,
+			["quantity"] = 8,
+			["price"] = 225,
+		},
+	},
+	["15420"] = {
+		[1] = {
+			["time"] = 1763257828,
+			["quantity"] = 55,
+			["price"] = 283,
+		},
+	},
+	["17056"] = {
+		[1] = {
+			["time"] = 1756792185,
+			["quantity"] = 7,
+			["price"] = 1694,
+		},
+		[2] = {
+			["time"] = 1756792876,
+			["quantity"] = 1,
+			["price"] = 1691,
+		},
+		[3] = {
+			["time"] = 1756807072,
+			["quantity"] = 13,
+			["price"] = 1497,
+		},
+		[4] = {
+			["time"] = 1761446079,
+			["quantity"] = 8,
+			["price"] = 397,
+		},
+	},
+	["19236"] = {
+		[1] = {
+			["time"] = 1747824521,
+			["quantity"] = 1,
+			["price"] = 16595,
+		},
+		[2] = {
+			["time"] = 1747871671,
+			["quantity"] = 1,
+			["price"] = 16577,
+		},
+	},
+	["12607"] = {
+		[1] = {
+			["time"] = 1750492370,
+			["quantity"] = 1,
+			["price"] = 8639,
+		},
+	},
+	["13465"] = {
+		[1] = {
+			["time"] = 1749212819,
+			["quantity"] = 3,
+			["price"] = 19757,
+		},
+		[2] = {
+			["time"] = 1749280361,
+			["quantity"] = 19,
+			["price"] = 18463,
+		},
+		[3] = {
+			["time"] = 1749361600,
+			["quantity"] = 11,
+			["price"] = 17873,
+		},
+		[4] = {
+			["time"] = 1749447804,
+			["quantity"] = 14,
+			["price"] = 17787,
+		},
+		[5] = {
+			["time"] = 1750474346,
+			["quantity"] = 19,
+			["price"] = 22479,
+		},
+		[6] = {
+			["time"] = 1750488544,
+			["quantity"] = 5,
+			["price"] = 21499,
+		},
+		[7] = {
+			["time"] = 1750504705,
+			["quantity"] = 19,
+			["price"] = 18926,
+		},
+		[8] = {
+			["time"] = 1750560671,
+			["quantity"] = 24,
+			["price"] = 17874,
+		},
+		[9] = {
+			["time"] = 1750568536,
+			["quantity"] = 10,
+			["price"] = 17574,
+		},
+		[10] = {
+			["time"] = 1764195969,
+			["quantity"] = 3,
+			["price"] = 5915,
+		},
+	},
+	["gr:2632:of Power"] = {
+		[1] = {
+			["time"] = 1756807051,
+			["quantity"] = 1,
+			["price"] = 2996,
+		},
+	},
+	["7079"] = {
+		[1] = {
+			["time"] = 1747474966,
+			["quantity"] = 4,
+			["price"] = 1176,
+		},
+		[2] = {
+			["time"] = 1747889557,
+			["quantity"] = 2,
+			["price"] = 4346,
+		},
+		[3] = {
+			["time"] = 1749297337,
+			["quantity"] = 1,
+			["price"] = 794,
+		},
+	},
+	["7080"] = {
+		[1] = {
+			["time"] = 1763257813,
+			["quantity"] = 1,
+			["price"] = 99997,
+		},
+	},
+	["11205"] = {
+		[1] = {
+			["time"] = 1747195359,
+			["quantity"] = 2,
+			["price"] = 8496,
+		},
+	},
+	["6037"] = {
+		[1] = {
+			["time"] = 1762294838,
+			["quantity"] = 2,
+			["price"] = 2644,
+		},
+	},
+	["727"] = {
+		[1] = {
+			["time"] = 1756785983,
+			["quantity"] = 1,
+			["price"] = 4094,
+		},
+	},
+	["4234"] = {
+		[1] = {
+			["time"] = 1747187422,
+			["quantity"] = 3,
+			["price"] = 594,
+		},
+	},
+	["9249"] = {
+		[1] = {
+			["time"] = 1747361150,
+			["quantity"] = 1,
+			["price"] = 4078,
+		},
+		[2] = {
+			["time"] = 1762247396,
+			["quantity"] = 1,
+			["price"] = 1878,
+		},
+	},
+	["729"] = {
+		[1] = {
+			["time"] = 1761446074,
+			["quantity"] = 5,
+			["price"] = 20,
+		},
+	},
+	["12184"] = {
+		[1] = {
+			["time"] = 1747405552,
+			["quantity"] = 13,
+			["price"] = 222,
+		},
+		[2] = {
+			["time"] = 1761560596,
+			["quantity"] = 18,
+			["price"] = 195,
+		},
+	},
+	["16703"] = {
+		[1] = {
+			["time"] = 1748069388,
+			["quantity"] = 1,
+			["price"] = 104998,
+		},
+		[2] = {
+			["time"] = 1748134967,
+			["quantity"] = 1,
+			["price"] = 44790,
+		},
+	},
+	["13304"] = {
+		[1] = {
+			["time"] = 1749371111,
+			["quantity"] = 1,
+			["price"] = 9999,
+		},
+	},
+	["8949"] = {
+		[1] = {
+			["time"] = 1748236952,
+			["quantity"] = 32,
+			["price"] = 2496,
+		},
+		[2] = {
+			["time"] = 1748310270,
+			["quantity"] = 27,
+			["price"] = 7477,
+		},
+	},
+	["2447"] = {
+		[1] = {
+			["time"] = 1763771695,
+			["quantity"] = 38,
+			["price"] = 12,
+		},
+	},
+	["7076"] = {
+		[1] = {
+			["time"] = 1747981861,
+			["quantity"] = 1,
+			["price"] = 35194,
+		},
+		[2] = {
+			["time"] = 1748059629,
+			["quantity"] = 1,
+			["price"] = 29996,
+		},
+	},
+	["19933"] = {
+		[1] = {
+			["time"] = 1747981878,
+			["quantity"] = 4,
+			["price"] = 2262,
+		},
+		[2] = {
+			["time"] = 1762583152,
+			["quantity"] = 2,
+			["price"] = 2299,
+		},
+		[3] = {
+			["time"] = 1762720947,
+			["quantity"] = 2,
+			["price"] = 9999,
+		},
+	},
+	["2450"] = {
+		[1] = {
+			["time"] = 1746338026,
+			["quantity"] = 3,
+			["price"] = 159,
+		},
+		[2] = {
+			["time"] = 1762720929,
+			["quantity"] = 1,
+			["price"] = 386,
+		},
+		[3] = {
+			["time"] = 1763771684,
+			["quantity"] = 81,
+			["price"] = 582,
+		},
+	},
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+}
+AUCTIONATOR_RECENT_SEARCHES = {
+	[1] = "runecloth bag",
+	[2] = "dream dust",
+	[3] = "large radiant",
+	[4] = "mithril spurs",
+	[5] = "encrypted twilight",
+	[6] = "wastewander",
+	[7] = "\"mithril casing\";;0;0;0;0;0;0;0;0;;#;;",
+	[8] = "mithril casing",
+	[9] = "mithril",
+	[10] = "gromsblood",
+	[11] = "silk cloth",
+	[12] = "long elegant feather",
+	[13] = "frost oil",
+	[14] = "page 27",
+	[15] = "page 26",
+	[16] = "page 25",
+	[17] = "mageweave cloth",
+	[18] = "traveler's backpack",
+	[19] = "solid grinding stone",
+	[20] = "mithril bar",
+	[21] = "sungrass",
+	[22] = "small radiant shard",
+	[23] = "black lotus",
+	[24] = "vision dust",
+	[25] = "ghost mushroom",
+	[26] = "recipe: invisibility",
+	[27] = "invisibility",
+	[28] = "ghpst mush",
+	[29] = "swiftness",
+	[30] = "mongoose",
 }

@@ -1,0 +1,7 @@
+VER 3 0100000001000002 "Follow" "132089"
+/follow Obszczymucha
+END
+VER 3 0100000001000003 "sad" "136033"
+/tar High Chief
+/cast [harm,nodead]Moonfire
+END

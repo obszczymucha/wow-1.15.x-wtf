@@ -3,71 +3,33 @@ CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
 ["Boulderdash - Spineshatter"] = {
+["downclick"] = false,
 ["fastooc"] = false,
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 },
 ["Tachikoma - Spineshatter"] = {
-["downclick"] = false,
 ["fastooc"] = false,
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 },
 },
 ["profileKeys"] = {
-["Boordell - Spineshatter"] = "Boordell - Spineshatter",
-["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
+["Boordell - Spineshatter"] = "Boordell - Spineshatter",
 },
 ["profiles"] = {
-["Boordell - Spineshatter"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
-["Boulderdash - Spineshatter"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
 ["Tachikoma - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "ALT-SHIFT-BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -81,32 +43,70 @@ CliqueDB3 = {
 {
 ["spell"] = "Regrowth",
 ["key"] = "BUTTON2",
-["type"] = "spell",
+["spellSubName"] = "Rank 5",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136085,
-["spellSubName"] = "Rank 5",
+["type"] = "spell",
 },
 {
 ["spell"] = "Rejuvenation",
 ["key"] = "ALT-BUTTON1",
-["type"] = "spell",
+["spellSubName"] = "Rank 7",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136081,
-["spellSubName"] = "Rank 7",
+["type"] = "spell",
 },
 {
 ["spell"] = "Healing Touch",
 ["key"] = "BUTTON1",
-["type"] = "spell",
+["spellSubName"] = "Rank 7",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136041,
-["spellSubName"] = "Rank 7",
+["type"] = "spell",
+},
+},
+},
+["Boulderdash - Spineshatter"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Boordell - Spineshatter"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

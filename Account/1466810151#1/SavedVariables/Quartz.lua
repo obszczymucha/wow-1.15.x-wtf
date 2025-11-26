@@ -1,85 +1,84 @@
 
 Quartz3DB = {
-["namespaces"] = {
-["Pet"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Player"] = {
-["profiles"] = {
-["Default"] = {
-["h"] = 13,
-["timefontsize"] = 8,
-["w"] = 130,
-["y"] = 125,
-["border"] = "None",
-["fontsize"] = 9,
-["texture"] = "Charcoal",
-["showticks"] = false,
-["x"] = 696,
-},
-},
-},
-["Target"] = {
-["profiles"] = {
-["Default"] = {
-["x"] = 667.0411987304688,
-},
-},
-},
-["Mirror"] = {
-["profiles"] = {
-["Default"] = {
-["mirroranchor"] = "free",
-["mirrory"] = 108,
-["mirrorheight"] = 13,
-["mirrortexture"] = "Charcoal",
-["mirrorx"] = 712,
-["BREATH"] = {
-0.2039215862751007,
-0.545098066329956,
-nil,
-1,
-},
-},
-},
-},
-},
-["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
-["Dupeczka - Spineshatter"] = "Default",
-["Asdfwerqwer - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
-["Ewrtettrrt - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
-["Boordell - Spineshatter"] = "Default",
-},
-["profiles"] = {
-["Default"] = {
-["castingcolor"] = {
-0.7882353663444519,
-0.545098066329956,
-0.4000000357627869,
-1,
-},
-["backgroundalpha"] = 0.525,
-["modules"] = {
-["Tradeskill"] = false,
-["Buff"] = false,
-["Interrupt"] = false,
-["Range"] = false,
-["GCD"] = false,
-["Pet"] = false,
-["Timer"] = false,
-["Target"] = false,
-["Swing"] = false,
-["Latency"] = false,
-},
-},
-},
+	["namespaces"] = {
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 667.04119873046875,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 667.04119873046875,
+				},
+			},
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["texture"] = "Charcoal",
+					["border"] = "None",
+					["timefontsize"] = 8,
+					["y"] = 125,
+					["showticks"] = false,
+					["w"] = 130,
+					["h"] = 13,
+					["x"] = 696,
+					["fontsize"] = 9,
+				},
+			},
+		},
+		["Mirror"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mirrorheight"] = 13,
+					["mirrorx"] = 712,
+					["BREATH"] = {
+						[1] = 0.20392158627510071,
+						[2] = 0.54509806632995605,
+						[4] = 1,
+					},
+					["mirroranchor"] = "free",
+					["mirrory"] = 108,
+					["mirrortexture"] = "Charcoal",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Boulderdash - Spineshatter"] = "Default",
+		["Awertqwertwe - Spineshatter"] = "Default",
+		["Tachikoma - Spineshatter"] = "Default",
+		["Ewrtettrrt - Spineshatter"] = "Default",
+		["Jogobobek - Spineshatter"] = "Default",
+		["Boordell - Spineshatter"] = "Default",
+		["Obszczymucha - Spineshatter"] = "Default",
+		["Asdfwerqwer - Spineshatter"] = "Default",
+		["Dupeczka - Spineshatter"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["backgroundalpha"] = 0.52500000000000002,
+			["castingcolor"] = {
+				[1] = 0.7882353663444519,
+				[2] = 0.54509806632995605,
+				[3] = 0.40000003576278692,
+				[4] = 1,
+			},
+			["modules"] = {
+				["Timer"] = false,
+				["Swing"] = false,
+				["Pet"] = false,
+				["Buff"] = false,
+				["GCD"] = false,
+				["Tradeskill"] = false,
+				["Interrupt"] = false,
+				["Range"] = false,
+				["Target"] = false,
+				["Latency"] = false,
+			},
+		},
+	},
 }
