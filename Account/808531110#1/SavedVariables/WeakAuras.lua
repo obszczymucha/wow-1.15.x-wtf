@@ -1,527 +1,527 @@
 
 WeakAurasSaved = {
-["dynamicIconCache"] = {
-},
-["editor_tab_spaces"] = 4,
-["login_squelch_time"] = 10,
-["editor_font_size"] = 12,
-["lastArchiveClear"] = 1762925222,
-["minimap"] = {
-["hide"] = true,
-},
-["lastUpgrade"] = 1746322610,
-["dbVersion"] = 84,
-["migrationCutoff"] = 730,
-["registered"] = {
-},
-["displays"] = {
-["Battle Shout running out"] = {
-["iconSource"] = -1,
-["parent"] = "Main Notifications",
-["adjustedMax"] = "",
-["adjustedMin"] = "",
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = true,
-["cooldownEdge"] = false,
-["icon"] = true,
-["triggers"] = {
-{
-["trigger"] = {
-["rem"] = "10",
-["auranames"] = {
-"Battle Shout",
-},
-["debuffType"] = "HELPFUL",
-["matchesShowOn"] = "showOnActive",
-["event"] = "Health",
-["unit"] = "player",
-["useName"] = true,
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["remOperator"] = "<=",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["useRem"] = true,
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 84,
-["progressSource"] = {
--1,
-"",
-},
-["selfPoint"] = "CENTER",
-["desaturate"] = true,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text_format_s_format"] = "none",
-["text_text"] = "%s",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["anchorYOffset"] = 0,
-["text_justify"] = "CENTER",
-["rotateText"] = "NONE",
-["type"] = "subtext",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "Friz Quadrata TT",
-["text_shadowYOffset"] = 0,
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["anchor_point"] = "INNER_BOTTOMRIGHT",
-["text_fontSize"] = 12,
-["anchorXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["useGlowColor"] = false,
-["glowType"] = "buttonOverlay",
-["glowLength"] = 10,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-1,
-},
-["glowDuration"] = 1,
-["glowXOffset"] = 0,
-["glowThickness"] = 1,
-["glowScale"] = 1,
-["glow"] = false,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 46,
-["load"] = {
-["use_mounted"] = false,
-["use_zone"] = true,
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["talent"] = {
-["multi"] = {
-},
-},
-["use_vehicle"] = false,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["keepAspectRatio"] = false,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["authorOptions"] = {
-},
-["preferToUpdate"] = false,
-["information"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["uid"] = "dJKhBnYEhoY",
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["anchorFrameType"] = "SCREEN",
-["tocversion"] = 11508,
-["id"] = "Battle Shout running out",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["width"] = 46,
-["useCooldownModRate"] = true,
-["config"] = {
-},
-["inverse"] = false,
-["xOffset"] = 0,
-["conditions"] = {
-},
-["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-},
-["Main Notifications"] = {
-["grow"] = "HORIZONTAL",
-["controlledChildren"] = {
-"Battle Shout Missing",
-"Battle Shout running out",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = 0,
-["preferToUpdate"] = false,
-["yOffset"] = -150,
-["anchorPoint"] = "BOTTOM",
-["fullCircle"] = true,
-["space"] = 2,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["subeventPrefix"] = "SPELL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["names"] = {
-},
-["event"] = "Health",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-},
-["columnSpace"] = 1,
-["internalVersion"] = 84,
-["useLimit"] = false,
-["align"] = "CENTER",
-["alpha"] = 1,
-["stagger"] = 0,
-["stepAngle"] = 15,
-["authorOptions"] = {
-},
-["subRegions"] = {
-},
-["arcLength"] = 360,
-["sortHybridTable"] = {
-["MOTW running out"] = false,
-["MOTW missing"] = false,
-},
-["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["talent"] = {
-["multi"] = {
-},
-},
-},
-["selfPoint"] = "CENTER",
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["rotation"] = 0,
-["animate"] = false,
-["anchorFrameFrame"] = "SUFUnittarget",
-["scale"] = 1,
-["centerType"] = "LR",
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
-["borderSize"] = 2,
-["sort"] = "none",
-["config"] = {
-},
-["limit"] = 5,
-["constantFactor"] = "RADIUS",
-["gridWidth"] = 5,
-["borderOffset"] = 4,
-["rowSpace"] = 1,
-["tocversion"] = 11508,
-["id"] = "Main Notifications",
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["frameStrata"] = 1,
-["anchorFrameType"] = "SELECTFRAME",
-["uid"] = "pb8jb71psxd",
-["borderInset"] = 1,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["gridType"] = "RD",
-["conditions"] = {
-},
-["information"] = {
-},
-["radius"] = 200,
-},
-["Battle Shout Missing"] = {
-["iconSource"] = -1,
-["parent"] = "Main Notifications",
-["adjustedMax"] = "",
-["adjustedMin"] = "",
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = true,
-["cooldownEdge"] = false,
-["icon"] = true,
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "aura2",
-["auranames"] = {
-"Battle Shout",
-},
-["matchesShowOn"] = "showOnMissing",
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["useName"] = true,
-["names"] = {
-},
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 84,
-["progressSource"] = {
--1,
-"",
-},
-["selfPoint"] = "CENTER",
-["desaturate"] = false,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text_format_s_format"] = "none",
-["text_text"] = "%s",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["anchorYOffset"] = 0,
-["text_justify"] = "CENTER",
-["rotateText"] = "NONE",
-["type"] = "subtext",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "Friz Quadrata TT",
-["text_shadowYOffset"] = 0,
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["anchor_point"] = "INNER_BOTTOMRIGHT",
-["text_fontSize"] = 12,
-["anchorXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["glowDuration"] = 1,
-["glowType"] = "buttonOverlay",
-["glowLength"] = 10,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-1,
-},
-["useGlowColor"] = false,
-["glowXOffset"] = 0,
-["glow"] = false,
-["glowScale"] = 1,
-["glowThickness"] = 1,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 46,
-["load"] = {
-["use_mounted"] = false,
-["use_zone"] = true,
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["talent"] = {
-["multi"] = {
-},
-},
-["use_vehicle"] = false,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["useAdjustededMax"] = false,
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["xOffset"] = 0,
-["preferToUpdate"] = false,
-["cooldown"] = true,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["config"] = {
-},
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["width"] = 46,
-["tocversion"] = 11508,
-["id"] = "Battle Shout Missing",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["uid"] = "NaJ3hmu)AmJ",
-["inverse"] = false,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["conditions"] = {
-},
-["information"] = {
-},
-["keepAspectRatio"] = false,
-},
-},
-["features"] = {
-},
-["historyCutoff"] = 730,
+	["editor_tab_spaces"] = 4,
+	["historyCutoff"] = 730,
+	["minimap"] = {
+		["hide"] = true,
+	},
+	["displays"] = {
+		["Main Notifications"] = {
+			["fullCircle"] = true,
+			["alpha"] = 1,
+			["animate"] = false,
+			["xOffset"] = 0,
+			["yOffset"] = -150,
+			["rowSpace"] = 1,
+			["stepAngle"] = 15,
+			["align"] = "CENTER",
+			["gridWidth"] = 5,
+			["uid"] = "pb8jb71psxd",
+			["centerType"] = "LR",
+			["tocversion"] = 11508,
+			["grow"] = "HORIZONTAL",
+			["sort"] = "none",
+			["controlledChildren"] = {
+				[1] = "Battle Shout Missing",
+				[2] = "Battle Shout running out",
+			},
+			["borderColor"] = {
+				[1] = 0,
+				[2] = 0,
+				[3] = 0,
+				[4] = 1,
+			},
+			["stagger"] = 0,
+			["animation"] = {
+				["start"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["borderEdge"] = "Square Full White",
+			["triggers"] = {
+				[1] = {
+					["untrigger"] = {
+					},
+					["trigger"] = {
+						["subeventSuffix"] = "_CAST_START",
+						["type"] = "aura2",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["event"] = "Health",
+						["debuffType"] = "HELPFUL",
+						["names"] = {
+						},
+					},
+				},
+			},
+			["borderInset"] = 1,
+			["id"] = "Main Notifications",
+			["information"] = {
+			},
+			["internalVersion"] = 84,
+			["load"] = {
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["backdropColor"] = {
+				[1] = 1,
+				[2] = 1,
+				[3] = 1,
+				[4] = 0.5,
+			},
+			["subRegions"] = {
+			},
+			["space"] = 2,
+			["gridType"] = "RD",
+			["columnSpace"] = 1,
+			["anchorPoint"] = "BOTTOM",
+			["scale"] = 1,
+			["sortHybridTable"] = {
+				["MOTW missing"] = false,
+				["MOTW running out"] = false,
+			},
+			["selfPoint"] = "CENTER",
+			["anchorFrameType"] = "SELECTFRAME",
+			["rotation"] = 0,
+			["preferToUpdate"] = false,
+			["useLimit"] = false,
+			["borderOffset"] = 4,
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["authorOptions"] = {
+			},
+			["arcLength"] = 360,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["constantFactor"] = "RADIUS",
+			["anchorFrameFrame"] = "SUFUnittarget",
+			["conditions"] = {
+			},
+			["border"] = false,
+			["frameStrata"] = 1,
+			["config"] = {
+			},
+			["radius"] = 200,
+			["limit"] = 5,
+		},
+		["Battle Shout running out"] = {
+			["regionType"] = "icon",
+			["alpha"] = 1,
+			["color"] = {
+				[1] = 1,
+				[2] = 1,
+				[3] = 1,
+				[4] = 1,
+			},
+			["parent"] = "Main Notifications",
+			["yOffset"] = 0,
+			["cooldownEdge"] = false,
+			["information"] = {
+			},
+			["tocversion"] = 11508,
+			["height"] = 46,
+			["adjustedMax"] = "",
+			["animation"] = {
+				["start"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["triggers"] = {
+				[1] = {
+					["untrigger"] = {
+					},
+					["trigger"] = {
+						["unit"] = "player",
+						["remOperator"] = "<=",
+						["rem"] = "10",
+						["matchesShowOn"] = "showOnActive",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["type"] = "aura2",
+						["subeventSuffix"] = "_CAST_START",
+						["useRem"] = true,
+						["useName"] = true,
+						["names"] = {
+						},
+						["auranames"] = {
+							[1] = "Battle Shout",
+						},
+						["debuffType"] = "HELPFUL",
+						["spellIds"] = {
+						},
+					},
+				},
+				["activeTriggerMode"] = -10,
+			},
+			["adjustedMin"] = "",
+			["progressSource"] = {
+				[1] = -1,
+				[2] = "",
+			},
+			["load"] = {
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "-Thunder Bluff,-Orgrimmar",
+				["use_zone"] = true,
+				["use_mounted"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicle"] = false,
+			},
+			["internalVersion"] = 84,
+			["cooldownSwipe"] = true,
+			["desaturate"] = true,
+			["width"] = 46,
+			["anchorPoint"] = "CENTER",
+			["iconSource"] = -1,
+			["frameStrata"] = 1,
+			["keepAspectRatio"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["useAdjustededMax"] = false,
+			["xOffset"] = 0,
+			["cooldownTextDisabled"] = false,
+			["useCooldownModRate"] = true,
+			["subRegions"] = {
+				[1] = {
+					["type"] = "subbackground",
+				},
+				[2] = {
+					["anchor_point"] = "INNER_BOTTOMRIGHT",
+					["anchorXOffset"] = 0,
+					["type"] = "subtext",
+					["text_fontType"] = "OUTLINE",
+					["text_shadowXOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["text_shadowYOffset"] = 0,
+					["text_text"] = "%s",
+					["text_font"] = "Friz Quadrata TT",
+					["text_wordWrap"] = "WordWrap",
+					["text_text_format_s_format"] = "none",
+					["anchorYOffset"] = 0,
+					["text_fixedWidth"] = 64,
+					["text_shadowColor"] = {
+						[1] = 0,
+						[2] = 0,
+						[3] = 0,
+						[4] = 1,
+					},
+					["text_automaticWidth"] = "Auto",
+					["text_visible"] = true,
+					["text_fontSize"] = 12,
+					["text_color"] = {
+						[1] = 1,
+						[2] = 1,
+						[3] = 1,
+						[4] = 1,
+					},
+					["text_selfPoint"] = "AUTO",
+				},
+				[3] = {
+					["glowLines"] = 8,
+					["glowDuration"] = 1,
+					["glowColor"] = {
+						[1] = 1,
+						[2] = 1,
+						[3] = 1,
+						[4] = 1,
+					},
+					["useGlowColor"] = false,
+					["glowYOffset"] = 0,
+					["type"] = "subglow",
+					["glowType"] = "buttonOverlay",
+					["glowFrequency"] = 0.25,
+					["glowXOffset"] = 0,
+					["glowScale"] = 1,
+					["glow"] = false,
+					["glowLength"] = 10,
+					["glowBorder"] = false,
+					["glowThickness"] = 1,
+				},
+			},
+			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["authorOptions"] = {
+			},
+			["preferToUpdate"] = false,
+			["uid"] = "dJKhBnYEhoY",
+			["useAdjustededMin"] = false,
+			["zoom"] = 0,
+			["conditions"] = {
+			},
+			["selfPoint"] = "CENTER",
+			["icon"] = true,
+			["config"] = {
+			},
+			["id"] = "Battle Shout running out",
+			["inverse"] = false,
+		},
+		["Battle Shout Missing"] = {
+			["regionType"] = "icon",
+			["alpha"] = 1,
+			["color"] = {
+				[1] = 1,
+				[2] = 1,
+				[3] = 1,
+				[4] = 1,
+			},
+			["parent"] = "Main Notifications",
+			["keepAspectRatio"] = false,
+			["cooldownEdge"] = false,
+			["uid"] = "NaJ3hmu)AmJ",
+			["tocversion"] = 11508,
+			["height"] = 46,
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["easeType"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["triggers"] = {
+				[1] = {
+					["untrigger"] = {
+					},
+					["trigger"] = {
+						["unit"] = "player",
+						["matchesShowOn"] = "showOnMissing",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["spellIds"] = {
+						},
+						["type"] = "aura2",
+						["auranames"] = {
+							[1] = "Battle Shout",
+						},
+						["debuffType"] = "HELPFUL",
+						["useName"] = true,
+					},
+				},
+				["activeTriggerMode"] = -10,
+			},
+			["adjustedMin"] = "",
+			["progressSource"] = {
+				[1] = -1,
+				[2] = "",
+			},
+			["load"] = {
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["zone"] = "-Thunder Bluff,-Orgrimmar",
+				["use_zone"] = true,
+				["use_mounted"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicle"] = false,
+			},
+			["internalVersion"] = 84,
+			["cooldownSwipe"] = true,
+			["desaturate"] = false,
+			["width"] = 46,
+			["anchorPoint"] = "CENTER",
+			["iconSource"] = -1,
+			["frameStrata"] = 1,
+			["adjustedMax"] = "",
+			["anchorFrameType"] = "SCREEN",
+			["useAdjustededMax"] = false,
+			["information"] = {
+			},
+			["cooldownTextDisabled"] = false,
+			["useCooldownModRate"] = true,
+			["subRegions"] = {
+				[1] = {
+					["type"] = "subbackground",
+				},
+				[2] = {
+					["anchor_point"] = "INNER_BOTTOMRIGHT",
+					["anchorXOffset"] = 0,
+					["type"] = "subtext",
+					["text_fontType"] = "OUTLINE",
+					["text_shadowXOffset"] = 0,
+					["text_justify"] = "CENTER",
+					["rotateText"] = "NONE",
+					["text_shadowYOffset"] = 0,
+					["text_text"] = "%s",
+					["text_font"] = "Friz Quadrata TT",
+					["text_wordWrap"] = "WordWrap",
+					["text_text_format_s_format"] = "none",
+					["anchorYOffset"] = 0,
+					["text_fixedWidth"] = 64,
+					["text_shadowColor"] = {
+						[1] = 0,
+						[2] = 0,
+						[3] = 0,
+						[4] = 1,
+					},
+					["text_automaticWidth"] = "Auto",
+					["text_visible"] = true,
+					["text_fontSize"] = 12,
+					["text_color"] = {
+						[1] = 1,
+						[2] = 1,
+						[3] = 1,
+						[4] = 1,
+					},
+					["text_selfPoint"] = "AUTO",
+				},
+				[3] = {
+					["glowLines"] = 8,
+					["glowDuration"] = 1,
+					["glowFrequency"] = 0.25,
+					["useGlowColor"] = false,
+					["glowYOffset"] = 0,
+					["type"] = "subglow",
+					["glowColor"] = {
+						[1] = 1,
+						[2] = 1,
+						[3] = 1,
+						[4] = 1,
+					},
+					["glowType"] = "buttonOverlay",
+					["glowXOffset"] = 0,
+					["glowScale"] = 1,
+					["glow"] = false,
+					["glowLength"] = 10,
+					["glowBorder"] = false,
+					["glowThickness"] = 1,
+				},
+			},
+			["useAdjustededMin"] = false,
+			["xOffset"] = 0,
+			["authorOptions"] = {
+			},
+			["preferToUpdate"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["yOffset"] = 0,
+			["zoom"] = 0,
+			["conditions"] = {
+			},
+			["selfPoint"] = "CENTER",
+			["icon"] = true,
+			["config"] = {
+			},
+			["id"] = "Battle Shout Missing",
+			["inverse"] = false,
+		},
+	},
+	["lastArchiveClear"] = 1762925222,
+	["features"] = {
+	},
+	["dynamicIconCache"] = {
+	},
+	["dbVersion"] = 84,
+	["lastUpgrade"] = 1746322610,
+	["login_squelch_time"] = 10,
+	["editor_font_size"] = 12,
+	["migrationCutoff"] = 730,
+	["registered"] = {
+	},
 }

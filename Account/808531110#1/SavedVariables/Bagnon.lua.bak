@@ -7,33 +7,33 @@ Bagnon_Sets = {
 ["color"] = {
 ["enchant"] = {
 },
-["herb"] = {
+["account"] = {
 },
-["inscribe"] = {
+["quiver"] = {
 },
 ["soul"] = {
 },
-["reagent"] = {
+["normal"] = {
 },
 ["mine"] = {
 },
-["engineer"] = {
-},
-["leather"] = {
-},
-["fridge"] = {
-},
 ["key"] = {
+},
+["inscribe"] = {
+},
+["reagent"] = {
+},
+["engineer"] = {
 },
 ["gem"] = {
 },
 ["tackle"] = {
 },
-["normal"] = {
+["fridge"] = {
 },
-["quiver"] = {
+["leather"] = {
 },
-["account"] = {
+["herb"] = {
 },
 },
 ["herbColor"] = {
@@ -49,28 +49,6 @@ Bagnon_Sets = {
 ["gemColor"] = {
 },
 ["enchantColor"] = {
-},
-["fridgeColor"] = {
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["engineerColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["inscribeColor"] = {
-},
-["latest"] = {
-["cooldown"] = 1764665751,
 },
 ["global"] = {
 ["inventory"] = {
@@ -90,28 +68,28 @@ Bagnon_Sets = {
 ["enabled"] = true,
 ["options"] = false,
 ["money"] = true,
-["hiddenRules"] = {
-},
-["itemScale"] = 0.93,
-["columns"] = 19,
-["y"] = 200.486083984375,
-["x"] = 466.2977905273438,
-["search"] = false,
-["broker"] = false,
-["bagToggle"] = true,
-["skin"] = "OnePixel",
-["borderColor"] = {
-0.6470588445663452,
-0.4705882668495178,
-0.3450980484485626,
-0.449999988079071,
-},
 ["color"] = {
 0,
 0,
 0,
 0.5342593789100647,
 },
+["hiddenRules"] = {
+},
+["borderColor"] = {
+0.6470588445663452,
+0.4705882668495178,
+0.3450980484485626,
+0.449999988079071,
+},
+["y"] = 200.486083984375,
+["x"] = 466.2977905273438,
+["search"] = false,
+["broker"] = false,
+["skin"] = "OnePixel",
+["bagToggle"] = true,
+["columns"] = 19,
+["itemScale"] = 0.93,
 },
 ["vault"] = {
 ["rules"] = {
@@ -168,22 +146,44 @@ Bagnon_Sets = {
 ["color"] = {
 },
 ["itemScale"] = 0.93,
-["hiddenRules"] = {
-},
+["scale"] = 0.87,
 ["y"] = -252.0970426272088,
 ["x"] = 515.5543212890625,
+["skin"] = "OnePixel",
 ["borderColor"] = {
 1,
 0.7176470756530762,
 0.4823529720306397,
 0.3039535880088806,
 },
-["skin"] = "OnePixel",
-["columns"] = 16,
 ["spacing"] = 3,
+["columns"] = 16,
 ["activeRules"] = {
 },
-["scale"] = 0.87,
+["hiddenRules"] = {
 },
+},
+},
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["latest"] = {
+["cooldown"] = 1764665751,
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["inscribeColor"] = {
+},
+["engineerColor"] = {
+},
+["fridgeColor"] = {
 },
 }

@@ -3,18 +3,18 @@ CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
 ["Kacprawcze - Spineshatter"] = {
+["downclick"] = false,
 ["fastooc"] = false,
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 },
 ["Obszczymucha - Spineshatter"] = {
-["downclick"] = false,
 ["fastooc"] = false,
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 },
 },
 ["profileKeys"] = {
@@ -25,10 +25,10 @@ CliqueDB3 = {
 ["Obszczymucha - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -44,10 +44,10 @@ CliqueDB3 = {
 ["Kacprawcze - Spineshatter"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

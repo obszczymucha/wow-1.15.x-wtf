@@ -1,8 +1,8 @@
 
 XPBarNoneDB = {
 ["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Default",
 ["Kacprawcze - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
@@ -26,9 +26,9 @@ XPBarNoneDB = {
 ["b"] = 0.545098066329956,
 },
 ["remaining"] = {
-["b"] = 1,
-["g"] = 0.9098039865493774,
 ["r"] = 0.6745098233222961,
+["g"] = 0.9098039865493774,
+["b"] = 1,
 },
 ["rested"] = {
 ["g"] = 0.7490196228027344,

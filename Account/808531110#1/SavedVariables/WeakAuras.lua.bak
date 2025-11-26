@@ -4,18 +4,15 @@ WeakAurasSaved = {
 },
 ["editor_tab_spaces"] = 4,
 ["login_squelch_time"] = 10,
-["lastUpgrade"] = 1746322610,
+["editor_font_size"] = 12,
 ["lastArchiveClear"] = 1762925222,
 ["minimap"] = {
 ["hide"] = true,
 },
-["historyCutoff"] = 730,
+["lastUpgrade"] = 1746322610,
 ["dbVersion"] = 84,
 ["migrationCutoff"] = 730,
 ["registered"] = {
-},
-["editor_font_size"] = 12,
-["features"] = {
 },
 ["displays"] = {
 ["Battle Shout running out"] = {
@@ -35,20 +32,20 @@ WeakAurasSaved = {
 ["auranames"] = {
 "Battle Shout",
 },
-["useRem"] = true,
+["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnActive",
 ["event"] = "Health",
 ["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
+["useName"] = true,
+["type"] = "aura2",
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
-["type"] = "aura2",
-["useName"] = true,
-["debuffType"] = "HELPFUL",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["useRem"] = true,
 },
 ["untrigger"] = {
 },
@@ -113,96 +110,96 @@ WeakAurasSaved = {
 },
 ["glowDuration"] = 1,
 ["glowXOffset"] = 0,
-["glow"] = false,
-["glowScale"] = 1,
 ["glowThickness"] = 1,
+["glowScale"] = 1,
+["glow"] = false,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["class"] = {
-["multi"] = {
-},
-},
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["talent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicle"] = false,
+["class"] = {
+["multi"] = {
+},
+},
 ["spec"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["xOffset"] = 0,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["authorOptions"] = {
-},
-["cooldown"] = true,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["config"] = {
-},
-["alpha"] = 1,
-["zoom"] = 0,
-["width"] = 46,
-["tocversion"] = 11508,
-["id"] = "Battle Shout running out",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["cooldownTextDisabled"] = false,
-["uid"] = "dJKhBnYEhoY",
-["inverse"] = false,
 ["keepAspectRatio"] = false,
-["conditions"] = {
-},
-["information"] = {
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["authorOptions"] = {
 },
 ["preferToUpdate"] = false,
+["information"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["uid"] = "dJKhBnYEhoY",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["anchorFrameType"] = "SCREEN",
+["tocversion"] = 11508,
+["id"] = "Battle Shout running out",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["width"] = 46,
+["useCooldownModRate"] = true,
+["config"] = {
+},
+["inverse"] = false,
+["xOffset"] = 0,
+["conditions"] = {
+},
+["cooldown"] = true,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 },
 ["Main Notifications"] = {
 ["grow"] = "HORIZONTAL",
@@ -220,15 +217,15 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["subeventPrefix"] = "SPELL",
 ["type"] = "aura2",
 ["spellIds"] = {
 },
@@ -237,7 +234,7 @@ WeakAurasSaved = {
 ["names"] = {
 },
 ["event"] = "Health",
-["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -247,19 +244,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 84,
 ["useLimit"] = false,
 ["align"] = "CENTER",
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["stagger"] = 0,
-["borderInset"] = 1,
-["radius"] = 200,
+["stepAngle"] = 15,
+["authorOptions"] = {
+},
 ["subRegions"] = {
 },
+["arcLength"] = 360,
 ["sortHybridTable"] = {
 ["MOTW running out"] = false,
 ["MOTW missing"] = false,
 },
-["selfPoint"] = "CENTER",
 ["load"] = {
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -271,41 +269,21 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
 },
-["authorOptions"] = {
-},
+["selfPoint"] = "CENTER",
 ["backdropColor"] = {
 1,
 1,
 1,
 0.5,
 },
-["gridType"] = "RD",
+["rotation"] = 0,
 ["animate"] = false,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["anchorFrameFrame"] = "SUFUnittarget",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
@@ -313,32 +291,51 @@ WeakAurasSaved = {
 ["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
 ["sort"] = "none",
-["uid"] = "pb8jb71psxd",
-["stepAngle"] = 15,
+["config"] = {
+},
+["limit"] = 5,
 ["constantFactor"] = "RADIUS",
+["gridWidth"] = 5,
+["borderOffset"] = 4,
+["rowSpace"] = 1,
+["tocversion"] = 11508,
+["id"] = "Main Notifications",
 ["borderColor"] = {
 0,
 0,
 0,
 1,
 },
-["borderOffset"] = 4,
-["rowSpace"] = 1,
-["tocversion"] = 11508,
-["id"] = "Main Notifications",
-["gridWidth"] = 5,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
-["limit"] = 5,
-["config"] = {
+["uid"] = "pb8jb71psxd",
+["borderInset"] = 1,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["anchorFrameFrame"] = "SUFUnittarget",
-["rotation"] = 0,
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["gridType"] = "RD",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["arcLength"] = 360,
+["radius"] = 200,
 },
 ["Battle Shout Missing"] = {
 ["iconSource"] = -1,
@@ -363,10 +360,10 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
+["useName"] = true,
 ["names"] = {
 },
-["useName"] = true,
+["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -432,96 +429,99 @@ WeakAurasSaved = {
 },
 ["useGlowColor"] = false,
 ["glowXOffset"] = 0,
-["glowThickness"] = 1,
-["glowScale"] = 1,
 ["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 46,
 ["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
+["use_mounted"] = false,
 ["use_zone"] = true,
-["class"] = {
-["multi"] = {
-},
-},
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["talent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicle"] = false,
+["class"] = {
+["multi"] = {
+},
+},
 ["spec"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["use_mounted"] = false,
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["useAdjustededMax"] = false,
-["keepAspectRatio"] = false,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["xOffset"] = 0,
-["information"] = {
-},
 ["authorOptions"] = {
 },
-["uid"] = "NaJ3hmu)AmJ",
-["frameStrata"] = 1,
-["cooldownTextDisabled"] = false,
-["anchorFrameType"] = "SCREEN",
-["tocversion"] = 11508,
-["id"] = "Battle Shout Missing",
-["alpha"] = 1,
-["useCooldownModRate"] = true,
-["width"] = 46,
-["zoom"] = 0,
-["config"] = {
-},
-["inverse"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["xOffset"] = 0,
+["preferToUpdate"] = false,
+["cooldown"] = true,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["config"] = {
+},
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["width"] = 46,
+["tocversion"] = 11508,
+["id"] = "Battle Shout Missing",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["uid"] = "NaJ3hmu)AmJ",
+["inverse"] = false,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["conditions"] = {
 },
-["cooldown"] = true,
-["preferToUpdate"] = false,
+["information"] = {
+},
+["keepAspectRatio"] = false,
 },
 },
+["features"] = {
+},
+["historyCutoff"] = 730,
 }

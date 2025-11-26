@@ -18,8 +18,7 @@ RollForCharDb = {
 ["items"] = {
 },
 },
-["minimap_button"] = {
-["angle"] = 190.1223250136149,
+["softres"] = {
 },
 ["config"] = {
 ["tmog_roll_threshold"] = 98,
@@ -36,23 +35,17 @@ RollForCharDb = {
 ["master_loot_frame_rows"] = 5,
 ["tmog_rolling_enabled"] = true,
 },
+["softres_check"] = {
+},
 ["welcome_popup"] = {
 ["showed"] = true,
-},
-["rolling_popup"] = {
-["point"] = {
-["y"] = 150,
-["x"] = 0,
-["point"] = "CENTER",
-["relative_point"] = "CENTER",
-},
 },
 ["loot_frame"] = {
 },
 ["winner_tracker"] = {
 ["winners"] = {
-["|cff1eff00|Hitem:13247::::::::60:::::::::|h[Quartermaster Zigris' Footlocker]|h|r"] = {
-["Onz"] = {
+["|cff1eff00|Hitem:7120::::::::33::::::::::|h[Ruga's Bulwark]|h|r"] = {
+["Tachikoma"] = {
 ["rolling_strategy"] = "RaidRoll",
 ["roll_type"] = "MainSpec",
 },
@@ -63,6 +56,12 @@ RollForCharDb = {
 ["roll_type"] = "OffSpec",
 },
 },
+["|cff1eff00|Hitem:13247::::::::60:::::::::|h[Quartermaster Zigris' Footlocker]|h|r"] = {
+["Onz"] = {
+["rolling_strategy"] = "RaidRoll",
+["roll_type"] = "MainSpec",
+},
+},
 ["|cff0070dd|Hitem:11920::::::::57:::::::::|h[Wraith Scythe]|h|r"] = {
 ["Kacprawcze"] = {
 ["rolling_strategy"] = "NormalRoll",
@@ -71,8 +70,14 @@ RollForCharDb = {
 },
 },
 },
-["softres_check"] = {
+["rolling_popup"] = {
+["point"] = {
+["y"] = 150,
+["x"] = 0,
+["point"] = "CENTER",
+["relative_point"] = "CENTER",
 },
-["softres"] = {
+},
+["minimap_button"] = {
 },
 }

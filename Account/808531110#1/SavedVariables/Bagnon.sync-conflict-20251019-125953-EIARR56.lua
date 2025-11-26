@@ -1,182 +1,182 @@
 
 Bagnon_Sets = {
-["tackleColor"] = {
-},
-["latest"] = {
-["cooldown"] = 1760954536,
-},
-["color"] = {
-["quiver"] = {
-},
-["account"] = {
-},
-["enchant"] = {
-},
-["soul"] = {
-},
-["inscribe"] = {
-},
-["mine"] = {
-},
-["gem"] = {
-},
-["leather"] = {
-},
-["reagent"] = {
-},
-["key"] = {
-},
-["engineer"] = {
-},
-["tackle"] = {
-},
-["fridge"] = {
-},
-["normal"] = {
-},
-["herb"] = {
-},
-},
-["herbColor"] = {
-},
-["flashFind"] = true,
-["inscribeColor"] = {
-},
-["soulColor"] = {
-},
-["quiverColor"] = {
-},
-["reagentColor"] = {
-},
-["gemColor"] = {
-},
-["enchantColor"] = {
-},
-["global"] = {
-["inventory"] = {
-["rules"] = {
-["sidebar"] = {
-"all",
-"normal",
-"trade",
-},
-},
-["point"] = "BOTTOMRIGHT",
-["scale"] = 0.88,
-["sort"] = false,
-["spacing"] = 0,
-["bagToggle"] = true,
-["enabled"] = true,
-["options"] = false,
-["money"] = true,
-["itemScale"] = 0.93,
-["hiddenRules"] = {
-},
-["columns"] = 17,
-["y"] = 231.9114685058594,
-["x"] = -161.5360644725552,
-["search"] = false,
-["broker"] = false,
-["color"] = {
-0,
-0,
-0,
-0.5342593789100647,
-},
-["skin"] = "OnePixel",
-["borderColor"] = {
-0.6470588445663452,
-0.4705882668495178,
-0.3450980484485626,
-0.449999988079071,
-},
-["activeRules"] = {
-},
-},
-["vault"] = {
-["rules"] = {
-["sidebar"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
-["borderColor"] = {
-},
-["color"] = {
-},
-["hiddenRules"] = {
-},
-["activeRules"] = {
-},
-},
-["guild"] = {
-["rules"] = {
-["sidebar"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
-["borderColor"] = {
-},
-["color"] = {
-},
-["hiddenRules"] = {
-},
-["activeRules"] = {
-},
-},
-["bank"] = {
-["rules"] = {
-["sidebar"] = {
-"all",
-"reagent",
-"consumable",
-"armor",
-"questitem",
-"miscellaneous",
-},
-},
-["point"] = "TOPLEFT",
-["color"] = {
-},
-["hiddenRules"] = {
-},
-["y"] = -299.8208618164063,
-["x"] = 273.9764404296875,
-["spacing"] = 5,
-["borderColor"] = {
-},
-["activeRules"] = {
-},
-["columns"] = 7,
-},
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["engineerColor"] = {
-},
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["glowPoor"] = false,
-["fridgeColor"] = {
-},
-["leatherColor"] = {
-},
+	["global"] = {
+		["guild"] = {
+			["rules"] = {
+				["sidebar"] = {
+					[1] = "all",
+					[2] = "reagent",
+					[3] = "consumable",
+					[4] = "armor",
+					[5] = "questitem",
+					[6] = "miscellaneous",
+				},
+			},
+			["color"] = {
+			},
+			["hiddenRules"] = {
+			},
+			["activeRules"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["inventory"] = {
+			["search"] = false,
+			["color"] = {
+				[1] = 0,
+				[2] = 0,
+				[3] = 0,
+				[4] = 0.5342593789100647,
+			},
+			["money"] = true,
+			["activeRules"] = {
+			},
+			["scale"] = 0.88,
+			["itemScale"] = 0.93000000000000005,
+			["hiddenRules"] = {
+			},
+			["columns"] = 17,
+			["sort"] = false,
+			["bagToggle"] = true,
+			["x"] = -161.53606447255521,
+			["borderColor"] = {
+				[1] = 0.64705884456634521,
+				[2] = 0.47058826684951782,
+				[3] = 0.34509804844856262,
+				[4] = 0.44999998807907099,
+			},
+			["y"] = 231.9114685058594,
+			["point"] = "BOTTOMRIGHT",
+			["broker"] = false,
+			["options"] = false,
+			["enabled"] = true,
+			["rules"] = {
+				["sidebar"] = {
+					[1] = "all",
+					[2] = "normal",
+					[3] = "trade",
+				},
+			},
+			["spacing"] = 0,
+			["skin"] = "OnePixel",
+		},
+		["bank"] = {
+			["rules"] = {
+				["sidebar"] = {
+					[1] = "all",
+					[2] = "reagent",
+					[3] = "consumable",
+					[4] = "armor",
+					[5] = "questitem",
+					[6] = "miscellaneous",
+				},
+			},
+			["columns"] = 7,
+			["color"] = {
+			},
+			["x"] = 273.9764404296875,
+			["borderColor"] = {
+			},
+			["activeRules"] = {
+			},
+			["hiddenRules"] = {
+			},
+			["y"] = -299.82086181640631,
+			["spacing"] = 5,
+			["point"] = "TOPLEFT",
+		},
+		["vault"] = {
+			["rules"] = {
+				["sidebar"] = {
+					[1] = "all",
+					[2] = "reagent",
+					[3] = "consumable",
+					[4] = "armor",
+					[5] = "questitem",
+					[6] = "miscellaneous",
+				},
+			},
+			["color"] = {
+			},
+			["hiddenRules"] = {
+			},
+			["activeRules"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+	},
+	["fridgeColor"] = {
+	},
+	["color"] = {
+		["key"] = {
+		},
+		["enchant"] = {
+		},
+		["normal"] = {
+		},
+		["leather"] = {
+		},
+		["herb"] = {
+		},
+		["inscribe"] = {
+		},
+		["reagent"] = {
+		},
+		["account"] = {
+		},
+		["tackle"] = {
+		},
+		["soul"] = {
+		},
+		["engineer"] = {
+		},
+		["gem"] = {
+		},
+		["quiver"] = {
+		},
+		["mine"] = {
+		},
+		["fridge"] = {
+		},
+	},
+	["latest"] = {
+		["cooldown"] = 1760954536,
+	},
+	["engineerColor"] = {
+	},
+	["version"] = "9.1.6",
+	["enchantColor"] = {
+	},
+	["glowPoor"] = false,
+	["leatherColor"] = {
+	},
+	["mineColor"] = {
+	},
+	["herbColor"] = {
+	},
+	["profiles"] = {
+	},
+	["inscribeColor"] = {
+	},
+	["soulColor"] = {
+	},
+	["tackleColor"] = {
+	},
+	["keyColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["quiverColor"] = {
+	},
+	["flashFind"] = true,
+	["reagentColor"] = {
+	},
+	["display"] = {
+	},
+	["customRules"] = {
+	},
+	["gemColor"] = {
+	},
 }

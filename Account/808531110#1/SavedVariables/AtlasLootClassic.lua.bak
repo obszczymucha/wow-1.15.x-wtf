@@ -1,14 +1,33 @@
 
 AtlasLootClassicDB = {
-["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-},
 ["global"] = {
 ["__addonrevision"] = 3020000,
 },
+["profileKeys"] = {
+["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
 ["profiles"] = {
+["Kacprawcze - Spineshatter"] = {
+["minimap"] = {
+["minimapPos"] = 176.4982782227394,
+},
+["GUI"] = {
+["point"] = {
+[3] = "CENTER",
+[4] = -138.1473083496094,
+[5] = -63.77902603149414,
+},
+["selected"] = {
+nil,
+"Onyxia",
+nil,
+3,
+0,
+},
+},
+},
 ["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
@@ -25,25 +44,6 @@ nil,
 1,
 0,
 },
-},
-},
-["Kacprawcze - Spineshatter"] = {
-["GUI"] = {
-["point"] = {
-[3] = "CENTER",
-[4] = -138.1473083496094,
-[5] = -63.77902603149414,
-},
-["selected"] = {
-nil,
-"Onyxia",
-nil,
-3,
-0,
-},
-},
-["minimap"] = {
-["minimapPos"] = 176.4982782227394,
 },
 },
 ["Tachikoma - Spineshatter"] = {

@@ -1,16 +1,11 @@
 
 RecountDB = {
-	["profileKeys"] = {
-		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-		["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
-	},
 	["profiles"] = {
-		["Obszczymucha - Spineshatter"] = {
+		["Tachikoma - Spineshatter"] = {
 			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
-		["Tachikoma - Spineshatter"] = {
+		["Obszczymucha - Spineshatter"] = {
 			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
@@ -18,5 +13,10 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
+	},
+	["profileKeys"] = {
+		["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+		["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+		["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
 	},
 }
