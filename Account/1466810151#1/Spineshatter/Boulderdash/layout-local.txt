@@ -23,8 +23,8 @@ H: 1
 Frame: WorldMapFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 20
+X: -82
+Y: 9
 W: 1024
 H: 712
 Frame: AtlasLoot_GUI-Frame

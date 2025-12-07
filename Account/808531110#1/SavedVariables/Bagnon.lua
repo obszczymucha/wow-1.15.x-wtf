@@ -39,7 +39,7 @@ Bagnon_Sets = {
 "trade",
 },
 },
-["point"] = "BOTTOMLEFT",
+["point"] = "BOTTOMRIGHT",
 ["scale"] = 0.88,
 ["sort"] = false,
 ["borderColor"] = {
@@ -51,13 +51,13 @@ Bagnon_Sets = {
 ["activeRules"] = {
 },
 ["enabled"] = true,
-["columns"] = 19,
+["columns"] = 20,
 ["money"] = true,
 ["options"] = false,
 ["itemScale"] = 0.93,
 ["spacing"] = 0,
-["y"] = 200.486083984375,
-["x"] = 466.2977905273438,
+["y"] = 207.6692504882813,
+["x"] = -23.26580080068015,
 ["search"] = false,
 ["broker"] = false,
 ["hiddenRules"] = {
@@ -130,18 +130,18 @@ Bagnon_Sets = {
 ["y"] = -252.0970426272088,
 ["x"] = 515.5543212890625,
 ["spacing"] = 3,
+["skin"] = "OnePixel",
+["point"] = "TOPLEFT",
+["hiddenRules"] = {
+},
+["activeRules"] = {
+},
 ["borderColor"] = {
 1,
 0.7176470756530762,
 0.4823529720306397,
 0.3039535880088806,
 },
-["point"] = "TOPLEFT",
-["hiddenRules"] = {
-},
-["activeRules"] = {
-},
-["skin"] = "OnePixel",
 },
 },
 ["version"] = "9.1.6",
@@ -158,31 +158,33 @@ Bagnon_Sets = {
 },
 ["soul"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["mine"] = {
 },
 ["engineer"] = {
 },
-["inscribe"] = {
-},
-["fridge"] = {
-},
-["key"] = {
-},
-["enchant"] = {
-},
-["tackle"] = {
+["leather"] = {
 },
 ["reagent"] = {
 },
 ["gem"] = {
 },
+["enchant"] = {
+},
+["tackle"] = {
+},
+["fridge"] = {
+},
+["key"] = {
+},
 ["herb"] = {
 },
 },
 ["latest"] = {
-["cooldown"] = 1764665751,
+["id"] = "11.2.16",
+["cooldown"] = 1765273987,
+["who"] = "Mowfasa",
 },
 ["leatherColor"] = {
 },

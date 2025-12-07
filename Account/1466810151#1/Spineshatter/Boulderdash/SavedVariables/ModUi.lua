@@ -1,11 +1,23 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = -41.46719360351563,
+["point"] = "TOP",
+["y"] = -69.30265045166016,
 },
-["CombatQueue"] = {
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 34.86279678344727,
+["point"] = "TOP",
+["y"] = -25.93036270141602,
+},
+},
+},
+["Bag"] = {
 },
 ["Combat"] = {
 },
@@ -23,21 +35,9 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = -41.46719360351563,
-["point"] = "TOP",
-["y"] = -69.30265045166016,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 34.86279678344727,
-["point"] = "TOP",
-["y"] = -25.93036270141602,
-},
-},
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
 ["Item"] = {
 },
@@ -107,7 +107,7 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["Bag"] = {
+["CombatQueue"] = {
 },
 },
 ["mods"] = {
@@ -531,9 +531,9 @@ ModUiDb = {
 },
 },
 },
-["force"] = false,
 ["music"] = {
 },
+["force"] = false,
 ["last_track_index"] = 14,
 ["playlist_id"] = "default",
 ["shuffle"] = false,
@@ -541,6 +541,8 @@ ModUiDb = {
 ["Boulderdash/frames"] = {
 },
 ["FramePositions"] = {
+},
+["ZoneMiscText"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -740,12 +742,12 @@ ModUiDb = {
 ["time"] = 1763281493,
 ["reason"] = "fucking winterfall runner farmer",
 },
-["Hjon"] = {
-["time"] = 1746855259,
-["reason"] = "group leaver",
-},
 ["Dedulok"] = {
 ["time"] = 1747376189,
+["reason"] = "group leaver",
+},
+["Hjon"] = {
+["time"] = 1746855259,
 ["reason"] = "group leaver",
 },
 ["Svartjudas"] = {
@@ -760,17 +762,17 @@ ModUiDb = {
 ["time"] = 1746528130,
 ["reason"] = "boost spammer",
 },
-["Meersi"] = {
-["time"] = 1747129653,
-["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
+["Itsmaxim"] = {
+["time"] = 1764144442,
+["reason"] = "MC spammer",
 },
 ["Béèf"] = {
 ["time"] = 1746441679,
 ["reason"] = "spammer",
 },
-["Thallan"] = {
-["time"] = 1746006555,
-["reason"] = "capslock spammer",
+["Visionest"] = {
+["time"] = 1749104267,
+["reason"] = "dmt spam",
 },
 ["Páránøiáz"] = {
 ["time"] = 1747260536,
@@ -780,9 +782,9 @@ ModUiDb = {
 ["time"] = 1747740557,
 ["reason"] = "ninjaed elemental card in BRD",
 },
-["Visionest"] = {
-["time"] = 1749104267,
-["reason"] = "dmt spam",
+["Thallan"] = {
+["time"] = 1746006555,
+["reason"] = "capslock spammer",
 },
 ["Otpwar"] = {
 ["time"] = 1747032202,
@@ -816,9 +818,9 @@ ModUiDb = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Itsmaxim"] = {
-["time"] = 1764144442,
-["reason"] = "MC spammer",
+["Meersi"] = {
+["time"] = 1747129653,
+["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
 },
 ["Sweetystore"] = {
 ["time"] = 1761985500,
@@ -842,13 +844,11 @@ ModUiDb = {
 },
 },
 },
-["ZoneMiscText"] = {
-},
 ["Boulderdash/MinimapIcons"] = {
 },
-["AuctionSold"] = {
-},
 ["Sandbox"] = {
+},
+["AuctionSold"] = {
 },
 ["FrameVisibility"] = {
 },

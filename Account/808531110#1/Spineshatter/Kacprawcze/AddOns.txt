@@ -44,7 +44,7 @@ TidyPlates_ThreatPlates: enabled
 ThreatClassic2: disabled
 Timer: disabled
 WeakAuras: disabled
-WeakAurasArchive: disabled
+WeakAurasArchive: enabled
 WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled

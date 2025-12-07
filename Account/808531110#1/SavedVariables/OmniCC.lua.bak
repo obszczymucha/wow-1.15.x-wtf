@@ -11,18 +11,6 @@ OmniCCDB = {
 },
 ["profiles"] = {
 ["Default"] = {
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["seconds"] = {
-},
-["soon"] = {
-},
-["minutes"] = {
-},
-},
-},
-},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -50,6 +38,18 @@ OmniCCDB = {
 },
 ["name"] = "Action Bars",
 ["id"] = "actions",
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["minutes"] = {
+},
+["seconds"] = {
+},
+["soon"] = {
+},
+},
 },
 },
 },

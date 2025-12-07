@@ -31,9 +31,9 @@ ModUiDb = {
 },
 ["Farming"] = {
 ["anchor_point"] = "TOP",
-["x"] = 34.86279678344727,
+["x"] = 91.6070785522461,
 ["point"] = "TOP",
-["y"] = -25.93036270141602,
+["y"] = -80.5156021118164,
 },
 },
 },
@@ -57,7 +57,7 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["ui_mode"] = 1,
+["ui_mode"] = 2,
 ["farming_mode_lock"] = false,
 },
 ["WeakAuras"] = {
@@ -71,7 +71,6 @@ ModUiDb = {
 ["ColorPicker"] = {
 },
 ["TankTarget"] = {
-["name"] = "Nörmando",
 },
 ["Macro"] = {
 },
@@ -107,7 +106,7 @@ ModUiDb = {
 },
 ["Chat"] = {
 ["left"] = false,
-["lines"] = 9,
+["lines"] = 11,
 },
 },
 ["mods"] = {
@@ -178,8 +177,36 @@ ModUiDb = {
 ["link"] = "|cffffffff|Hitem:12235::::::::54::::::::::|h[Un'Goro Slime Sample]|h|r",
 },
 {
-["icon"] = 134219,
-["link"] = "|cffffffff|Hitem:13466::::::::60::::::::::|h[Plaguebloom]|h|r",
+["icon"] = 133216,
+["link"] = "|cffffffff|Hitem:2840::::::::60::::::::::|h[Copper Bar]|h|r",
+},
+{
+["icon"] = 135232,
+["link"] = "|cffffffff|Hitem:2835::::::::60::::::::::|h[Rough Stone]|h|r",
+},
+{
+["icon"] = 134566,
+["link"] = "|cffffffff|Hitem:2770::::::::60::::::::::|h[Copper Ore]|h|r",
+},
+{
+["icon"] = 134579,
+["link"] = "|cffffffff|Hitem:2771::::::::60::::::::::|h[Tin Ore]|h|r",
+},
+{
+["icon"] = 135235,
+["link"] = "|cffffffff|Hitem:2836::::::::60::::::::::|h[Coarse Stone]|h|r",
+},
+{
+["icon"] = 133227,
+["link"] = "|cffffffff|Hitem:2841::::::::60::::::::::|h[Bronze Bar]|h|r",
+},
+{
+["icon"] = 135238,
+["link"] = "|cffffffff|Hitem:2838::::::::60::::::::::|h[Heavy Stone]|h|r",
+},
+{
+["icon"] = 134572,
+["link"] = "|cffffffff|Hitem:2772::::::::60::::::::::|h[Iron Ore]|h|r",
 },
 },
 ["visible"] = true,
@@ -239,24 +266,6 @@ ModUiDb = {
 },
 ["notes"] = {
 ["player_notes"] = {
-["Asbi"] = {
-["notes"] = {
-{
-["timestamp"] = 1762572593,
-["note"] = "been stealing helboars.",
-["zone"] = "Blasted Lands",
-},
-},
-},
-["Mossle"] = {
-["notes"] = {
-{
-["timestamp"] = 1761457461,
-["note"] = "harrassed in STV by sheeping with Odoman.",
-["zone"] = "Stranglethorn Vale",
-},
-},
-},
 ["Odoman"] = {
 ["notes"] = {
 {
@@ -266,12 +275,13 @@ ModUiDb = {
 },
 },
 },
-["Gaingzheal"] = {
+["Snarfy"] = {
+["last_display_timestamp"] = 1764470374,
 ["notes"] = {
 {
-["timestamp"] = 1763280358,
-["note"] = "spams 750 gs for ZG lol.",
-["zone"] = "Winterspring",
+["timestamp"] = 1764470343,
+["note"] = "did ony preq with him (Gobble).",
+["zone"] = "Alterac Mountains",
 },
 },
 },
@@ -293,6 +303,62 @@ ModUiDb = {
 },
 },
 },
+["Asbi"] = {
+["notes"] = {
+{
+["timestamp"] = 1762572593,
+["note"] = "been stealing helboars.",
+["zone"] = "Blasted Lands",
+},
+},
+},
+["Gaingzheal"] = {
+["notes"] = {
+{
+["timestamp"] = 1763280358,
+["note"] = "spams 750 gs for ZG lol.",
+["zone"] = "Winterspring",
+},
+},
+},
+["Astlet"] = {
+["notes"] = {
+{
+["timestamp"] = 1764284515,
+["note"] = "invited to guild, then kicked then said \"useles\".",
+["zone"] = "Eastern Plaguelands",
+},
+},
+},
+["Twofold"] = {
+["last_display_timestamp"] = 1764470374,
+["notes"] = {
+{
+["timestamp"] = 1764470361,
+["note"] = "did ony preq with him (Gobble).",
+["zone"] = "Alterac Mountains",
+},
+},
+},
+["Mossle"] = {
+["notes"] = {
+{
+["timestamp"] = 1761457461,
+["note"] = "harrassed in STV by sheeping with Odoman.",
+["zone"] = "Stranglethorn Vale",
+},
+},
+},
+["Gobble"] = {
+["last_display_timestamp"] = 1764470328,
+["notes"] = {
+{
+["timestamp"] = 1764470326,
+["note"] = "did ony preq with him.",
+["zone"] = "Western Plaguelands",
+},
+},
+},
 },
 },
 ["TargetMacro"] = {
@@ -301,7 +367,7 @@ ModUiDb = {
 {
 ["mark"] = 8,
 ["mark_name"] = "skull",
-["target_name"] = "Barely",
+["target_name"] = "Muck",
 },
 {
 ["mark"] = 7,
@@ -362,6 +428,10 @@ ModUiDb = {
 ["time"] = 1746285213,
 ["reason"] = "rolled on strength ring as druid in Stockades",
 },
+["Aloneassasin"] = {
+["time"] = 1764492891,
+["reason"] = "group leaver",
+},
 ["Mortybrain"] = {
 ["time"] = 1749264099,
 ["reason"] = "group leaver",
@@ -417,6 +487,10 @@ ModUiDb = {
 ["Blackfrieza"] = {
 ["time"] = 1746286666,
 ["reason"] = "group leaver Stockades",
+},
+["Kherrael"] = {
+["time"] = 1764745158,
+["reason"] = "trash fuck and a ninja - ninjaed runes from mage on RR",
 },
 ["Vanzero"] = {
 ["time"] = 1747999036,
@@ -482,6 +556,10 @@ ModUiDb = {
 ["time"] = 1746282558,
 ["reason"] = "group leaver (Stockades)",
 },
+["Obzen"] = {
+["time"] = 1764310523,
+["reason"] = "layer",
+},
 ["Tapgets"] = {
 ["time"] = 1763544637,
 ["reason"] = "stupid fuck killed Araj himself",
@@ -489,6 +567,10 @@ ModUiDb = {
 ["Clasix"] = {
 ["time"] = 1747916312,
 ["reason"] = "can you sum?",
+},
+["Taurais"] = {
+["time"] = 1764665473,
+["reason"] = "bailed Strat UD",
 },
 ["Hilbot"] = {
 ["time"] = 1747032838,
@@ -498,9 +580,25 @@ ModUiDb = {
 ["time"] = 1763247132,
 ["reason"] = "spammer",
 },
+["Foddy"] = {
+["time"] = 1749617466,
+["reason"] = "spamming fuck",
+},
 ["Lkjk"] = {
 ["time"] = 1749370024,
 ["reason"] = "piece of fuck group leaver",
+},
+["Sweetyellow"] = {
+["time"] = 1761985454,
+["reason"] = "fucking spammer",
+},
+["Vancat"] = {
+["time"] = 1747031160,
+["reason"] = "needed on staff in ulda and de'ed it",
+},
+["Keleborn"] = {
+["time"] = 1747992109,
+["reason"] = "group leaver",
 },
 ["Valleyboy"] = {
 ["time"] = 1747916305,
@@ -510,29 +608,37 @@ ModUiDb = {
 ["time"] = 1762126499,
 ["reason"] = "Ryxon stupid fuck stole captain on the ship",
 },
+["Fetaknivenx"] = {
+["time"] = 1763252069,
+["reason"] = "spams ninja tf",
+},
 ["Tauwarr"] = {
 ["time"] = 1763596431,
 ["reason"] = "spammer",
+},
+["Relgeiz"] = {
+["time"] = 1748002458,
+["reason"] = "group leaver and elitist fuck",
 },
 ["Arthase"] = {
 ["time"] = 1747817678,
 ["reason"] = "cunt let me die twice outside BRD as healer due to no heals",
 },
-["Foddy"] = {
-["time"] = 1749617466,
-["reason"] = "spamming fuck",
+["Karvinus"] = {
+["time"] = 1764664684,
+["reason"] = "bailed from Strat UD",
 },
-["Sweetyellow"] = {
-["time"] = 1761985454,
-["reason"] = "fucking spammer",
+["Kratosm"] = {
+["time"] = 1764563161,
+["reason"] = "herb stealer",
 },
 ["Wojcan"] = {
 ["time"] = 1763281493,
 ["reason"] = "fucking winterfall runner farmer",
 },
-["Vancat"] = {
-["time"] = 1747031160,
-["reason"] = "needed on staff in ulda and de'ed it",
+["Anemal"] = {
+["time"] = 1747032165,
+["reason"] = "fucking retard",
 },
 ["Dedulok"] = {
 ["time"] = 1747376189,
@@ -542,41 +648,41 @@ ModUiDb = {
 ["time"] = 1747982425,
 ["reason"] = "fucktard and group leaver",
 },
-["Keleborn"] = {
-["time"] = 1747992109,
-["reason"] = "group leaver",
+["Raned"] = {
+["time"] = 1748598921,
+["reason"] = "mage fuck",
+},
+["Royieal"] = {
+["time"] = 1749290190,
+["reason"] = "fucktard group leaver",
 },
 ["Meersi"] = {
 ["time"] = 1747129653,
 ["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
 },
-["Itsmaxim"] = {
-["time"] = 1764144442,
-["reason"] = "MC spammer",
+["Thallan"] = {
+["time"] = 1746006555,
+["reason"] = "capslock spammer",
 },
-["Béèf"] = {
-["time"] = 1746441679,
-["reason"] = "spammer",
-},
-["Putasam"] = {
-["time"] = 1749280302,
-["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
-},
-["Relgeiz"] = {
-["time"] = 1748002458,
-["reason"] = "group leaver and elitist fuck",
+["Oldworld"] = {
+["time"] = 1746528130,
+["reason"] = "boost spammer",
 },
 ["Kissmelove"] = {
 ["time"] = 1749122028,
 ["reason"] = "spammer",
 },
-["Anemal"] = {
-["time"] = 1747032165,
-["reason"] = "fucking retard",
+["Itsmaxim"] = {
+["time"] = 1764144442,
+["reason"] = "MC spammer",
 },
-["Raned"] = {
-["time"] = 1748598921,
-["reason"] = "mage fuck",
+["Mcfreez"] = {
+["time"] = 1764665274,
+["reason"] = "group leaver",
+},
+["Hjon"] = {
+["time"] = 1746855259,
+["reason"] = "group leaver",
 },
 ["Vhaeron"] = {
 ["time"] = 1747567339,
@@ -598,37 +704,37 @@ ModUiDb = {
 ["time"] = 1747260536,
 ["reason"] = "fucking layer spammer",
 },
-["Thallan"] = {
-["time"] = 1746006555,
-["reason"] = "capslock spammer",
+["Equalx"] = {
+["time"] = 1764493100,
+["reason"] = "fucking retard ass pulled everything twice in UBRS",
 },
 ["Maximusblast"] = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Oldworld"] = {
-["time"] = 1746528130,
-["reason"] = "boost spammer",
+["Béèf"] = {
+["time"] = 1746441679,
+["reason"] = "spammer",
 },
 ["Sweetystore"] = {
 ["time"] = 1761985500,
 ["reason"] = "fucking spammer",
 },
-["Hjon"] = {
-["time"] = 1746855259,
-["reason"] = "group leaver",
+["Putasam"] = {
+["time"] = 1749280302,
+["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
 },
-["Royieal"] = {
-["time"] = 1749290190,
-["reason"] = "fucktard group leaver",
+["Bonzaii"] = {
+["time"] = 1764665425,
+["reason"] = "fucker doesnt respond to questions i2i",
 },
 ["Gnrk"] = {
 ["time"] = 1749030325,
 ["reason"] = "salty skilless fuck",
 },
-["Fetaknivenx"] = {
-["time"] = 1763252069,
-["reason"] = "spams ninja tf",
+["�aifuku"] = {
+["time"] = 1764739408,
+["reason"] = "group leaver",
 },
 },
 },
@@ -804,7 +910,7 @@ ModUiDb = {
 ["time"] = 1762141354,
 },
 ["Hannahuwu"] = {
-["time"] = 1764142593,
+["time"] = 1764571032,
 ["class"] = "hunter",
 },
 ["Zatoichi"] = {
@@ -830,6 +936,10 @@ ModUiDb = {
 ["time"] = 1763460091,
 ["class"] = "rogue",
 },
+["Nerodarkinn"] = {
+["time"] = 1764995124,
+["class"] = "mage",
+},
 ["Androuss"] = {
 ["time"] = 1763076131,
 ["class"] = "warrior",
@@ -838,18 +948,23 @@ ModUiDb = {
 ["time"] = 1763793151,
 ["class"] = "mage",
 },
-["Fackpampen"] = {
-["time"] = 1762419669,
-},
 ["Umatic"] = {
 ["time"] = 1762569866,
 },
-["Rivotado"] = {
-["time"] = 1762124618,
+["Zynaz"] = {
+["time"] = 1763282653,
+["class"] = "warrior",
 },
 ["Sselemoh"] = {
 ["time"] = 1763534392,
 ["class"] = "hunter",
+},
+["Rivotado"] = {
+["time"] = 1762124618,
+},
+["Empyani"] = {
+["time"] = 1764995845,
+["class"] = "mage",
 },
 ["Jeyko"] = {
 ["time"] = 1763788588,
@@ -867,9 +982,8 @@ ModUiDb = {
 ["time"] = 1763028474,
 ["class"] = "warrior",
 },
-["Zynaz"] = {
-["time"] = 1763282653,
-["class"] = "warrior",
+["Fackpampen"] = {
+["time"] = 1762419669,
 },
 ["Deathroi"] = {
 ["time"] = 1763365073,

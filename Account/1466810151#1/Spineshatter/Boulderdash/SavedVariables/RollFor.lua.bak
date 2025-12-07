@@ -18,6 +18,8 @@ RollForCharDb = {
 ["items"] = {
 },
 },
+["minimap_button"] = {
+},
 ["config"] = {
 ["tmog_roll_threshold"] = 98,
 ["auto_master_loot"] = true,
@@ -33,9 +35,8 @@ RollForCharDb = {
 ["master_loot_frame_rows"] = 5,
 ["tmog_rolling_enabled"] = true,
 },
-["softres"] = {
-},
-["softres_check"] = {
+["welcome_popup"] = {
+["showed"] = true,
 },
 ["rolling_popup"] = {
 ["point"] = {
@@ -49,16 +50,16 @@ RollForCharDb = {
 },
 ["winner_tracker"] = {
 ["winners"] = {
-["|cff0070dd|Hitem:11921::::::::57:::::::::|h[Impervious Giant]|h|r"] = {
-["Boulderdash"] = {
-["rolling_strategy"] = "NormalRoll",
-["roll_type"] = "OffSpec",
-},
-},
 ["|cff1eff00|Hitem:13247::::::::60:::::::::|h[Quartermaster Zigris' Footlocker]|h|r"] = {
 ["Onz"] = {
 ["rolling_strategy"] = "RaidRoll",
 ["roll_type"] = "MainSpec",
+},
+},
+["|cff0070dd|Hitem:11921::::::::57:::::::::|h[Impervious Giant]|h|r"] = {
+["Boulderdash"] = {
+["rolling_strategy"] = "NormalRoll",
+["roll_type"] = "OffSpec",
 },
 },
 ["|cff0070dd|Hitem:11920::::::::57:::::::::|h[Wraith Scythe]|h|r"] = {
@@ -69,9 +70,8 @@ RollForCharDb = {
 },
 },
 },
-["welcome_popup"] = {
-["showed"] = true,
+["softres_check"] = {
 },
-["minimap_button"] = {
+["softres"] = {
 },
 }

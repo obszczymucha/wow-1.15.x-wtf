@@ -31,10 +31,10 @@ VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
 /cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
 END
 VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
-/use Runecloth Bandage
+/use Heavy Runecloth Bandage
 END
 VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
-/use Big Bear Steak
+/use Spinefin Halibut
 END
 VER 3 000000000000000E "F" "INV_Misc_QuestionMark"
 #showtooltip [mod:shift]Intercept;[nocombat]Charge;Intercept
@@ -94,8 +94,8 @@ VER 3 0000000000000018 "shoot" "132222"
 /cast [worn:Gun]Shoot Gun;Shoot Bow
 END
 VER 3 0000000000000014 "T1" "132212"
-/target Scourge Cham
-/script local p="Scourge Cham";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+/target Demetria
+/script local p="Demetria";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
 END
 VER 3 0000000000000017 "T2" "132212"
 /target Ice Thistle Pat

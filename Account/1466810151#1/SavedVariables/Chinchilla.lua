@@ -8,20 +8,6 @@ Chinchilla2DB = {
 },
 },
 },
-["Appearance"] = {
-["profiles"] = {
-["Default"] = {
-["scale"] = 0.25,
-["borderStyle"] = "Thin",
-["borderColor"] = {
-[3] = 0.6313725709915161,
-[2] = 0.7333333492279053,
-[4] = 0.5694446265697479,
-},
-["shape"] = "SQUARE",
-},
-},
-},
 ["Coordinates"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -43,6 +29,26 @@ nil,
 },
 },
 },
+},
+["Appearance"] = {
+["profiles"] = {
+["Default"] = {
+["scale"] = 0.25,
+["borderStyle"] = "Thin",
+["borderColor"] = {
+[3] = 0.6313725709915161,
+[2] = 0.7333333492279053,
+[4] = 0.5694446265697479,
+},
+["shape"] = "SQUARE",
+},
+},
+},
+["TrackingDots"] = {
+},
+["RangeCircle"] = {
+},
+["Zoom"] = {
 },
 ["ShowHide"] = {
 ["profiles"] = {
@@ -72,6 +78,8 @@ nil,
 ["enabled"] = false,
 },
 },
+},
+["Compass"] = {
 },
 ["MoveButtons"] = {
 ["profiles"] = {

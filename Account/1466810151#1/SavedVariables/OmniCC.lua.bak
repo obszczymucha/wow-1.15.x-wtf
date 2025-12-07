@@ -1,68 +1,69 @@
 
 OmniCCDB = {
-	["global"] = {
-		["addonVersion"] = "11.2.3",
-		["dbVersion"] = 6,
-	},
-	["profileKeys"] = {
-		["Boulderdash - Spineshatter"] = "Default",
-		["Awertqwertwe - Spineshatter"] = "Default",
-		["Tachikoma - Spineshatter"] = "Default",
-		["Ewrtettrrt - Spineshatter"] = "Default",
-		["Jogobobek - Spineshatter"] = "Default",
-		["Boordell - Spineshatter"] = "Default",
-		["Obszczymucha - Spineshatter"] = "Default",
-		["Asdfwerqwer - Spineshatter"] = "Default",
-		["Dupeczka - Spineshatter"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["rules"] = {
-				[1] = {
-					["enabled"] = false,
-					["id"] = "auras",
-					["name"] = "Auras",
-					["patterns"] = {
-						[1] = "Aura",
-						[2] = "Buff",
-						[3] = "Debuff",
-					},
-				},
-				[2] = {
-					["enabled"] = false,
-					["id"] = "plates",
-					["name"] = "Unit Nameplates",
-					["patterns"] = {
-						[1] = "Plate",
-					},
-				},
-				[3] = {
-					["enabled"] = false,
-					["id"] = "actions",
-					["name"] = "Action Bars",
-					["patterns"] = {
-						[1] = "ActionButton",
-						[2] = "MultiBar",
-					},
-				},
-			},
-			["themes"] = {
-				["Default"] = {
-					["fontSize"] = 15,
-					["textStyles"] = {
-						["seconds"] = {
-							["b"] = 0.25098040699958801,
-							["g"] = 0.65490198135375977,
-						},
-						["minutes"] = {
-						},
-						["soon"] = {
-							["b"] = 0.21176472306251529,
-							["g"] = 0.28627452254295349,
-						},
-					},
-				},
-			},
-		},
-	},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+["Dupeczka - Spineshatter"] = "Default",
+["Asdfwerqwer - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Ewrtettrrt - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+},
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.2.3",
+},
+["profiles"] = {
+["Default"] = {
+["rules"] = {
+{
+["enabled"] = false,
+["patterns"] = {
+"Aura",
+"Buff",
+"Debuff",
+},
+["name"] = "Auras",
+["id"] = "auras",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"Plate",
+},
+["name"] = "Unit Nameplates",
+["id"] = "plates",
+},
+{
+["enabled"] = false,
+["patterns"] = {
+"ActionButton",
+"MultiBar",
+},
+["name"] = "Action Bars",
+["id"] = "actions",
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["soon"] = {
+["b"] = 0.2117647230625153,
+["g"] = 0.2862745225429535,
+},
+["minutes"] = {
+},
+["seconds"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.6549019813537598,
+},
+},
+["fontSize"] = 15,
+},
+},
+},
+},
 }
+OmniCC4Config = nil

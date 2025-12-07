@@ -2,16 +2,16 @@
 ThreatPlatesDB = {
 ["char"] = {
 ["Obszczymucha - Spineshatter"] = {
-["welcome"] = true,
 ["spec"] = {
 true,
 },
+["welcome"] = true,
 },
 ["Kacprawcze - Spineshatter"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 },
-["welcome"] = true,
 },
 ["Tachikoma - Spineshatter"] = {
 ["welcome"] = true,

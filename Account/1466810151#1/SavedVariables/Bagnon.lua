@@ -3,34 +3,36 @@ Bagnon_Sets = {
 ["tackleColor"] = {
 },
 ["latest"] = {
-["cooldown"] = 1764744104,
+["id"] = "11.2.16",
+["cooldown"] = 1765356596,
+["who"] = "Ekkì",
 },
 ["color"] = {
 ["enchant"] = {
 },
-["inscribe"] = {
-},
-["gem"] = {
-},
-["soul"] = {
-},
-["quiver"] = {
-},
-["mine"] = {
+["account"] = {
 },
 ["engineer"] = {
 },
+["soul"] = {
+},
 ["leather"] = {
 },
-["reagent"] = {
+["mine"] = {
+},
+["gem"] = {
+},
+["inscribe"] = {
+},
+["fridge"] = {
 },
 ["key"] = {
 },
-["account"] = {
+["quiver"] = {
 },
 ["tackle"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["normal"] = {
 },
@@ -123,7 +125,7 @@ Bagnon_Sets = {
 },
 ["itemScale"] = 0.93,
 ["options"] = false,
-["y"] = 120.9574813842773,
+["y"] = 120.9575119018555,
 ["x"] = -235.0597461131802,
 ["search"] = false,
 ["broker"] = false,

@@ -1,8 +1,8 @@
 
 XPBarNoneDB = {
 ["profileKeys"] = {
-["Boulderdash - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
 },

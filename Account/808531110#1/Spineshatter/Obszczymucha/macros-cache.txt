@@ -1,4 +1,8 @@
 VER 3 0100000000000001 " " "132341"
-/equipslot [worn:Shields] 17 Dimensional Blade of the Tiger
-/equipslot [noworn:Shields] 17 Crest of Supremacy
+/equipslot [worn:Shields] 17 Bashguuder
+/equipslot [noworn:Shields] 17 Draconian Deflector
+END
+VER 3 0100000000000002 " " "136071"
+/raid --- Sheeps ---
+/raid {moon} = Ghaitagh
 END

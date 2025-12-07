@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Ping"] = {
+["Expander"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -80,7 +80,7 @@ nil,
 },
 },
 },
-["Expander"] = {
+["Ping"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,

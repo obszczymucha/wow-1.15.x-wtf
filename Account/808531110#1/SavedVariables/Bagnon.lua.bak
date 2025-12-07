@@ -31,7 +31,9 @@ Bagnon_Sets = {
 ["mineColor"] = {
 },
 ["latest"] = {
-["cooldown"] = 1764665751,
+["id"] = "11.2.16",
+["cooldown"] = 1765273987,
+["who"] = "Mowfasa",
 },
 ["version"] = "9.1.6",
 ["customRules"] = {
@@ -43,19 +45,19 @@ Bagnon_Sets = {
 },
 ["herb"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["soul"] = {
 },
-["gem"] = {
+["reagent"] = {
 },
 ["mine"] = {
 },
+["key"] = {
+},
+["leather"] = {
+},
 ["fridge"] = {
-},
-["inscribe"] = {
-},
-["reagent"] = {
 },
 ["engineer"] = {
 },
@@ -63,7 +65,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["quiver"] = {
 },
@@ -79,7 +81,7 @@ Bagnon_Sets = {
 "trade",
 },
 },
-["point"] = "BOTTOMLEFT",
+["point"] = "BOTTOMRIGHT",
 ["scale"] = 0.88,
 ["sort"] = false,
 ["borderColor"] = {
@@ -91,13 +93,13 @@ Bagnon_Sets = {
 ["activeRules"] = {
 },
 ["enabled"] = true,
-["columns"] = 19,
+["columns"] = 20,
 ["money"] = true,
 ["skin"] = "OnePixel",
 ["itemScale"] = 0.93,
 ["bagToggle"] = true,
-["y"] = 200.486083984375,
-["x"] = 466.2977905273438,
+["y"] = 207.6692504882813,
+["x"] = -23.26580080068015,
 ["search"] = false,
 ["broker"] = false,
 ["color"] = {
@@ -166,15 +168,15 @@ Bagnon_Sets = {
 ["color"] = {
 },
 ["itemScale"] = 0.93,
+["skin"] = "OnePixel",
+["y"] = -252.0970426272088,
+["x"] = 515.5543212890625,
 ["borderColor"] = {
 1,
 0.7176470756530762,
 0.4823529720306397,
 0.3039535880088806,
 },
-["y"] = -252.0970426272088,
-["x"] = 515.5543212890625,
-["skin"] = "OnePixel",
 ["spacing"] = 3,
 ["hiddenRules"] = {
 },

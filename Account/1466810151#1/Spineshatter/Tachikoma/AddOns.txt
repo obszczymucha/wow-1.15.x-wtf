@@ -11,5 +11,5 @@ WeakAurasArchive: enabled
 AutoLayer_Vanilla: disabled
 Talented_Data: enabled
 Talented: disabled
-XPBarNone: enabled
+XPBarNone: disabled
 NovaWorldBuffs: disabled

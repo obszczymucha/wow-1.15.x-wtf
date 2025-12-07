@@ -48,7 +48,7 @@ WeakAurasArchive: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
-XPBarNone: enabled
+XPBarNone: disabled
 Blizzard_CompactRaidFrames: enabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled

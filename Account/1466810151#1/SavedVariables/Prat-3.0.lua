@@ -44,6 +44,31 @@ Prat3DB = {
 },
 },
 },
+["Prat_Fading"] = {
+},
+["Prat_Scroll"] = {
+},
+["Prat_Mentions"] = {
+},
+["Prat_CopyChat"] = {
+},
+["Prat_Timestamps"] = {
+["profiles"] = {
+["Default"] = {
+["formatcode"] = "%H:%M",
+},
+},
+},
+["Prat_ServerNames"] = {
+},
+["Prat_UrlCopy"] = {
+},
+["Prat_AltNames"] = {
+},
+["Prat_PlayerNames"] = {
+},
+["Prat_Memory"] = {
+},
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -67,6 +92,8 @@ Prat3DB = {
 },
 },
 },
+["Prat_History"] = {
+},
 ["Prat_ChannelNames"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -79,12 +106,31 @@ Prat3DB = {
 },
 },
 },
-["Prat_Timestamps"] = {
-["profiles"] = {
-["Default"] = {
-["formatcode"] = "%H:%M",
+["Prat_KeyBindings"] = {
 },
+["Prat_Bubbles"] = {
 },
+["Prat_ChannelSticky"] = {
+},
+["Prat_TellTarget"] = {
+},
+["Prat_Achievements"] = {
+},
+["Prat_DebugModules"] = {
+},
+["Prat_Alias"] = {
+},
+["Prat_OriginalButtons"] = {
+},
+["Prat_Highlight"] = {
+},
+["Prat_Sounds"] = {
+},
+["Prat_PopupMessage"] = {
+},
+["Prat_Invites"] = {
+},
+["Prat_LinkInfoIcons"] = {
 },
 ["Prat_Font"] = {
 ["profiles"] = {
@@ -97,12 +143,20 @@ Prat3DB = {
 },
 },
 },
+["Prat_ChatLog"] = {
+},
+["Prat_Search"] = {
+},
 ["Prat_Buttons"] = {
 ["profiles"] = {
 ["Default"] = {
 ["showButtons"] = false,
 },
 },
+},
+["Prat_Paragraph"] = {
+},
+["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
