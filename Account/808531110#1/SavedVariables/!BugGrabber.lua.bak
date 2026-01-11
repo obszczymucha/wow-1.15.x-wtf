@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 1021,
 ["lastSanitation"] = 3,
+["session"] = 1022,
 ["errors"] = {
 {
 ["message"] = "Interface/AddOns/AutoLayer_Vanilla/layering.lua:10: 'for' limit must be a number",

@@ -43,8 +43,8 @@ W: 500
 H: 400
 Frame: WeakAurasOptions
 FrameLevel: 1
-Anchor: LEFT
-X: 14
-Y: 37
+Anchor: BOTTOMRIGHT
+X: -41
+Y: 23
 W: 830
 H: 665

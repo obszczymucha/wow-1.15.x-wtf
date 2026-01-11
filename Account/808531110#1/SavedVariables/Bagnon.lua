@@ -20,7 +20,7 @@ Bagnon_Sets = {
 },
 ["enchantColor"] = {
 },
-["inscribeColor"] = {
+["leatherColor"] = {
 },
 ["keyColor"] = {
 },
@@ -29,6 +29,48 @@ Bagnon_Sets = {
 ["profiles"] = {
 },
 ["mineColor"] = {
+},
+["latest"] = {
+["id"] = "11.2.21",
+["cooldown"] = 1768458531,
+["who"] = "Ylijohtaja",
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["color"] = {
+["normal"] = {
+},
+["herb"] = {
+},
+["key"] = {
+},
+["soul"] = {
+},
+["fridge"] = {
+},
+["mine"] = {
+},
+["gem"] = {
+},
+["inscribe"] = {
+},
+["reagent"] = {
+},
+["engineer"] = {
+},
+["enchant"] = {
+},
+["tackle"] = {
+},
+["leather"] = {
+},
+["quiver"] = {
+},
+["account"] = {
+},
 },
 ["global"] = {
 ["inventory"] = {
@@ -53,23 +95,23 @@ Bagnon_Sets = {
 ["enabled"] = true,
 ["columns"] = 20,
 ["money"] = true,
-["options"] = false,
+["skin"] = "OnePixel",
 ["itemScale"] = 0.93,
-["spacing"] = 0,
+["bagToggle"] = true,
 ["y"] = 207.6692504882813,
 ["x"] = -23.26580080068015,
 ["search"] = false,
 ["broker"] = false,
-["hiddenRules"] = {
-},
 ["color"] = {
 0,
 0,
 0,
 0.5342593789100647,
 },
-["bagToggle"] = true,
-["skin"] = "OnePixel",
+["hiddenRules"] = {
+},
+["spacing"] = 0,
+["options"] = false,
 },
 ["vault"] = {
 ["rules"] = {
@@ -126,66 +168,24 @@ Bagnon_Sets = {
 ["color"] = {
 },
 ["itemScale"] = 0.93,
-["scale"] = 0.87,
-["y"] = -252.0970426272088,
-["x"] = 515.5543212890625,
-["spacing"] = 3,
-["skin"] = "OnePixel",
-["point"] = "TOPLEFT",
-["hiddenRules"] = {
-},
-["activeRules"] = {
-},
 ["borderColor"] = {
 1,
 0.7176470756530762,
 0.4823529720306397,
 0.3039535880088806,
 },
+["y"] = -252.0970426272088,
+["x"] = 515.5543212890625,
+["skin"] = "OnePixel",
+["spacing"] = 3,
+["hiddenRules"] = {
+},
+["point"] = "TOPLEFT",
+["activeRules"] = {
+},
+["scale"] = 0.87,
 },
 },
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["color"] = {
-["normal"] = {
-},
-["account"] = {
-},
-["quiver"] = {
-},
-["soul"] = {
-},
-["inscribe"] = {
-},
-["mine"] = {
-},
-["engineer"] = {
-},
-["leather"] = {
-},
-["reagent"] = {
-},
-["gem"] = {
-},
-["enchant"] = {
-},
-["tackle"] = {
-},
-["fridge"] = {
-},
-["key"] = {
-},
-["herb"] = {
-},
-},
-["latest"] = {
-["id"] = "11.2.21",
-["cooldown"] = 1768458531,
-["who"] = "Ylijohtaja",
-},
-["leatherColor"] = {
+["inscribeColor"] = {
 },
 }

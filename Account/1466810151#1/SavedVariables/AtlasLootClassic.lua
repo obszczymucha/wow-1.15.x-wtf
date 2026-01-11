@@ -8,9 +8,9 @@ AtlasLootClassicDB = {
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
 ["Boordell - Spineshatter"] = "Boordell - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 ["Boorack - Spineshatter"] = "Boorack - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
 },
 ["global"] = {
 ["__addonrevision"] = 3020000,
@@ -72,11 +72,11 @@ nil,
 },
 ["Boordell - Spineshatter"] = {
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 },
 ["Awertqwertwe - Spineshatter"] = {
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 },
 },
 }

@@ -122,14 +122,14 @@ Bartender4DB = {
 {
 ["rows"] = 3,
 ["fadeout"] = true,
-["version"] = 3,
+["fadeoutalpha"] = 0,
 ["position"] = {
 ["y"] = 90.74439222133742,
 ["x"] = 2.719284098137678,
 ["point"] = "BOTTOMLEFT",
 ["scale"] = 0.800000011920929,
 },
-["fadeoutalpha"] = 0,
+["version"] = 3,
 ["padding"] = -5,
 ["visibility"] = {
 ["overridebar"] = false,
@@ -330,8 +330,8 @@ Bartender4DB = {
 {
 ["version"] = 3,
 ["buttons"] = 6,
-["hidemacrotext"] = true,
 ["padding"] = 1,
+["hidemacrotext"] = true,
 ["position"] = {
 ["y"] = 41.75,
 ["x"] = -510,
@@ -558,7 +558,7 @@ Bartender4DB = {
 },
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["actionbars"] = {
 {
 ["padding"] = 6,
@@ -573,14 +573,14 @@ Bartender4DB = {
 ["enabled"] = false,
 ["version"] = 3,
 ["position"] = {
-["y"] = -207.0000457763672,
-["x"] = -230.5,
+["y"] = -206.9999923706055,
+["x"] = -230.4999389648438,
 ["point"] = "CENTER",
 },
 },
 {
-["rows"] = 12,
 ["padding"] = 5,
+["rows"] = 12,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -589,8 +589,8 @@ Bartender4DB = {
 },
 },
 {
-["rows"] = 12,
 ["padding"] = 5,
+["rows"] = 12,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -702,7 +702,7 @@ Bartender4DB = {
 },
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["actionbars"] = {
 {
 ["padding"] = 6,
@@ -717,14 +717,14 @@ Bartender4DB = {
 ["enabled"] = false,
 ["version"] = 3,
 ["position"] = {
-["y"] = -206.9999923706055,
-["x"] = -230.4999389648438,
+["y"] = -207.0000457763672,
+["x"] = -230.5,
 ["point"] = "CENTER",
 },
 },
 {
-["padding"] = 5,
 ["rows"] = 12,
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -733,8 +733,8 @@ Bartender4DB = {
 },
 },
 {
-["padding"] = 5,
 ["rows"] = 12,
+["padding"] = 5,
 ["version"] = 3,
 ["position"] = {
 ["y"] = 610,
@@ -851,7 +851,7 @@ Bartender4DB = {
 ["y"] = 42,
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["padding"] = -2,
 ["version"] = 3,
 ["position"] = {
@@ -871,7 +871,7 @@ Bartender4DB = {
 ["y"] = 42,
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["padding"] = -2,
 ["version"] = 3,
 ["position"] = {
@@ -945,7 +945,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -963,7 +963,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1036,7 +1036,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1054,7 +1054,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1137,7 +1137,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["verticalAlignment"] = "CENTER",
 ["padding"] = 5,
 ["version"] = 3,
@@ -1157,7 +1157,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["verticalAlignment"] = "CENTER",
 ["padding"] = 5,
 ["version"] = 3,
@@ -1237,7 +1237,7 @@ Bartender4DB = {
 ["y"] = 143,
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["scale"] = 1,
@@ -1255,7 +1255,7 @@ Bartender4DB = {
 ["y"] = 143,
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["scale"] = 1,
@@ -1327,11 +1327,11 @@ Bartender4DB = {
 ["point"] = "CENTER",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 42.4998779296875,
-["x"] = 104.4999389648438,
+["y"] = 42.49996948242188,
+["x"] = 104.5001220703125,
 ["point"] = "CENTER",
 },
 },
@@ -1343,11 +1343,11 @@ Bartender4DB = {
 ["point"] = "CENTER",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
-["y"] = 42.49996948242188,
-["x"] = 104.5001220703125,
+["y"] = 42.4998779296875,
+["x"] = 104.4999389648438,
 ["point"] = "CENTER",
 },
 },
@@ -1414,7 +1414,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 143,
@@ -1430,7 +1430,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["version"] = 3,
 ["position"] = {
 ["y"] = 143,
@@ -1502,7 +1502,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1520,7 +1520,7 @@ Bartender4DB = {
 ["point"] = "BOTTOM",
 },
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["enabled"] = true,
 ["version"] = 3,
 ["position"] = {
@@ -1540,9 +1540,9 @@ Bartender4DB = {
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
 ["Boordell - Spineshatter"] = "Boordell - Spineshatter",
-["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 ["Boorack - Spineshatter"] = "Boorack - Spineshatter",
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
@@ -1610,7 +1610,7 @@ Bartender4DB = {
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["focuscastmodifier"] = false,
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
@@ -1620,7 +1620,7 @@ Bartender4DB = {
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["focuscastmodifier"] = false,
 ["blizzardVehicle"] = true,
 ["outofrange"] = "hotkey",

@@ -16,25 +16,25 @@ Bagnon_Sets = {
 },
 ["soul"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
 ["key"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
-["engineer"] = {
+["gem"] = {
 },
 ["quiver"] = {
 },
 ["tackle"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
-["gem"] = {
+["engineer"] = {
 },
 ["account"] = {
 },

@@ -18,6 +18,8 @@ RollForCharDb = {
 ["items"] = {
 },
 },
+["softres"] = {
+},
 ["config"] = {
 ["tmog_roll_threshold"] = 98,
 ["auto_master_loot"] = true,
@@ -33,17 +35,10 @@ RollForCharDb = {
 ["master_loot_frame_rows"] = 5,
 ["tmog_rolling_enabled"] = true,
 },
-["softres"] = {
-},
 ["softres_check"] = {
 },
-["rolling_popup"] = {
-["point"] = {
-["y"] = 150,
-["x"] = 0,
-["point"] = "CENTER",
-["relative_point"] = "CENTER",
-},
+["welcome_popup"] = {
+["showed"] = true,
 },
 ["loot_frame"] = {
 },
@@ -69,8 +64,13 @@ RollForCharDb = {
 },
 },
 },
-["welcome_popup"] = {
-["showed"] = true,
+["rolling_popup"] = {
+["point"] = {
+["y"] = 150,
+["x"] = 0,
+["point"] = "CENTER",
+["relative_point"] = "CENTER",
+},
 },
 ["minimap_button"] = {
 },

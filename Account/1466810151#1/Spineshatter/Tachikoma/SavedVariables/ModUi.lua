@@ -1,9 +1,9 @@
 
 ModUiDb = {
 ["mixins"] = {
-["CombatQueue"] = {
-},
 ["Bag"] = {
+},
+["CombatQueue"] = {
 },
 ["Combat"] = {
 },
@@ -21,21 +21,9 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = -41.46719360351563,
-["point"] = "TOP",
-["y"] = -69.30265045166016,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 91.6070785522461,
-["point"] = "TOP",
-["y"] = -80.5156021118164,
-},
-},
+["Chat"] = {
+["left"] = false,
+["lines"] = 11,
 },
 ["FrameSpacing"] = {
 ["frame_spacing"] = 30,
@@ -105,9 +93,21 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 11,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = -41.46719360351563,
+["point"] = "TOP",
+["y"] = -69.30265045166016,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 91.6070785522461,
+["point"] = "TOP",
+["y"] = -80.5156021118164,
+},
+},
 },
 },
 ["mods"] = {
@@ -236,10 +236,6 @@ ModUiDb = {
 {
 ["icon"] = 134215,
 ["link"] = "|cffffffff|Hitem:13465::::::::60::::::::::|h[Mountain Silversage]|h|r",
-},
-{
-["icon"] = 134412,
-["link"] = "|cffffffff|Hitem:2450::::::::60::::::::::|h[Briarthorn]|h|r",
 },
 },
 ["visible"] = true,
@@ -420,16 +416,6 @@ ModUiDb = {
 ["FramePositions"] = {
 },
 ["Chat"] = {
-},
-["ZoneMiscText"] = {
-},
-["Tachikoma/MinimapIcons"] = {
-},
-["FrameVisibility"] = {
-},
-["Sandbox"] = {
-},
-["AuctionSold"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -709,8 +695,8 @@ ModUiDb = {
 ["time"] = 1763252069,
 ["reason"] = "spams ninja tf",
 },
-["Hjon"] = {
-["time"] = 1746855259,
+["Dedulok"] = {
+["time"] = 1747376189,
 ["reason"] = "group leaver",
 },
 ["Svartjudas"] = {
@@ -725,20 +711,20 @@ ModUiDb = {
 ["time"] = 1749290190,
 ["reason"] = "fucktard group leaver",
 },
-["Itsmaxim"] = {
-["time"] = 1764144442,
-["reason"] = "MC spammer",
-},
 ["Meersi"] = {
 ["time"] = 1747129653,
 ["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
+},
+["Itsmaxim"] = {
+["time"] = 1764144442,
+["reason"] = "MC spammer",
 },
 ["Kissmelove"] = {
 ["time"] = 1749122028,
 ["reason"] = "spammer",
 },
-["Dedulok"] = {
-["time"] = 1747376189,
+["Hjon"] = {
+["time"] = 1746855259,
 ["reason"] = "group leaver",
 },
 ["Oldworld"] = {
@@ -806,6 +792,16 @@ ModUiDb = {
 ["reason"] = "killed the 30% huntard with 6 mobs on him, cuz he was \"stealing\" my node",
 },
 },
+},
+["Tachikoma/MinimapIcons"] = {
+},
+["FrameVisibility"] = {
+},
+["AuctionSold"] = {
+},
+["Sandbox"] = {
+},
+["ZoneMiscText"] = {
 },
 ["Tachikoma/frames"] = {
 },
@@ -967,10 +963,10 @@ ModUiDb = {
 },
 ["shuffle"] = false,
 ["last_track_index"] = 8,
+["force"] = false,
+["playlist_id"] = "default",
 ["music"] = {
 },
-["playlist_id"] = "default",
-["force"] = false,
 },
 ["KillOnSight"] = {
 ["warning_interval_in_seconds"] = 60,
@@ -1041,12 +1037,12 @@ ModUiDb = {
 ["time"] = 1763247056,
 ["class"] = "warrior",
 },
+["Fackpampen"] = {
+["time"] = 1762419669,
+},
 ["Zynaz"] = {
 ["time"] = 1763282653,
 ["class"] = "warrior",
-},
-["Fackpampen"] = {
-["time"] = 1762419669,
 },
 ["Zexbeside"] = {
 ["time"] = 1763783798,

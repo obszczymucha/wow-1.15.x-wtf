@@ -173,8 +173,7 @@ nil,
 ["b"] = 1,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 ["unitColoring"] = {
 [32334] = {
@@ -220,7 +219,8 @@ nil,
 ["b"] = 0.05,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 },
 ["filters"] = {
@@ -298,9 +298,9 @@ nil,
 ["PARTY_KILL"] = true,
 ["SPELL_DAMAGE"] = true,
 ["RANGE_MISSED"] = true,
-["RANGE_DAMAGE"] = true,
-["ENCHANT_REMOVED"] = true,
 ["SPELL_HEAL"] = true,
+["ENCHANT_REMOVED"] = true,
+["RANGE_DAMAGE"] = true,
 ["SPELL_DISPEL"] = true,
 ["SPELL_DRAIN"] = true,
 },
@@ -478,8 +478,7 @@ nil,
 ["b"] = 1,
 },
 },
-["highlightedEvents"] = {
-["PARTY_KILL"] = true,
+["eventColoring"] = {
 },
 ["unitColoring"] = {
 [32334] = {
@@ -525,7 +524,8 @@ nil,
 ["b"] = 0.05,
 },
 },
-["eventColoring"] = {
+["highlightedEvents"] = {
+["PARTY_KILL"] = true,
 },
 },
 ["filters"] = {

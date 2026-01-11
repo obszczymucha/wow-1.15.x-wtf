@@ -1,23 +1,11 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = -41.46719360351563,
-["point"] = "TOP",
-["y"] = -69.30265045166016,
+["Chat"] = {
+["left"] = false,
+["lines"] = 11,
 },
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 91.6070785522461,
-["point"] = "TOP",
-["y"] = -80.5156021118164,
-},
-},
-},
-["Bag"] = {
+["CombatQueue"] = {
 },
 ["Combat"] = {
 },
@@ -35,9 +23,21 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 11,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = -41.46719360351563,
+["point"] = "TOP",
+["y"] = -69.30265045166016,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 91.6070785522461,
+["point"] = "TOP",
+["y"] = -80.5156021118164,
+},
+},
 },
 ["Item"] = {
 },
@@ -107,7 +107,7 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["CombatQueue"] = {
+["Bag"] = {
 },
 },
 ["mods"] = {
@@ -465,8 +465,9 @@ ModUiDb = {
 ["Umatic"] = {
 ["time"] = 1762569866,
 },
-["Fackpampen"] = {
-["time"] = 1762419669,
+["Zynaz"] = {
+["time"] = 1763282653,
+["class"] = "warrior",
 },
 ["Zexbeside"] = {
 ["time"] = 1763783798,
@@ -475,9 +476,8 @@ ModUiDb = {
 ["Rivotado"] = {
 ["time"] = 1762124618,
 },
-["Zynaz"] = {
-["time"] = 1763282653,
-["class"] = "warrior",
+["Fackpampen"] = {
+["time"] = 1762419669,
 },
 ["Jeyko"] = {
 ["time"] = 1767313732,
@@ -662,9 +662,9 @@ ModUiDb = {
 },
 },
 },
+["force"] = false,
 ["music"] = {
 },
-["force"] = false,
 ["last_track_index"] = 8,
 ["playlist_id"] = "default",
 ["shuffle"] = false,
@@ -672,8 +672,6 @@ ModUiDb = {
 ["Tachikoma/frames"] = {
 },
 ["FramePositions"] = {
-},
-["ZoneMiscText"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -949,12 +947,12 @@ ModUiDb = {
 ["time"] = 1763281493,
 ["reason"] = "fucking winterfall runner farmer",
 },
-["Hjon"] = {
-["time"] = 1746855259,
-["reason"] = "group leaver",
-},
 ["Dedulok"] = {
 ["time"] = 1747376189,
+["reason"] = "group leaver",
+},
+["Hjon"] = {
+["time"] = 1746855259,
 ["reason"] = "group leaver",
 },
 ["Svartjudas"] = {
@@ -965,13 +963,13 @@ ModUiDb = {
 ["time"] = 1749122028,
 ["reason"] = "spammer",
 },
-["Itsmaxim"] = {
-["time"] = 1764144442,
-["reason"] = "MC spammer",
-},
 ["Meersi"] = {
 ["time"] = 1747129653,
 ["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
+},
+["Itsmaxim"] = {
+["time"] = 1764144442,
+["reason"] = "MC spammer",
 },
 ["Royieal"] = {
 ["time"] = 1749290190,
@@ -1051,11 +1049,13 @@ ModUiDb = {
 },
 },
 },
+["ZoneMiscText"] = {
+},
 ["Tachikoma/MinimapIcons"] = {
 },
-["Sandbox"] = {
-},
 ["AuctionSold"] = {
+},
+["Sandbox"] = {
 },
 ["FrameVisibility"] = {
 },

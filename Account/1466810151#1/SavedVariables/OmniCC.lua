@@ -7,8 +7,8 @@ OmniCCDB = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boorack - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
 },
@@ -18,23 +18,6 @@ OmniCCDB = {
 },
 ["profiles"] = {
 ["Default"] = {
-["themes"] = {
-["Default"] = {
-["textStyles"] = {
-["minutes"] = {
-},
-["seconds"] = {
-["g"] = 0.6549019813537598,
-["b"] = 0.250980406999588,
-},
-["soon"] = {
-["g"] = 0.2862745225429535,
-["b"] = 0.2117647230625153,
-},
-},
-["fontSize"] = 15,
-},
-},
 ["rules"] = {
 {
 ["enabled"] = false,
@@ -62,6 +45,23 @@ OmniCCDB = {
 },
 ["name"] = "Action Bars",
 ["id"] = "actions",
+},
+},
+["themes"] = {
+["Default"] = {
+["textStyles"] = {
+["seconds"] = {
+["b"] = 0.250980406999588,
+["g"] = 0.6549019813537598,
+},
+["soon"] = {
+["b"] = 0.2117647230625153,
+["g"] = 0.2862745225429535,
+},
+["minutes"] = {
+},
+},
+["fontSize"] = 15,
 },
 },
 },

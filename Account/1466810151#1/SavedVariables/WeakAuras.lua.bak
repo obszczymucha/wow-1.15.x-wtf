@@ -8,143 +8,9 @@ WeakAurasSaved = {
 },
 ["editor_font_size"] = 12,
 ["displays"] = {
-["Skill tracking"] = {
-["grow"] = "DOWN",
-["controlledChildren"] = {
-"ST_ProfessionIcon",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = 242.8150177001953,
-["yOffset"] = -146.148193359375,
-["anchorPoint"] = "TOPLEFT",
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["space"] = 2,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-},
-["columnSpace"] = 1,
-["radius"] = 200,
-["selfPoint"] = "TOP",
-["align"] = "CENTER",
-["stagger"] = 0,
-["useAnchorPerUnit"] = false,
-["subRegions"] = {
-},
-["config"] = {
-},
-["internalVersion"] = 84,
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["rotation"] = 0,
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["animate"] = false,
-["fullCircle"] = true,
-["scale"] = 1,
-["centerType"] = "LR",
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
-["borderSize"] = 2,
-["sort"] = "none",
-["stepAngle"] = 15,
-["uid"] = "i(V2bk6jrEX",
-["constantFactor"] = "RADIUS",
-["arcLength"] = 360,
-["borderOffset"] = 4,
-["alpha"] = 1,
-["frameStrata"] = 1,
-["id"] = "Skill tracking",
-["rowSpace"] = 1,
-["gridWidth"] = 5,
-["anchorFrameType"] = "SCREEN",
-["limit"] = 5,
-["borderInset"] = 1,
-["authorOptions"] = {
-},
-["useLimit"] = false,
-["conditions"] = {
-},
-["information"] = {
-},
-["gridType"] = "RD",
-},
-["ST_ProfessionIcon"] = {
+["ResourceTracker_Icon"] = {
 ["iconSource"] = 1,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 0,
 ["adjustedMax"] = "",
 ["adjustedMin"] = "",
 ["yOffset"] = 0,
@@ -156,22 +22,22 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "custom",
-["debuffType"] = "HELPFUL",
+["custom_hide"] = "timed",
 ["custom_type"] = "stateupdate",
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["event"] = "Character Stats",
 ["subeventPrefix"] = "SPELL",
-["custom"] = "function(allstates, event)\n    wipe(allstates)\n    \n    local function get_skills()\n        local result = {}\n        local icons = { \"Herbalism\" = 133939, \"Mining\" = 133939 }\n        \n        for i = 1, GetNumSkillLines() do\n            local name, _, _, rank, _, _, max_rank = GetSkillLevelInfo(i)\n            local icon = icons[name]\n            \n            if icon then\n                table.insert(result, {\n                        name=name,\n                        icon=icon,\n                        rank=rank,\n                        max_rank = max_rank\n                        \n                })\n            end\n        end\n        \n        return result\n    end\n\n    for i, s in ipairs(get_skills()) do\n        local state = {}\n        state.show = true\n        state.changed = true\n        state.icon = s.icon\n        state.skill = s.skill      -- store skill on the state\n        state.progressType = \"static\"\n        state.duration = 0\n        allstates[i] = state\n    end\n    \n    return true\nend",
+["names"] = {
+},
+["event"] = "Character Stats",
+["unit"] = "player",
 ["spellIds"] = {
 },
-["events"] = "SKILL_LINES_CHANGED",
+["events"] = "BAG_UPDATE",
+["custom"] = "function(allstates, event)\n    wipe(allstates)\n    \n    local function get_resources()\n        local result = {}\n        \n        for _, p in ipairs(aura_env.config.resources) do\n            local name, link, _, _, _, _, _, _, _, icon = GetItemInfo(p.item_id)\n            \n            result[p.item_id] = {\n                name = name,\n                link = link,\n                icon = icon,\n                target_count = p.target_count\n            }\n        end\n        \n        return result\n    end\n    \n    local function get_items()\n        local result = {}\n        local resources = get_resources()\n        --local icons = { [\"Herbalism\"] = 133939, [\"Mining\"] = 136025 }\n        \n        for bag = 0, NUM_BAG_SLOTS do\n            for slot = 1, C_Container.GetContainerNumSlots(bag) do\n                local info = C_Container.GetContainerItemInfo(bag, slot)\n                \n                if info then\n                    local item_id = info.itemID\n                    local resource = resources[item_id]\n                    \n                    if resource then\n                        local value = result[item_id]\n                        \n                        if value then\n                            value.count = value.count + info.stackCount\n                        else\n                            result[item_id] = {\n                                resource = resource,\n                                count = info.stackCount\n                            }        \n                        end \n                    end\n                end\n                \n            end\n        end\n        \n        return result\n    end\n    \n    local i = 1\n    \n    for item_id, item in pairs(get_items()) do\n        local state = {}\n        state.show = true\n        state.changed = true\n        state.icon = item.resource.icon\n        state.resource = item\n        state.resource_count = item.count\n        state.progressType = \"static\"\n        state.duration = 0\n        allstates[i] = state\n        i = i + 1\n    end\n    \n    return true\nend",
 ["customIcon"] = "function()\n  return 133939\nend",
 ["check"] = "event",
 ["use_unit"] = true,
-["names"] = {
-},
-["custom_hide"] = "timed",
+["subeventSuffix"] = "_CAST_START",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -217,16 +83,16 @@ WeakAurasSaved = {
 ["text_shadowYOffset"] = 0,
 ["text_wordWrap"] = "WordWrap",
 ["text_visible"] = true,
-["text_text_format_c_format"] = "none",
+["text_fontType"] = "OUTLINE",
 ["anchor_point"] = "OUTER_RIGHT",
 ["text_fontSize"] = 8,
 ["anchorXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
+["text_text_format_c_format"] = "none",
 },
 {
 ["glowFrequency"] = 0.25,
 ["type"] = "subglow",
-["useGlowColor"] = false,
+["glowDuration"] = 1,
 ["glowType"] = "buttonOverlay",
 ["glowLength"] = 10,
 ["glowYOffset"] = 0,
@@ -236,18 +102,18 @@ WeakAurasSaved = {
 1,
 1,
 },
-["glowDuration"] = 1,
+["useGlowColor"] = false,
 ["glowXOffset"] = 0,
-["glowThickness"] = 1,
-["glowScale"] = 1,
 ["glow"] = false,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 18,
 ["load"] = {
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -259,165 +125,178 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
 },
 ["useAdjustededMax"] = false,
-["parent"] = "Skill tracking",
+["customText"] = "function()\n    local state = aura_env.state\n    local resource = state and state.resource\n    print(DevTools_Dump(resource))\n    local total = state and state.resource_count or \"\"\n    return string.format(\"%s%s\", resource.link or \"N/A\", total)\nend",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["parent"] = "Resource Tracker",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["cooldown"] = false,
+["displayIcon"] = "",
+["config"] = {
+["resources"] = {
+{
+["item_id"] = 3356,
+["target_count"] = 100,
+},
+},
+},
+["frameStrata"] = 1,
+["zoom"] = 0,
+["width"] = 18,
+["useCooldownModRate"] = true,
+["id"] = "ResourceTracker_Icon",
+["cooldownTextDisabled"] = false,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+{
+["subOptions"] = {
+{
+["min"] = 1,
+["type"] = "number",
+["useDesc"] = false,
+["key"] = "item_id",
+["default"] = 0,
+["name"] = "Item id",
+["step"] = 1,
+["width"] = 1,
+},
+{
+["min"] = 1,
+["type"] = "number",
+["useDesc"] = false,
+["default"] = 0,
+["key"] = "target_count",
+["name"] = "Target count",
+["step"] = 1,
+["width"] = 1,
+},
+},
+["type"] = "group",
+["useDesc"] = false,
+["nameSource"] = 0,
+["key"] = "resources",
+["width"] = 1,
+["useCollapse"] = false,
+["noMerge"] = false,
+["name"] = "Resources to track",
+["hideReorder"] = true,
+["limitType"] = "none",
+["groupType"] = "array",
+["collapse"] = false,
+["size"] = 10,
+},
+},
+["uid"] = "Zqgd31Y8FbR",
+["inverse"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
 },
+["finish"] = {
 },
-["customText"] = "function()\n  local state = aura_env.state\n  return state and state.skill_value or \"N/A\"\nend",
-["information"] = {
 },
 ["conditions"] = {
 },
-["uid"] = "OX8x42ouGLU",
-["authorOptions"] = {
+["information"] = {
 },
-["cooldownTextDisabled"] = false,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["id"] = "ST_ProfessionIcon",
-["frameStrata"] = 1,
-["useCooldownModRate"] = true,
-["width"] = 18,
-["zoom"] = 0,
-["config"] = {
-},
-["inverse"] = false,
 ["keepAspectRatio"] = false,
-["displayIcon"] = "",
-["cooldown"] = false,
-["xOffset"] = 0,
 },
-["Mining"] = {
-["outline"] = "OUTLINE",
-["parent"] = "Skil",
-["displayText"] = "%c",
-["customText"] = "function()\n    local skill_name = aura_env.config.skill_name\n    --print(DevTools_Dump(aura_env.config))\n    for i = 1, GetNumSkillLines() do\n        local name, _, _, rank, _, _, maxRank = GetSkillLineInfo(i)\n        if name == aura_env.config.skill_name then\n            local c = aura_env.config.color\n            -- print(DevTools_Dump(c))\n            --print(\"updated\")\n            local hex = string.format(\"|cff%02X%02X%02X\", c[1]*255, c[2]*255, c[3]*255)\n            return string.format(\"%s: %s%s|r\", skill_name, hex, rank)\n        end\n    end\n    return string.format(\"%s: N/A\", skill_name)\nend",
-["shadowYOffset"] = 0,
-["anchorPoint"] = "BOTTOMRIGHT",
-["displayText_format_p_time_format"] = 0,
-["customTextUpdate"] = "event",
-["automaticWidth"] = "Auto",
+["Profession Tracker"] = {
+["grow"] = "LEFT",
+["controlledChildren"] = {
+"ProfessionTracker_Icon",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["xOffset"] = -17,
+["yOffset"] = -153,
+["anchorPoint"] = "TOPRIGHT",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["space"] = 22,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-["do_custom"] = false,
-["custom"] = "",
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "custom",
-["custom_hide"] = "timed",
-["subeventSuffix"] = "_CAST_START",
-["custom"] = "function()\n  -- print(\"trigger on\")\n  aura_env.region:Update()\n  return true\nend",
-["duration"] = "",
-["event"] = "Character Stats",
-["subeventPrefix"] = "SPELL",
-["events"] = "SKILL_LINES_CHANGED",
-["customName"] = "",
-["spellIds"] = {
-},
-["custom_type"] = "event",
-["use_unit"] = true,
 ["names"] = {
 },
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
 ["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
-["custom"] = "function()\n  print(\"trigger off\")\n  return false\nend",
 },
 },
-["disjunctive"] = "any",
-["activeTriggerMode"] = -10,
 },
-["displayText_format_p_format"] = "timed",
-["displayText_format_p_time_legacy_floor"] = false,
-["animation"] = {
-["start"] = {
-["type"] = "preset",
-["easeType"] = "none",
-["duration_type"] = "seconds",
-["preset"] = "fade",
-["easeStrength"] = 3,
+["columnSpace"] = 1,
+["radius"] = 200,
+["selfPoint"] = "RIGHT",
+["align"] = "CENTER",
+["stagger"] = 0,
+["borderInset"] = 1,
+["borderEdge"] = "Square Full White",
+["subRegions"] = {
 },
-["main"] = {
-["colorR"] = 1,
-["duration_type"] = "seconds",
-["alphaType"] = "hide",
-["colorB"] = 1,
-["colorG"] = 1,
-["alphaFunc"] = "function()\n    return 0\nend\n",
-["use_alpha"] = false,
-["type"] = "none",
-["easeType"] = "easeIn",
-["scaley"] = 1,
-["alpha"] = 0,
-["y"] = 0,
-["x"] = 0,
-["colorA"] = 1,
-["easeStrength"] = 5,
-["rotate"] = 0,
-["preset"] = "alphaPulse",
-["scalex"] = 1,
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["font"] = "2002",
-["displayText_format_c_format"] = "none",
+["rotation"] = 0,
+["fullCircle"] = true,
 ["load"] = {
-["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -426,83 +305,64 @@ WeakAurasSaved = {
 },
 },
 },
-["fontSize"] = 10,
-["displayText_format_p_time_mod_rate"] = true,
-["shadowXOffset"] = 0,
-["yOffset"] = 0,
-["anchorFrameFrame"] = "Minimap",
-["regionType"] = "text",
-["wordWrap"] = "WordWrap",
-["fixedWidth"] = 200,
-["preferToUpdate"] = false,
-["xOffset"] = 0,
-["displayText_format_p_time_precision"] = 1,
-["config"] = {
-["skill_name"] = "Mining",
-["color"] = {
-0.8078432083129883,
-0.6039215922355652,
-0.4666666984558106,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["backdropColor"] = {
 1,
+1,
+1,
+0.5,
 },
+["authorOptions"] = {
 },
+["animate"] = false,
 ["internalVersion"] = 84,
-["displayText_format_p_time_dynamic_threshold"] = 60,
-["justify"] = "CENTER",
-["tocversion"] = 11508,
-["id"] = "Mining",
-["displayText_format_customtext_format"] = "none",
+["scale"] = 1,
+["centerType"] = "LR",
+["border"] = false,
+["anchorFrameFrame"] = "Minimap",
+["stepAngle"] = 15,
+["borderSize"] = 2,
+["limit"] = 5,
+["sort"] = "none",
+["config"] = {
+},
+["constantFactor"] = "RADIUS",
+["alpha"] = 1,
+["borderOffset"] = 4,
+["arcLength"] = 360,
 ["frameStrata"] = 1,
+["id"] = "Profession Tracker",
+["rowSpace"] = 1,
+["gridWidth"] = 5,
 ["anchorFrameType"] = "SELECTFRAME",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["uid"] = "M3k6ASBPtSo",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["selfPoint"] = "TOPRIGHT",
-["shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["regionType"] = "dynamicgroup",
+["uid"] = "i(V2bk6jrEX",
+["useAnchorPerUnit"] = false,
+["gridType"] = "RD",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-{
-["type"] = "color",
-["useDesc"] = false,
-["key"] = "color",
-["name"] = "Color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = false,
-["width"] = 1,
-["key"] = "skill_name",
-["name"] = "Skill name",
-["default"] = "",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-},
+["useLimit"] = false,
 },
 ["Find Minerals"] = {
 ["iconSource"] = -1,
@@ -522,8 +382,8 @@ WeakAurasSaved = {
 ["event"] = "Chat Message",
 ["subeventPrefix"] = "SPELL",
 ["custom_hide"] = "custom",
-["custom"] = "function()\n  return GetTrackingTexture() == 136025\nend",
 ["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
+["custom"] = "function()\n  return GetTrackingTexture() == 136025\nend",
 ["spellIds"] = {
 },
 ["custom_type"] = "event",
@@ -623,43 +483,11 @@ WeakAurasSaved = {
 },
 },
 ["useAdjustededMax"] = false,
-["parent"] = "Tracking",
+["keepAspectRatio"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["displayIcon"] = "136025",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
 ["authorOptions"] = {
-},
-["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["config"] = {
-},
-["zoom"] = 0,
-["alpha"] = 1,
-["width"] = 24,
-["id"] = "Find Minerals",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["cooldownTextDisabled"] = false,
-["uid"] = "7ff20rHeNhN",
-["inverse"] = false,
-["keepAspectRatio"] = false,
-["conditions"] = {
-},
-["information"] = {
 },
 ["animation"] = {
 ["start"] = {
@@ -681,6 +509,38 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["cooldown"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["config"] = {
+},
+["zoom"] = 0,
+["useCooldownModRate"] = true,
+["width"] = 24,
+["id"] = "Find Minerals",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["cooldownTextDisabled"] = false,
+["uid"] = "7ff20rHeNhN",
+["inverse"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["conditions"] = {
+},
+["information"] = {
+},
+["parent"] = "Tracking",
 },
 ["Find Herbs"] = {
 ["iconSource"] = -1,
@@ -706,13 +566,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["debuffType"] = "HELPFUL",
 ["unit"] = "player",
-["custom"] = "function()\n  return GetTrackingTexture() == 133939\nend",
+["spellIds"] = {
+},
 ["names"] = {
 },
 ["custom_type"] = "event",
 ["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
-["spellIds"] = {
-},
+["custom"] = "function()\n  return GetTrackingTexture() == 133939\nend",
 ["custom_hide"] = "custom",
 },
 ["untrigger"] = {
@@ -806,135 +666,171 @@ WeakAurasSaved = {
 },
 },
 ["useAdjustededMax"] = false,
-["parent"] = "Tracking",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["conditions"] = {
 },
-["xOffset"] = 0,
 ["keepAspectRatio"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["information"] = {
 },
 ["authorOptions"] = {
 },
 ["uid"] = "d3(b3qoX5JH",
 ["zoom"] = 0,
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["id"] = "Find Herbs",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["useCooldownModRate"] = true,
 ["width"] = 24,
 ["cooldownTextDisabled"] = false,
 ["config"] = {
 },
 ["inverse"] = false,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
+["xOffset"] = 0,
 ["displayIcon"] = 133939,
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
+["parent"] = "Tracking",
 },
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
+["ProfessionTracker_Icon"] = {
+["iconSource"] = 1,
+["color"] = {
+1,
+1,
+1,
+1,
 },
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-},
-["Skil"] = {
-["arcLength"] = 360,
-["controlledChildren"] = {
-"Herbalism",
-"Mining",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = 5,
-["preferToUpdate"] = false,
-["yOffset"] = -5,
-["anchorPoint"] = "BOTTOMRIGHT",
-["fullCircle"] = true,
-["space"] = 3,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
+["adjustedMax"] = "",
+["adjustedMin"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = true,
+["cooldownEdge"] = false,
+["icon"] = true,
 ["triggers"] = {
 {
 ["trigger"] = {
+["type"] = "custom",
 ["debuffType"] = "HELPFUL",
-["type"] = "aura2",
+["custom_type"] = "stateupdate",
+["subeventSuffix"] = "_CAST_START",
+["use_unit"] = true,
+["event"] = "Character Stats",
+["unit"] = "player",
+["custom"] = "function(allstates, event)\n    wipe(allstates)\n    \n    local function get_icon(profession_name)\n        for _, p in ipairs(aura_env.config.professions) do\n            if p.name == profession_name then return p.icon_number end\n        end\n        \n    end\n    \n    local function get_skills()\n        local result = {}\n        --local icons = { [\"Herbalism\"] = 133939, [\"Mining\"] = 136025 }\n        \n        for i = 1, GetNumSkillLines() do\n            local name, _, _, rank, _, _, max_rank = GetSkillLineInfo(i)\n            local icon = get_icon(name)\n            \n            if icon then\n                table.insert(result, {\n                        name=name,\n                        icon=icon,\n                        rank=rank,\n                        max_rank=max_rank\n                })\n            end\n        end\n        \n        return result\n    end\n    \n    for i, s in ipairs(get_skills()) do\n        local state = {}\n        state.show = true\n        state.changed = true\n        state.icon = s.icon\n        state.skill = s\n        state.progressType = \"static\"\n        state.duration = 0\n        allstates[i] = state\n    end\n    \n    return true\nend",
 ["spellIds"] = {
 },
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
+["events"] = "SKILL_LINES_CHANGED",
+["customIcon"] = "function()\n  return 133939\nend",
+["check"] = "event",
 ["names"] = {
 },
+["subeventPrefix"] = "SPELL",
+["custom_hide"] = "timed",
 },
 ["untrigger"] = {
 },
 },
+["activeTriggerMode"] = -10,
 },
-["columnSpace"] = 1,
 ["internalVersion"] = 84,
-["selfPoint"] = "TOPRIGHT",
-["align"] = "RIGHT",
-["gridWidth"] = 5,
-["rotation"] = 0,
-["rowSpace"] = 1,
-["sortHybridTable"] = {
-["Herbalism"] = false,
-["Mining"] = false,
+["progressSource"] = {
+-1,
+"",
 },
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
 ["subRegions"] = {
+{
+["type"] = "subbackground",
 },
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
+{
+["text_shadowXOffset"] = 0,
+["text_text_format_s_format"] = "none",
+["text_text"] = "%c",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
 },
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["anchorYOffset"] = 0,
+["text_justify"] = "CENTER",
+["rotateText"] = "NONE",
+["type"] = "subtext",
+["text_anchorXOffset"] = 0,
+["text_color"] = {
+1,
+1,
+1,
+1,
 },
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
+["text_font"] = "Friz Quadrata TT",
+["text_shadowYOffset"] = 0,
+["text_wordWrap"] = "WordWrap",
+["text_visible"] = true,
+["text_text_format_c_format"] = "none",
+["anchor_point"] = "OUTER_RIGHT",
+["text_fontSize"] = 8,
+["anchorXOffset"] = 0,
+["text_fontType"] = "OUTLINE",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["useGlowColor"] = false,
+["glowType"] = "buttonOverlay",
+["glowLength"] = 10,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["glowDuration"] = 1,
+["glowXOffset"] = 0,
+["glowThickness"] = 1,
+["glowScale"] = 1,
+["glow"] = false,
+["glowLines"] = 8,
+["glowBorder"] = false,
 },
 },
-["radius"] = 200,
+["height"] = 18,
 ["load"] = {
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
@@ -946,56 +842,117 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
 },
-["borderColor"] = {
-0,
-0,
-0,
-1,
+["useAdjustededMax"] = false,
+["customText"] = "function()\n  local state = aura_env.state\n  local skill = state and state.skill\n  local max_rank = skill.rank and skill.max_rank and skill.rank ~= skill.max_rank and string.format(\"/%s\", skill.max_rank) or \"\"\n  return string.format(\"%s%s\", skill.rank, max_rank)\nend",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["grow"] = "DOWN",
-["animate"] = false,
-["borderInset"] = 1,
-["scale"] = 1,
-["centerType"] = "LR",
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
-["borderSize"] = 2,
-["sort"] = "none",
-["limit"] = 5,
-["anchorFrameFrame"] = "Minimap",
-["anchorFrameParent"] = true,
-["constantFactor"] = "RADIUS",
-["uid"] = "JnngGD15X)g",
-["borderOffset"] = 4,
-["frameStrata"] = 1,
-["tocversion"] = 11508,
-["id"] = "Skil",
-["useLimit"] = false,
-["alpha"] = 1,
-["anchorFrameType"] = "SELECTFRAME",
-["stepAngle"] = 15,
-["config"] = {
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["authorOptions"] = {
 },
-["gridType"] = "RD",
-["conditions"] = {
-},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["xOffset"] = 0,
+["parent"] = "Profession Tracker",
 ["information"] = {
 },
-["stagger"] = 0,
+["conditions"] = {
+},
+["uid"] = "OX8x42ouGLU",
+["authorOptions"] = {
+{
+["subOptions"] = {
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["desc"] = "The name of a profession (e.g. Herbalism)",
+["default"] = "",
+["multiline"] = false,
+["name"] = "Name",
+["length"] = 10,
+["key"] = "name",
+["useLength"] = false,
+},
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["desc"] = "Icon number for the profession (e.g. 133939)",
+["default"] = "",
+["multiline"] = false,
+["name"] = "Icon number",
+["length"] = 10,
+["key"] = "icon_number",
+["useLength"] = false,
+},
+},
+["type"] = "group",
+["useDesc"] = false,
+["nameSource"] = 0,
+["name"] = "Professions",
+["width"] = 1,
+["useCollapse"] = false,
+["noMerge"] = false,
+["key"] = "professions",
+["collapse"] = false,
+["limitType"] = "none",
+["groupType"] = "array",
+["hideReorder"] = true,
+["size"] = 10,
+},
+},
+["zoom"] = 0,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["id"] = "ProfessionTracker_Icon",
+["frameStrata"] = 1,
+["useCooldownModRate"] = true,
+["width"] = 18,
+["cooldownTextDisabled"] = false,
+["config"] = {
+["professions"] = {
+{
+["name"] = "Herbalism",
+["icon_number"] = "133939",
+},
+{
+["name"] = "Mining",
+["icon_number"] = "136025",
+},
+},
+},
+["inverse"] = false,
+["keepAspectRatio"] = false,
+["displayIcon"] = "",
+["cooldown"] = false,
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
 },
 ["Tracking"] = {
 ["backdropColor"] = {
@@ -1108,70 +1065,80 @@ WeakAurasSaved = {
 },
 },
 },
-["Herbalism"] = {
-["outline"] = "OUTLINE",
-["parent"] = "Skil",
-["displayText"] = "%c",
-["customText"] = "function()\n    local skill_name = aura_env.config.skill_name\n    --print(DevTools_Dump(aura_env.config))\n    for i = 1, GetNumSkillLines() do\n        local name, _, _, rank, _, _, maxRank = GetSkillLineInfo(i)\n        if name == aura_env.config.skill_name then\n            local c = aura_env.config.color\n            -- print(DevTools_Dump(c))\n            --print(\"updated\")\n            local hex = string.format(\"|cff%02X%02X%02X\", c[1]*255, c[2]*255, c[3]*255)\n            return string.format(\"%s: %s%s|r\", skill_name, hex, rank)\n        end\n    end\n    return string.format(\"%s: N/A\", skill_name)\nend",
-["shadowYOffset"] = 0,
-["anchorPoint"] = "BOTTOMRIGHT",
-["displayText_format_p_time_format"] = 0,
-["customTextUpdate"] = "event",
-["automaticWidth"] = "Auto",
+["Resource Tracker"] = {
+["grow"] = "DOWN",
+["controlledChildren"] = {
+"ResourceTracker_Icon",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["authorOptions"] = {
+},
+["yOffset"] = -284.1609497070313,
+["gridType"] = "RD",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["useAnchorPerUnit"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
-["do_custom"] = false,
-["custom"] = "",
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "custom",
 ["debuffType"] = "HELPFUL",
-["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["duration"] = "",
-["event"] = "Character Stats",
-["unit"] = "player",
-["names"] = {
-},
-["customName"] = "",
+["type"] = "aura2",
 ["spellIds"] = {
 },
-["use_unit"] = true,
-["custom_type"] = "event",
-["events"] = "SKILL_LINES_CHANGED",
-["custom"] = "function()\n  -- print(\"trigger on\")\n  aura_env.region:Update()\n  return true\nend",
-["custom_hide"] = "timed",
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
+["names"] = {
+},
 },
 ["untrigger"] = {
-["custom"] = "function()\n  print(\"trigger off\")\n  return false\nend",
 },
 },
-["disjunctive"] = "any",
-["activeTriggerMode"] = -10,
 },
-["displayText_format_p_format"] = "timed",
-["displayText_format_p_time_legacy_floor"] = false,
-["selfPoint"] = "TOPRIGHT",
-["font"] = "2002",
+["columnSpace"] = 1,
+["radius"] = 200,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["align"] = "CENTER",
+["rotation"] = 0,
+["regionType"] = "dynamicgroup",
 ["subRegions"] = {
-{
-["type"] = "subbackground",
 },
-},
+["borderInset"] = 1,
+["space"] = 0,
 ["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -1179,118 +1146,53 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["size"] = {
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
 ["multi"] = {
 },
 },
 },
-["fontSize"] = 10,
+["useLimit"] = false,
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["anchorPoint"] = "TOPLEFT",
+["animate"] = false,
+["fullCircle"] = true,
+["scale"] = 1,
+["centerType"] = "LR",
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["stepAngle"] = 15,
+["borderSize"] = 2,
+["limit"] = 5,
+["selfPoint"] = "TOP",
+["xOffset"] = 270.3211975097656,
+["constantFactor"] = "RADIUS",
+["arcLength"] = 360,
+["borderOffset"] = 4,
+["gridWidth"] = 5,
+["rowSpace"] = 1,
+["id"] = "Resource Tracker",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["anchorFrameType"] = "UIPARENT",
+["sort"] = "none",
+["uid"] = "BueZHocioUQ",
 ["internalVersion"] = 84,
-["shadowXOffset"] = 0,
-["displayText_format_p_time_mod_rate"] = true,
-["anchorFrameFrame"] = "Minimap",
-["regionType"] = "text",
-["wordWrap"] = "WordWrap",
+["stagger"] = 0,
 ["conditions"] = {
 },
-["preferToUpdate"] = false,
-["displayText_format_c_format"] = "none",
-["displayText_format_p_time_precision"] = 1,
-["uid"] = "bdH))zwTOxb",
-["displayText_format_customtext_format"] = "none",
-["displayText_format_p_time_dynamic_threshold"] = 60,
-["justify"] = "CENTER",
-["tocversion"] = 11508,
-["id"] = "Herbalism",
-["authorOptions"] = {
-{
-["type"] = "color",
-["key"] = "color",
-["useDesc"] = false,
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["name"] = "Color",
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = false,
-["width"] = 1,
-["key"] = "skill_name",
-["multiline"] = false,
-["name"] = "Skill name",
-["length"] = 10,
-["default"] = "",
-["useLength"] = false,
-},
-},
-["frameStrata"] = 1,
-["anchorFrameType"] = "SELECTFRAME",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["config"] = {
-["skill_name"] = "Herbalism",
-["color"] = {
-0.2313725650310516,
-0.658823549747467,
-1,
-1,
-},
-},
-["yOffset"] = 0,
-["animation"] = {
-["start"] = {
-["type"] = "preset",
-["easeType"] = "none",
-["duration_type"] = "seconds",
-["easeStrength"] = 3,
-["preset"] = "fade",
-},
-["main"] = {
-["colorR"] = 1,
-["duration_type"] = "seconds",
-["alphaType"] = "hide",
-["colorB"] = 1,
-["colorG"] = 1,
-["alphaFunc"] = "function()\n    return 0\nend\n",
-["use_alpha"] = false,
-["type"] = "none",
-["easeType"] = "easeIn",
-["preset"] = "alphaPulse",
-["alpha"] = 0,
-["y"] = 0,
-["x"] = 0,
-["scalex"] = 1,
-["scaley"] = 1,
-["rotate"] = 0,
-["easeStrength"] = 5,
-["colorA"] = 1,
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["fixedWidth"] = 200,
 ["information"] = {
 },
-["xOffset"] = 0,
+["config"] = {
+},
 },
 },
 ["lastArchiveClear"] = 1766457156,

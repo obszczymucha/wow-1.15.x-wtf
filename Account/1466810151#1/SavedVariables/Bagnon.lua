@@ -12,19 +12,19 @@ Bagnon_Sets = {
 },
 ["account"] = {
 },
-["gem"] = {
+["engineer"] = {
 },
 ["soul"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
 ["mine"] = {
 },
-["engineer"] = {
+["gem"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["key"] = {
 },
@@ -32,7 +32,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["normal"] = {
 },

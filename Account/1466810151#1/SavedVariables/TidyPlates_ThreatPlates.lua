@@ -31,13 +31,13 @@ true,
 ["Boordell - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Jogobobek - Spineshatter"] = {
+["Boorack - Spineshatter"] = {
 ["welcome"] = true,
 },
 ["Awertqwertwe - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Boorack - Spineshatter"] = {
+["Jogobobek - Spineshatter"] = {
 ["welcome"] = true,
 },
 },
@@ -49,9 +49,9 @@ true,
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Boorack - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["version"] = "12.1.1",

@@ -1,9 +1,7 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Bag"] = {
 },
 ["CombatQueue"] = {
 },
@@ -23,28 +21,16 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = 4.000523090362549,
-["point"] = "TOP",
-["y"] = -29.72341918945313,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 72.93006896972656,
-["point"] = "TOP",
-["y"] = -81.23644256591797,
-},
-},
-},
-["Item"] = {
-},
-["GlobalReferences"] = {
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
 ["FrameSpacing"] = {
 ["frame_spacing"] = 30,
+},
+["GlobalReferences"] = {
+},
+["Item"] = {
 },
 ["FarmingAnchor"] = {
 ["point"] = {
@@ -59,10 +45,40 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["farming_mode_lock"] = false,
 ["ui_mode"] = 1,
+["farming_mode_lock"] = false,
 },
 ["WeakAuras"] = {
+},
+["Timer"] = {
+},
+["FrameBuilder"] = {
+},
+["macros"] = {
+},
+["ColorPicker"] = {
+},
+["TankTarget"] = {
+},
+["Macro"] = {
+},
+["MinimapIcons"] = {
+},
+["ExternalEvent"] = {
+},
+["BattlefieldMinimap"] = {
+},
+["Observer"] = {
+},
+["WarriorShout"] = {
+["battle_shouting"] = true,
+},
+["Decapitator"] = {
+["should_equip"] = false,
+},
+["MinimapScale"] = {
+["farming_minimap_scale"] = 1.1,
+["minimap_scale"] = 0.79,
 },
 ["WarriorMode"] = {
 ["zones"] = {
@@ -78,41 +94,25 @@ ModUiDb = {
 },
 ["mode"] = "Single",
 },
-["MinimapScale"] = {
-["farming_minimap_scale"] = 1.1,
-["minimap_scale"] = 0.79,
-},
-["macros"] = {
-},
-["MinimapIcons"] = {
-},
-["TankTarget"] = {
-},
-["Macro"] = {
-},
-["ColorPicker"] = {
-},
-["ExternalEvent"] = {
-},
-["BattlefieldMinimap"] = {
-},
-["Observer"] = {
-},
-["WarriorShout"] = {
-["battle_shouting"] = true,
-},
-["Decapitator"] = {
-["should_equip"] = false,
-},
-["FrameBuilder"] = {
-},
-["Timer"] = {
-},
 ["MultiSpec"] = {
 },
 ["NamedEventObserver"] = {
 },
-["Bag"] = {
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = 4.000523090362549,
+["point"] = "TOP",
+["y"] = -29.72341918945313,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 72.93006896972656,
+["point"] = "TOP",
+["y"] = -81.23644256591797,
+},
+},
 },
 },
 ["mods"] = {
@@ -265,12 +265,12 @@ ModUiDb = {
 "|cffffffff|Hitem:8957::::::::60::::::::::|h[Spinefin Halibut]|h|r",
 },
 ["consume_macro"] = {
+["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 ["consume_links"] = {
 "|cffffffff|Hitem:2681::::::::10:::::::::|h[Roasted Boar Meat]|h|r",
 "|cffffffff|Hitem:2679::::::::10:::::::::|h[Charred Wolf Meat]|h|r",
 "|cffffffff|Hitem:414::::::::10:::::::::|h[Dalaran Sharp]|h|r",
 },
-["bandage_link"] = "|cffffffff|Hitem:1251::::::::10:::::::::|h[Linen Bandage]|h|r",
 },
 },
 ["FriendInvite"] = {
@@ -359,15 +359,6 @@ ModUiDb = {
 },
 },
 },
-["Mwege"] = {
-["notes"] = {
-{
-["timestamp"] = 1762753471,
-["note"] = "group leaver.",
-["zone"] = "Zul'Farrak",
-},
-},
-},
 ["Xamenokormi"] = {
 ["notes"] = {
 {
@@ -383,6 +374,15 @@ ModUiDb = {
 ["timestamp"] = 1762817294,
 ["note"] = "good healer.",
 ["zone"] = "Un'Goro Crater",
+},
+},
+},
+["Mwege"] = {
+["notes"] = {
+{
+["timestamp"] = 1762753471,
+["note"] = "group leaver.",
+["zone"] = "Zul'Farrak",
 },
 },
 },
@@ -407,176 +407,123 @@ ModUiDb = {
 },
 },
 },
-["music"] = {
-["shuffle"] = true,
-["playlist"] = {
-["name"] = "Default",
-["tracks"] = {
-{
-["length"] = 55,
-["name"] = "Elwynn 1",
-["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest01.mp3",
+["KillOnSight"] = {
+["kos_list"] = {
+["Dekku"] = {
+["time"] = 1762141365,
 },
-{
-["length"] = 72,
-["name"] = "Elwynn 2",
-["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest02.mp3",
+["Isotopes"] = {
+["time"] = 1768004791,
+["class"] = "priest",
 },
-{
-["length"] = 64,
-["name"] = "Elwynn 3",
-["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest03.mp3",
+["Alenwyn"] = {
+["time"] = 1768004555,
+["class"] = "druid",
 },
-{
-["length"] = 81,
-["name"] = "Zangarmarsh 1",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni01.mp3",
+["Littlemazy"] = {
+["time"] = 1763247064,
+["class"] = "warrior",
 },
-{
-["length"] = 120,
-["name"] = "Zangarmarsh 2",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni02.mp3",
+["Mapall"] = {
+["time"] = 1768014435,
+["class"] = "paladin",
 },
-{
-["length"] = 59,
-["name"] = "Zangarmarsh 3",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni03.mp3",
+["Whippedsnail"] = {
+["time"] = 1763460095,
+["class"] = "rogue",
 },
-{
-["length"] = 102,
-["name"] = "Zangarmarsh 4",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni04.mp3",
+["Havres"] = {
+["time"] = 1768004790,
+["class"] = "warlock",
 },
-{
-["length"] = 71,
-["name"] = "Zangarmarsh 5",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni05.mp3",
+["Suriell"] = {
+["time"] = 1762160608,
 },
-{
-["length"] = 89,
-["name"] = "Zangarmarsh 6",
-["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni06.mp3",
+["Skeelmode"] = {
+["time"] = 1768005160,
+["class"] = "hunter",
 },
-{
-["length"] = 206,
-["name"] = "Azuremyst 1",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni01.mp3",
+["Jtedboite"] = {
+["time"] = 1768005165,
+["class"] = "mage",
 },
-{
-["length"] = 124,
-["name"] = "Azuremyst 2",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02.mp3",
+["Zynaz"] = {
+["time"] = 1763282655,
+["class"] = "warrior",
 },
-{
-["length"] = 129,
-["name"] = "Azuremyst 3",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02r.mp3",
+["Umatic"] = {
+["time"] = 1762569857,
 },
-{
-["length"] = 187,
-["name"] = "Azuremyst 4",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03.mp3",
+["Sselemoh"] = {
+["time"] = 1763534384,
+["class"] = "hunter",
 },
-{
-["length"] = 188,
-["name"] = "Azuremyst 5",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03r.mp3",
+["Sickendr"] = {
+["time"] = 1768004790,
+["class"] = "druid",
 },
-{
-["length"] = 158,
-["name"] = "Azuremyst 6",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni04.mp3",
+["Astellar"] = {
+["time"] = 1768004555,
+["class"] = "warlock",
 },
-{
-["length"] = 191,
-["name"] = "Azuremyst 7",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni05.mp3",
+["Fackpampen"] = {
+["time"] = 1762419673,
 },
-{
-["length"] = 110,
-["name"] = "Azuremyst 8",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni06.mp3",
+["Lilchad"] = {
+["time"] = 1763247068,
+["class"] = "warrior",
 },
+["Eugenee"] = {
+["time"] = 1763028474,
+["class"] = "warrior",
+},
+["Androuss"] = {
+["time"] = 1763076097,
+["class"] = "warrior",
+},
+["Deathroi"] = {
+["time"] = 1763365071,
+["class"] = "mage",
+},
+},
+["warning_interval_in_seconds"] = 60,
+},
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
 {
-["length"] = 110,
-["name"] = "Azuremyst 9",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni07r.mp3",
+["mark"] = 8,
+["mark_name"] = "skull",
+["target_name"] = "Astellar",
 },
 {
-["length"] = 99,
-["name"] = "Azuremyst 10",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni08r.mp3",
+["mark"] = 7,
+["mark_name"] = "cross",
+["target_name"] = "Ice Thistle Pat",
 },
-{
-["length"] = 109,
-["name"] = "Azuremyst 11",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni01.mp3",
-},
-{
-["length"] = 107,
-["name"] = "Azuremyst 12",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni02.mp3",
-},
-{
-["length"] = 93,
-["name"] = "Azuremyst 13",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni03.mp3",
-},
-{
-["length"] = 103,
-["name"] = "Azuremyst 14",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni01.mp3",
-},
-{
-["length"] = 74,
-["name"] = "Azuremyst 15",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni02.mp3",
-},
-{
-["length"] = 149,
-["name"] = "Azuremyst 16",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni03.mp3",
-},
-{
-["length"] = 73,
-["name"] = "Azuremyst 17",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni04.mp3",
-},
-{
-["length"] = 98,
-["name"] = "Azuremyst 18",
-["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni05.mp3",
-},
-{
-["length"] = 120,
-["name"] = "Auchindoun 1",
-["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni01.mp3",
-},
-{
-["length"] = 150,
-["name"] = "Auchindoun 2",
-["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni02.mp3",
-},
-{
-["length"] = 120,
-["name"] = "Auchindoun 3",
-["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni03.mp3",
+["T1"] = {
+["fishing"] = true,
 },
 },
 },
-["last_track_index"] = 22,
-["force"] = false,
-["playlist_id"] = "default",
-["music"] = {
-["playlist_id"] = "elwynn",
-["force"] = true,
 },
+["HasDied"] = {
 },
-["Obszczymucha/frames"] = {
+["FramePositions"] = {
+},
+["ZoneTextFrame"] = {
 },
 ["ZoneMiscText"] = {
 },
-["FramePositions"] = {
+["Chat"] = {
+},
+["Sandbox"] = {
+},
+["AuctionSold"] = {
+},
+["FrameVisibility"] = {
+},
+["Obszczymucha/MinimapIcons"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -764,13 +711,13 @@ ModUiDb = {
 ["time"] = 1764398110,
 ["reason"] = "fucking retard, doesn't heal then makes up excuses (Scholo)",
 },
-["Putasam"] = {
-["time"] = 1749280302,
-["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
+["Khrys"] = {
+["time"] = 1767956487,
+["reason"] = "cunt",
 },
-["Clearfury"] = {
-["time"] = 1768004257,
-["reason"] = "\"typowy polaczek\"",
+["Gnrk"] = {
+["time"] = 1749030325,
+["reason"] = "salty skilless fuck",
 },
 ["Tapgets"] = {
 ["time"] = 1763544635,
@@ -792,25 +739,25 @@ ModUiDb = {
 ["time"] = 1763247128,
 ["reason"] = "spammer",
 },
-["Kekbo"] = {
-["time"] = 1767955730,
-["reason"] = "cunt",
+["Tukr"] = {
+["time"] = 1767691084,
+["reason"] = "asked for Cyclonian help, then didn't respond",
 },
 ["Lkjk"] = {
 ["time"] = 1749370024,
 ["reason"] = "piece of fuck group leaver",
 },
-["Atapong"] = {
-["time"] = 1764545604,
-["reason"] = "stupid fuck invited to UBRS and killed the boss before I got there",
+["Icemax"] = {
+["time"] = 1764410476,
+["reason"] = "asked for q in UBRS, we did it, he bailed",
 },
 ["Gigaz"] = {
 ["time"] = 1762934391,
 ["reason"] = "group leaver",
 },
-["Sweetyellow"] = {
-["time"] = 1761985439,
-["reason"] = "fucking spammer",
+["Add"] = {
+["time"] = 1762126493,
+["reason"] = "Ryxon stupid fuck stole captain on the ship",
 },
 ["Oldworld"] = {
 ["time"] = 1746528130,
@@ -824,13 +771,13 @@ ModUiDb = {
 ["time"] = 1749617466,
 ["reason"] = "spamming fuck",
 },
-["Royieal"] = {
-["time"] = 1749290190,
-["reason"] = "fucktard group leaver",
+["Béèf"] = {
+["time"] = 1746441679,
+["reason"] = "spammer",
 },
-["Páránøiáz"] = {
-["time"] = 1747260536,
-["reason"] = "fucking layer spammer",
+["Relgeiz"] = {
+["time"] = 1748002458,
+["reason"] = "group leaver and elitist fuck",
 },
 ["Arthase"] = {
 ["time"] = 1747817678,
@@ -840,17 +787,17 @@ ModUiDb = {
 ["time"] = 1764390166,
 ["reason"] = "group leaver",
 },
-["Sorser"] = {
-["time"] = 1747740557,
-["reason"] = "ninjaed elemental card in BRD",
+["Kissmelove"] = {
+["time"] = 1749122028,
+["reason"] = "spammer",
 },
 ["Wojcan"] = {
 ["time"] = 1763281499,
 ["reason"] = "fucking winterfall runner farmer",
 },
-["Thallan"] = {
-["time"] = 1746006555,
-["reason"] = "capslock spammer",
+["Anemal"] = {
+["time"] = 1747032165,
+["reason"] = "fucking retard",
 },
 ["Dedulok"] = {
 ["time"] = 1747376189,
@@ -860,9 +807,9 @@ ModUiDb = {
 ["time"] = 1747982425,
 ["reason"] = "fucktard and group leaver",
 },
-["Raned"] = {
-["time"] = 1748598921,
-["reason"] = "mage fuck",
+["Otpwar"] = {
+["time"] = 1747032202,
+["reason"] = "trash fuck",
 },
 ["Hjon"] = {
 ["time"] = 1746855259,
@@ -872,195 +819,248 @@ ModUiDb = {
 ["time"] = 1764323818,
 ["reason"] = "MC spam",
 },
-["Keleborn"] = {
-["time"] = 1747992109,
-["reason"] = "group leaver",
+["Vancat"] = {
+["time"] = 1747031160,
+["reason"] = "needed on staff in ulda and de'ed it",
 },
 ["Meersi"] = {
 ["time"] = 1747129653,
 ["reason"] = "french fuck who called me ninja for rolling on |cff0070dd|Hitem:11118::::::605:1152227200:44:::::::::|h[Archaedic Stone of the Monkey]|h|r",
 },
-["Valleyboy"] = {
-["time"] = 1747916305,
-["reason"] = "group leaver",
-},
 ["Visionest"] = {
 ["time"] = 1749104267,
 ["reason"] = "dmt spam",
+},
+["Valleyboy"] = {
+["time"] = 1747916305,
+["reason"] = "group leaver",
 },
 ["Voxadv"] = {
 ["time"] = 1767855176,
 ["reason"] = "spammer",
 },
-["Vancat"] = {
-["time"] = 1747031160,
-["reason"] = "needed on staff in ulda and de'ed it",
+["Keleborn"] = {
+["time"] = 1747992109,
+["reason"] = "group leaver",
 },
 ["Vhaeron"] = {
 ["time"] = 1747567339,
 ["reason"] = "stupid fuck didnt help pvp",
 },
-["Otpwar"] = {
-["time"] = 1747032202,
-["reason"] = "trash fuck",
+["Raned"] = {
+["time"] = 1748598921,
+["reason"] = "mage fuck",
 },
-["Anemal"] = {
-["time"] = 1747032165,
-["reason"] = "fucking retard",
+["Thallan"] = {
+["time"] = 1746006555,
+["reason"] = "capslock spammer",
 },
-["Kissmelove"] = {
-["time"] = 1749122028,
-["reason"] = "spammer",
+["Sorser"] = {
+["time"] = 1747740557,
+["reason"] = "ninjaed elemental card in BRD",
 },
-["Relgeiz"] = {
-["time"] = 1748002458,
-["reason"] = "group leaver and elitist fuck",
+["Páránøiáz"] = {
+["time"] = 1747260536,
+["reason"] = "fucking layer spammer",
 },
-["Béèf"] = {
-["time"] = 1746441679,
-["reason"] = "spammer",
+["Royieal"] = {
+["time"] = 1749290190,
+["reason"] = "fucktard group leaver",
 },
 ["Maximusblast"] = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Add"] = {
-["time"] = 1762126493,
-["reason"] = "Ryxon stupid fuck stole captain on the ship",
+["Sweetyellow"] = {
+["time"] = 1761985439,
+["reason"] = "fucking spammer",
 },
 ["Sweetystore"] = {
 ["time"] = 1761985497,
 ["reason"] = "fucking spammer",
 },
-["Icemax"] = {
-["time"] = 1764410476,
-["reason"] = "asked for q in UBRS, we did it, he bailed",
+["Atapong"] = {
+["time"] = 1764545604,
+["reason"] = "stupid fuck invited to UBRS and killed the boss before I got there",
 },
-["Tukr"] = {
-["time"] = 1767691084,
-["reason"] = "asked for Cyclonian help, then didn't respond",
-},
-["Gnrk"] = {
-["time"] = 1749030325,
-["reason"] = "salty skilless fuck",
-},
-["Khrys"] = {
-["time"] = 1767956487,
+["Kekbo"] = {
+["time"] = 1767955730,
 ["reason"] = "cunt",
 },
+["Clearfury"] = {
+["time"] = 1768004257,
+["reason"] = "\"typowy polaczek\"",
+},
+["Putasam"] = {
+["time"] = 1749280302,
+["reason"] = "\"kick this noob\" when I stood up for mage ninjaing on his runes",
 },
 },
-["Obszczymucha/MinimapIcons"] = {
 },
-["FrameVisibility"] = {
+["Obszczymucha/frames"] = {
 },
-["AuctionSold"] = {
+["music"] = {
+["shuffle"] = true,
+["music"] = {
+["playlist_id"] = "elwynn",
+["force"] = true,
 },
-["Sandbox"] = {
-},
-["Chat"] = {
-},
-["ZoneTextFrame"] = {
-},
-["HasDied"] = {
-},
-["TargetMacro"] = {
-["target_macro"] = {
-["macros"] = {
+["force"] = false,
+["last_track_index"] = 22,
+["playlist_id"] = "default",
+["playlist"] = {
+["name"] = "Default",
+["tracks"] = {
 {
-["mark"] = 8,
-["mark_name"] = "skull",
-["target_name"] = "Astellar",
+["length"] = 55,
+["name"] = "Elwynn 1",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest01.mp3",
 },
 {
-["mark"] = 7,
-["mark_name"] = "cross",
-["target_name"] = "Ice Thistle Pat",
+["length"] = 72,
+["name"] = "Elwynn 2",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest02.mp3",
 },
-["T1"] = {
-["fishing"] = true,
+{
+["length"] = 64,
+["name"] = "Elwynn 3",
+["mp3"] = "Interface\\AddOns\\Music\\Forest\\DayForest03.mp3",
 },
+{
+["length"] = 81,
+["name"] = "Zangarmarsh 1",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni01.mp3",
 },
+{
+["length"] = 120,
+["name"] = "Zangarmarsh 2",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni02.mp3",
 },
+{
+["length"] = 59,
+["name"] = "Zangarmarsh 3",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni03.mp3",
 },
-["KillOnSight"] = {
-["warning_interval_in_seconds"] = 60,
-["kos_list"] = {
-["Dekku"] = {
-["time"] = 1762141365,
+{
+["length"] = 102,
+["name"] = "Zangarmarsh 4",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni04.mp3",
 },
-["Isotopes"] = {
-["time"] = 1768004791,
-["class"] = "priest",
+{
+["length"] = 71,
+["name"] = "Zangarmarsh 5",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni05.mp3",
 },
-["Alenwyn"] = {
-["time"] = 1768004555,
-["class"] = "druid",
+{
+["length"] = 89,
+["name"] = "Zangarmarsh 6",
+["mp3"] = "Interface\\AddOns\\Music\\Zangarmarsh\\ZA_GeneralWalkUni06.mp3",
 },
-["Littlemazy"] = {
-["time"] = 1763247064,
-["class"] = "warrior",
+{
+["length"] = 206,
+["name"] = "Azuremyst 1",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni01.mp3",
 },
-["Mapall"] = {
-["time"] = 1768014435,
-["class"] = "paladin",
+{
+["length"] = 124,
+["name"] = "Azuremyst 2",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02.mp3",
 },
-["Whippedsnail"] = {
-["time"] = 1763460095,
-["class"] = "rogue",
+{
+["length"] = 129,
+["name"] = "Azuremyst 3",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni02r.mp3",
 },
-["Havres"] = {
-["time"] = 1768004790,
-["class"] = "warlock",
+{
+["length"] = 187,
+["name"] = "Azuremyst 4",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03.mp3",
 },
-["Suriell"] = {
-["time"] = 1762160608,
+{
+["length"] = 188,
+["name"] = "Azuremyst 5",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni03r.mp3",
 },
-["Skeelmode"] = {
-["time"] = 1768005160,
-["class"] = "hunter",
+{
+["length"] = 158,
+["name"] = "Azuremyst 6",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AV_DraeneiWalkUni04.mp3",
 },
-["Jtedboite"] = {
-["time"] = 1768005165,
-["class"] = "mage",
+{
+["length"] = 191,
+["name"] = "Azuremyst 7",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni05.mp3",
 },
-["Zynaz"] = {
-["time"] = 1763282655,
-["class"] = "warrior",
+{
+["length"] = 110,
+["name"] = "Azuremyst 8",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni06.mp3",
 },
-["Umatic"] = {
-["time"] = 1762569857,
+{
+["length"] = 110,
+["name"] = "Azuremyst 9",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni07r.mp3",
 },
-["Androuss"] = {
-["time"] = 1763076097,
-["class"] = "warrior",
+{
+["length"] = 99,
+["name"] = "Azuremyst 10",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_DraeneiWalkUni08r.mp3",
 },
-["Sickendr"] = {
-["time"] = 1768004790,
-["class"] = "druid",
+{
+["length"] = 109,
+["name"] = "Azuremyst 11",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni01.mp3",
 },
-["Astellar"] = {
-["time"] = 1768004555,
-["class"] = "warlock",
+{
+["length"] = 107,
+["name"] = "Azuremyst 12",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni02.mp3",
 },
-["Fackpampen"] = {
-["time"] = 1762419673,
+{
+["length"] = 93,
+["name"] = "Azuremyst 13",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_ExodarWalkUni03.mp3",
 },
-["Lilchad"] = {
-["time"] = 1763247068,
-["class"] = "warrior",
+{
+["length"] = 103,
+["name"] = "Azuremyst 14",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni01.mp3",
 },
-["Eugenee"] = {
-["time"] = 1763028474,
-["class"] = "warrior",
+{
+["length"] = 74,
+["name"] = "Azuremyst 15",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni02.mp3",
 },
-["Sselemoh"] = {
-["time"] = 1763534384,
-["class"] = "hunter",
+{
+["length"] = 149,
+["name"] = "Azuremyst 16",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni03.mp3",
 },
-["Deathroi"] = {
-["time"] = 1763365071,
-["class"] = "mage",
+{
+["length"] = 73,
+["name"] = "Azuremyst 17",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni04.mp3",
+},
+{
+["length"] = 98,
+["name"] = "Azuremyst 18",
+["mp3"] = "Interface\\AddOns\\Music\\Azuremyst\\AI_NagaWalkUni05.mp3",
+},
+{
+["length"] = 120,
+["name"] = "Auchindoun 1",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni01.mp3",
+},
+{
+["length"] = 150,
+["name"] = "Auchindoun 2",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni02.mp3",
+},
+{
+["length"] = 120,
+["name"] = "Auchindoun 3",
+["mp3"] = "Interface\\AddOns\\Music\\Auchindoun\\TF_AuchindounWalkUni03.mp3",
+},
 },
 },
 },

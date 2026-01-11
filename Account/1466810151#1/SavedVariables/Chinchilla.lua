@@ -96,9 +96,9 @@ nil,
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Boorack - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
