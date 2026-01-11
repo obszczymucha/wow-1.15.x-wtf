@@ -27,10 +27,10 @@ Blizzard_CombatLog_Filters = {
 ["r"] = 1,
 },
 },
+["eventColoring"] = {
+},
 ["highlightedEvents"] = {
 ["PARTY_KILL"] = true,
-},
-["eventColoring"] = {
 },
 ["unitColoring"] = {
 [32334] = {
@@ -292,12 +292,12 @@ nil,
 ["UNIT_DISSIPATES"] = true,
 ["SPELL_INSTAKILL"] = true,
 ["SPELL_DURABILITY_DAMAGE"] = true,
-["RANGE_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 ["SWING_DAMAGE"] = true,
 ["PARTY_KILL"] = true,
 ["SPELL_DAMAGE"] = true,
 ["RANGE_MISSED"] = true,
-["SPELL_HEAL"] = true,
+["RANGE_DAMAGE"] = true,
 ["ENCHANT_REMOVED"] = true,
 ["SPELL_DISPEL_FAILED"] = true,
 ["SPELL_DISPEL"] = true,
@@ -332,10 +332,10 @@ nil,
 ["r"] = 1,
 },
 },
+["eventColoring"] = {
+},
 ["highlightedEvents"] = {
 ["PARTY_KILL"] = true,
-},
-["eventColoring"] = {
 },
 ["unitColoring"] = {
 [32334] = {

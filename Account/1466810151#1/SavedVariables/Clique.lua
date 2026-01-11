@@ -18,38 +18,68 @@ CliqueDB3 = {
 },
 },
 ["profileKeys"] = {
-["Boordell - Spineshatter"] = "Boordell - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 ["Boorack - Spineshatter"] = "Boorack - Spineshatter",
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boordell - Spineshatter"] = "Boordell - Spineshatter",
 },
 ["profiles"] = {
-["Boordell - Spineshatter"] = {
+["Tachikoma - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["key"] = "BUTTON1",
+["type"] = "target",
+["key"] = "ALT-SHIFT-BUTTON1",
 ["unit"] = "mouseover",
 },
 {
 ["type"] = "menu",
-["key"] = "BUTTON2",
+["key"] = "ALT-SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["spellSubName"] = "Rank 5",
+["key"] = "BUTTON2",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136085,
+["spell"] = "Regrowth",
+},
+{
+["spellSubName"] = "Rank 7",
+["key"] = "ALT-BUTTON1",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136081,
+["spell"] = "Rejuvenation",
+},
+{
+["spellSubName"] = "Rank 7",
+["key"] = "BUTTON1",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136041,
+["spell"] = "Healing Touch",
 },
 },
 },
 ["Boorack - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -65,10 +95,10 @@ CliqueDB3 = {
 ["Boulderdash - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "ALT-SHIFT-BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -82,81 +112,51 @@ CliqueDB3 = {
 {
 ["spellSubName"] = "Rank 5",
 ["key"] = "BUTTON2",
-["spell"] = "Regrowth",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136085,
-["type"] = "spell",
+["spell"] = "Regrowth",
 },
 {
 ["spellSubName"] = "Rank 7",
 ["key"] = "ALT-BUTTON1",
-["spell"] = "Rejuvenation",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136081,
-["type"] = "spell",
+["spell"] = "Rejuvenation",
 },
 {
 ["spellSubName"] = "Rank 7",
 ["key"] = "BUTTON1",
-["spell"] = "Healing Touch",
+["type"] = "spell",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136041,
-["type"] = "spell",
+["spell"] = "Healing Touch",
 },
 },
 },
-["Tachikoma - Spineshatter"] = {
+["Boordell - Spineshatter"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["key"] = "ALT-SHIFT-BUTTON1",
+["type"] = "target",
+["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
 {
 ["type"] = "menu",
-["key"] = "ALT-SHIFT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spellSubName"] = "Rank 5",
 ["key"] = "BUTTON2",
-["spell"] = "Regrowth",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136085,
-["type"] = "spell",
-},
-{
-["spellSubName"] = "Rank 7",
-["key"] = "ALT-BUTTON1",
-["spell"] = "Rejuvenation",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136081,
-["type"] = "spell",
-},
-{
-["spellSubName"] = "Rank 7",
-["key"] = "BUTTON1",
-["spell"] = "Healing Touch",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136041,
-["type"] = "spell",
 },
 },
 },

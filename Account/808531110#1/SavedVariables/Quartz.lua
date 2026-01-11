@@ -51,6 +51,7 @@ nil,
 ["profileKeys"] = {
 ["Kacprawcze - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {

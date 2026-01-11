@@ -1,1136 +1,7 @@
 
 Blizzard_Console_SavedVars = {
 ["version"] = 3,
-["height"] = 300,
 ["messageHistory"] = {
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 1",
-0,
-},
-{
-"MSAA set to 2 color samples, 2 coverage samples",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-0000303134A6] [WowAccount-0-00007746ADC3] Initialized with 1 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 1/8/2026 (Thu) 2:35",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 1/8/2026 (Thu) 2:57",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000025",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004014",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004054",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000035",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000075",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004074",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007d",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 1/8/2026 (Thu) 2:57",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 0",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 1.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Number of shadow cascades changed to 4",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 4",
-0,
-},
-{
-"SSAO type set to 1",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 1",
-0,
-},
-{
-"MSAA set to 2 color samples, 2 coverage samples",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-0000303134A6] [WowAccount-0-00007746ADC3] Initialized with 1 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000025",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004014",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004054",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000035",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000075",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004074",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007d",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 1/8/2026 (Thu) 7:28",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"Skill 186 increased from 202 to 203",
-0,
-},
-{
-"Skill 186 increased from 203 to 204",
-0,
-},
-{
-"Skill 186 increased from 204 to 205",
-0,
-},
-{
-"Skill 186 increased from 205 to 206",
-0,
-},
-{
-"Skill 186 increased from 206 to 207",
-0,
-},
-{
-"Skill 186 increased from 207 to 208",
-0,
-},
-{
-"Skill 186 increased from 208 to 209",
-0,
-},
-{
-"Skill 186 increased from 209 to 210",
-0,
-},
-{
-"Skill 186 increased from 210 to 211",
-0,
-},
-{
-"Skill 186 increased from 211 to 212",
-0,
-},
-{
-"Skill 186 increased from 212 to 213",
-0,
-},
-{
-"Skill 186 increased from 213 to 214",
-0,
-},
-{
-"Skill 186 increased from 214 to 215",
-0,
-},
-{
-"Skill 186 increased from 215 to 216",
-0,
-},
-{
-"Skill 186 increased from 216 to 217",
-0,
-},
-{
-"Skill 186 increased from 217 to 218",
-0,
-},
-{
-"Skill 186 increased from 218 to 219",
-0,
-},
-{
-"Skill 186 increased from 219 to 220",
-0,
-},
-{
-"Skill 186 increased from 220 to 221",
-0,
-},
-{
-"Skill 186 increased from 221 to 222",
-0,
-},
-{
-"Skill 186 increased from 222 to 223",
-0,
-},
-{
-"Skill 186 increased from 223 to 224",
-0,
-},
-{
-"Skill 186 increased from 224 to 225",
-0,
-},
-{
-"Skill 186 increased from 225 to 226",
-0,
-},
-{
-"Skill 186 increased from 226 to 227",
-0,
-},
-{
-"Skill 186 increased from 227 to 228",
-0,
-},
-{
-"Skill 186 increased from 228 to 229",
-0,
-},
-{
-"Skill 186 increased from 229 to 230",
-0,
-},
-{
-"Skill 186 increased from 230 to 231",
-0,
-},
-{
-"Skill 186 increased from 231 to 232",
-0,
-},
-{
-"Skill 186 increased from 232 to 233",
-0,
-},
-{
-"Skill 186 increased from 233 to 234",
-0,
-},
-{
-"Skill 186 increased from 234 to 235",
-0,
-},
-{
-"Skill 186 increased from 235 to 236",
-0,
-},
-{
-"Skill 186 increased from 236 to 237",
-0,
-},
-{
-"Skill 186 increased from 237 to 238",
-0,
-},
-{
-"Skill 186 increased from 238 to 239",
-0,
-},
-{
-"Skill 186 increased from 239 to 240",
-0,
-},
-{
-"Skill 186 increased from 240 to 241",
-0,
-},
-{
-"Skill 186 increased from 241 to 242",
-0,
-},
-{
-"Skill 186 increased from 242 to 243",
-0,
-},
-{
-"Skill 186 increased from 243 to 244",
-0,
-},
-{
-"Skill 186 increased from 244 to 245",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 0, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Multithreaded lightshaft passes enabled.",
-0,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 0",
-0,
-},
-{
-"Ripple detail changed to 0",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 1.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Number of shadow cascades changed to 4",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 4",
-0,
-},
-{
-"SSAO type set to 1",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 1",
-0,
-},
-{
-"MSAA set to 2 color samples, 2 coverage samples",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
 {
 "Displaying errors through fatal errors",
 0,
@@ -3828,7 +2699,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[WowEntitlements] [BNetAccount-0-0000303134A6] [WowAccount-0-00007746ADC3] Initialized with 1 entitlements.",
+"[WowEntitlements] [BNetAccount-0-0000576DBF27] [WowAccount-0-0000774ECA43] Initialized with 1 entitlements.",
 0,
 },
 {
@@ -3884,6 +2755,1042 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Skill 613 increased from 0 to 25",
+0,
+},
+{
+"Skill 78 increased from 0 to 25",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Skill 228 increased from 20 to 21",
+0,
+},
+{
+"Skill 228 increased from 21 to 22",
+0,
+},
+{
+"Skill 228 increased from 22 to 23",
+0,
+},
+{
+"Skill 228 increased from 23 to 24",
+0,
+},
+{
+"Skill 95 increased from 18 to 19",
+0,
+},
+{
+"Skill 228 increased from 24 to 25",
+0,
+},
+{
+"Skill 54 increased from 14 to 15",
+0,
+},
+{
+"Skill 95 increased from 19 to 20",
+0,
+},
+{
+"Skill 95 increased from 20 to 21",
+0,
+},
+{
+"Skill 95 increased from 21 to 22",
+0,
+},
+{
+"Skill 54 increased from 15 to 16",
+0,
+},
+{
+"Skill 95 increased from 22 to 23",
+0,
+},
+{
+"Skill 220 increased from 25 to 30",
+0,
+},
+{
+"Skill 613 increased from 25 to 30",
+0,
+},
+{
+"Skill 183 increased from 25 to 30",
+0,
+},
+{
+"Skill 56 increased from 25 to 30",
+0,
+},
+{
+"Skill 78 increased from 25 to 30",
+0,
+},
+{
+"Skill 228 increased from 25 to 26",
+0,
+},
+{
+"Skill 228 increased from 26 to 27",
+0,
+},
+{
+"Skill 228 increased from 27 to 28",
+0,
+},
+{
+"Skill 228 increased from 28 to 29",
+0,
+},
+{
+"Skill 228 increased from 29 to 30",
+0,
+},
+{
+"Skill 95 increased from 23 to 24",
+0,
+},
+{
+"Skill 54 increased from 16 to 17",
+0,
+},
+{
+"Skill 95 increased from 24 to 25",
+0,
+},
+{
+"Skill 182 increased from 0 to 1",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Skill 220 increased from 30 to 35",
+0,
+},
+{
+"Skill 613 increased from 30 to 35",
+0,
+},
+{
+"Skill 183 increased from 30 to 35",
+0,
+},
+{
+"Skill 56 increased from 30 to 35",
+0,
+},
+{
+"Skill 78 increased from 30 to 35",
+0,
+},
+{
+"Skill 228 increased from 30 to 31",
+0,
+},
+{
+"Skill 228 increased from 31 to 32",
+0,
+},
+{
+"Skill 95 increased from 25 to 26",
+0,
+},
+{
+"Skill 228 increased from 32 to 33",
+0,
+},
+{
+"Skill 228 increased from 33 to 34",
+0,
+},
+{
+"Skill 95 increased from 26 to 27",
+0,
+},
+{
+"Skill 228 increased from 34 to 35",
+0,
+},
+{
+"Skill 54 increased from 17 to 18",
+0,
+},
+{
+"Skill 95 increased from 27 to 28",
+0,
+},
+{
+"Skill 95 increased from 28 to 29",
+0,
+},
+{
+"Skill 54 increased from 18 to 19",
+0,
+},
+{
+"Skill 95 increased from 29 to 30",
+0,
+},
+{
+"Skill 95 increased from 30 to 31",
+0,
+},
+{
+"Skill 220 increased from 35 to 40",
+0,
+},
+{
+"Skill 613 increased from 35 to 40",
+0,
+},
+{
+"Skill 183 increased from 35 to 40",
+0,
+},
+{
+"Skill 56 increased from 35 to 40",
+0,
+},
+{
+"Skill 78 increased from 35 to 40",
+0,
+},
+{
+"Skill 228 increased from 35 to 36",
+0,
+},
+{
+"Skill 228 increased from 36 to 37",
+0,
+},
+{
+"Skill 228 increased from 37 to 38",
+0,
+},
+{
+"Skill 228 increased from 38 to 39",
+0,
+},
+{
+"Skill 95 increased from 31 to 32",
+0,
+},
+{
+"Skill 228 increased from 39 to 40",
+0,
+},
+{
+"Skill 95 increased from 32 to 33",
+0,
+},
+{
+"Skill 95 increased from 33 to 34",
+0,
+},
+{
+"Skill 95 increased from 34 to 35",
+0,
+},
+{
+"Skill 95 increased from 35 to 36",
+0,
+},
+{
+"Skill 220 increased from 40 to 45",
+0,
+},
+{
+"Skill 613 increased from 40 to 45",
+0,
+},
+{
+"Skill 183 increased from 40 to 45",
+0,
+},
+{
+"Skill 56 increased from 40 to 45",
+0,
+},
+{
+"Skill 78 increased from 40 to 45",
+0,
+},
+{
+"Skill 228 increased from 40 to 41",
+0,
+},
+{
+"Skill 228 increased from 41 to 42",
+0,
+},
+{
+"Skill 95 increased from 36 to 37",
+0,
+},
+{
+"Skill 228 increased from 42 to 43",
+0,
+},
+{
+"Skill 54 increased from 19 to 20",
+0,
+},
+{
+"Skill 95 increased from 37 to 38",
+0,
+},
+{
+"Skill 54 increased from 20 to 21",
+0,
+},
+{
+"Skill 228 increased from 43 to 44",
+0,
+},
+{
+"Skill 95 increased from 38 to 39",
+0,
+},
+{
+"Skill 54 increased from 21 to 22",
+0,
+},
+{
+"Skill 95 increased from 39 to 40",
+0,
+},
+{
+"Skill 54 increased from 22 to 23",
+0,
+},
+{
+"Skill 228 increased from 44 to 45",
+0,
+},
+{
+"Skill 95 increased from 40 to 41",
+0,
+},
+{
+"Skill 54 increased from 23 to 24",
+0,
+},
+{
+"Skill 95 increased from 41 to 42",
+0,
+},
+{
+"Skill 54 increased from 24 to 25",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Skill 129 increased from 0 to 1",
+0,
+},
+{
+"Skill 129 increased from 1 to 2",
+0,
+},
+{
+"Skill 129 increased from 2 to 3",
+0,
+},
+{
+"Skill 129 increased from 3 to 4",
+0,
+},
+{
+"Skill 129 increased from 4 to 5",
+0,
+},
+{
+"Skill 129 increased from 5 to 6",
+0,
+},
+{
+"Skill 129 increased from 6 to 7",
+0,
+},
+{
+"Skill 129 increased from 7 to 8",
+0,
+},
+{
+"Skill 129 increased from 8 to 9",
+0,
+},
+{
+"Skill 129 increased from 9 to 10",
+0,
+},
+{
+"Skill 129 increased from 10 to 11",
+0,
+},
+{
+"Skill 129 increased from 11 to 12",
+0,
+},
+{
+"Skill 129 increased from 12 to 13",
+0,
+},
+{
+"Skill 129 increased from 13 to 14",
+0,
+},
+{
+"Skill 129 increased from 14 to 15",
+0,
+},
+{
+"Skill 129 increased from 15 to 16",
+0,
+},
+{
+"Skill 129 increased from 16 to 17",
+0,
+},
+{
+"Skill 129 increased from 17 to 18",
+0,
+},
+{
+"Skill 129 increased from 18 to 19",
+0,
+},
+{
+"Skill 129 increased from 19 to 20",
+0,
+},
+{
+"Skill 129 increased from 20 to 21",
+0,
+},
+{
+"Skill 129 increased from 21 to 22",
+0,
+},
+{
+"Skill 129 increased from 22 to 23",
+0,
+},
+{
+"Skill 129 increased from 23 to 24",
+0,
+},
+{
+"Skill 129 increased from 24 to 25",
+0,
+},
+{
+"Skill 129 increased from 25 to 26",
+0,
+},
+{
+"Skill 129 increased from 26 to 27",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Skill 220 increased from 45 to 50",
+0,
+},
+{
+"Skill 613 increased from 45 to 50",
+0,
+},
+{
+"Skill 183 increased from 45 to 50",
+0,
+},
+{
+"Skill 56 increased from 45 to 50",
+0,
+},
+{
+"Skill 78 increased from 45 to 50",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Disconnecting for reason 14",
+0,
+},
+{
+"NetClient::HandleDisconnect()\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 0",
+0,
+},
+{
+"Ripple detail changed to 0",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 1",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 1",
+0,
+},
+{
+"MSAA set to 2 color samples, 2 coverage samples",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-0000576DBF27] [WowAccount-0-0000774ECA43] Initialized with 1 entitlements.",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"Disconnecting for reason 14",
+0,
+},
+{
+"NetClient::HandleDisconnect()\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 0",
+0,
+},
+{
+"Ripple detail changed to 0",
+0,
+},
+{
+"Reflection mode changed to 0",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 1",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 1",
+0,
+},
+{
+"MSAA set to 2 color samples, 2 coverage samples",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-0000576DBF27] [WowAccount-0-0000774ECA43] Initialized with 1 entitlements.",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
 "-------------------------------------------------- Previous Session --------------------------------------------------",
 0,
 },
@@ -3896,7 +3803,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000021",
+"Proficiency in item class 4 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000121",
 0,
 },
 {
@@ -3904,67 +3815,27 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000025",
+"Proficiency in item class 4 set to 0x0000000125",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004014",
+"Proficiency in item class 2 set to 0x0000004030",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004054",
+"Proficiency in item class 4 set to 0x0000000127",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000035",
+"Proficiency in item class 2 set to 0x0000004430",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000075",
+"Proficiency in item class 2 set to 0x0000004430",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004074",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007d",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f4",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000000c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000004c1f7",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x000000007f",
+"Proficiency in item class 4 set to 0x0000000127",
 0,
 },
 {
@@ -3972,7 +3843,91 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Time set to 1/10/2026 (Sat) 23:10",
+"Time set to 1/11/2026 (Sun) 1:58",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000100",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000121",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000125",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004030",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000127",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004430",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004430",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000127",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 1/11/2026 (Sun) 2:14",
 0,
 },
 {
@@ -3996,6 +3951,10 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
 "Got new connection 3",
 0,
 },
@@ -4007,9 +3966,50 @@ Blizzard_Console_SavedVars = {
 "-------------------------------------------------- Previous Session --------------------------------------------------",
 0,
 },
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
 },
-["isShown"] = false,
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+},
+["height"] = 300,
 ["fontHeight"] = 14,
+["isShown"] = false,
 ["commandHistory"] = {
 },
 }

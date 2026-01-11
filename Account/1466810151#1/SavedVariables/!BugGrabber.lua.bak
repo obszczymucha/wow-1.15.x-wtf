@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 ["lastSanitation"] = 3,
-["session"] = 974,
+["session"] = 988,
 ["errors"] = {
 {
 ["message"] = "...Ons/Auctionator/Source/Utilities/GetNameFromLink.lua:2: bad argument #1 to 'match' (string expected, got nil)",

@@ -183,14 +183,14 @@ WeakAurasSaved = {
 ["frameStrata"] = 1,
 ["stagger"] = 0,
 ["limit"] = 5,
-["arcLength"] = 360,
+["useLimit"] = false,
 ["subRegions"] = {
 },
+["gridWidth"] = 5,
 ["sortHybridTable"] = {
 ["MOTW running out"] = false,
 ["MOTW missing"] = false,
 },
-["internalVersion"] = 84,
 ["load"] = {
 ["talent"] = {
 ["multi"] = {
@@ -209,7 +209,7 @@ WeakAurasSaved = {
 },
 },
 },
-["useLimit"] = false,
+["internalVersion"] = 84,
 ["backdropColor"] = {
 1,
 1,
@@ -223,11 +223,12 @@ WeakAurasSaved = {
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
-["anchorFrameFrame"] = "SUFUnittarget",
+["borderEdge"] = "Square Full White",
 ["stepAngle"] = 15,
 ["borderSize"] = 2,
 ["sort"] = "none",
-["borderInset"] = 1,
+["config"] = {
+},
 ["regionType"] = "dynamicgroup",
 ["constantFactor"] = "RADIUS",
 ["fullCircle"] = true,
@@ -238,16 +239,15 @@ WeakAurasSaved = {
 ["selfPoint"] = "CENTER",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
-["config"] = {
-},
 ["uid"] = "pb8jb71psxd",
-["borderEdge"] = "Square Full White",
+["borderInset"] = 1,
+["anchorFrameFrame"] = "SUFUnittarget",
 ["space"] = 2,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["gridWidth"] = 5,
+["arcLength"] = 360,
 },
 ["Find Minerals"] = {
 ["iconSource"] = -1,
@@ -268,13 +268,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["debuffType"] = "HELPFUL",
 ["unit"] = "player",
-["custom"] = "function()\n  return GetTrackingTexture() == 136025\nend",
+["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
 ["names"] = {
 },
 ["custom_type"] = "event",
 ["spellIds"] = {
 },
-["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
+["custom"] = "function()\n  return GetTrackingTexture() == 136025\nend",
 ["custom_hide"] = "custom",
 },
 ["untrigger"] = {
@@ -369,6 +369,45 @@ WeakAurasSaved = {
 },
 ["useAdjustededMax"] = false,
 ["uid"] = "7ff20rHeNhN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["preferToUpdate"] = false,
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["authorOptions"] = {
+},
+["information"] = {
+},
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["zoom"] = 0,
+["width"] = 24,
+["cooldownTextDisabled"] = false,
+["alpha"] = 1,
+["tocversion"] = 11508,
+["id"] = "Find Minerals",
+["frameStrata"] = 1,
+["useCooldownModRate"] = true,
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 0,
+["config"] = {
+},
+["inverse"] = false,
+["keepAspectRatio"] = false,
+["displayIcon"] = "136025",
+["cooldown"] = true,
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -388,45 +427,6 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
-},
-["preferToUpdate"] = false,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["keepAspectRatio"] = false,
-["information"] = {
-},
-["conditions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["cooldownTextDisabled"] = false,
-["width"] = 24,
-["zoom"] = 0,
-["alpha"] = 1,
-["tocversion"] = 11508,
-["id"] = "Find Minerals",
-["frameStrata"] = 1,
-["useCooldownModRate"] = true,
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 0,
-["config"] = {
-},
-["inverse"] = false,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["displayIcon"] = "136025",
-["cooldown"] = true,
-["authorOptions"] = {
 },
 },
 ["Herbalism"] = {
@@ -464,7 +464,7 @@ WeakAurasSaved = {
 },
 ["duration"] = "",
 ["event"] = "Character Stats",
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
 ["custom"] = "function()\n  -- print(\"trigger on\")\n  aura_env.region:Update()\n  return true\nend",
 ["customName"] = "",
 ["events"] = "SKILL_LINES_CHANGED",
@@ -472,7 +472,7 @@ WeakAurasSaved = {
 ["use_unit"] = true,
 ["names"] = {
 },
-["unit"] = "player",
+["subeventPrefix"] = "SPELL",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -508,45 +508,11 @@ WeakAurasSaved = {
 },
 ["fontSize"] = 10,
 ["shadowXOffset"] = 0,
-["wordWrap"] = "WordWrap",
+["displayText_format_p_time_mod_rate"] = true,
 ["anchorFrameFrame"] = "Minimap",
 ["regionType"] = "text",
-["displayText_format_p_time_mod_rate"] = true,
-["animation"] = {
-["start"] = {
-["type"] = "preset",
-["easeType"] = "none",
-["duration_type"] = "seconds",
-["preset"] = "fade",
-["easeStrength"] = 3,
-},
-["main"] = {
-["colorR"] = 1,
-["duration_type"] = "seconds",
-["alphaType"] = "hide",
-["colorB"] = 1,
-["colorG"] = 1,
-["alphaFunc"] = "function()\n    return 0\nend\n",
-["use_alpha"] = false,
-["type"] = "none",
-["easeType"] = "easeIn",
-["scaley"] = 1,
-["alpha"] = 0,
-["y"] = 0,
-["x"] = 0,
-["colorA"] = 1,
-["easeStrength"] = 5,
-["rotate"] = 0,
-["preset"] = "alphaPulse",
-["scalex"] = 1,
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["wordWrap"] = "WordWrap",
+["parent"] = "Skil",
 ["fixedWidth"] = 200,
 ["displayText_format_p_time_precision"] = 1,
 ["authorOptions"] = {
@@ -609,7 +575,41 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["parent"] = "Skil",
+["animation"] = {
+["start"] = {
+["type"] = "preset",
+["easeType"] = "none",
+["duration_type"] = "seconds",
+["preset"] = "fade",
+["easeStrength"] = 3,
+},
+["main"] = {
+["colorR"] = 1,
+["duration_type"] = "seconds",
+["alphaType"] = "hide",
+["colorB"] = 1,
+["colorG"] = 1,
+["alphaFunc"] = "function()\n    return 0\nend\n",
+["use_alpha"] = false,
+["type"] = "none",
+["easeType"] = "easeIn",
+["scaley"] = 1,
+["alpha"] = 0,
+["y"] = 0,
+["x"] = 0,
+["colorA"] = 1,
+["rotate"] = 0,
+["easeStrength"] = 5,
+["preset"] = "alphaPulse",
+["scalex"] = 1,
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 },
 ["Mining"] = {
 ["outline"] = "OUTLINE",
@@ -642,10 +642,10 @@ WeakAurasSaved = {
 ["type"] = "custom",
 ["debuffType"] = "HELPFUL",
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
+["subeventPrefix"] = "SPELL",
 ["duration"] = "",
 ["event"] = "Character Stats",
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
 ["names"] = {
 },
 ["customName"] = "",
@@ -690,8 +690,8 @@ WeakAurasSaved = {
 ["x"] = 0,
 ["scalex"] = 1,
 ["preset"] = "alphaPulse",
-["easeStrength"] = 5,
 ["rotate"] = 0,
+["easeStrength"] = 5,
 ["colorA"] = 1,
 },
 ["finish"] = {
@@ -724,11 +724,11 @@ WeakAurasSaved = {
 },
 ["fontSize"] = 10,
 ["shadowXOffset"] = 0,
-["parent"] = "Skil",
+["displayText_format_p_format"] = "timed",
 ["anchorFrameFrame"] = "Minimap",
 ["regionType"] = "text",
-["displayText_format_p_format"] = "timed",
-["selfPoint"] = "TOPRIGHT",
+["parent"] = "Skil",
+["wordWrap"] = "WordWrap",
 ["conditions"] = {
 },
 ["displayText_format_p_time_precision"] = 1,
@@ -791,7 +791,7 @@ WeakAurasSaved = {
 ["fixedWidth"] = 200,
 ["information"] = {
 },
-["wordWrap"] = "WordWrap",
+["selfPoint"] = "TOPRIGHT",
 },
 ["Battle Shout Missing"] = {
 ["iconSource"] = -1,
@@ -930,12 +930,6 @@ WeakAurasSaved = {
 },
 },
 ["use_zone"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["use_vehicle"] = false,
 ["spec"] = {
 ["multi"] = {
 },
@@ -944,29 +938,34 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_vehicle"] = false,
+["class"] = {
+["multi"] = {
+},
+},
+["zone"] = "-Thunder Bluff,-Orgrimmar",
 ["use_mounted"] = false,
 },
 ["useAdjustededMax"] = false,
-["authorOptions"] = {
-},
+["selfPoint"] = "CENTER",
 ["parent"] = "Main Notifications",
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
 ["preferToUpdate"] = false,
+["keepAspectRatio"] = false,
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["xOffset"] = 0,
 ["config"] = {
 },
-["frameStrata"] = 1,
-["cooldownTextDisabled"] = false,
+["alpha"] = 1,
+["zoom"] = 0,
 ["width"] = 46,
 ["tocversion"] = 11508,
 ["id"] = "Battle Shout Missing",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
-["zoom"] = 0,
+["cooldownTextDisabled"] = false,
 ["uid"] = "NaJ3hmu)AmJ",
 ["inverse"] = false,
 ["icon"] = true,
@@ -974,7 +973,8 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["keepAspectRatio"] = false,
+["authorOptions"] = {
+},
 },
 ["Skil"] = {
 ["grow"] = "DOWN",
@@ -1004,16 +1004,16 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
 ["type"] = "aura2",
-["spellIds"] = {
-},
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
 ["names"] = {
 },
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1024,11 +1024,12 @@ WeakAurasSaved = {
 ["selfPoint"] = "TOPRIGHT",
 ["align"] = "RIGHT",
 ["stagger"] = 0,
-["rotation"] = 0,
+["regionType"] = "dynamicgroup",
 ["subRegions"] = {
 },
-["gridType"] = "RD",
 ["fullCircle"] = true,
+["authorOptions"] = {
+},
 ["load"] = {
 ["talent"] = {
 ["multi"] = {
@@ -1047,44 +1048,12 @@ WeakAurasSaved = {
 },
 },
 },
-["arcLength"] = 360,
+["gridType"] = "RD",
 ["backdropColor"] = {
 1,
 1,
 1,
 0.5,
-},
-["internalVersion"] = 84,
-["animate"] = false,
-["authorOptions"] = {
-},
-["scale"] = 1,
-["centerType"] = "LR",
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
-["borderSize"] = 2,
-["sort"] = "none",
-["stepAngle"] = 15,
-["config"] = {
-},
-["anchorFrameParent"] = true,
-["constantFactor"] = "RADIUS",
-["useLimit"] = false,
-["borderOffset"] = 4,
-["alpha"] = 1,
-["frameStrata"] = 1,
-["id"] = "Skil",
-["rowSpace"] = 1,
-["gridWidth"] = 5,
-["anchorFrameType"] = "SELECTFRAME",
-["borderInset"] = 1,
-["uid"] = "JnngGD15X)g",
-["limit"] = 5,
-["anchorFrameFrame"] = "Minimap",
-["conditions"] = {
-},
-["information"] = {
 },
 ["animation"] = {
 ["start"] = {
@@ -1106,10 +1075,46 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["animate"] = false,
+["rotation"] = 0,
+["scale"] = 1,
+["centerType"] = "LR",
+["border"] = false,
+["anchorFrameFrame"] = "Minimap",
+["stepAngle"] = 15,
+["borderSize"] = 2,
+["sort"] = "none",
+["internalVersion"] = 84,
+["config"] = {
 },
-["Find Herbs"] = {
+["anchorFrameParent"] = true,
+["constantFactor"] = "RADIUS",
+["useLimit"] = false,
+["borderOffset"] = 4,
+["alpha"] = 1,
+["frameStrata"] = 1,
+["id"] = "Skil",
+["rowSpace"] = 1,
+["gridWidth"] = 5,
+["anchorFrameType"] = "SELECTFRAME",
+["uid"] = "JnngGD15X)g",
+["borderInset"] = 1,
+["limit"] = 5,
+["borderEdge"] = "Square Full White",
+["conditions"] = {
+},
+["information"] = {
+},
+["arcLength"] = 360,
+},
+["Battle Shout running out"] = {
 ["iconSource"] = -1,
-["parent"] = "Tracking",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["adjustedMax"] = "",
 ["adjustedMin"] = "",
 ["yOffset"] = 0,
@@ -1119,39 +1124,64 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "custom",
+["rem"] = "10",
 ["subeventSuffix"] = "_CAST_START",
-["event"] = "Chat Message",
-["subeventPrefix"] = "SPELL",
-["custom_hide"] = "custom",
-["custom"] = "function()\n  return GetTrackingTexture() == 133939\nend",
-["spellIds"] = {
-},
-["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
-["custom_type"] = "event",
+["useRem"] = true,
+["matchesShowOn"] = "showOnActive",
+["event"] = "Health",
 ["names"] = {
 },
+["useName"] = true,
+["type"] = "aura2",
+["spellIds"] = {
+},
+["auranames"] = {
+"Battle Shout",
+},
+["remOperator"] = "<=",
+["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
-["custom"] = "function()\n  return GetTrackingTexture() ~= 133939\nend",
 },
 },
 ["activeTriggerMode"] = -10,
 },
 ["internalVersion"] = 84,
-["keepAspectRatio"] = false,
-["selfPoint"] = "CENTER",
-["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["easeType"] = "none",
+},
+},
+["desaturate"] = true,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -1182,18 +1212,18 @@ WeakAurasSaved = {
 ["text_font"] = "Friz Quadrata TT",
 ["text_shadowYOffset"] = 0,
 ["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
+["text_fontType"] = "OUTLINE",
 ["anchor_point"] = "INNER_BOTTOMRIGHT",
 ["text_fontSize"] = 12,
 ["anchorXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
+["text_visible"] = true,
 },
 {
 ["glowFrequency"] = 0.25,
 ["type"] = "subglow",
 ["glowDuration"] = 1,
-["glowType"] = "buttonOverlay",
-["glowLength"] = 10,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowYOffset"] = 0,
 ["glowColor"] = {
 1,
@@ -1201,26 +1231,23 @@ WeakAurasSaved = {
 1,
 1,
 },
-["useGlowColor"] = false,
 ["glowXOffset"] = 0,
+["useGlowColor"] = false,
 ["glow"] = false,
-["glowScale"] = 1,
-["glowThickness"] = 1,
+["glowType"] = "buttonOverlay",
+["glowLength"] = 10,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
-["height"] = 24,
+["height"] = 46,
 ["load"] = {
 ["size"] = {
 ["multi"] = {
 },
 },
+["use_zone"] = true,
 ["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
 ["multi"] = {
 },
 },
@@ -1228,64 +1255,43 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_vehicle"] = false,
+["class"] = {
+["multi"] = {
+},
+},
+["zone"] = "-Thunder Bluff,-Orgrimmar",
+["use_mounted"] = false,
 },
 ["useAdjustededMax"] = false,
-["config"] = {
+["authorOptions"] = {
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["progressSource"] = {
--1,
-"",
-},
+["selfPoint"] = "CENTER",
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["parent"] = "Main Notifications",
 ["icon"] = true,
 ["cooldown"] = true,
-["displayIcon"] = 133939,
-["xOffset"] = 0,
-["cooldownTextDisabled"] = false,
-["width"] = 24,
+["keepAspectRatio"] = false,
+["config"] = {
+},
 ["zoom"] = 0,
-["alpha"] = 1,
+["cooldownTextDisabled"] = false,
+["width"] = 46,
 ["tocversion"] = 11508,
-["id"] = "Find Herbs",
-["useCooldownModRate"] = true,
+["id"] = "Battle Shout running out",
 ["frameStrata"] = 1,
+["useCooldownModRate"] = true,
 ["anchorFrameType"] = "SCREEN",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["uid"] = "d3(b3qoX5JH",
+["alpha"] = 1,
+["uid"] = "dJKhBnYEhoY",
 ["inverse"] = false,
 ["preferToUpdate"] = false,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["xOffset"] = 0,
 },
 ["Tracking"] = {
 ["controlledChildren"] = {
@@ -1315,16 +1321,16 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
 ["type"] = "aura2",
-["spellIds"] = {
-},
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
 ["names"] = {
 },
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1367,8 +1373,8 @@ WeakAurasSaved = {
 ["uid"] = "t2A(CJA8hJw",
 ["tocversion"] = 11508,
 ["id"] = "Tracking",
-["frameStrata"] = 1,
 ["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SELECTFRAME",
 ["animation"] = {
 ["start"] = {
@@ -1523,14 +1529,9 @@ WeakAurasSaved = {
 },
 ["displayText_format_p_time_mod_rate"] = true,
 },
-["Battle Shout running out"] = {
+["Find Herbs"] = {
 ["iconSource"] = -1,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "Tracking",
 ["adjustedMax"] = "",
 ["adjustedMin"] = "",
 ["yOffset"] = 0,
@@ -1540,64 +1541,39 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["rem"] = "10",
+["type"] = "custom",
 ["subeventSuffix"] = "_CAST_START",
-["useRem"] = true,
-["matchesShowOn"] = "showOnActive",
-["event"] = "Health",
-["names"] = {
-},
-["useName"] = true,
-["type"] = "aura2",
+["event"] = "Chat Message",
+["subeventPrefix"] = "SPELL",
+["custom_hide"] = "custom",
 ["spellIds"] = {
 },
-["auranames"] = {
-"Battle Shout",
+["custom"] = "function()\n  return GetTrackingTexture() == 133939\nend",
+["events"] = "MINIMAP_UPDATE_TRACKING,PLAYER_ENTERING_WORLD",
+["custom_type"] = "event",
+["names"] = {
 },
-["remOperator"] = "<=",
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
+["custom"] = "function()\n  return GetTrackingTexture() ~= 133939\nend",
 },
 },
 ["activeTriggerMode"] = -10,
 },
 ["internalVersion"] = 84,
-["progressSource"] = {
--1,
-"",
-},
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeStrength"] = 3,
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeStrength"] = 3,
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeStrength"] = 3,
-["easeType"] = "none",
-},
-},
-["desaturate"] = true,
+["keepAspectRatio"] = false,
+["selfPoint"] = "CENTER",
+["desaturate"] = false,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -1628,18 +1604,18 @@ WeakAurasSaved = {
 ["text_font"] = "Friz Quadrata TT",
 ["text_shadowYOffset"] = 0,
 ["text_wordWrap"] = "WordWrap",
-["text_fontType"] = "OUTLINE",
+["text_visible"] = true,
 ["anchor_point"] = "INNER_BOTTOMRIGHT",
 ["text_fontSize"] = 12,
 ["anchorXOffset"] = 0,
-["text_visible"] = true,
+["text_fontType"] = "OUTLINE",
 },
 {
 ["glowFrequency"] = 0.25,
 ["type"] = "subglow",
 ["glowDuration"] = 1,
-["glowScale"] = 1,
-["glowThickness"] = 1,
+["glowType"] = "buttonOverlay",
+["glowLength"] = 10,
 ["glowYOffset"] = 0,
 ["glowColor"] = {
 1,
@@ -1647,29 +1623,26 @@ WeakAurasSaved = {
 1,
 1,
 },
-["glowXOffset"] = 0,
 ["useGlowColor"] = false,
+["glowXOffset"] = 0,
 ["glow"] = false,
-["glowType"] = "buttonOverlay",
-["glowLength"] = 10,
+["glowScale"] = 1,
+["glowThickness"] = 1,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
-["height"] = 46,
+["height"] = 24,
 ["load"] = {
 ["size"] = {
 ["multi"] = {
 },
 },
-["use_zone"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["zone"] = "-Thunder Bluff,-Orgrimmar",
-["use_vehicle"] = false,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -1677,37 +1650,64 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_mounted"] = false,
 },
 ["useAdjustededMax"] = false,
-["xOffset"] = 0,
-["selfPoint"] = "CENTER",
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["keepAspectRatio"] = false,
-["parent"] = "Main Notifications",
-["cooldown"] = true,
-["authorOptions"] = {
-},
 ["config"] = {
 },
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["width"] = 46,
-["tocversion"] = 11508,
-["id"] = "Battle Shout running out",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["uid"] = "dJKhBnYEhoY",
-["inverse"] = false,
+["xOffset"] = 0,
+["progressSource"] = {
+-1,
+"",
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["authorOptions"] = {
+},
+["cooldown"] = true,
+["displayIcon"] = 133939,
 ["preferToUpdate"] = false,
+["zoom"] = 0,
+["width"] = 24,
+["cooldownTextDisabled"] = false,
+["alpha"] = 1,
+["tocversion"] = 11508,
+["id"] = "Find Herbs",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["uid"] = "d3(b3qoX5JH",
+["inverse"] = false,
+["icon"] = true,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["icon"] = true,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 },
 },
 ["features"] = {

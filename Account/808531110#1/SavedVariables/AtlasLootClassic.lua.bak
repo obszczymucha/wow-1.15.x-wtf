@@ -1,14 +1,17 @@
 
 AtlasLootClassicDB = {
+["global"] = {
+["__addonrevision"] = 3020000,
+},
 ["profileKeys"] = {
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
-["global"] = {
-["__addonrevision"] = 3020000,
-},
 ["profiles"] = {
+["Boulderdash - Spineshatter"] = {
+},
 ["Obszczymucha - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {

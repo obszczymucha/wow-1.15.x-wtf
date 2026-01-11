@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+["global"] = {
+["dbVersion"] = 6,
+["addonVersion"] = "11.2.3",
+},
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
@@ -7,14 +11,10 @@ OmniCCDB = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
-["Boorack - Spineshatter"] = "Default",
-["Boordell - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
-},
-["global"] = {
-["dbVersion"] = 6,
-["addonVersion"] = "11.2.3",
+["Jogobobek - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -50,15 +50,15 @@ OmniCCDB = {
 ["themes"] = {
 ["Default"] = {
 ["textStyles"] = {
-["soon"] = {
-["b"] = 0.2117647230625153,
-["g"] = 0.2862745225429535,
-},
 ["minutes"] = {
 },
+["soon"] = {
+["g"] = 0.2862745225429535,
+["b"] = 0.2117647230625153,
+},
 ["seconds"] = {
-["b"] = 0.250980406999588,
 ["g"] = 0.6549019813537598,
+["b"] = 0.250980406999588,
 },
 },
 ["fontSize"] = 15,

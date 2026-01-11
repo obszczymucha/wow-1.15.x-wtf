@@ -1,9 +1,9 @@
 
 ModUiDb = {
 ["mixins"] = {
-["CombatQueue"] = {
-},
 ["Bag"] = {
+},
+["CombatQueue"] = {
 },
 ["Combat"] = {
 },
@@ -21,21 +21,9 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = 4.000523090362549,
-["point"] = "TOP",
-["y"] = -29.72341918945313,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 72.93006896972656,
-["point"] = "TOP",
-["y"] = -81.23644256591797,
-},
-},
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
 ["FrameSpacing"] = {
 ["frame_spacing"] = 30,
@@ -110,9 +98,21 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = 4.000523090362549,
+["point"] = "TOP",
+["y"] = -29.72341918945313,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 72.93006896972656,
+["point"] = "TOP",
+["y"] = -81.23644256591797,
+},
+},
 },
 },
 ["mods"] = {
@@ -359,6 +359,15 @@ ModUiDb = {
 },
 },
 },
+["Xamenokormi"] = {
+["notes"] = {
+{
+["timestamp"] = 1767858212,
+["note"] = "evul twin mining brother 213 skill.",
+["zone"] = "The Hinterlands",
+},
+},
+},
 ["Privvy"] = {
 ["notes"] = {
 {
@@ -374,15 +383,6 @@ ModUiDb = {
 ["timestamp"] = 1762753471,
 ["note"] = "group leaver.",
 ["zone"] = "Zul'Farrak",
-},
-},
-},
-["Xamenokormi"] = {
-["notes"] = {
-{
-["timestamp"] = 1767858212,
-["note"] = "evul twin mining brother 213 skill.",
-["zone"] = "The Hinterlands",
 },
 },
 },
@@ -513,7 +513,7 @@ ModUiDb = {
 },
 ["ZoneTextFrame"] = {
 },
-["Obszczymucha/MinimapIcons"] = {
+["ZoneMiscText"] = {
 },
 ["Chat"] = {
 },
@@ -522,6 +522,8 @@ ModUiDb = {
 ["AuctionSold"] = {
 },
 ["FrameVisibility"] = {
+},
+["Obszczymucha/MinimapIcons"] = {
 },
 ["Ignore"] = {
 ["ignore_list"] = {
@@ -753,17 +755,17 @@ ModUiDb = {
 ["time"] = 1762934391,
 ["reason"] = "group leaver",
 },
-["Frogsplash"] = {
-["time"] = 1764398403,
-["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
+["Add"] = {
+["time"] = 1762126493,
+["reason"] = "Ryxon stupid fuck stole captain on the ship",
 },
 ["Oldworld"] = {
 ["time"] = 1746528130,
 ["reason"] = "boost spammer",
 },
-["Add"] = {
-["time"] = 1762126493,
-["reason"] = "Ryxon stupid fuck stole captain on the ship",
+["Frogsplash"] = {
+["time"] = 1764398403,
+["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
 },
 ["Foddy"] = {
 ["time"] = 1749617466,
@@ -895,17 +897,15 @@ ModUiDb = {
 },
 },
 },
-["ZoneMiscText"] = {
-},
 ["Obszczymucha/frames"] = {
 },
 ["music"] = {
 ["shuffle"] = true,
-["force"] = false,
 ["music"] = {
 ["playlist_id"] = "elwynn",
 ["force"] = true,
 },
+["force"] = false,
 ["last_track_index"] = 22,
 ["playlist_id"] = "default",
 ["playlist"] = {

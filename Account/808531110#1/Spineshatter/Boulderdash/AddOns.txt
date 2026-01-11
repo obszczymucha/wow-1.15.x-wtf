@@ -8,7 +8,7 @@ TidyPlates_ThreatPlates: enabled
 RollFor: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
-AutoLayer_Vanilla: enabled
+AutoLayer_Vanilla: disabled
 Talented_Data: enabled
 Talented: disabled
 XPBarNone: disabled

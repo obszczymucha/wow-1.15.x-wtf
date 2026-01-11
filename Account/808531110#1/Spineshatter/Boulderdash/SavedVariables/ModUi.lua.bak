@@ -1,0 +1,181 @@
+
+ModUiDb = {
+["mixins"] = {
+["Minimap"] = {
+["positions"] = {
+},
+},
+["Bag"] = {
+},
+["Combat"] = {
+},
+["ActionBars"] = {
+},
+["Group"] = {
+["group"] = {
+["players"] = {
+},
+},
+},
+["MinimapIconsVisible"] = {
+["visible"] = true,
+["farming_visible"] = true,
+},
+["Frames"] = {
+},
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
+},
+["FrameSpacing"] = {
+},
+["GlobalReferences"] = {
+},
+["Item"] = {
+},
+["FarmingAnchor"] = {
+["point"] = {
+["y"] = 0,
+["x"] = 0,
+["point"] = "CENTER",
+["anchor"] = "UIParent",
+["anchor_point"] = "CENTER",
+},
+["visible"] = false,
+},
+["Target"] = {
+},
+["MinimapScale"] = {
+},
+["WeakAuras"] = {
+},
+["Timer"] = {
+},
+["FrameBuilder"] = {
+},
+["ExternalEvent"] = {
+},
+["MinimapIcons"] = {
+},
+["TankTarget"] = {
+},
+["Macro"] = {
+},
+["ColorPicker"] = {
+},
+["BattlefieldMinimap"] = {
+},
+["macros"] = {
+},
+["Observer"] = {
+},
+["WarriorShout"] = {
+},
+["Decapitator"] = {
+["should_equip"] = false,
+},
+["CombatQueue"] = {
+},
+["WarriorMode"] = {
+["zones"] = {
+},
+},
+["MultiSpec"] = {
+},
+["NamedEventObserver"] = {
+},
+["UiMode"] = {
+["ui_mode"] = 1,
+},
+},
+["mods"] = {
+["BattlefieldMap"] = {
+},
+["AntiSpam"] = {
+["keywords"] = {
+},
+},
+["TargetMacro"] = {
+["target_macro"] = {
+["macros"] = {
+},
+},
+},
+["Minimap"] = {
+},
+["ErrorsFrame"] = {
+},
+["BugFixes"] = {
+},
+["Kara"] = {
+},
+["WeakAuras"] = {
+},
+["ZoneTextFrame"] = {
+},
+["RaidWarningFrame"] = {
+},
+["consumes"] = {
+},
+["FriendInvite"] = {
+},
+["IsInAGroup"] = {
+},
+["DungeonReset"] = {
+},
+["music"] = {
+["music"] = {
+},
+},
+["EventTrace"] = {
+},
+["Drag"] = {
+},
+["FarmingTimer"] = {
+},
+["Boulderdash/frames"] = {
+},
+["ItemId"] = {
+},
+["notes"] = {
+["player_notes"] = {
+},
+},
+["ChatFilter"] = {
+},
+["Ignore"] = {
+["ignore_list"] = {
+},
+},
+["ping"] = {
+},
+["FramePositions"] = {
+},
+["ChatClear"] = {
+},
+["ZoneMiscText"] = {
+},
+["Boulderdash/MinimapIcons"] = {
+},
+["TrackItems"] = {
+["items"] = {
+},
+["visible"] = true,
+},
+["Sandbox"] = {
+},
+["AuctionSold"] = {
+},
+["Chat"] = {
+},
+["HasDied"] = {
+},
+["FrameVisibility"] = {
+},
+["KillOnSight"] = {
+["warning_interval_in_seconds"] = 60,
+["kos_list"] = {
+},
+},
+},
+}

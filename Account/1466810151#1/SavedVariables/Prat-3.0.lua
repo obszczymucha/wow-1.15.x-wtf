@@ -44,30 +44,12 @@ Prat3DB = {
 },
 },
 },
-["Prat_Fading"] = {
-},
-["Prat_Scroll"] = {
-},
-["Prat_Mentions"] = {
-},
-["Prat_CopyChat"] = {
-},
 ["Prat_Timestamps"] = {
 ["profiles"] = {
 ["Default"] = {
 ["formatcode"] = "%H:%M",
 },
 },
-},
-["Prat_ServerNames"] = {
-},
-["Prat_UrlCopy"] = {
-},
-["Prat_AltNames"] = {
-},
-["Prat_PlayerNames"] = {
-},
-["Prat_Memory"] = {
 },
 ["Prat_Frames"] = {
 ["profiles"] = {
@@ -92,8 +74,6 @@ Prat3DB = {
 },
 },
 },
-["Prat_History"] = {
-},
 ["Prat_ChannelNames"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -106,32 +86,6 @@ Prat3DB = {
 },
 },
 },
-["Prat_KeyBindings"] = {
-},
-["Prat_Bubbles"] = {
-},
-["Prat_ChannelSticky"] = {
-},
-["Prat_Achievements"] = {
-},
-["Prat_Paragraph"] = {
-},
-["Prat_DebugModules"] = {
-},
-["Prat_Alias"] = {
-},
-["Prat_OriginalButtons"] = {
-},
-["Prat_Highlight"] = {
-},
-["Prat_Sounds"] = {
-},
-["Prat_PopupMessage"] = {
-},
-["Prat_Invites"] = {
-},
-["Prat_LinkInfoIcons"] = {
-},
 ["Prat_Font"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -143,20 +97,12 @@ Prat3DB = {
 },
 },
 },
-["Prat_ChatLog"] = {
-},
-["Prat_Search"] = {
-},
 ["Prat_Buttons"] = {
 ["profiles"] = {
 ["Default"] = {
 ["showButtons"] = false,
 },
 },
-},
-["Prat_TellTarget"] = {
-},
-["Prat_HoverTips"] = {
 },
 },
 ["profileKeys"] = {
@@ -167,9 +113,9 @@ Prat3DB = {
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
-["Boorack - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

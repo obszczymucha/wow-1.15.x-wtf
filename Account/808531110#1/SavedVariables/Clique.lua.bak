@@ -2,6 +2,13 @@
 CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
+["Obszczymucha - Spineshatter"] = {
+["fastooc"] = false,
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+},
 ["Kacprawcze - Spineshatter"] = {
 ["fastooc"] = false,
 ["blizzframes"] = {
@@ -9,20 +16,33 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 },
-["Obszczymucha - Spineshatter"] = {
-["downclick"] = false,
-["fastooc"] = false,
-["blizzframes"] = {
-["statusBarFix"] = false,
-},
-},
 },
 ["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 },
 ["profiles"] = {
-["Obszczymucha - Spineshatter"] = {
+["Boulderdash - Spineshatter"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Kacprawcze - Spineshatter"] = {
 ["bindings"] = {
 {
 ["type"] = "target",
@@ -41,7 +61,7 @@ CliqueDB3 = {
 },
 },
 },
-["Kacprawcze - Spineshatter"] = {
+["Obszczymucha - Spineshatter"] = {
 ["bindings"] = {
 {
 ["type"] = "target",

@@ -1,40 +1,44 @@
 
 ThreatPlatesDB = {
 ["char"] = {
-["Kacprawcze - Spineshatter"] = {
-["welcome"] = true,
-["spec"] = {
-true,
-},
-},
 ["Obszczymucha - Spineshatter"] = {
 ["welcome"] = true,
 ["spec"] = {
 true,
 },
 },
-["Tachikoma - Spineshatter"] = {
+["Kacprawcze - Spineshatter"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 },
+},
+["Boulderdash - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Tachikoma - Spineshatter"] = {
+["welcome"] = true,
+["spec"] = {
+true,
+},
+},
+},
+["profileKeys"] = {
+["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
+["Boulderdash - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["version"] = "12.1.1",
-},
-["profileKeys"] = {
-["Kacprawcze - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["ColorByReaction"] = {
 ["FriendlyPlayer"] = {
-["r"] = 0.4313725829124451,
-["g"] = 1,
 ["b"] = 0.6509804129600525,
+["g"] = 1,
+["r"] = 0.4313725829124451,
 },
 },
 ["threatWidget"] = {

@@ -12,19 +12,19 @@ Bagnon_Sets = {
 },
 ["account"] = {
 },
-["engineer"] = {
+["gem"] = {
 },
 ["soul"] = {
 },
-["leather"] = {
+["inscribe"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["engineer"] = {
 },
-["inscribe"] = {
+["leather"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
 ["key"] = {
 },
@@ -32,7 +32,7 @@ Bagnon_Sets = {
 },
 ["tackle"] = {
 },
-["reagent"] = {
+["fridge"] = {
 },
 ["normal"] = {
 },
@@ -110,7 +110,7 @@ Bagnon_Sets = {
 0,
 0.5342593789100647,
 },
-["sort"] = false,
+["sort"] = true,
 ["skin"] = "OnePixel",
 ["activeRules"] = {
 },
@@ -125,7 +125,7 @@ Bagnon_Sets = {
 },
 ["itemScale"] = 0.93,
 ["options"] = false,
-["y"] = 120.9574813842773,
+["y"] = 120.9575119018555,
 ["x"] = -235.0597461131802,
 ["search"] = false,
 ["broker"] = false,
@@ -171,8 +171,8 @@ Bagnon_Sets = {
 },
 ["hiddenRules"] = {
 },
-["y"] = -206.0311889648438,
-["x"] = 273.9764404296875,
+["y"] = -191.0189208984375,
+["x"] = 154.6676483154297,
 ["skin"] = "OnePixel",
 ["borderColor"] = {
 1,
