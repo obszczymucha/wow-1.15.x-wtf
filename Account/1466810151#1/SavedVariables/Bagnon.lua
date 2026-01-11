@@ -3,9 +3,9 @@ Bagnon_Sets = {
 ["tackleColor"] = {
 },
 ["latest"] = {
-["id"] = "11.2.16",
-["cooldown"] = 1765356596,
-["who"] = "Ekkì",
+["id"] = "11.2.21",
+["cooldown"] = 1768624414,
+["who"] = "Akvamarin",
 },
 ["color"] = {
 ["enchant"] = {
@@ -125,7 +125,7 @@ Bagnon_Sets = {
 },
 ["itemScale"] = 0.93,
 ["options"] = false,
-["y"] = 120.9575119018555,
+["y"] = 120.9574813842773,
 ["x"] = -235.0597461131802,
 ["search"] = false,
 ["broker"] = false,

@@ -1,19 +1,19 @@
 
 WeakAurasArchive = {
-["RawData"] = {
-},
-["ReadOnly"] = {
-},
-["Repository"] = {
-["migration"] = {
-["timestamp"] = 1763937413,
-["version"] = 1,
-["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
-},
-["history"] = {
-["timestamp"] = 1764196084,
-["version"] = 1,
-["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
-},
-},
+	["ReadOnly"] = {
+	},
+	["RawData"] = {
+	},
+	["Repository"] = {
+		["migration"] = {
+			["timestamp"] = 1763937413,
+			["version"] = 1,
+			["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
+		},
+		["history"] = {
+			["timestamp"] = 1764196084,
+			["version"] = 1,
+			["data"] = "lUIlj)IsTyRuZiD0rnd1bWp",
+		},
+	},
 }

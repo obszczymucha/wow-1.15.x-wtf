@@ -19,11 +19,31 @@ CliqueDB3 = {
 },
 ["profileKeys"] = {
 ["Boordell - Spineshatter"] = "Boordell - Spineshatter",
+["Boorack - Spineshatter"] = "Boorack - Spineshatter",
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
 },
 ["profiles"] = {
 ["Boordell - Spineshatter"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Boorack - Spineshatter"] = {
 ["bindings"] = {
 {
 ["type"] = "target",

@@ -1,8 +1,8 @@
 
 ThreatClassic2DB = {
 	["profileKeys"] = {
-		["Tachikoma - Spineshatter"] = "Default",
 		["Boulderdash - Spineshatter"] = "Default",
+		["Tachikoma - Spineshatter"] = "Default",
 		["Obszczymucha - Spineshatter"] = "Default",
 	},
 	["profiles"] = {

@@ -301,7 +301,7 @@ ModUiDb = {
 {
 ["mark"] = 8,
 ["mark_name"] = "skull",
-["target_name"] = "Barely",
+["target_name"] = "Man",
 },
 {
 ["mark"] = 7,

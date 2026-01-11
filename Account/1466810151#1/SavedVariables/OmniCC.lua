@@ -11,9 +11,10 @@ OmniCCDB = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

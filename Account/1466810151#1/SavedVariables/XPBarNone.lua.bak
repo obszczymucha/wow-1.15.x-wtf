@@ -1,8 +1,9 @@
 
 XPBarNoneDB = {
 ["profileKeys"] = {
-["Boordell - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
@@ -13,6 +14,7 @@ XPBarNoneDB = {
 ["posy"] = 758.6500244140625,
 ["fontsize"] = 9,
 ["posx"] = 487.95556640625,
+["mouseover"] = true,
 ["width"] = 117,
 ["commify"] = true,
 ["height"] = 12,
@@ -38,7 +40,7 @@ XPBarNoneDB = {
 },
 },
 ["rep"] = {
-["showrepbar"] = true,
+["autowatchrep"] = false,
 },
 },
 },

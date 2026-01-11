@@ -112,9 +112,9 @@ Prat3DB = {
 },
 ["Prat_ChannelSticky"] = {
 },
-["Prat_TellTarget"] = {
-},
 ["Prat_Achievements"] = {
+},
+["Prat_Paragraph"] = {
 },
 ["Prat_DebugModules"] = {
 },
@@ -154,7 +154,7 @@ Prat3DB = {
 },
 },
 },
-["Prat_Paragraph"] = {
+["Prat_TellTarget"] = {
 },
 ["Prat_HoverTips"] = {
 },
@@ -166,9 +166,10 @@ Prat3DB = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

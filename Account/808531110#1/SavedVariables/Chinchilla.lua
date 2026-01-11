@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Ping"] = {
+["Expander"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -33,7 +33,6 @@ nil,
 ["Appearance"] = {
 ["profiles"] = {
 ["Default"] = {
-["borderRadius"] = 81,
 ["borderStyle"] = "Thin",
 ["borderColor"] = {
 [3] = 0.6313725709915161,
@@ -41,6 +40,18 @@ nil,
 [4] = 0.4994651675224304,
 },
 ["shape"] = "SQUARE",
+["borderRadius"] = 81,
+},
+},
+},
+["TrackingDots"] = {
+},
+["RangeCircle"] = {
+},
+["Ping"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
 },
 },
 },
@@ -73,6 +84,8 @@ nil,
 },
 },
 },
+["Compass"] = {
+},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -80,17 +93,12 @@ nil,
 },
 },
 },
-["Expander"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 },
 ["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Default",
 ["Kacprawcze - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {

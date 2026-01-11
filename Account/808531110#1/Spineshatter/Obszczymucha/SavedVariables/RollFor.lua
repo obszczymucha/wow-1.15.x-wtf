@@ -18,53 +18,6 @@ RollForCharDb = {
 ["items"] = {
 },
 },
-["minimap_button"] = {
-},
-["softres"] = {
-},
-["rolling_popup"] = {
-["point"] = {
-["y"] = 150,
-["x"] = 0,
-["point"] = "CENTER",
-["relative_point"] = "CENTER",
-},
-},
-["welcome_popup"] = {
-["showed"] = true,
-},
-["loot_frame"] = {
-},
-["winner_tracker"] = {
-["winners"] = {
-["|cff0070dd|Hitem:11920::::::::57:::::::::|h[Wraith Scythe]|h|r"] = {
-["Obszczymucha"] = {
-["rolling_strategy"] = "NormalRoll",
-["roll_type"] = "MainSpec",
-},
-},
-["|cff1eff00|Hitem:13247::::::::60:::::::::|h[Quartermaster Zigris' Footlocker]|h|r"] = {
-["Onz"] = {
-["rolling_strategy"] = "RaidRoll",
-["roll_type"] = "MainSpec",
-},
-},
-["|cff0070dd|Hitem:11921::::::::57:::::::::|h[Impervious Giant]|h|r"] = {
-["Obszczymucha"] = {
-["rolling_strategy"] = "NormalRoll",
-["roll_type"] = "OffSpec",
-},
-},
-["|cff1eff00|Hitem:7120::::::::33::::::::::|h[Ruga's Bulwark]|h|r"] = {
-["Tachikoma"] = {
-["rolling_strategy"] = "RaidRoll",
-["roll_type"] = "MainSpec",
-},
-},
-},
-},
-["softres_check"] = {
-},
 ["config"] = {
 ["tmog_roll_threshold"] = 98,
 ["auto_master_loot"] = true,
@@ -79,5 +32,52 @@ RollForCharDb = {
 ["default_rolling_time_seconds"] = 8,
 ["master_loot_frame_rows"] = 5,
 ["tmog_rolling_enabled"] = true,
+},
+["softres"] = {
+},
+["softres_check"] = {
+},
+["rolling_popup"] = {
+["point"] = {
+["y"] = 150,
+["x"] = 0,
+["point"] = "CENTER",
+["relative_point"] = "CENTER",
+},
+},
+["loot_frame"] = {
+},
+["winner_tracker"] = {
+["winners"] = {
+["|cff1eff00|Hitem:7120::::::::33::::::::::|h[Ruga's Bulwark]|h|r"] = {
+["Tachikoma"] = {
+["rolling_strategy"] = "RaidRoll",
+["roll_type"] = "MainSpec",
+},
+},
+["|cff0070dd|Hitem:11921::::::::57:::::::::|h[Impervious Giant]|h|r"] = {
+["Obszczymucha"] = {
+["rolling_strategy"] = "NormalRoll",
+["roll_type"] = "OffSpec",
+},
+},
+["|cff1eff00|Hitem:13247::::::::60:::::::::|h[Quartermaster Zigris' Footlocker]|h|r"] = {
+["Onz"] = {
+["rolling_strategy"] = "RaidRoll",
+["roll_type"] = "MainSpec",
+},
+},
+["|cff0070dd|Hitem:11920::::::::57:::::::::|h[Wraith Scythe]|h|r"] = {
+["Obszczymucha"] = {
+["rolling_strategy"] = "NormalRoll",
+["roll_type"] = "MainSpec",
+},
+},
+},
+},
+["welcome_popup"] = {
+["showed"] = true,
+},
+["minimap_button"] = {
 },
 }

@@ -1,6 +1,8 @@
 
 MasqueDB = {
 ["namespaces"] = {
+["LibDualSpec-1.0"] = {
+},
 },
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Default",
@@ -9,6 +11,7 @@ MasqueDB = {
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
@@ -162,6 +165,46 @@ MasqueDB = {
 1,
 1,
 0.2509258985519409,
+},
+},
+["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
+},
+["WeakAuras_d3(b3qoX5JH"] = {
+["Gloss"] = true,
+["Upgraded"] = true,
+["Colors"] = {
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
+},
+["Gloss"] = {
+1,
+1,
+1,
+0.3350152373313904,
+},
+},
+["Inherit"] = false,
+["SkinID"] = "Entropy - Obsidium",
+},
+["WeakAuras_7ff20rHeNhN"] = {
+["Gloss"] = true,
+["Upgraded"] = true,
+["Colors"] = {
+["Normal"] = {
+0.2549019753932953,
+0.2549019753932953,
+0.2549019753932953,
+1,
+},
+["Gloss"] = {
+1,
+1,
+1,
+0.3350152373313904,
 },
 },
 ["Inherit"] = false,

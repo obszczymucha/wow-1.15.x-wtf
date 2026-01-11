@@ -8,3 +8,6 @@ VER 3 0100000001000003 "sad" "136033"
 /tar High Chief
 /cast [harm,nodead]Moonfire
 END
+VER 3 0100000001000005 "zzz" "132089"
+/castsequence Find Herbs,Find Minerals
+END

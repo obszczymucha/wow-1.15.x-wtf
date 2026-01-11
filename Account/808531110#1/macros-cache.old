@@ -2,7 +2,7 @@ VER 3 000000000000001A "1" "INV_Misc_QuestionMark"
 #showtooltip
 /startattack
 /use [mod:ctrl]13
-/cast [mod:alt]Cleave;Heroic Strike
+/cast [mod:alt]Cleave;Mortal Strike
 END
 VER 3 0000000000000009 "2" "INV_Misc_QuestionMark"
 #showtooltip
@@ -31,7 +31,7 @@ VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
 /cast [nostance:2]Defensive Stance;[noharm,target=target]Intervene;[target=targettarget]Intervene
 END
 VER 3 0000000000000001 "AID" "INV_Misc_QuestionMark"
-/use Heavy Runecloth Bandage
+/use Runecloth Bandage
 END
 VER 3 0000000000000016 "CONS" "INV_Misc_QuestionMark"
 /use Spinefin Halibut
@@ -94,8 +94,8 @@ VER 3 0000000000000018 "shoot" "132222"
 /cast [worn:Gun]Shoot Gun;Shoot Bow
 END
 VER 3 0000000000000014 "T1" "132212"
-/target Rexx
-/script local p="Rexx";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
+/target Astellar
+/script local p="Astellar";local n=UnitName("target"); if n and string.sub(n, 1, string.len(p)):lower() == p:lower() then SetRaidTarget("target", 8) end
 END
 VER 3 0000000000000017 "T2" "132212"
 /target Ice Thistle Pat

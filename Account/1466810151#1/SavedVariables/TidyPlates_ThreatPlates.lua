@@ -8,10 +8,10 @@ true,
 ["welcome"] = true,
 },
 ["Tachikoma - Spineshatter"] = {
+["welcome"] = true,
 ["spec"] = {
 true,
 },
-["welcome"] = true,
 },
 ["Dupeczka - Spineshatter"] = {
 ["welcome"] = true,
@@ -28,13 +28,16 @@ true,
 ["Ewrtettrrt - Spineshatter"] = {
 ["welcome"] = true,
 },
-["Jogobobek - Spineshatter"] = {
-["welcome"] = true,
-},
 ["Boordell - Spineshatter"] = {
 ["welcome"] = true,
 },
+["Boorack - Spineshatter"] = {
+["welcome"] = true,
+},
 ["Awertqwertwe - Spineshatter"] = {
+["welcome"] = true,
+},
+["Jogobobek - Spineshatter"] = {
 ["welcome"] = true,
 },
 },
@@ -45,9 +48,10 @@ true,
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Jogobobek - Spineshatter"] = "Default",
 ["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
+["Jogobobek - Spineshatter"] = "Default",
 },
 ["global"] = {
 ["version"] = "12.1.1",

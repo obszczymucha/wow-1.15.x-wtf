@@ -1,23 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 909,
 ["lastSanitation"] = 3,
+["session"] = 1014,
 ["errors"] = {
-{
-["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ShadowedUnitFrames' tried to call the protected function 'UNKNOWN()'.",
-["time"] = "2025/11/29 20:26:32",
-["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
-["stack"] = "[Interface/AddOns/!BugGrabber/BugGrabber.lua]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[C]: ?\n[C]: in function 'RegisterForClicks'\n[Interface/AddOns/ShadowedUnitFrames/modules/units.lua]:602: in function 'CreateUnit'\n[Interface/AddOns/ShadowedUnitFrames/modules/units.lua]:530: in function 'method'\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:791: in function <...erface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua:783>\n[C]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua]:810: in function 'CallMethod'\n[	local header = self:GetParent()\n\n	self:SetHeight(header:GetAttribute(\"style-height\"))\n	self:SetWidth(header:GetAttribute(\"style-width\"))\n	self:SetScale(header:GetAttribute(\"style-scale\"))\n\n	self:SetAttribute(\"*type1\", \"target\")\n	self:SetAttribute(\"*type2\", \"togglemenu\")\n	self:SetAttribute(\"type2\", \"togglemenu\")\n\n	self:SetAttribute(\"isHeaderDriven\", true)\n\n	-- initialize frame\n	header:CallMethod(\"initialConfigFunction\", self:GetName())\n\n	-- Clique integration\n	local clickHeader = header:GetFrameRef(\"clickcast_header\")\n	if( clickHeader ) then\n		clickHeader:SetAttribute(\"clickcast_button\", self)\n		clickHeader:RunAttribute(\"clickcast_register\")\n	end\n]:14: in function <[string \"	local header = self:GetParent()...\"]:1>\n[tail call]: ?\n[C]: ?\n[Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua]:483: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:446>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:116: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:110>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:173: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:130>\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:495: in function 'SecureGroupHeader_Update'\n[Interface/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua]:62: in function <...face/AddOns/Blizzard_FrameXML/SecureGroupHeaders.lua:60>",
-["session"] = 875,
-["counter"] = 1,
-},
-{
-["message"] = "bad argument #1 to '?' (Usage: local name, instanceType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID, isLFR, minPlayers, maxPlayers = GetDifficultyInfo(difficultyID))",
-["time"] = "2025/11/30 19:10:51",
-["locals"] = "(*temporary) = \"bad argument #1 to '?' (Usage: local name, instanceType, isHeroic, isChallengeMode, displayHeroic, displayMythic, toggleDifficultyID, isLFR, minPlayers, maxPlayers = GetDifficultyInfo(difficultyID))\"\n",
-["stack"] = "[C]: in function 'GetDifficultyInfo'\n[Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.lua]:33: in function 'ShowReadyCheck'\n[Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.lua]:56: in function <...ce/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.lua:54>",
-["session"] = 879,
-["counter"] = 1,
-},
 },
 }

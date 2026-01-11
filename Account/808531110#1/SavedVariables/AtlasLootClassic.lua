@@ -1,31 +1,14 @@
 
 AtlasLootClassicDB = {
-["profileKeys"] = {
-["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
-["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
-["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
-},
 ["global"] = {
 ["__addonrevision"] = 3020000,
 },
+["profileKeys"] = {
+["Kacprawcze - Spineshatter"] = "Kacprawcze - Spineshatter",
+["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
+["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+},
 ["profiles"] = {
-["Obszczymucha - Spineshatter"] = {
-["GUI"] = {
-["point"] = {
-"BOTTOM",
-[5] = 62.88764953613281,
-[4] = -138.1473693847656,
-[3] = "BOTTOM",
-},
-["selected"] = {
-nil,
-"UpperBlackrockSpire",
-11,
-1,
-0,
-},
-},
-},
 ["Kacprawcze - Spineshatter"] = {
 ["GUI"] = {
 ["point"] = {
@@ -38,6 +21,23 @@ nil,
 nil,
 "UpperBlackrockSpire",
 nil,
+1,
+0,
+},
+},
+},
+["Obszczymucha - Spineshatter"] = {
+["GUI"] = {
+["point"] = {
+"BOTTOM",
+[5] = 62.88764953613281,
+[4] = -138.1473693847656,
+[3] = "BOTTOM",
+},
+["selected"] = {
+nil,
+"UpperBlackrockSpire",
+11,
 1,
 0,
 },

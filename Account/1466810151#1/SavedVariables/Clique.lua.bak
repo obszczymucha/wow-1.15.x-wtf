@@ -19,6 +19,7 @@ CliqueDB3 = {
 },
 ["profileKeys"] = {
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
+["Boorack - Spineshatter"] = "Boorack - Spineshatter",
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Boordell - Spineshatter"] = "Boordell - Spineshatter",
 },
@@ -69,6 +70,25 @@ CliqueDB3 = {
 },
 ["icon"] = 136041,
 ["spell"] = "Healing Touch",
+},
+},
+},
+["Boorack - Spineshatter"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 },
 },

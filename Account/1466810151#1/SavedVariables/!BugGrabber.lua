@@ -1,14 +1,14 @@
 
 BugGrabberDB = {
-["session"] = 859,
+["session"] = 975,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
-["message"] = "Interface/AddOns/ModUi/src/utils/Utils.lua:67: bad argument #4 to 'format' (string expected, got nil)",
-["time"] = "2025/12/02 21:10:38",
-["locals"] = "(*temporary) = \"%s%s: %s\"\n(*temporary) = \"|cffff8f2fModUi|r\"\n(*temporary) = \" [ |cffff8f2fTankTarget|r ]\"\n(*temporary) = nil\n(*temporary) = \"string expected, got nil\"\n",
-["stack"] = "[C]: in function 'format'\n[Interface/AddOns/ModUi/src/utils/Utils.lua]:67: in function <Interface/AddOns/ModUi/src/utils/Utils.lua:66>\n[Interface/AddOns/ModUi/src/utils/Utils.lua]:87: in function 'warn'\n[Interface/AddOns/ModUi/ModUi.lua]:279: in function 'warn'\n[Interface/AddOns/ModUi/src/mixins/TankTarget.lua]:9: in function '?'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:2786: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:2732>\n[C]: in function 'ChatEdit_ParseText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:2438: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:2437>\n[C]: in function 'ChatEdit_SendText'\n[Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua]:2474: in function 'ChatEdit_OnEnterPressed'\n[*ChatFrame.xml:120_OnEnterPressed]:1: in function <[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1>",
-["session"] = 819,
+["message"] = "...Ons/Auctionator/Source/Utilities/GetNameFromLink.lua:2: bad argument #1 to 'match' (string expected, got nil)",
+["time"] = "2026/01/01 17:14:24",
+["locals"] = "(*temporary) = nil\n(*temporary) = \"h%[(.*)%]|h\"\n(*temporary) = \"string expected, got nil\"\n",
+["stack"] = "[C]: in function 'match'\n[Interface/AddOns/Auctionator/Source/Utilities/GetNameFromLink.lua]:2: in function 'GetNameFromLink'\n[Interface/AddOns/Auctionator/Source_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua]:174: in function 'SearchForUndercuts'\n[Interface/AddOns/Auctionator/Source_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua]:124: in function 'NextStep'\n[Interface/AddOns/Auctionator/Source_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua]:231: in function 'ProcessScanResult'\n[Interface/AddOns/Auctionator/Source_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua]:151: in function <...rce_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua:150>\n[C]: in function 'xpcall'\n[Interface/AddOns/Blizzard_ObjectAPI/Classic/Item.lua]:298: in function 'FireCallbacks'\n[Interface/AddOns/Blizzard_ObjectAPI/Classic/Item.lua]:260: in function <Interface/AddOns/Blizzard_ObjectAPI/Classic/Item.lua:256>\n[C]: ?\n[C]: in function 'RequestLoadItemDataByID'\n[Interface/AddOns/Blizzard_ObjectAPI/Classic/Item.lua]:274: in function 'AddCallback'\n[Interface/AddOns/Blizzard_ObjectAPI/Classic/Item.lua]:238: in function 'ContinueOnItemLoad'\n[Interface/AddOns/Auctionator/Source_LegacyAH/Tabs/Cancelling/Mixins/UndercutScan.lua]:150: in function 'ReceiveEvent'\n[Interface/AddOns/Auctionator/Source/Utilities/EventBusMixin.lua]:77: in function 'Fire'\n[Interface/AddOns/Auctionator/Source_LegacyAH/AH/Mixins/Scan.lua]:100: in function 'ProcessSearchResults'\n[Interface/AddOns/Auctionator/Source_LegacyAH/AH/Mixins/Scan.lua]:39: in function <...ddOns/Auctionator/Source_LegacyAH/AH/Mixins/Scan.lua:36>",
+["session"] = 929,
 ["counter"] = 1,
 },
 },
