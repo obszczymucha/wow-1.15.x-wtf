@@ -14,9 +14,9 @@ Talented: disabled
 XPBarNone: enabled
 NovaWorldBuffs: disabled
 WeakAurasTemplates: disabled
-WeakAurasOptions: disabled
-WeakAurasModelPaths: disabled
-WeakAuras: disabled
+WeakAurasOptions: enabled
+WeakAurasModelPaths: enabled
+WeakAuras: enabled
 Timer: disabled
 Questie: enabled
 OmniCC: disabled

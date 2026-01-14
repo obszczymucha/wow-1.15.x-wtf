@@ -1,14 +1,14 @@
 
 OmniCCDB = {
+["profileKeys"] = {
+["Boulderdash - Spineshatter"] = "Default",
+["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
+["Tachikoma - Spineshatter"] = "Default",
+},
 ["global"] = {
 ["dbVersion"] = 6,
 ["addonVersion"] = "11.2.3",
-},
-["profileKeys"] = {
-["Kacprawcze - Spineshatter"] = "Default",
-["Boulderdash - Spineshatter"] = "Default",
-["Obszczymucha - Spineshatter"] = "Default",
-["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -46,9 +46,9 @@ OmniCCDB = {
 ["textStyles"] = {
 ["seconds"] = {
 },
-["soon"] = {
-},
 ["minutes"] = {
+},
+["soon"] = {
 },
 },
 },

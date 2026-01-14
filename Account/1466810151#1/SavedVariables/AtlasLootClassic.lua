@@ -1,5 +1,8 @@
 
 AtlasLootClassicDB = {
+["global"] = {
+["__addonrevision"] = 3020000,
+},
 ["profileKeys"] = {
 ["Obszczymucha - Spineshatter"] = "Obszczymucha - Spineshatter",
 ["Tachikoma - Spineshatter"] = "Tachikoma - Spineshatter",
@@ -7,13 +10,10 @@ AtlasLootClassicDB = {
 ["Asdfwerqwer - Spineshatter"] = "Asdfwerqwer - Spineshatter",
 ["Boulderdash - Spineshatter"] = "Boulderdash - Spineshatter",
 ["Ewrtettrrt - Spineshatter"] = "Ewrtettrrt - Spineshatter",
-["Boordell - Spineshatter"] = "Boordell - Spineshatter",
 ["Boorack - Spineshatter"] = "Boorack - Spineshatter",
-["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
 ["Jogobobek - Spineshatter"] = "Jogobobek - Spineshatter",
-},
-["global"] = {
-["__addonrevision"] = 3020000,
+["Awertqwertwe - Spineshatter"] = "Awertqwertwe - Spineshatter",
+["Boordell - Spineshatter"] = "Boordell - Spineshatter",
 },
 ["profiles"] = {
 ["Obszczymucha - Spineshatter"] = {
@@ -70,13 +70,13 @@ nil,
 },
 ["Ewrtettrrt - Spineshatter"] = {
 },
-["Boordell - Spineshatter"] = {
-},
 ["Boorack - Spineshatter"] = {
+},
+["Jogobobek - Spineshatter"] = {
 },
 ["Awertqwertwe - Spineshatter"] = {
 },
-["Jogobobek - Spineshatter"] = {
+["Boordell - Spineshatter"] = {
 },
 },
 }

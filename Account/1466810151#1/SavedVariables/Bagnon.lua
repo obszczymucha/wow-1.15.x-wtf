@@ -10,33 +10,33 @@ Bagnon_Sets = {
 ["color"] = {
 ["enchant"] = {
 },
-["account"] = {
+["herb"] = {
 },
-["engineer"] = {
+["normal"] = {
 },
 ["soul"] = {
 },
-["leather"] = {
+["fridge"] = {
 },
 ["mine"] = {
 },
-["gem"] = {
+["key"] = {
 },
 ["inscribe"] = {
 },
-["fridge"] = {
+["reagent"] = {
 },
-["key"] = {
+["gem"] = {
 },
 ["quiver"] = {
 },
 ["tackle"] = {
 },
-["reagent"] = {
+["leather"] = {
 },
-["normal"] = {
+["engineer"] = {
 },
-["herb"] = {
+["account"] = {
 },
 },
 ["herbColor"] = {
@@ -53,26 +53,6 @@ Bagnon_Sets = {
 ["gemColor"] = {
 },
 ["enchantColor"] = {
-},
-["leatherColor"] = {
-},
-["keyColor"] = {
-},
-["normalColor"] = {
-},
-["profiles"] = {
-},
-["mineColor"] = {
-},
-["glowPoor"] = false,
-["version"] = "9.1.6",
-["customRules"] = {
-},
-["display"] = {
-},
-["engineerColor"] = {
-},
-["fridgeColor"] = {
 },
 ["global"] = {
 ["vault"] = {
@@ -117,23 +97,23 @@ Bagnon_Sets = {
 ["enabled"] = true,
 ["columns"] = 19,
 ["money"] = true,
+["spacing"] = 0,
+["itemScale"] = 0.93,
+["bagToggle"] = true,
+["y"] = 120.9575119018555,
+["x"] = -235.0597461131802,
+["search"] = false,
+["broker"] = false,
+["hiddenRules"] = {
+},
+["scale"] = 0.88,
+["options"] = false,
 ["borderColor"] = {
 0.6470588445663452,
 0.4705882668495178,
 0.3450980484485626,
 0.449999988079071,
 },
-["itemScale"] = 0.93,
-["options"] = false,
-["y"] = 120.9575119018555,
-["x"] = -235.0597461131802,
-["search"] = false,
-["broker"] = false,
-["scale"] = 0.88,
-["hiddenRules"] = {
-},
-["bagToggle"] = true,
-["spacing"] = 0,
 },
 ["guild"] = {
 ["rules"] = {
@@ -172,18 +152,38 @@ Bagnon_Sets = {
 ["hiddenRules"] = {
 },
 ["y"] = -191.0189208984375,
-["x"] = 154.6676483154297,
+["x"] = 90.66754913330078,
 ["skin"] = "OnePixel",
+["spacing"] = -6,
+["columns"] = 12,
+["activeRules"] = {
+},
 ["borderColor"] = {
 1,
 0.7372549176216125,
 0.5254902243614197,
 0.4663465619087219,
 },
-["columns"] = 12,
-["activeRules"] = {
 },
-["spacing"] = -6,
 },
+["keyColor"] = {
+},
+["normalColor"] = {
+},
+["profiles"] = {
+},
+["mineColor"] = {
+},
+["fridgeColor"] = {
+},
+["version"] = "9.1.6",
+["customRules"] = {
+},
+["display"] = {
+},
+["engineerColor"] = {
+},
+["glowPoor"] = false,
+["leatherColor"] = {
 },
 }

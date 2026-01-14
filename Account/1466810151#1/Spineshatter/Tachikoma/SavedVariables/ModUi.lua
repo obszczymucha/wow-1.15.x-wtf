@@ -45,7 +45,7 @@ ModUiDb = {
 ["Target"] = {
 },
 ["UiMode"] = {
-["ui_mode"] = 2,
+["ui_mode"] = 1,
 ["farming_mode_lock"] = false,
 },
 ["WeakAuras"] = {
@@ -178,14 +178,6 @@ ModUiDb = {
 ["link"] = "|cffffffff|Hitem:2840::::::::60::::::::::|h[Copper Bar]|h|r",
 },
 {
-["icon"] = 135232,
-["link"] = "|cffffffff|Hitem:2835::::::::60::::::::::|h[Rough Stone]|h|r",
-},
-{
-["icon"] = 134566,
-["link"] = "|cffffffff|Hitem:2770::::::::60::::::::::|h[Copper Ore]|h|r",
-},
-{
 ["icon"] = 134579,
 ["link"] = "|cffffffff|Hitem:2771::::::::60::::::::::|h[Tin Ore]|h|r",
 },
@@ -196,14 +188,6 @@ ModUiDb = {
 {
 ["icon"] = 133227,
 ["link"] = "|cffffffff|Hitem:2841::::::::60::::::::::|h[Bronze Bar]|h|r",
-},
-{
-["icon"] = 135238,
-["link"] = "|cffffffff|Hitem:2838::::::::60::::::::::|h[Heavy Stone]|h|r",
-},
-{
-["icon"] = 134572,
-["link"] = "|cffffffff|Hitem:2772::::::::60::::::::::|h[Iron Ore]|h|r",
 },
 {
 ["icon"] = 134576,
@@ -228,14 +212,6 @@ ModUiDb = {
 {
 ["icon"] = 134580,
 ["link"] = "|cff1eff00|Hitem:7911::::::::60::::::::::|h[Truesilver Ore]|h|r",
-},
-{
-["icon"] = 134204,
-["link"] = "|cffffffff|Hitem:13463::::::::60::::::::::|h[Dreamfoil]|h|r",
-},
-{
-["icon"] = 134215,
-["link"] = "|cffffffff|Hitem:13465::::::::60::::::::::|h[Mountain Silversage]|h|r",
 },
 },
 ["visible"] = true,
@@ -350,6 +326,15 @@ ModUiDb = {
 },
 },
 },
+["Iseeudead"] = {
+["notes"] = {
+{
+["timestamp"] = 1768112415,
+["note"] = "ten chujek polaczek.",
+["zone"] = "The Barrens",
+},
+},
+},
 ["Astlet"] = {
 ["notes"] = {
 {
@@ -396,7 +381,7 @@ ModUiDb = {
 {
 ["mark"] = 8,
 ["mark_name"] = "skull",
-["target_name"] = "Mac",
+["target_name"] = "Jerg",
 },
 {
 ["mark"] = 7,
@@ -985,25 +970,29 @@ ModUiDb = {
 ["time"] = 1763799451,
 ["class"] = "rogue",
 },
-["Snipetiger"] = {
-["time"] = 1763001273,
-["class"] = "hunter",
-},
 ["Littlemazy"] = {
 ["time"] = 1763247051,
 ["class"] = "warrior",
+},
+["Snipetiger"] = {
+["time"] = 1763001273,
+["class"] = "hunter",
 },
 ["Youknowhois"] = {
 ["time"] = 1767253341,
 ["class"] = "rogue",
 },
+["Igorek"] = {
+["time"] = 1763793151,
+["class"] = "mage",
+},
 ["Snowflare"] = {
 ["time"] = 1763788761,
 ["class"] = "mage",
 },
-["Igorek"] = {
-["time"] = 1763793151,
-["class"] = "mage",
+["Jergil"] = {
+["time"] = 1768113612,
+["class"] = "rogue",
 },
 ["Whippedsnail"] = {
 ["time"] = 1763460091,
@@ -1017,17 +1006,17 @@ ModUiDb = {
 ["time"] = 1764995124,
 ["class"] = "mage",
 },
-["Matteyo"] = {
-["time"] = 1766390602,
-["class"] = "rogue",
+["Empyani"] = {
+["time"] = 1764995845,
+["class"] = "mage",
 },
 ["Androuss"] = {
 ["time"] = 1763076131,
 ["class"] = "warrior",
 },
-["Empyani"] = {
-["time"] = 1764995845,
-["class"] = "mage",
+["Matteyo"] = {
+["time"] = 1766390602,
+["class"] = "rogue",
 },
 ["Dundret"] = {
 ["time"] = 1765869040,
@@ -1037,12 +1026,12 @@ ModUiDb = {
 ["time"] = 1763247056,
 ["class"] = "warrior",
 },
-["Fackpampen"] = {
-["time"] = 1762419669,
-},
 ["Zynaz"] = {
 ["time"] = 1763282653,
 ["class"] = "warrior",
+},
+["Fackpampen"] = {
+["time"] = 1762419669,
 },
 ["Zexbeside"] = {
 ["time"] = 1763783798,

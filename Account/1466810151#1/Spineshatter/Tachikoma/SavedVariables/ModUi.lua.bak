@@ -60,7 +60,7 @@ ModUiDb = {
 },
 ["UiMode"] = {
 ["farming_mode_lock"] = false,
-["ui_mode"] = 2,
+["ui_mode"] = 1,
 },
 ["WeakAuras"] = {
 },
@@ -178,14 +178,6 @@ ModUiDb = {
 ["link"] = "|cffffffff|Hitem:2840::::::::60::::::::::|h[Copper Bar]|h|r",
 },
 {
-["icon"] = 135232,
-["link"] = "|cffffffff|Hitem:2835::::::::60::::::::::|h[Rough Stone]|h|r",
-},
-{
-["icon"] = 134566,
-["link"] = "|cffffffff|Hitem:2770::::::::60::::::::::|h[Copper Ore]|h|r",
-},
-{
 ["icon"] = 134579,
 ["link"] = "|cffffffff|Hitem:2771::::::::60::::::::::|h[Tin Ore]|h|r",
 },
@@ -196,14 +188,6 @@ ModUiDb = {
 {
 ["icon"] = 133227,
 ["link"] = "|cffffffff|Hitem:2841::::::::60::::::::::|h[Bronze Bar]|h|r",
-},
-{
-["icon"] = 135238,
-["link"] = "|cffffffff|Hitem:2838::::::::60::::::::::|h[Heavy Stone]|h|r",
-},
-{
-["icon"] = 134572,
-["link"] = "|cffffffff|Hitem:2772::::::::60::::::::::|h[Iron Ore]|h|r",
 },
 {
 ["icon"] = 134576,
@@ -236,10 +220,6 @@ ModUiDb = {
 {
 ["icon"] = 134215,
 ["link"] = "|cffffffff|Hitem:13465::::::::60::::::::::|h[Mountain Silversage]|h|r",
-},
-{
-["icon"] = 134412,
-["link"] = "|cffffffff|Hitem:2450::::::::60::::::::::|h[Briarthorn]|h|r",
 },
 },
 ["visible"] = true,
@@ -354,12 +334,30 @@ ModUiDb = {
 },
 },
 },
+["Iseeudead"] = {
+["notes"] = {
+{
+["timestamp"] = 1768112415,
+["note"] = "ten chujek polaczek.",
+["zone"] = "The Barrens",
+},
+},
+},
 ["Astlet"] = {
 ["notes"] = {
 {
 ["timestamp"] = 1764284515,
 ["note"] = "invited to guild, then kicked then said \"useles\".",
 ["zone"] = "Eastern Plaguelands",
+},
+},
+},
+["Mossle"] = {
+["notes"] = {
+{
+["timestamp"] = 1761457461,
+["note"] = "harrassed in STV by sheeping with Odoman.",
+["zone"] = "Stranglethorn Vale",
 },
 },
 },
@@ -370,15 +368,6 @@ ModUiDb = {
 ["timestamp"] = 1764470361,
 ["note"] = "did ony preq with him (Gobble).",
 ["zone"] = "Alterac Mountains",
-},
-},
-},
-["Mossle"] = {
-["notes"] = {
-{
-["timestamp"] = 1761457461,
-["note"] = "harrassed in STV by sheeping with Odoman.",
-["zone"] = "Stranglethorn Vale",
 },
 },
 },
@@ -410,6 +399,10 @@ ModUiDb = {
 ["time"] = 1763799451,
 ["class"] = "rogue",
 },
+["Youknowhois"] = {
+["time"] = 1767253341,
+["class"] = "rogue",
+},
 ["Snipetiger"] = {
 ["time"] = 1763001273,
 ["class"] = "hunter",
@@ -418,20 +411,20 @@ ModUiDb = {
 ["time"] = 1763247051,
 ["class"] = "warrior",
 },
-["Youknowhois"] = {
-["time"] = 1767253341,
+["Youknowwhois"] = {
+["time"] = 1767253318,
 ["class"] = "rogue",
 },
 ["Snowflare"] = {
 ["time"] = 1763788761,
 ["class"] = "mage",
 },
-["Youknowwhois"] = {
-["time"] = 1767253318,
-["class"] = "rogue",
-},
 ["Whippedsnail"] = {
 ["time"] = 1763460091,
+["class"] = "rogue",
+},
+["Jergil"] = {
+["time"] = 1768113612,
 ["class"] = "rogue",
 },
 ["Gtop"] = {
@@ -442,28 +435,27 @@ ModUiDb = {
 ["time"] = 1764995124,
 ["class"] = "mage",
 },
-["Matteyo"] = {
-["time"] = 1766390602,
-["class"] = "rogue",
+["Macraiso"] = {
+["time"] = 1765271506,
+["class"] = "hunter",
 },
 ["Androuss"] = {
 ["time"] = 1763076131,
 ["class"] = "warrior",
 },
-["Macraiso"] = {
-["time"] = 1765271506,
-["class"] = "hunter",
-},
 ["Sselemoh"] = {
 ["time"] = 1763534392,
 ["class"] = "hunter",
 },
-["Lilchad"] = {
-["time"] = 1763247056,
-["class"] = "warrior",
+["Dundret"] = {
+["time"] = 1765869040,
+["class"] = "paladin",
 },
 ["Umatic"] = {
 ["time"] = 1762569866,
+},
+["Fackpampen"] = {
+["time"] = 1762419669,
 },
 ["Zynaz"] = {
 ["time"] = 1763282653,
@@ -476,16 +468,17 @@ ModUiDb = {
 ["Rivotado"] = {
 ["time"] = 1762124618,
 },
-["Fackpampen"] = {
-["time"] = 1762419669,
+["Lilchad"] = {
+["time"] = 1763247056,
+["class"] = "warrior",
 },
 ["Jeyko"] = {
 ["time"] = 1767313732,
 ["class"] = "mage",
 },
-["Dundret"] = {
-["time"] = 1765869040,
-["class"] = "paladin",
+["Matteyo"] = {
+["time"] = 1766390602,
+["class"] = "rogue",
 },
 ["Empyani"] = {
 ["time"] = 1764995845,
@@ -1071,7 +1064,7 @@ ModUiDb = {
 {
 ["mark"] = 8,
 ["mark_name"] = "skull",
-["target_name"] = "Mac",
+["target_name"] = "Jerg",
 },
 {
 ["mark"] = 7,

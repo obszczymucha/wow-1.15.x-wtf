@@ -1,23 +1,11 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = 4.000523090362549,
-["point"] = "TOP",
-["y"] = -29.72341918945313,
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 72.93006896972656,
-["point"] = "TOP",
-["y"] = -81.23644256591797,
-},
-},
-},
-["Bag"] = {
+["CombatQueue"] = {
 },
 ["Combat"] = {
 },
@@ -35,9 +23,21 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = 4.000523090362549,
+["point"] = "TOP",
+["y"] = -29.72341918945313,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 72.93006896972656,
+["point"] = "TOP",
+["y"] = -81.23644256591797,
+},
+},
 },
 ["Item"] = {
 },
@@ -112,7 +112,7 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["CombatQueue"] = {
+["Bag"] = {
 },
 },
 ["mods"] = {
@@ -134,10 +134,6 @@ ModUiDb = {
 {
 ["icon"] = 134007,
 ["link"] = "|cffffffff|Hitem:5503::::::::19:::::::::|h[Clam Meat]|h|r",
-},
-{
-["icon"] = 134412,
-["link"] = "|cffffffff|Hitem:2450::::::::22::::::::::|h[Briarthorn]|h|r",
 },
 {
 ["icon"] = 134181,
@@ -214,14 +210,6 @@ ModUiDb = {
 {
 ["icon"] = 134859,
 ["link"] = "|cffffffff|Hitem:12235::::::::54::::::::::|h[Un'Goro Slime Sample]|h|r",
-},
-{
-["icon"] = 134190,
-["link"] = "|cffffffff|Hitem:765::::::::60::::::::::|h[Silverleaf]|h|r",
-},
-{
-["icon"] = 133939,
-["link"] = "|cffffffff|Hitem:2447::::::::60::::::::::|h[Peacebloom]|h|r",
 },
 {
 ["icon"] = 133436,
@@ -565,12 +553,12 @@ ModUiDb = {
 },
 },
 ["last_track_index"] = 22,
+["force"] = false,
+["playlist_id"] = "default",
 ["music"] = {
 ["playlist_id"] = "elwynn",
 ["force"] = true,
 },
-["playlist_id"] = "default",
-["force"] = false,
 },
 ["Obszczymucha/frames"] = {
 },
@@ -812,9 +800,9 @@ ModUiDb = {
 ["time"] = 1746528130,
 ["reason"] = "boost spammer",
 },
-["Add"] = {
-["time"] = 1762126493,
-["reason"] = "Ryxon stupid fuck stole captain on the ship",
+["Frogsplash"] = {
+["time"] = 1764398403,
+["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
 },
 ["Foddy"] = {
 ["time"] = 1749617466,
@@ -920,9 +908,9 @@ ModUiDb = {
 ["time"] = 1746282569,
 ["reason"] = "group leaver (Stockades)",
 },
-["Frogsplash"] = {
-["time"] = 1764398403,
-["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
+["Add"] = {
+["time"] = 1762126493,
+["reason"] = "Ryxon stupid fuck stole captain on the ship",
 },
 ["Sweetystore"] = {
 ["time"] = 1761985497,

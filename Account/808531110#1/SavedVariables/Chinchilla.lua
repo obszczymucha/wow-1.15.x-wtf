@@ -33,6 +33,7 @@ nil,
 ["Appearance"] = {
 ["profiles"] = {
 ["Default"] = {
+["borderRadius"] = 81,
 ["borderStyle"] = "Thin",
 ["borderColor"] = {
 [3] = 0.6313725709915161,
@@ -40,7 +41,6 @@ nil,
 [4] = 0.4994651675224304,
 },
 ["shape"] = "SQUARE",
-["borderRadius"] = 81,
 },
 },
 },
@@ -89,9 +89,9 @@ nil,
 },
 },
 ["profileKeys"] = {
-["Kacprawcze - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Obszczymucha - Spineshatter"] = "Default",
+["Kacprawcze - Spineshatter"] = "Default",
 ["Tachikoma - Spineshatter"] = "Default",
 },
 ["profiles"] = {

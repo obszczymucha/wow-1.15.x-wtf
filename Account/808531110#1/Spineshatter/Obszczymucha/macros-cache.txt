@@ -1,3 +1,7 @@
+VER 3 0100000000000001 " " "132341"
+/equipslot [worn:Shields] 17 Bashguuder
+/equipslot [noworn:Shields] 17 Draconian Deflector
+END
 VER 3 0100000000000002 " " "136071"
 /raid --- Sheeps ---
 /raid {moon} = Ghaitagh
@@ -6,10 +10,6 @@ VER 3 0100000000000004 " " "132118"
 /target Boulderdash
 /follow Boulderdash
 /assist
-END
-VER 3 0100000000000001 " " "132341"
-/equipslot [worn:Shields] 17 Bashguuder
-/equipslot [noworn:Shields] 17 Draconian Deflector
 END
 VER 3 0100000000000003 "Track" "133939"
 /castsequence Find Herbs,Find Minerals

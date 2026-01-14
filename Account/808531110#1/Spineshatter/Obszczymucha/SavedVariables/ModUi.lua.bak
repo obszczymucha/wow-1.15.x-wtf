@@ -1,9 +1,9 @@
 
 ModUiDb = {
 ["mixins"] = {
-["Bag"] = {
-},
 ["CombatQueue"] = {
+},
+["Bag"] = {
 },
 ["Combat"] = {
 },
@@ -21,9 +21,21 @@ ModUiDb = {
 },
 ["Frames"] = {
 },
-["Chat"] = {
-["left"] = false,
-["lines"] = 9,
+["Minimap"] = {
+["positions"] = {
+["Default"] = {
+["anchor_point"] = "TOP",
+["x"] = 4.000523090362549,
+["point"] = "TOP",
+["y"] = -29.72341918945313,
+},
+["Farming"] = {
+["anchor_point"] = "TOP",
+["x"] = 72.93006896972656,
+["point"] = "TOP",
+["y"] = -81.23644256591797,
+},
+},
 },
 ["FrameSpacing"] = {
 ["frame_spacing"] = 30,
@@ -98,21 +110,9 @@ ModUiDb = {
 },
 ["NamedEventObserver"] = {
 },
-["Minimap"] = {
-["positions"] = {
-["Default"] = {
-["anchor_point"] = "TOP",
-["x"] = 4.000523090362549,
-["point"] = "TOP",
-["y"] = -29.72341918945313,
-},
-["Farming"] = {
-["anchor_point"] = "TOP",
-["x"] = 72.93006896972656,
-["point"] = "TOP",
-["y"] = -81.23644256591797,
-},
-},
+["Chat"] = {
+["left"] = false,
+["lines"] = 9,
 },
 },
 ["mods"] = {
@@ -134,10 +134,6 @@ ModUiDb = {
 {
 ["icon"] = 134007,
 ["link"] = "|cffffffff|Hitem:5503::::::::19:::::::::|h[Clam Meat]|h|r",
-},
-{
-["icon"] = 134412,
-["link"] = "|cffffffff|Hitem:2450::::::::22::::::::::|h[Briarthorn]|h|r",
 },
 {
 ["icon"] = 134181,
@@ -214,14 +210,6 @@ ModUiDb = {
 {
 ["icon"] = 134859,
 ["link"] = "|cffffffff|Hitem:12235::::::::54::::::::::|h[Un'Goro Slime Sample]|h|r",
-},
-{
-["icon"] = 134190,
-["link"] = "|cffffffff|Hitem:765::::::::60::::::::::|h[Silverleaf]|h|r",
-},
-{
-["icon"] = 133939,
-["link"] = "|cffffffff|Hitem:2447::::::::60::::::::::|h[Peacebloom]|h|r",
 },
 {
 ["icon"] = 133436,
@@ -755,17 +743,17 @@ ModUiDb = {
 ["time"] = 1762934391,
 ["reason"] = "group leaver",
 },
-["Add"] = {
-["time"] = 1762126493,
-["reason"] = "Ryxon stupid fuck stole captain on the ship",
+["Frogsplash"] = {
+["time"] = 1764398403,
+["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
 },
 ["Oldworld"] = {
 ["time"] = 1746528130,
 ["reason"] = "boost spammer",
 },
-["Frogsplash"] = {
-["time"] = 1764398403,
-["reason"] = "asked him to remove the fuckin shit healer and he brings it up in the party",
+["Add"] = {
+["time"] = 1762126493,
+["reason"] = "Ryxon stupid fuck stole captain on the ship",
 },
 ["Foddy"] = {
 ["time"] = 1749617466,
@@ -901,11 +889,11 @@ ModUiDb = {
 },
 ["music"] = {
 ["shuffle"] = true,
+["force"] = false,
 ["music"] = {
 ["playlist_id"] = "elwynn",
 ["force"] = true,
 },
-["force"] = false,
 ["last_track_index"] = 22,
 ["playlist_id"] = "default",
 ["playlist"] = {

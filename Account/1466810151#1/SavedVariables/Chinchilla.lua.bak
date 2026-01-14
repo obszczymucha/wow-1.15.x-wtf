@@ -44,6 +44,12 @@ nil,
 },
 },
 },
+["TrackingDots"] = {
+},
+["RangeCircle"] = {
+},
+["Zoom"] = {
+},
 ["ShowHide"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -73,6 +79,8 @@ nil,
 },
 },
 },
+["Compass"] = {
+},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -95,10 +103,10 @@ nil,
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boorack - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
 ["Awertqwertwe - Spineshatter"] = "Default",
-["Boordell - Spineshatter"] = "Default",
+["Boorack - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

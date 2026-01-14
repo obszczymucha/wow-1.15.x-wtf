@@ -1,11 +1,4 @@
 Version: 1
-Frame: CharacterFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 0
-Y: 67
-W: 384
-H: 512
 Frame: FriendsFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -15,9 +8,9 @@ W: 338
 H: 424
 Frame: WorldMapFrame
 FrameLevel: 1
-Anchor: CENTER
-X: -88
-Y: 12
+Anchor: TOPLEFT
+X: 0
+Y: 0
 W: 1024
 H: 712
 Frame: AtlasLoot_GUI-Frame
@@ -27,3 +20,10 @@ X: -138
 Y: 63
 W: 920
 H: 600
+Frame: CharacterFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 0
+Y: 67
+W: 384
+H: 512

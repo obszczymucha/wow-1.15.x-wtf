@@ -1,7 +1,7 @@
 
 Chinchilla2DB = {
 ["namespaces"] = {
-["Expander"] = {
+["Ping"] = {
 ["profiles"] = {
 ["Default"] = {
 ["enabled"] = false,
@@ -44,6 +44,17 @@ nil,
 },
 },
 },
+["TrackingDots"] = {
+},
+["RangeCircle"] = {
+},
+["Expander"] = {
+["profiles"] = {
+["Default"] = {
+["enabled"] = false,
+},
+},
+},
 ["ShowHide"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -73,6 +84,8 @@ nil,
 },
 },
 },
+["Compass"] = {
+},
 ["MoveButtons"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -80,12 +93,7 @@ nil,
 },
 },
 },
-["Ping"] = {
-["profiles"] = {
-["Default"] = {
-["enabled"] = false,
-},
-},
+["Zoom"] = {
 },
 },
 ["profileKeys"] = {
@@ -95,10 +103,10 @@ nil,
 ["Asdfwerqwer - Spineshatter"] = "Default",
 ["Boulderdash - Spineshatter"] = "Default",
 ["Ewrtettrrt - Spineshatter"] = "Default",
-["Boordell - Spineshatter"] = "Default",
 ["Boorack - Spineshatter"] = "Default",
-["Awertqwertwe - Spineshatter"] = "Default",
 ["Jogobobek - Spineshatter"] = "Default",
+["Awertqwertwe - Spineshatter"] = "Default",
+["Boordell - Spineshatter"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
